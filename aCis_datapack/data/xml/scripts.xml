@@ -434,7 +434,6 @@
 	<script path="script.teleport.NoblesseTeleporter"/>
 	<script path="script.teleport.OracleTeleporter"/>
 	<script path="script.teleport.PaganTeleporter"/>
-
 	<!-- Tasks -->
 
 	<script path="task.ClanLadderRefresh" schedule="DAILY" start="00:05:00"/>

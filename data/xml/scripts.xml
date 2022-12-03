@@ -441,44 +441,50 @@
 	<script path="task.ClanLeaderTransfer" schedule="WEEKLY" start="TUE 16:55:00"/>
 	<script path="task.RaidPointReset" schedule="MONTHLY_WEEK" start="TUE-1 00:00:00"/>
 	<script path="task.RecommendationUpdate" schedule="DAILY" start="13:00:00"/>
-<!--	<script path="task.ServerRestart" schedule="WEEKLY" start="TUE 17:00:00"/> -->
+    <script path="task.ServerRestart" schedule="WEEKLY" start="WED 00:59:00"/>
 <!--	<script path="task.ServerShutdown" schedule="WEEKLY" start="TUE 17:00:00"/> -->
 	<script path="task.SevenSignsUpdate" schedule="HOURLY" start="00:00"/>
 
-<!--
-WHAT IS SCHEDULED SCRIPT?
- -	a way to periodicly schedule action on your server periodicly and/or certain duration
- -	scheduled script can be set to have starting and ending action or only starting action
- -	all actions may be periodicly triggered, based on the scheduled settings
+	<!-- Codeamat-->
 
-HOW TO CREATE SCHEDULED SCRIPT?
- 1)	Create a new script anywhere in "gameserver.scripting" package/sub-package, which inherits ScheduledQuest.
- 2)	Implement onStart() and onEnd() methods (Note: onEnd() is not invocated, when having a script with one action)
-	Implement init() method, when you have special conditions to start scheduling a script (e.g. config settings, etc)
+	<!-- Crazy Rate -->
+	<script path="script.event.CrazyRate" schedule="WEEKLY" start="FRI 20:00:00" end="MON 05:59:00"/>
 
-HOW TO SCHEDULE SCRIPT?
- 1)	Add a setup line to "scripts.xml", set up "schedule", "start" and "end" parameters
-	When "schedule" parameter is not set, the script will not be scheduled
-	When "end" parameter is not set, the script will only trigger onStart() method
- 2)	Available configurations
-		<script path="scripts.custom.AAA" schedule="HOURLY" start="44:00"/>
-			- each hour at 44 minutes onStart() action is performed
-		<script path="scripts.custom.BBB" schedule="DAILY" start="17:17:00" end="17:17:15"/>
-			- every day at 17:17:00 onStart() action is performed
-			- every day at 17:17:15 onEnd() action is performed
-		<script path="scripts.custom.CCC" schedule="WEEKLY" start="MON 10:00:00"/>
-			- every week on Monday at 10:00:00 onStart() action is performed
-		<script path="scripts.custom.DDD" schedule="MONTHLY_DAY" start="17 20:00:00"/>
-			- every 17th of each month at 20:00:00 onStart() action is performed
-		<script path="scripts.custom.EEE" schedule="MONTHLY_WEEK" start="MON-2 6:00:00" end="FRI-3 20:00:00"/>
-			- every 2nd Monday of each month at 6:00:00 onStart() action is performed
-			- every 3rd Friday of each month at 20:00:00 onEnd() action is performed
-		<script path="scripts.custom.FFF" schedule="YEARLY_DAY" start="23-12 8:00:00" end="1-1 20:00:00"/>
-			- every year on 23rd December at 8:00:00 onStart() action is performed
-			- every year on 1st January at 20:00:00 onEnd() action is performed
-		<script path="scripts.custom.GGG" schedule="YEARLY_WEEK" start="MON-35 6:00:00" end="SAT-40 20:00:00"/>
-			- every year on the Monday of 35th week at 6:00:00 onStart() action is performed
-			- every year on the Saturday of 40th week at 20:00:00 onEnd() action is performed
- 3)	When server starts and detects scheduled script in running period (current time between start and end condition), onStart() action is performed
--->
+
+	<!--
+    WHAT IS SCHEDULED SCRIPT?
+     -	a way to periodicly schedule action on your server periodicly and/or certain duration
+     -	scheduled script can be set to have starting and ending action or only starting action
+     -	all actions may be periodicly triggered, based on the scheduled settings
+
+    HOW TO CREATE SCHEDULED SCRIPT?
+     1)	Create a new script anywhere in "gameserver.scripting" package/sub-package, which inherits ScheduledQuest.
+     2)	Implement onStart() and onEnd() methods (Note: onEnd() is not invocated, when having a script with one action)
+        Implement init() method, when you have special conditions to start scheduling a script (e.g. config settings, etc)
+
+    HOW TO SCHEDULE SCRIPT?
+     1)	Add a setup line to "scripts.xml", set up "schedule", "start" and "end" parameters
+        When "schedule" parameter is not set, the script will not be scheduled
+        When "end" parameter is not set, the script will only trigger onStart() method
+     2)	Available configurations
+            <script path="scripts.custom.AAA" schedule="HOURLY" start="44:00"/>
+                - each hour at 44 minutes onStart() action is performed
+            <script path="scripts.custom.BBB" schedule="DAILY" start="17:17:00" end="17:17:15"/>
+                - every day at 17:17:00 onStart() action is performed
+                - every day at 17:17:15 onEnd() action is performed
+            <script path="scripts.custom.CCC" schedule="WEEKLY" start="MON 10:00:00"/>
+                - every week on Monday at 10:00:00 onStart() action is performed
+            <script path="scripts.custom.DDD" schedule="MONTHLY_DAY" start="17 20:00:00"/>
+                - every 17th of each month at 20:00:00 onStart() action is performed
+            <script path="scripts.custom.EEE" schedule="MONTHLY_WEEK" start="MON-2 6:00:00" end="FRI-3 20:00:00"/>
+                - every 2nd Monday of each month at 6:00:00 onStart() action is performed
+                - every 3rd Friday of each month at 20:00:00 onEnd() action is performed
+            <script path="scripts.custom.FFF" schedule="YEARLY_DAY" start="23-12 8:00:00" end="1-1 20:00:00"/>
+                - every year on 23rd December at 8:00:00 onStart() action is performed
+                - every year on 1st January at 20:00:00 onEnd() action is performed
+            <script path="scripts.custom.GGG" schedule="YEARLY_WEEK" start="MON-35 6:00:00" end="SAT-40 20:00:00"/>
+                - every year on the Monday of 35th week at 6:00:00 onStart() action is performed
+                - every year on the Saturday of 40th week at 20:00:00 onEnd() action is performed
+     3)	When server starts and detects scheduled script in running period (current time between start and end condition), onStart() action is performed
+    -->
 </list>
