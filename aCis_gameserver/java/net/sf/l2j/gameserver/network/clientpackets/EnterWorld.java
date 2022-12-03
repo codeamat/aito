@@ -1,5 +1,7 @@
 package net.sf.l2j.gameserver.network.clientpackets;
 
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Map.Entry;
 
 import net.sf.l2j.Config;
@@ -35,6 +37,7 @@ import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
 import net.sf.l2j.gameserver.network.serverpackets.Die;
 import net.sf.l2j.gameserver.network.serverpackets.EtcStatusUpdate;
 import net.sf.l2j.gameserver.network.serverpackets.ExMailArrived;
+import net.sf.l2j.gameserver.network.serverpackets.ExShowScreenMessage;
 import net.sf.l2j.gameserver.network.serverpackets.ExStorageMaxCount;
 import net.sf.l2j.gameserver.network.serverpackets.FriendList;
 import net.sf.l2j.gameserver.network.serverpackets.HennaInfo;
@@ -215,7 +218,20 @@ public class EnterWorld extends L2GameClientPacket
 		player.sendPacket(SystemMessageId.WELCOME_TO_LINEAGE);
 		player.sendPacket(SevenSignsManager.getInstance().getCurrentPeriod().getMessageId());
 		AnnouncementData.getInstance().showAnnouncements(player, false);
-		
+
+		/*Codeamat*/
+		/*VIP code*/
+
+		if(player.isVip())
+			onEnterVip(player);
+
+		if(Config.ALLOW_VIP_NCOLOR && player.isVip())
+			player.getAppearance().setNameColor(Config.VIP_NCOLOR);
+
+		if(Config.ALLOW_VIP_TCOLOR && player.isVip())
+			player.getAppearance().setTitleColor(Config.VIP_TCOLOR);
+
+
 		// If the Player is a Dark Elf, check for Shadow Sense at night.
 		if (player.getRace() == ClassRace.DARK_ELF && player.hasSkill(L2Skill.SKILL_SHADOW_SENSE))
 			player.sendPacket(SystemMessage.getSystemMessage((GameTimeTaskManager.getInstance().isNight()) ? SystemMessageId.NIGHT_S1_EFFECT_APPLIES : SystemMessageId.DAY_S1_EFFECT_DISAPPEARS).addSkillName(L2Skill.SKILL_SHADOW_SENSE));
@@ -284,6 +300,28 @@ public class EnterWorld extends L2GameClientPacket
 			qs.getQuest().notifyEvent("UC", null, player);
 		
 		player.sendPacket(ActionFailed.STATIC_PACKET);
+	}
+
+	/*Codeamat*/
+	/*VIP*/
+	private static void onEnterVip(Player activeChar)
+	{
+		long now = Calendar.getInstance().getTimeInMillis();
+		long endDay = activeChar.getVipEndTime();
+		if(now > endDay)
+		{
+			activeChar.setVip(false);
+			activeChar.setVipEndTime(0);
+			//activeChar.sendPacket(new CreatureSay(0,Say2.PARTY,"System","Your VIP period ends."));
+			activeChar.sendPacket(new ExShowScreenMessage(Config.MESSAGE_VIP_EXIT, Config.MESSAGE_EXIT_VIP_TIME));
+		}
+		else
+		{
+			Date dt = new Date(endDay);
+			if(activeChar.isVip())
+				//activeChar.sendMessage("Your VIP period ends at: " + dt);
+				activeChar.sendPacket(new ExShowScreenMessage(Config.MESSAGE_VIP_ENTER + dt, Config.MESSAGE_TIME_VIP));
+		}
 	}
 	
 	@Override

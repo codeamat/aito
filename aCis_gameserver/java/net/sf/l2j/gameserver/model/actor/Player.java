@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -239,7 +240,7 @@ public final class Player extends Playable
 	private static final String DELETE_SKILL_SAVE = "DELETE FROM character_skills_save WHERE char_obj_id=? AND class_index=?";
 	
 	private static final String INSERT_CHARACTER = "INSERT INTO characters (account_name,obj_Id,char_name,level,maxHp,curHp,maxCp,curCp,maxMp,curMp,face,hairStyle,hairColor,sex,exp,sp,karma,pvpkills,pkkills,clanid,race,classid,deletetime,cancraft,title,accesslevel,online,isin7sdungeon,clan_privs,wantspeace,base_class,nobless,power_grade) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
-	private static final String UPDATE_CHARACTER = "UPDATE characters SET level=?,maxHp=?,curHp=?,maxCp=?,curCp=?,maxMp=?,curMp=?,face=?,hairStyle=?,hairColor=?,sex=?,heading=?,x=?,y=?,z=?,exp=?,expBeforeDeath=?,sp=?,karma=?,pvpkills=?,pkkills=?,clanid=?,race=?,classid=?,deletetime=?,title=?,accesslevel=?,online=?,isin7sdungeon=?,clan_privs=?,wantspeace=?,base_class=?,onlinetime=?,punish_level=?,punish_timer=?,nobless=?,power_grade=?,subpledge=?,lvl_joined_academy=?,apprentice=?,sponsor=?,varka_ketra_ally=?,clan_join_expiry_time=?,clan_create_expiry_time=?,char_name=?,death_penalty_level=? WHERE obj_id=?";
+	private static final String UPDATE_CHARACTER = "UPDATE characters SET level=?,maxHp=?,curHp=?,maxCp=?,curCp=?,maxMp=?,curMp=?,face=?,hairStyle=?,hairColor=?,sex=?,heading=?,x=?,y=?,z=?,exp=?,expBeforeDeath=?,sp=?,karma=?,pvpkills=?,pkkills=?,clanid=?,race=?,classid=?,deletetime=?,title=?,accesslevel=?,online=?,isin7sdungeon=?,clan_privs=?,wantspeace=?,base_class=?,onlinetime=?,punish_level=?,punish_timer=?,nobless=?,power_grade=?,subpledge=?,lvl_joined_academy=?,apprentice=?,sponsor=?,varka_ketra_ally=?,clan_join_expiry_time=?,clan_create_expiry_time=?,char_name=?,death_penalty_level=?,vip=?,vip_end=? WHERE obj_id=?";
 	private static final String RESTORE_CHARACTER = "SELECT * FROM characters WHERE obj_id=?";
 	
 	private static final String RESTORE_CHAR_SUBCLASSES = "SELECT class_id,exp,sp,level,class_index FROM character_subclasses WHERE char_obj_id=? ORDER BY class_index ASC";
@@ -322,7 +323,9 @@ public final class Player extends Playable
 	private int _mountNpcId;
 	private int _mountLevel;
 	private int _mountObjectId;
-	
+	/** VIP System */
+	private boolean _isVip = false;
+	private long _vip_endTime = 0;
 	protected int _throneId;
 	
 	private TeleportMode _teleportMode = TeleportMode.NONE;
@@ -4331,6 +4334,8 @@ public final class Player extends Playable
 					player.setAllianceWithVarkaKetra(rs.getInt("varka_ketra_ally"));
 					
 					player.setDeathPenaltyBuffLevel(rs.getInt("death_penalty_level"));
+					player.setVip(rs.getInt("vip") == 1 ? true : false);
+					player.setVipEndTime(rs.getLong("vip_end"));
 					
 					// Set the position of the Player.
 					player.getPosition().set(rs.getInt("x"), rs.getInt("y"), rs.getInt("z"), rs.getInt("heading"));
@@ -4562,7 +4567,9 @@ public final class Player extends Playable
 			ps.setLong(44, getClanCreateExpiryTime());
 			ps.setString(45, getName());
 			ps.setLong(46, getDeathPenaltyBuffLevel());
-			ps.setInt(47, getObjectId());
+			ps.setInt(47, isVip() ? 1 : 0);
+			ps.setLong(48, getVipEndTime());
+			ps.setInt(49, getObjectId());
 			
 			ps.execute();
 		}
@@ -4700,7 +4707,25 @@ public final class Player extends Playable
 			LOGGER.error("Couldn't store player effects.", e);
 		}
 	}
+	public boolean isVip()
+	{
+		return _isVip;
+	}
 	
+	public void setVip(boolean val)
+	{
+		_isVip = val;
+	}
+	
+	public long getVipEndTime()
+	{
+		return _vip_endTime;
+	}
+	
+	public void setVipEndTime(long val)
+	{
+		_vip_endTime = val;
+	}
 	/**
 	 * @return True if the Player is online.
 	 */
@@ -4708,7 +4733,22 @@ public final class Player extends Playable
 	{
 		return _isOnline;
 	}
-	
+	/**
+	 * Sets the end time.
+	 * @param process the process
+	 * @param val the val
+	 */
+	public void setEndTime(String process, int val)
+	{
+		Calendar calendar = Calendar.getInstance();
+		calendar.add(Calendar.DAY_OF_MONTH, val);
+		long end_day = calendar.getTimeInMillis();
+		
+		if(process.equals("vip"))
+			_vip_endTime = end_day;
+		/*if(process.equals("aio"))
+			_aio_endTime = end_day;*/
+	}
 	/**
 	 * @return an int interpretation of online status.
 	 */

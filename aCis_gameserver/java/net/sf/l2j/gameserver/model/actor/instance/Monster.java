@@ -70,6 +70,7 @@ public class Monster extends Attackable
 		super(objectId, template);
 	}
 	
+	@SuppressWarnings("cast")
 	@Override
 	protected void calculateRewards(Creature creature)
 	{
@@ -163,7 +164,16 @@ public class Monster extends Attackable
 					
 					long exp = expSp[0];
 					int sp = expSp[1];
-					
+					if (attacker instanceof Player)
+					{
+						Player a = (Player)attacker;
+						
+						if (a.isVip())
+						{
+							exp *= Config.VIP_XP_SP_RATE;
+							sp *= Config.VIP_XP_SP_RATE;
+						}
+					}
 					exp *= 1 - penalty;
 					
 					// Test over-hit.
@@ -234,7 +244,16 @@ public class Monster extends Attackable
 				final int[] expSp = calculateExpAndSp(levelDiff, partyDmg, totalDamage);
 				long exp = expSp[0];
 				int sp = expSp[1];
-				
+				if (attacker instanceof Player)
+				{
+					Player a = (Player)attacker;
+					
+					if (a.isVip())
+					{
+						exp *= Config.VIP_XP_SP_RATE;
+						sp *= Config.VIP_XP_SP_RATE;
+					}
+				}
 				exp *= partyMul;
 				sp *= partyMul;
 				
@@ -514,12 +533,13 @@ public class Monster extends Attackable
 	
 	/**
 	 * Calculate the quantity for a specific drop.
+	 * @param lastAttacker 
 	 * @param drop : The {@link DropData} informations to use.
 	 * @param levelModifier : The level modifier (will be subtracted from drop chance).
 	 * @param isSweep : If True, use the spoil drop chance.
 	 * @return An {@link IntIntHolder} corresponding to the item id and count.
 	 */
-	private IntIntHolder calculateRewardItem(DropData drop, int levelModifier, boolean isSweep)
+	private IntIntHolder calculateRewardItem(Player lastAttacker,DropData drop, int levelModifier, boolean isSweep)
 	{
 		// Get default drop chance
 		double dropChance = drop.getChance();
@@ -547,11 +567,23 @@ public class Monster extends Attackable
 		// Applies Drop rates
 		if (drop.getItemId() == 57)
 			dropChance *= Config.RATE_DROP_ADENA;
+		if (lastAttacker.isVip())
+		{
+			dropChance *= Config.VIP_ADENA_RATE;
+		}
+			 
 		else if (isSweep)
 			dropChance *= Config.RATE_DROP_SPOIL;
+		if (lastAttacker.isVip())
+		{
+			dropChance *= Config.VIP_SPOIL_RATE;
+		}
 		else
 			dropChance *= (isRaidBoss()) ? Config.RATE_DROP_ITEMS_BY_RAID : Config.RATE_DROP_ITEMS;
-		
+		if (lastAttacker.isVip())
+		{
+			dropChance *= Config.VIP_DROP_RATE;
+		}
 		// Set our limits for chance of drop
 		if (dropChance < 1)
 			dropChance = 1;
@@ -589,11 +621,12 @@ public class Monster extends Attackable
 	 * Calculate the quantity for a specific drop, according its {@link DropCategory}.<br>
 	 * <br>
 	 * Only a maximum of ONE item from a {@link DropCategory} is allowed to be dropped.
+	 * @param lastAttacker 
 	 * @param cat : The {@link DropCategory} informations to use.
 	 * @param levelModifier : The level modifier (will be subtracted from drop chance).
 	 * @return An {@link IntIntHolder} corresponding to the item id and count.
 	 */
-	private IntIntHolder calculateCategorizedRewardItem(DropCategory cat, int levelModifier)
+	private IntIntHolder calculateCategorizedRewardItem(Player lastAttacker,DropCategory cat, int levelModifier)
 	{
 		if (cat == null)
 			return null;
@@ -641,9 +674,16 @@ public class Monster extends Attackable
 			double dropChance = drop.getChance();
 			if (drop.getItemId() == 57)
 				dropChance *= Config.RATE_DROP_ADENA;
+			if (lastAttacker.isVip())
+			{
+				dropChance *= Config.VIP_ADENA_RATE;
+			}
 			else
 				dropChance *= (isRaidBoss()) ? Config.RATE_DROP_ITEMS_BY_RAID : Config.RATE_DROP_ITEMS;
-			
+			if (lastAttacker.isVip())
+			{
+				dropChance *= Config.VIP_DROP_RATE;
+			}
 			if (dropChance < DropData.MAX_CHANCE)
 				dropChance = DropData.MAX_CHANCE;
 			
@@ -838,7 +878,7 @@ public class Monster extends Attackable
 				{
 					for (DropData drop : cat.getAllDrops())
 					{
-						holder = calculateRewardItem(drop, levelModifier, true);
+						holder = calculateRewardItem(player,drop, levelModifier, true);
 						if (holder == null)
 							continue;
 						
@@ -854,10 +894,10 @@ public class Monster extends Attackable
 					if (drop == null)
 						continue;
 					
-					holder = calculateRewardItem(drop, levelModifier, false);
+					holder = calculateRewardItem(player,drop, levelModifier, false);
 				}
 				else
-					holder = calculateCategorizedRewardItem(cat, levelModifier);
+					holder = calculateCategorizedRewardItem(player,cat, levelModifier);
 				
 				if (holder == null)
 					continue;

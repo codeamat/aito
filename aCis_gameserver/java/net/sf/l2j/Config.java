@@ -39,6 +39,31 @@ public final class Config
 	/*Codeamat*/
 	/*Newbie Code*/
 	public static final String NEWBIECHAR = "./config/CustomMods/NewbieCharacters.ini";
+
+	/*Vip Code*/
+	public static final String DONATEMODS = "./config/CustomMods/Donate.ini";
+
+	/*Codeamat*/
+	/*Vip Code*/
+	public static boolean ENABLE_VIP_SYSTEM;
+	public static boolean ALLOW_VIP_NCOLOR;
+	public static int VIP_NCOLOR;
+	public static boolean ALLOW_VIP_TCOLOR;
+	public static int VIP_TCOLOR;
+	public static float VIP_XP_SP_RATE;
+	public static float VIP_ADENA_RATE;
+	public static float VIP_DROP_RATE;
+	public static float VIP_SPOIL_RATE;
+	public static String MESSAGE_VIP_ENTER;
+	public static int MESSAGE_TIME_VIP;
+	public static String MESSAGE_VIP_EXIT;
+	public static int MESSAGE_EXIT_VIP_TIME;
+	public static int VIP_COIN_ID1;
+	public static int VIP_DAYS_ID1;
+	public static int VIP_COIN_ID2;
+	public static int VIP_DAYS_ID2;
+	public static int VIP_COIN_ID3;
+	public static int VIP_DAYS_ID3;
 	
 	// --------------------------------------------------
 	// Clans settings
@@ -738,6 +763,31 @@ public final class Config
 	}
 
 	/*Codeamat*/
+	/*Vip Code*/
+	private static final void loadDonate()
+	{
+		final ExProperties Donate = initProperties(DONATEMODS);
+		ENABLE_VIP_SYSTEM = Boolean.parseBoolean(Donate.getProperty("EnableVipSystem", "True"));
+		ALLOW_VIP_NCOLOR = Boolean.parseBoolean(Donate.getProperty("AllowVipNameColor", "True"));
+		VIP_NCOLOR = Integer.decode("0x" + Donate.getProperty("VipNameColor", "88AA88"));
+		ALLOW_VIP_TCOLOR = Boolean.parseBoolean(Donate.getProperty("AllowVipTitleColor", "True"));
+		VIP_TCOLOR = Integer.decode("0x" + Donate.getProperty("VipTitleColor", "88AA88"));
+		VIP_XP_SP_RATE = Float.parseFloat(Donate.getProperty("VIPXpSpRate", "1.5"));
+		VIP_ADENA_RATE = Float.parseFloat(Donate.getProperty("VIPAdenaRate", "1.5"));
+		VIP_DROP_RATE = Float.parseFloat(Donate.getProperty("VIPDropRate", "1.5"));
+		VIP_SPOIL_RATE = Float.parseFloat(Donate.getProperty("VIPSpoilRate", "1.5"));
+		MESSAGE_VIP_ENTER = Donate.getProperty("ScreenVIPMessageText", "Forbidden to Use Enchant near the bank!");
+		MESSAGE_TIME_VIP = Integer.parseInt(Donate.getProperty("ScreenVIPMessageTime", "6")) * 1000;
+		MESSAGE_VIP_EXIT = Donate.getProperty("ScreenVIPMessageExitText", "Forbidden to Use Enchant near the bank!");
+		MESSAGE_EXIT_VIP_TIME = Integer.parseInt(Donate.getProperty("ScreenVIPMessageTimeExit", "6")) * 1000;
+		VIP_COIN_ID1 = Integer.parseInt(Donate.getProperty("VipCoin", "6392"));
+		VIP_DAYS_ID1 = Integer.parseInt(Donate.getProperty("VipCoinDays", "1"));
+		VIP_COIN_ID2 = Integer.parseInt(Donate.getProperty("VipCoin2", "6393"));
+		VIP_DAYS_ID2 = Integer.parseInt(Donate.getProperty("VipCoinDays2", "2"));
+		VIP_COIN_ID3 = Integer.parseInt(Donate.getProperty("VipCoin3", "5557"));
+		VIP_DAYS_ID3 = Integer.parseInt(Donate.getProperty("VipCoinDays3", "3"));
+	}
+
 	/*Newbie Code*/
 	private static final void loadNewChar()
 	{
@@ -1436,6 +1486,8 @@ public final class Config
 		/*Codeamat*/
 		//Newbie Code
 		loadNewChar();
+		//Vip Code
+		loadDonate();
 	}
 	
 	public static final void loadLoginServer()

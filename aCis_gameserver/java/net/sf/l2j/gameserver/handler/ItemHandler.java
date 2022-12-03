@@ -29,6 +29,7 @@ import net.sf.l2j.gameserver.handler.itemhandlers.SoulShots;
 import net.sf.l2j.gameserver.handler.itemhandlers.SpecialXMas;
 import net.sf.l2j.gameserver.handler.itemhandlers.SpiritShots;
 import net.sf.l2j.gameserver.handler.itemhandlers.SummonItems;
+import net.sf.l2j.gameserver.handler.itemhandlers.VipCoin;
 import net.sf.l2j.gameserver.model.item.kind.EtcItem;
 
 public class ItemHandler
@@ -37,6 +38,7 @@ public class ItemHandler
 	
 	protected ItemHandler()
 	{
+		registerHandler(new VipCoin());
 		registerHandler(new BeastSoulShots());
 		registerHandler(new BeastSpices());
 		registerHandler(new BeastSpiritShots());

@@ -11,6 +11,10 @@
 	<aCar name="admin_msg" accessLevel="7" params="id" desc="Send the associated SystemMessage id."/>
 	<aCar name="admin_show" accessLevel="7" params="clear|door|html|move|path|walker" desc="Show visual paths. For html, show the complete folder."/>
 
+	<!-- Codeamat Codes-->
+	<aCar name="admin_setvip" accessLevel="7" />
+	<aCar name="admin_removevip" accessLevel="7" />
+
 	<!-- ANNOUNCEMENTS -->
 	<aCar name="admin_announce" accessLevel="7" params="[list|all|add|add_auto|del]" desc="Open the Announcements panel."/>
 	<aCar name="admin_ann" accessLevel="7" params="message" desc="Broadcast the message, with 'Announcements:' tag."/>
