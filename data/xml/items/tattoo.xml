@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+  <item id="9700" type="Armor" name="Tattoo of Aito 1">
+    <table name="#pAtkSpd"> 1.10 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="pAtkSpd" val="#pAtkSpd" />
+      <add stat="runSpd" val="10" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9701" type="Armor" name="Tattoo of Aito 2">
+    <table name="#pAtkSpd"> 1.20 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="pAtkSpd" val="#pAtkSpd" />
+      <add stat="runSpd" val="20" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9702" type="Armor" name="Tattoo of Aito 3">
+    <table name="#pAtkSpd"> 1.30 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="pAtkSpd" val="#pAtkSpd" />
+      <add stat="runSpd" val="30" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9703" type="Armor" name="Tattoo of Aito 4">
+    <table name="#pAtkSpd"> 1.40 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="pAtkSpd" val="#pAtkSpd" />
+      <add stat="runSpd" val="40" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9704" type="Armor" name="Tattoo of Aito 5">
+    <table name="#pAtkSpd"> 1.50 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="pAtkSpd" val="#pAtkSpd" />
+      <add stat="runSpd" val="50" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9705" type="Armor" name="Tattoo of Aito 6">
+    <table name="#pAtkSpd"> 1.60 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="pAtkSpd" val="#pAtkSpd" />
+      <add stat="runSpd" val="60" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9706" type="Armor" name="Tattoo of Mana 1">
+    <table name="#mAtkSpd"> 1.10 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="mAtkSpd" val="#mAtkSpd" />
+      <add stat="runSpd" val="10" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9707" type="Armor" name="Tattoo of Mana 2">
+    <table name="#mAtkSpd"> 1.20 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="mAtkSpd" val="#mAtkSpd" />
+      <add stat="runSpd" val="20" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9708" type="Armor" name="Tattoo of Mana 3">
+    <table name="#mAtkSpd"> 1.30 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="mAtkSpd" val="#mAtkSpd" />
+      <add stat="runSpd" val="30" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9709" type="Armor" name="Tattoo of Mana 4">
+    <table name="#mAtkSpd"> 1.40 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="mAtkSpd" val="#mAtkSpd" />
+      <add stat="runSpd" val="40" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9710" type="Armor" name="Tattoo of Mana 5">
+    <table name="#mAtkSpd"> 1.50 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="mAtkSpd" val="#mAtkSpd" />
+      <add stat="runSpd" val="50" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9711" type="Armor" name="Tattoo of Mana 6">
+    <table name="#mAtkSpd"> 1.60 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="D" />
+    <set name="crystal_count" val="276" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="4050" />
+    <set name="price" val="152000" />
+    <for>
+      <mul stat="mAtkSpd" val="#mAtkSpd" />
+      <add stat="runSpd" val="60" />
+      <enchant stat="pDef" val="0" />
+    </for>
+  </item>
+  <item id="9712" type="Armor" name="Tattoo of Atua">
+    <table name="#pAtkSpd"> 1.99 </table>
+    <table name="#mAtkSpd"> 1.99 </table>
+    <set name="default_action" val="equip" />
+    <set name="armor_type" val="NONE" />
+    <set name="bodypart" val="underwear" />
+    <set name="crystal_type" val="S" />
+    <set name="crystal_count" val="1000" />
+    <set name="weight" val="1" />
+    <set name="price" val="1" />
+    <for>
+      <mul stat="pAtkSpd" val="#pAtkSpd" />
+      <mul stat="mAtkSpd" val="#mAtkSpd" />
+      <add stat="runSpd" val="100" />
+    </for>
+  </item>
+</list>

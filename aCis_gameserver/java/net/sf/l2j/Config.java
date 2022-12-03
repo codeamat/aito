@@ -35,6 +35,10 @@ public final class Config
 	public static final String PLAYERS_FILE = "./config/players.properties";
 	public static final String SERVER_FILE = "./config/server.properties";
 	public static final String SIEGE_FILE = "./config/siege.properties";
+
+	/*Codeamat*/
+	/*Newbie Code*/
+	public static final String NEWBIECHAR = "./config/CustomMods/NewbieCharacters.ini";
 	
 	// --------------------------------------------------
 	// Clans settings
@@ -528,12 +532,18 @@ public final class Config
 	public static double PET_XP_RATE;
 	public static int PET_FOOD_RATE;
 	public static double SINEATER_XP_RATE;
-	
+	public static boolean CHAR_TITLE;
+	public static String ADD_CHAR_TITLE;
 	public static double RATE_DROP_COMMON_HERBS;
 	public static double RATE_DROP_HP_HERBS;
 	public static double RATE_DROP_MP_HERBS;
 	public static double RATE_DROP_SPECIAL_HERBS;
-	
+	public static boolean STARTING_BUFFS;
+	public static List<int[]> STARTING_BUFFS_M = new ArrayList<>();
+	public static List<int[]> STARTING_BUFFS_F = new ArrayList<>();
+	public static boolean CUSTOM_STARTER_ITEMS_ENABLED;
+	public static List<int[]> STARTING_CUSTOM_ITEMS_F = new ArrayList<>();
+	public static List<int[]> STARTING_CUSTOM_ITEMS_M = new ArrayList<>();
 	/** Allow types */
 	public static boolean ALLOW_FREIGHT;
 	public static boolean ALLOW_WAREHOUSE;
@@ -565,7 +575,15 @@ public final class Config
 	/** Community Board */
 	public static boolean ENABLE_COMMUNITY_BOARD;
 	public static String BBS_DEFAULT;
-	
+	public static boolean ALLOW_CREATE_LVL;
+	public static int CHAR_CREATE_LVL;
+	public static boolean SPAWN_CHAR;
+	/** X Coordinate of the SPAWN_CHAR setting. */
+	public static int SPAWN_X;
+	/** Y Coordinate of the SPAWN_CHAR setting. */
+	public static int SPAWN_Y;
+	/** Z Coordinate of the SPAWN_CHAR setting. */
+	public static int SPAWN_Z;
 	/** Flood Protectors */
 	public static int ROLL_DICE_TIME;
 	public static int HERO_VOICE_TIME;
@@ -718,7 +736,128 @@ public final class Config
 		CH_FRONT1_FEE = clans.getProperty("ClanHallFrontPlatformFunctionFeeLvl1", 3031);
 		CH_FRONT2_FEE = clans.getProperty("ClanHallFrontPlatformFunctionFeeLvl2", 9331);
 	}
-	
+
+	/*Codeamat*/
+	/*Newbie Code*/
+	private static final void loadNewChar()
+	{
+		final ExProperties newChar = initProperties(NEWBIECHAR);
+		CHAR_TITLE = Boolean.parseBoolean(newChar.getProperty("CharTitle", "false"));
+		ADD_CHAR_TITLE = newChar.getProperty("CharAddTitle", "Welcome");
+		ALLOW_CREATE_LVL = Boolean.parseBoolean(newChar.getProperty("CustomStartingLvl", "False"));
+		CHAR_CREATE_LVL = Integer.parseInt(newChar.getProperty("CharLvl", "80"));
+		SPAWN_CHAR = Boolean.parseBoolean(newChar.getProperty("CustomSpawn", "false"));
+		SPAWN_X = Integer.parseInt(newChar.getProperty("SpawnX", ""));
+		SPAWN_Y = Integer.parseInt(newChar.getProperty("SpawnY", ""));
+		SPAWN_Z = Integer.parseInt(newChar.getProperty("SpawnZ", ""));
+		STARTING_BUFFS = Boolean.parseBoolean(newChar.getProperty("StartingBuffs", "True"));
+		String[] startingBuffsSplit = newChar.getProperty("StartingBuffsMage", "1204,2").split(";");
+		STARTING_BUFFS_M.clear();
+		for (String buff : startingBuffsSplit)
+		{
+			String[] buffSplit = buff.split(",");
+			if (buffSplit.length != 2)
+				LOGGER.warn("StartingBuffsMage[Config.load()]: invalid config property -> StartingBuffsMage \"" + buff + "\"");
+			else
+			{
+				try
+				{
+					STARTING_BUFFS_M.add(new int[]
+							{
+									Integer.parseInt(buffSplit[0]),
+									Integer.parseInt(buffSplit[1])
+							});
+				}
+				catch (NumberFormatException nfe)
+				{
+					if (STARTING_BUFFS_M.equals(""))
+						System.out.println("EROOOOOOOOOOOR WITH STARTING BUFS");
+				}
+			}
+		}
+		startingBuffsSplit = newChar.getProperty("StartingBuffsFighter", "1204,2").split(";");
+		STARTING_BUFFS_F.clear();
+		for (String buff : startingBuffsSplit)
+		{
+			String[] buffSplit = buff.split(",");
+			if (buffSplit.length != 2)
+				LOGGER.warn("StartingBuffsFighter[Config.load()]: invalid config property -> StartingBuffsFighter \"" + buff + "\"");
+			else
+			{
+				try
+				{
+					STARTING_BUFFS_F.add(new int[]
+							{
+									Integer.parseInt(buffSplit[0]),
+									Integer.parseInt(buffSplit[1])
+							});
+				}
+				catch (NumberFormatException nfe)
+				{
+					if (STARTING_BUFFS_F.equals(""))
+						System.out.println("EROOOOOOOOOOOR WITH STARTING BUFS");
+				}
+			}
+		}
+		CUSTOM_STARTER_ITEMS_ENABLED = Boolean.parseBoolean(newChar.getProperty("CustomStarterItemsEnabled", "False"));
+		if (Config.CUSTOM_STARTER_ITEMS_ENABLED)
+		{
+			String[] propertySplit = newChar.getProperty("StartingCustomItemsMage", "57,0").split(";");
+			STARTING_CUSTOM_ITEMS_M.clear();
+			for (final String reward : propertySplit)
+			{
+				final String[] rewardSplit = reward.split(",");
+				if (rewardSplit.length != 2)
+					LOGGER.warn("StartingCustomItemsMage[Config.load()]: invalid config property -> StartingCustomItemsMage \"" + reward + "\"");
+				else
+				{
+					try
+					{
+						STARTING_CUSTOM_ITEMS_M.add(new int[]
+								{
+										Integer.parseInt(rewardSplit[0]),
+										Integer.parseInt(rewardSplit[1])
+								});
+					}
+					catch (final NumberFormatException nfe)
+					{
+						nfe.printStackTrace();
+						if (!reward.isEmpty())
+							LOGGER.warn("StartingCustomItemsMage[Config.load()]: invalid config property -> StartingCustomItemsMage \"" + reward + "\"");
+					}
+				}
+			}
+
+			propertySplit = newChar.getProperty("StartingCustomItemsFighter", "57,0").split(";");
+			STARTING_CUSTOM_ITEMS_F.clear();
+			for (final String reward : propertySplit)
+			{
+				final String[] rewardSplit = reward.split(",");
+				if (rewardSplit.length != 2)
+					LOGGER.warn("StartingCustomItemsFighter[Config.load()]: invalid config property -> StartingCustomItemsFighter \"" + reward + "\"");
+				else
+				{
+					try
+					{
+						STARTING_CUSTOM_ITEMS_F.add(new int[]
+								{
+										Integer.parseInt(rewardSplit[0]),
+										Integer.parseInt(rewardSplit[1])
+								});
+					}
+					catch (final NumberFormatException nfe)
+					{
+						nfe.printStackTrace();
+
+						if (!reward.isEmpty())
+							LOGGER.warn("StartingCustomItemsFighter[Config.load()]: invalid config property -> StartingCustomItemsFighter \"" + reward + "\"");
+					}
+				}
+			}
+		}
+	}
+
+
 	/**
 	 * Loads event settings.<br>
 	 * Such as olympiad, seven signs festival, four sepulchures, dimensional rift, weddings, lottery, fishing championship.
@@ -1293,6 +1432,10 @@ public final class Config
 		
 		// server settings
 		loadServer();
+
+		/*Codeamat*/
+		//Newbie Code
+		loadNewChar();
 	}
 	
 	public static final void loadLoginServer()

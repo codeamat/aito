@@ -7,6 +7,7 @@ import java.util.Map;
 import net.sf.l2j.commons.logging.CLogger;
 
 import net.sf.l2j.gameserver.data.DocumentItem;
+import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
 import net.sf.l2j.gameserver.model.item.kind.Armor;
 import net.sf.l2j.gameserver.model.item.kind.EtcItem;
 import net.sf.l2j.gameserver.model.item.kind.Item;
@@ -73,7 +74,19 @@ public class ItemData
 		
 		LOGGER.info("Loaded items.");
 	}
-	
+	/**
+	 * Dummy item is created by setting the ID of the object in the world at null value
+	 * @param itemId : int designating the item
+	 * @return ItemInstance designating the dummy item created
+	 */
+	public ItemInstance createDummyItem(int itemId)
+	{
+		final Item item = getTemplate(itemId);
+		if (item == null)
+			return null;
+		
+		return new ItemInstance(0, item);
+	}
 	/**
 	 * @param id : the item id to check.
 	 * @return the {@link Item} corresponding to the item id.

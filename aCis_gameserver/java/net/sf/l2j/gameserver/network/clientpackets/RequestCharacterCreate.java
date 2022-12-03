@@ -2,7 +2,10 @@ package net.sf.l2j.gameserver.network.clientpackets;
 
 import net.sf.l2j.commons.lang.StringUtil;
 
+import net.sf.l2j.Config;
+import net.sf.l2j.gameserver.data.SkillTable;
 import net.sf.l2j.gameserver.data.sql.PlayerInfoTable;
+import net.sf.l2j.gameserver.data.xml.ItemData;
 import net.sf.l2j.gameserver.data.xml.NpcData;
 import net.sf.l2j.gameserver.data.xml.PlayerData;
 import net.sf.l2j.gameserver.data.xml.ScriptData;
@@ -14,13 +17,17 @@ import net.sf.l2j.gameserver.model.Shortcut;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.template.PlayerTemplate;
+import net.sf.l2j.gameserver.model.base.Experience;
 import net.sf.l2j.gameserver.model.holder.ItemTemplateHolder;
 import net.sf.l2j.gameserver.model.holder.skillnode.GeneralSkillNode;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.CharCreateFail;
 import net.sf.l2j.gameserver.network.serverpackets.CharCreateOk;
 import net.sf.l2j.gameserver.network.serverpackets.CharSelectInfo;
+import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
 import net.sf.l2j.gameserver.scripting.Quest;
+import net.sf.l2j.gameserver.skills.L2Skill;
 
 public final class RequestCharacterCreate extends L2GameClientPacket
 {
@@ -133,8 +140,71 @@ public final class RequestCharacterCreate extends L2GameClientPacket
 		
 		World.getInstance().addObject(player);
 		
-		player.getPosition().set(template.getRandomSpawn());
-		player.setTitle("");
+		if (Config.ALLOW_CREATE_LVL)
+			player.getStatus().addExp(Experience.LEVEL[Config.CHAR_CREATE_LVL]);
+			
+
+		if (Config.SPAWN_CHAR)
+			player.setXYZInvisible(Config.SPAWN_X, Config.SPAWN_Y, Config.SPAWN_Z);
+		else
+			player.setXYZInvisible(template.getRandomSpawn());
+		if (Config.CUSTOM_STARTER_ITEMS_ENABLED)
+		{
+			if (player.isMageClass())
+			{
+				for (final int[] reward : Config.STARTING_CUSTOM_ITEMS_M)
+				{
+					if (ItemData.getInstance().createDummyItem(reward[0]).isStackable())
+						player.getInventory().addItem("Starter Items Mage", reward[0], reward[1], player, null);
+					else
+						for (int i = 0; i < reward[1]; ++i)
+							player.getInventory().addItem("Starter Items Mage", reward[0], 1, player, null);
+				}
+			}
+			else
+			{
+				for (final int[] reward : Config.STARTING_CUSTOM_ITEMS_F)
+				{
+					if (ItemData.getInstance().createDummyItem(reward[0]).isStackable())
+						player.getInventory().addItem("Starter Items Fighter", reward[0], reward[1], player, null);
+					else
+						for (int i = 0; i < reward[1]; ++i)
+							player.getInventory().addItem("Starter Items Fighter", reward[0], 1, player, null);
+				}
+			}
+		}
+		  if (Config.STARTING_BUFFS)
+	        {
+	           if (!player.isMageClass())
+	           {
+	              for (int[] buff : Config.STARTING_BUFFS_F) // Custom buffs for fighters
+	              {
+	                 L2Skill skill = SkillTable.getInstance().getInfo(buff[0], buff[1]);
+	                 if (skill != null)
+	                 {
+	                    skill.getEffects(player, player);
+	                    player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT).addSkillName(buff[0]));
+	                 }
+	              }
+	           }
+	           else
+	           {
+	              for (int[] buff : Config.STARTING_BUFFS_M) // Custom buffs for mystics
+	              {
+	                 L2Skill skill = SkillTable.getInstance().getInfo(buff[0], buff[1]);
+	                 if (skill != null)
+	                 {
+	                    skill.getEffects(player, player);
+	                    player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_FEEL_S1_EFFECT).addSkillName(buff[0]));
+	                 }
+	              }
+	           }
+	        }
+		//player.getPosition().set(template.getRandomSpawn());
+		if (Config.CHAR_TITLE)
+			player.setTitle(Config.ADD_CHAR_TITLE);
+		else
+			player.setTitle("");
 		
 		// Register shortcuts.
 		player.getShortcutList().addShortcut(new Shortcut(0, 0, ShortcutType.ACTION, 2, -1, 1)); // attack shortcut
@@ -176,4 +246,5 @@ public final class RequestCharacterCreate extends L2GameClientPacket
 		sendPacket(csi);
 		getClient().setCharSelectSlot(csi.getCharacterSlots());
 	}
+	
 }

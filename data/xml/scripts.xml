@@ -367,7 +367,7 @@
 	<script path="script.ai.boss.Core"/>
 	<script path="script.ai.boss.DrChaos"/>
 <!-- 	<script path="script.ai.boss.Frintezza"/> -->
-	<script path="script.ai.boss.Gordon"/>
+	<!--<script path="script.ai.boss.Gordon"/>-->
 <!-- 	<script path="script.ai.boss.IceFairySirra"/> -->
 	<script path="script.ai.boss.Orfen"/>
 	<script path="script.ai.boss.QueenAnt"/>
@@ -405,12 +405,12 @@
 	<script path="script.feature.HeroCirclet"/>
 	<script path="script.feature.HeroWeapon"/>
 	<script path="script.feature.KetraOrcSupport"/>
-	<script path="script.feature.MissQueen"/>
+	<!--<script path="script.feature.MissQueen"/>-->
 	<script path="script.feature.NewbieHelper"/>
 	<script path="script.feature.RaidbossInfo"/>
 	<script path="script.feature.SecondClassChange"/>
 	<script path="script.feature.ShadowWeapon"/>
-	<script path="script.feature.Tutorial"/>
+	<!--<script path="script.feature.Tutorial"/>-->
 	<script path="script.feature.VarkaSilenosSupport"/>
 
 	<!-- Siegable Halls -->

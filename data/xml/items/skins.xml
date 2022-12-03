@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<!-- Banana Costume Jaune-->
+	<item id="30001" type="Armor" name="Yellow Banana Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- Banana Costumme Vert -->
+	<item id="30003" type="Armor" name="Green Banana Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+
+	<!-- Rabbit Rose Costume-->
+	<item id="30005" type="Armor" name="Rabbit Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- Aquaman Suit -->
+	<item id="30007" type="Armor" name="Aquaman Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- Custom Suit -->
+	<item id="26355" type="Armor" name="Costume Ours">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26359" type="Armor" name="Tahitian Bikini">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26361" type="Armor" name="Steampunk Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26362" type="Armor" name="Steampunk Cap">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="face" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26363" type="Armor" name="Crusader Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26364" type="Armor" name="Crusader Mask">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="face" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26365" type="Armor" name="Fairy crown">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="face" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26366" type="Armor" name="Fairy Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26400" type="Armor" name="Fairy Crown">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26401" type="Armor" name="Zarich Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26402" type="Armor" name="New Year's Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26403" type="Armor" name="Phoenix Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26404" type="Armor" name="Dragon Slayer Suit">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26407" type="Armor" name="Deer Hat">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="face" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="26408" type="Armor" name="Phoenix Hat">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="face" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- Banana Costume Jaune-->
+	<item id="30001" type="Armor" name="Yellow Banana Cloth">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- Banana Costumme Vert -->
+	<item id="30003" type="Armor" name="Green Banana Cloth">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+
+	<!-- Rabbit Rose Costume-->
+	<item id="30005" type="Armor" name="Rabbit Cloth">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+	<!-- Aquaman Cloth -->
+	<item id="30007" type="Armor" name="Aquaman Cloth">
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="D" />
+		<set name="crystal_count" val="113" />
+		<set name="material" val="LEATHER" />
+		<set name="weight" val="4700" />
+		<set name="price" val="62600" />
+		<for>
+			<baseadd stat="pDef" val="58" />
+			<enchant stat="pDef" val="0" />
+		</for>
+	</item>
+</list>

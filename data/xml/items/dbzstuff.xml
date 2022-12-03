@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+  <item id="56170" type="Armor" name="Sayan Face 1">
+    <set name="default_action" val="equip" />
+    <set name="bodypart" val="face" />
+    <set name="crystal_type" val="S" />
+    <set name="crystal_count" val="185" />
+    <set name="material" val="GOLD" />
+    <set name="weight" val="150" />
+    <set name="price" val="3700000" />
+    <set name="item_skill" val="3558-1" />
+    <for>
+      <add stat="pDef" val="300" />
+      <add stat="mDef" val="300" />
+      <enchant stat="mDef" val="0" />
+    </for>
+  </item>
+  <item id="56171" type="Armor" name="Sayan Face 2">
+    <set name="default_action" val="equip" />
+    <set name="bodypart" val="face" />
+    <set name="crystal_type" val="S" />
+    <set name="crystal_count" val="247" />
+    <set name="material" val="GOLD" />
+    <set name="weight" val="150" />
+    <set name="price" val="4940000" />
+    <set name="item_skill" val="3557-1" />
+    <for>
+      <add stat="pDef" val="600" />
+      <add stat="mDef" val="600" />
+      <enchant stat="mDef" val="0" />
+    </for>
+  </item>
+  <item id="56172" type="Armor" name="Super Sayan Face">
+    <set name="default_action" val="equip" />
+    <set name="bodypart" val="face" />
+    <set name="crystal_type" val="S" />
+    <set name="crystal_count" val="86" />
+    <set name="material" val="GOLD" />
+    <set name="weight" val="150" />
+    <set name="price" val="1730000" />
+    <set name="item_skill" val="3561-1" />
+    <for>
+      <add stat="pDef" val="900" />
+      <add stat="mDef" val="900" />
+      <enchant stat="mDef" val="0" />
+    </for>
+  </item>
+
+  <!-- Boule -->
+  <item id="9922" type="EtcItem" name="Pearl of Papeete">
+    <set name="default_action" val="skill_reduce" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="10" />
+    <set name="price" val="1" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+  </item>
+  <item id="9923" type="EtcItem" name="Pearl of Paea">
+    <set name="default_action" val="skill_reduce" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="10" />
+    <set name="price" val="1" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+  </item>
+  <item id="9924" type="EtcItem" name="Pearl of Taravao">
+    <set name="default_action" val="skill_reduce" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="10" />
+    <set name="price" val="1" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+  </item>
+  <item id="9925" type="EtcItem" name="Pearl of Tautira">
+    <set name="default_action" val="skill_reduce" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="10" />
+    <set name="price" val="1" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+  </item>
+  <item id="9926" type="EtcItem" name="Pearl of Mahaena">
+    <set name="default_action" val="skill_reduce" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="10" />
+    <set name="price" val="1" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+  </item>
+  <item id="9927" type="EtcItem" name="Pearl of Teahupo'o">
+    <set name="default_action" val="skill_reduce" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="10" />
+    <set name="price" val="1" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+  </item>
+  <item id="9928" type="EtcItem" name="Pearl of Orohena">
+    <set name="default_action" val="skill_reduce" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="10" />
+    <set name="price" val="1" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+  </item>
+</list>
