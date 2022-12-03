@@ -10,5 +10,16 @@
     <ingredient id="57" count="25000000"/>
     <production id="1419" count="1"/>
   </item>
-
+  <item id="2">
+    <ingredient id="65436" count="100000"/>
+    <production id="18000" count="1"/>
+  </item>
+  <item id="3">
+    <ingredient id="65436" count="300000"/>
+    <production id="18001" count="1"/>
+  </item>
+  <item id="4">
+    <ingredient id="65436" count="500000"/>
+    <production id="18002" count="1"/>
+  </item>
 </list>

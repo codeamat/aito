@@ -3,6 +3,7 @@ package net.sf.l2j.gameserver.model.actor.status;
 import java.util.Map;
 
 import net.sf.l2j.commons.random.Rnd;
+import net.sf.l2j.commons.util.ArraysUtil;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.data.manager.CastleManager;
@@ -31,6 +32,7 @@ import net.sf.l2j.gameserver.model.clanhall.ClanHallFunction;
 import net.sf.l2j.gameserver.model.entity.Duel.DuelState;
 import net.sf.l2j.gameserver.model.entity.Siege;
 import net.sf.l2j.gameserver.model.group.Party;
+import net.sf.l2j.gameserver.model.holder.IntIntHolder;
 import net.sf.l2j.gameserver.model.olympiad.OlympiadGameManager;
 import net.sf.l2j.gameserver.model.olympiad.OlympiadGameTask;
 import net.sf.l2j.gameserver.model.pledge.Clan;
@@ -620,11 +622,22 @@ public class PlayerStatus extends PlayableStatus<Player>
 			final QuestState qs = _actor.getQuestList().getQuestState("Tutorial");
 			if (qs != null)
 				qs.getQuest().notifyEvent("CE40", null, _actor);
-			
+
 			setCp(getMaxCp());
 			
 			_actor.broadcastPacket(new SocialAction(_actor, 15));
 			_actor.sendPacket(SystemMessageId.YOU_INCREASED_YOUR_LEVEL);
+		}
+
+		/* Codeamat*/
+		/* Level Reward*/
+		if (Config.LIST_LEVEL.length > 0)
+		{
+			if (ArraysUtil.contains(Config.LIST_LEVEL, getLevel()))
+			{
+				for (IntIntHolder reward : Config.LEVEL_REWARD_ITEM)
+					_actor.addItem("Level Reward", reward.getId(), reward.getValue(), null, true);
+			}
 		}
 		
 		// Refresh player skills (autoGet skills or all available skills if Config.AUTO_LEARN_SKILLS is activated).

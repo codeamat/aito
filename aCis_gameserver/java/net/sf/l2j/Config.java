@@ -48,6 +48,10 @@ public final class Config
 
 	/*Codeamat*/
 
+	/* Level Reward*/
+	public static int[] LIST_LEVEL;
+	public static IntIntHolder[] LEVEL_REWARD_ITEM;
+
 	/*Aito Credits*/
 	public static int PCB_MIN_LEVEL;
 	public static int PCB_POINT_MIN;
@@ -1193,7 +1197,10 @@ public final class Config
 		DEEPBLUE_DROP_RULES = players.getProperty("UseDeepBlueDropRules", true);
 		ALLOW_DELEVEL = players.getProperty("AllowDelevel", true);
 		DEATH_PENALTY_CHANCE = players.getProperty("DeathPenaltyChance", 20);
-		
+		/*Codeamat*/
+		/*Level Reward*/
+		LEVEL_REWARD_ITEM = players.parseIntIntList("RewardLevel", "0-0");
+		LIST_LEVEL = players.getProperty("ListLevel", new int[]{80,81,82,83,84,85});
 		INVENTORY_MAXIMUM_NO_DWARF = players.getProperty("MaximumSlotsForNoDwarf", 80);
 		INVENTORY_MAXIMUM_DWARF = players.getProperty("MaximumSlotsForDwarf", 100);
 		INVENTORY_MAXIMUM_PET = players.getProperty("MaximumSlotsForPet", 12);
