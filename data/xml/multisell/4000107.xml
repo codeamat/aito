@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+  <!-- [Avadon]-->
+  <item id="16">
+    <ingredient id="57" count="5000000"/>
+    <production id="2406" count="1"/>
+  </item>
+
+  <!-- [Avadon]-->
+  <item id="17">
+    <ingredient id="57" count="5000000"/>
+    <production id="2415" count="1"/>
+  </item>
+
+  <!-- [Avadon]-->
+  <item id="18">
+    <ingredient id="57" count="5000000"/>
+    <production id="5716" count="1"/>
+  </item>
+
+  <!-- [Avadon]-->
+  <item id="19">
+    <ingredient id="57" count="5000000"/>
+    <production id="5732" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="20">
+    <ingredient id="57" count="5000000"/>
+    <production id="2398" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="21">
+    <ingredient id="57" count="5000000"/>
+    <production id="2403" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="22">
+    <ingredient id="57" count="5000000"/>
+    <production id="2416" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="23">
+    <ingredient id="57" count="5000000"/>
+    <production id="5720" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="24">
+    <ingredient id="57" count="5000000"/>
+    <production id="5736" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="25">
+    <ingredient id="57" count="5000000"/>
+    <production id="2391" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="26">
+    <ingredient id="57" count="5000000"/>
+    <production id="2416" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="27">
+    <ingredient id="57" count="5000000"/>
+    <production id="5719" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="28">
+    <ingredient id="57" count="5000000"/>
+    <production id="5735" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="29">
+    <ingredient id="57" count="5000000"/>
+    <production id="358" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="30">
+    <ingredient id="57" count="5000000"/>
+    <production id="2380" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="31">
+    <ingredient id="57" count="5000000"/>
+    <production id="5718" count="1"/>
+  </item>
+
+  <!-- [Blue Wolf]-->
+  <item id="32">
+    <ingredient id="57" count="5000000"/>
+    <production id="5734" count="1"/>
+  </item>
+
+  <!-- [Doom]-->
+  <item id="33">
+    <ingredient id="57" count="5000000"/>
+    <production id="2392" count="1"/>
+  </item>
+
+  <!-- [Doom]-->
+  <item id="34">
+    <ingredient id="57" count="5000000"/>
+    <production id="2417" count="1"/>
+  </item>
+
+  <!-- [Doom]-->
+  <item id="35">
+    <ingredient id="57" count="5000000"/>
+    <production id="5723" count="1"/>
+  </item>
+
+  <!-- [Doom]-->
+  <item id="36">
+    <ingredient id="57" count="5000000"/>
+    <production id="5739" count="1"/>
+  </item>
+
+  <!-- [Doom]-->
+  <item id="37">
+    <ingredient id="57" count="5000000"/>
+    <production id="2381" count="1"/>
+  </item>
+
+  <!-- [Doom]-->
+  <item id="38">
+    <ingredient id="57" count="5000000"/>
+    <production id="2417" count="1"/>
+  </item>
+
+  <!-- [Doom]-->
+  <item id="39">
+    <ingredient id="57" count="5000000"/>
+    <production id="5722" count="1"/>
+  </item>
+
+  <!-- [Doom]-->
+  <item id="40">
+    <ingredient id="57" count="5000000"/>
+    <production id="5738" count="1"/>
+  </item>
+
+  <!-- [Doom]-->
+  <item id="41">
+    <ingredient id="57" count="5000000"/>
+    <production id="110" count="1"/>
+  </item>
+
+  <!-- [Avadon]-->
+  <item id="42">
+    <ingredient id="57" count="5000000"/>
+    <production id="673" count="1"/>
+  </item>
+
+  <!-- Ring of Black Ore -->
+  <item id="43">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="895" count="1"/>  <!-- Majestic Ring -->
+  </item>
+
+  <!-- Earring of Black Ore -->
+  <item id="44">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="864" count="1"/>  <!-- Majestic Earring -->
+  </item>
+
+  <!-- Necklace of Black Ore -->
+  <item id="45">
+    <ingredient id="57" count="5000000"/>  <!-- Adena -->
+    <production id="926" count="1"/>  <!-- Majestic Necklace -->
+  </item>
+
+</list>

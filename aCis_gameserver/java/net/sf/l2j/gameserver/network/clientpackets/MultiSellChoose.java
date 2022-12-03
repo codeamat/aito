@@ -24,6 +24,7 @@ public class MultiSellChoose extends L2GameClientPacket
 	// Special IDs.
 	private static final int CLAN_REPUTATION = 65336;
 	// private static final int PC_BANG_POINTS = 65436;
+	private static final int PC_BANG_POINTS = Config.PCB_COIN_ID;
 	
 	private int _listId;
 	private int _entryId;
@@ -192,6 +193,14 @@ public class MultiSellChoose extends L2GameClientPacket
 					return;
 				}
 			}
+			else if (e.getItemId() == PC_BANG_POINTS)
+			{
+				if (player.getPcBang() < (e.getItemCount() * _amount))
+				{
+					player.sendMessage("You don't have enough Territory War Points.");
+					return;
+				}
+			}
 			else
 			{
 				// if this is not a list that maintains enchantment, check the count of all items that have the given id.
@@ -214,6 +223,11 @@ public class MultiSellChoose extends L2GameClientPacket
 				
 				player.getClan().takeReputationScore(amount);
 				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_DEDUCTED_FROM_CLAN_REP).addNumber(amount));
+			}
+			else if (e.getItemId() == PC_BANG_POINTS)
+			{
+				int totalTWPoints = e.getItemCount() * _amount;
+				player.setPcBang(player.getPcBang()-totalTWPoints);
 			}
 			else
 			{
@@ -299,6 +313,8 @@ public class MultiSellChoose extends L2GameClientPacket
 		{
 			if (e.getItemId() == CLAN_REPUTATION)
 				player.getClan().addReputationScore(e.getItemCount() * _amount);
+			else if (e.getItemId() == PC_BANG_POINTS)
+				player.setPcBang(player.getPcBang()+(e.getItemCount()*_amount));
 			else
 			{
 				if (e.isStackable())

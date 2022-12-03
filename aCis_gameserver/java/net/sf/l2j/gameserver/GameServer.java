@@ -208,6 +208,13 @@ public class GameServer
 		ShadowItemTaskManager.getInstance();
 		WaterTaskManager.getInstance();
 		
+		StringUtil.printSection("Events");
+		if(Config.PCB_ENABLE)
+		{
+			System.out.println("############PCB_ENABLE################");
+			ThreadPool.scheduleAtFixedRate(PcBang.getInstance(), Config.PCB_INTERVAL * 1000, Config.PCB_INTERVAL * 1000);
+		}
+		
 		StringUtil.printSection("Auto Spawns");
 		AutoSpawnTable.getInstance();
 		

@@ -37,6 +37,9 @@ public final class Config
 	public static final String SIEGE_FILE = "./config/siege.properties";
 
 	/*Codeamat*/
+
+	/*Aito Credits*/
+	public static final String PCBANGEVENT = "./config/CustomMods/Events/PcBangEvent.ini";
 	/*Newbie Code*/
 	public static final String NEWBIECHAR = "./config/CustomMods/NewbieCharacters.ini";
 
@@ -44,6 +47,16 @@ public final class Config
 	public static final String DONATEMODS = "./config/CustomMods/Donate.ini";
 
 	/*Codeamat*/
+
+	/*Aito Credits*/
+	public static int PCB_MIN_LEVEL;
+	public static int PCB_POINT_MIN;
+	public static int PCB_POINT_MAX;
+	public static int PCB_CHANCE_DUAL_POINT;
+	public static int PCB_INTERVAL;
+	public static int PCB_COIN_ID;
+	public static boolean PCB_ENABLE;
+
 	/*Vip Code*/
 	public static boolean ENABLE_VIP_SYSTEM;
 	public static boolean ALLOW_VIP_NCOLOR;
@@ -763,6 +776,26 @@ public final class Config
 	}
 
 	/*Codeamat*/
+
+	/*Aito Credits*/
+	private static final void loadPcBangConfig()
+	{
+		final ExProperties PcBanG = initProperties(PCBANGEVENT);
+		PCB_ENABLE = Boolean.parseBoolean(PcBanG.getProperty("PcBangPointEnable", "true"));
+		PCB_MIN_LEVEL = Integer.parseInt(PcBanG.getProperty("PcBangPointMinLevel", "20"));
+		PCB_POINT_MIN = Integer.parseInt(PcBanG.getProperty("PcBangPointMinCount", "20"));
+		PCB_POINT_MAX = Integer.parseInt(PcBanG.getProperty("PcBangPointMaxCount", "1000000"));
+		PCB_COIN_ID = Integer.parseInt(PcBanG.getProperty("PCBCoinId", "0"));
+		if(PCB_POINT_MAX < 1)
+		{
+			PCB_POINT_MAX = Integer.MAX_VALUE;
+
+		}
+		PCB_CHANCE_DUAL_POINT = Integer.parseInt(PcBanG.getProperty("PcBangPointDualChance", "20"));
+		PCB_INTERVAL = Integer.parseInt(PcBanG.getProperty("PcBangPointTimeStamp", "900"));
+
+	}
+
 	/*Vip Code*/
 	private static final void loadDonate()
 	{
@@ -1484,6 +1517,9 @@ public final class Config
 		loadServer();
 
 		/*Codeamat*/
+
+		//Aito Credits
+		loadPcBangConfig();
 		//Newbie Code
 		loadNewChar();
 		//Vip Code

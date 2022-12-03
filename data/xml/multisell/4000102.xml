@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list maintainEnchantment="true">
+
+  <!-- Staff of Life -->
+  <item id="1">
+    <ingredient id="57" count="2000000"/>
+    <production id="189" count="1"/>
+  </item>
+
+  <!-- Elven Long Sword -->
+  <item id="2">
+    <ingredient id="57" count="2000000"/>
+    <production id="2499" count="1"/>
+  </item>
+
+  <!-- Claymore -->
+  <item id="3">
+    <ingredient id="57" count="2000000"/>
+    <production id="70" count="1"/>
+  </item>
+
+  <!-- Mithril Dagger -->
+  <item id="4">
+    <ingredient id="57" count="2000000"/>
+    <production id="225" count="1"/>
+  </item>
+
+  <!-- Elven Bow -->
+  <item id="5">
+    <ingredient id="57" count="2000000"/>
+    <production id="276" count="1"/>
+  </item>
+
+  <!-- Dark Elven Bow -->
+  <item id="6">
+    <ingredient id="57" count="2000000"/>
+    <production id="277" count="1"/>
+  </item>
+
+  <!-- Strengthened Long Bow -->
+  <item id="7">
+    <ingredient id="57" count="2000000"/>
+    <production id="279" count="1"/>
+  </item>
+
+  <!-- Light Crossbow -->
+  <item id="8">
+    <ingredient id="57" count="2000000"/>
+    <production id="280" count="1"/>
+  </item>
+
+  <!-- Knight's Sword*Knight's Sword -->
+  <item id="8">
+    <ingredient id="57" count="2000000"/>
+    <production id="2546" count="1"/>
+  </item>
+
+
+
+</list>

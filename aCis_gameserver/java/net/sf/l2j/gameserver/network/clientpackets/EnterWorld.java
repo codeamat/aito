@@ -220,6 +220,13 @@ public class EnterWorld extends L2GameClientPacket
 		AnnouncementData.getInstance().showAnnouncements(player, false);
 
 		/*Codeamat*/
+
+		/*Aito Credits*/
+		if(Config.PCB_ENABLE)
+		{
+			player.showPcBangWindow();
+		}
+
 		/*VIP code*/
 
 		if(player.isVip())
