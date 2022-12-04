@@ -1,156 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="5100" type="EtcItem" name="Mature Desert Coda">
+		<set name="icon" val="icon.etc_coda_i05" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5101" type="EtcItem" name="Mature Lute Coda">
+		<set name="icon" val="icon.etc_coda_i06" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5102" type="EtcItem" name="Mature Twin Coda">
+		<set name="icon" val="icon.etc_coda_i07" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5103" type="EtcItem" name="Mature Dark Coda">
+		<set name="icon" val="icon.etc_coda_i08" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5104" type="EtcItem" name="Mature Shining Coda">
+		<set name="icon" val="icon.etc_coda_i09" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5105" type="EtcItem" name="Mature Chilly Cobol">
+		<set name="icon" val="icon.etc_cobol_i00" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5106" type="EtcItem" name="Mature Burning Cobol">
+		<set name="icon" val="icon.etc_cobol_i01" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5107" type="EtcItem" name="Mature Blue Cobol">
+		<set name="icon" val="icon.etc_cobol_i02" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5108" type="EtcItem" name="Mature Red Cobol">
+		<set name="icon" val="icon.etc_cobol_i03" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5109" type="EtcItem" name="Mature Golden Cobol">
+		<set name="icon" val="icon.etc_cobol_i04" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5110" type="EtcItem" name="Mature Desert Cobol">
+		<set name="icon" val="icon.etc_cobol_i05" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5111" type="EtcItem" name="Mature Sea Cobol">
+		<set name="icon" val="icon.etc_cobol_i06" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5112" type="EtcItem" name="Mature Thorn Cobol">
+		<set name="icon" val="icon.etc_cobol_i07" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5113" type="EtcItem" name="Mature Dapple Cobol">
+		<set name="icon" val="icon.etc_cobol_i08" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5114" type="EtcItem" name="Mature Great Cobol">
+		<set name="icon" val="icon.etc_cobol_i09" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5115" type="EtcItem" name="Mature Chilly Codran">
+		<set name="icon" val="icon.etc_codran_i00" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5116" type="EtcItem" name="Mature Burning Codran">
+		<set name="icon" val="icon.etc_codran_i01" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5117" type="EtcItem" name="Mature Blue Codran">
+		<set name="icon" val="icon.etc_codran_i02" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5118" type="EtcItem" name="Mature Red Codran">
+		<set name="icon" val="icon.etc_codran_i03" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5119" type="EtcItem" name="Mature Dapple Codran">
+		<set name="icon" val="icon.etc_codran_i04" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5120" type="EtcItem" name="Mature Desert Codran">
+		<set name="icon" val="icon.etc_codran_i05" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5121" type="EtcItem" name="Mature Sea Codran">
+		<set name="icon" val="icon.etc_codran_i06" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5122" type="EtcItem" name="Mature Twin Codran">
+		<set name="icon" val="icon.etc_codran_i07" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5123" type="EtcItem" name="Mature Thorn Codran">
+		<set name="icon" val="icon.etc_codran_i08" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5124" type="EtcItem" name="Mature Great Codran">
+		<set name="icon" val="icon.etc_codran_i09" />
 		<set name="etcitem_type" val="MATURECROP" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5125" type="EtcItem" name="Harvester">
+		<set name="icon" val="icon.etc_reaper_i00" />
 		<set name="default_action" val="harvest" />
 		<set name="etcitem_type" val="HARVEST" />
 		<set name="material" val="STEEL" />
@@ -160,12 +186,14 @@
 		<set name="item_skill" val="2098-1" />
 	</item>
 	<item id="5126" type="EtcItem" name="Dualsword Craft Stamp">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="20" />
 		<set name="price" val="10000" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5127" type="Weapon" name="Dailaon Knife">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -190,6 +218,7 @@
 		</for>
 	</item>
 	<item id="5128" type="Weapon" name="Crokian Blade">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -214,6 +243,7 @@
 		</for>
 	</item>
 	<item id="5129" type="Weapon" name="Doll Knife">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
@@ -237,6 +267,7 @@
 		</for>
 	</item>
 	<item id="5130" type="Weapon" name="Nos Sword">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -261,6 +292,7 @@
 		</for>
 	</item>
 	<item id="5131" type="Weapon" name="Parhit Staff">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -285,6 +317,7 @@
 		</for>
 	</item>
 	<item id="5132" type="Weapon" name="Giant Trident">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -309,6 +342,7 @@
 		</for>
 	</item>
 	<item id="5133" type="Weapon" name="Chrono Unitus">
+		<set name="icon" val="icon.weapon_chrono_tambourine_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
@@ -326,6 +360,7 @@
 		</for>
 	</item>
 	<item id="5134" type="EtcItem" name="Compressed Package of Soulshots: No Grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="600" />
@@ -334,6 +369,7 @@
 		<set name="item_skill" val="2078-1" />
 	</item>
 	<item id="5135" type="EtcItem" name="Compressed Package of Soulshots: D-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="450" />
@@ -342,6 +378,7 @@
 		<set name="item_skill" val="2079-1" />
 	</item>
 	<item id="5136" type="EtcItem" name="Compressed Package of Soulshots: C-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="450" />
@@ -350,6 +387,7 @@
 		<set name="item_skill" val="2080-1" />
 	</item>
 	<item id="5137" type="EtcItem" name="Compressed Package of Soulshots: B-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="300" />
@@ -358,6 +396,7 @@
 		<set name="item_skill" val="2081-1" />
 	</item>
 	<item id="5138" type="EtcItem" name="Compressed Package of Soulshots: A-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="300" />
@@ -366,6 +405,7 @@
 		<set name="item_skill" val="2082-1" />
 	</item>
 	<item id="5139" type="EtcItem" name="Compressed Package of Soulshots: S-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="300" />
@@ -374,6 +414,7 @@
 		<set name="item_skill" val="2083-1" />
 	</item>
 	<item id="5140" type="EtcItem" name="Compressed Package of Spiritshots: No Grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="750" />
@@ -382,6 +423,7 @@
 		<set name="item_skill" val="2084-1" />
 	</item>
 	<item id="5141" type="EtcItem" name="Compressed Package of Spiritshots: D-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="750" />
@@ -390,6 +432,7 @@
 		<set name="item_skill" val="2085-1" />
 	</item>
 	<item id="5142" type="EtcItem" name="Compressed Package of Spiritshots: C-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="450" />
@@ -398,6 +441,7 @@
 		<set name="item_skill" val="2086-1" />
 	</item>
 	<item id="5143" type="EtcItem" name="Compressed Package of Spiritshots: B-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="450" />
@@ -406,6 +450,7 @@
 		<set name="item_skill" val="2087-1" />
 	</item>
 	<item id="5144" type="EtcItem" name="Compressed Package of Spiritshots: A-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="300" />
@@ -414,6 +459,7 @@
 		<set name="item_skill" val="2088-1" />
 	</item>
 	<item id="5145" type="EtcItem" name="Compressed Package of Spiritshots: S-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="300" />
@@ -422,6 +468,7 @@
 		<set name="item_skill" val="2089-1" />
 	</item>
 	<item id="5146" type="EtcItem" name="Compressed Package of Blessed Spiritshots: No Grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="750" />
@@ -430,6 +477,7 @@
 		<set name="item_skill" val="2090-1" />
 	</item>
 	<item id="5147" type="EtcItem" name="Compressed Package of Blessed Spiritshots: D-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="750" />
@@ -438,6 +486,7 @@
 		<set name="item_skill" val="2091-1" />
 	</item>
 	<item id="5148" type="EtcItem" name="Compressed Package of Blessed Spiritshots: C-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="450" />
@@ -446,6 +495,7 @@
 		<set name="item_skill" val="2092-1" />
 	</item>
 	<item id="5149" type="EtcItem" name="Compressed Package of Blessed Spiritshots: B-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="450" />
@@ -454,6 +504,7 @@
 		<set name="item_skill" val="2093-1" />
 	</item>
 	<item id="5150" type="EtcItem" name="Compressed Package of Blessed Spiritshots: A-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="300" />
@@ -462,6 +513,7 @@
 		<set name="item_skill" val="2094-1" />
 	</item>
 	<item id="5151" type="EtcItem" name="Compressed Package of Blessed Spiritshots: S-grade">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="300" />
@@ -470,10 +522,12 @@
 		<set name="item_skill" val="2095-1" />
 	</item>
 	<item id="5152" type="EtcItem" name="Magic Compressor">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="5153" type="EtcItem" name="Recipe: Soulshot (D) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -483,6 +537,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5154" type="EtcItem" name="Recipe: Soulshot (C) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -492,6 +547,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5155" type="EtcItem" name="Recipe: Soulshot (B) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -501,6 +557,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5156" type="EtcItem" name="Recipe: Soulshot (A) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -510,6 +567,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5157" type="EtcItem" name="Recipe: Soulshot (S) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -519,6 +577,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5158" type="EtcItem" name="Recipe: Spiritshot (D) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -528,6 +587,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5159" type="EtcItem" name="Recipe: Spiritshot (C) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -537,6 +597,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5160" type="EtcItem" name="Recipe: Spiritshot (B) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -546,6 +607,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5161" type="EtcItem" name="Recipe: Spiritshot (A) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -555,6 +617,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5162" type="EtcItem" name="Recipe: Spiritshot (S) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -564,6 +627,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5163" type="EtcItem" name="Recipe: Blessed Spiritshot (D) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -573,6 +637,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5164" type="EtcItem" name="Recipe: Blessed Spiritshot (C) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -582,6 +647,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5165" type="EtcItem" name="Recipe: Blessed Spiritshot (B) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -591,6 +657,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5166" type="EtcItem" name="Recipe: Blessed Spiritshot (A) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -600,6 +667,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5167" type="EtcItem" name="Recipe: Blessed Spiritshot (S) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -609,6 +677,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="5168" type="EtcItem" name="Food for Strider">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="40" />
@@ -620,6 +689,7 @@
 		<set name="use_condition" val="{{uc_category;{@strider}}}" />
 	</item>
 	<item id="5169" type="EtcItem" name="Deluxe Food for Strider">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="30" />
@@ -631,6 +701,7 @@
 		<set name="use_condition" val="{{uc_category;{@strider}}}" />
 	</item>
 	<item id="5170" type="Armor" name="Mithril Panzer Coat">
+		<set name="icon" val="icon.etc_pet_armor_i08" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -643,6 +714,7 @@
 		</for>
 	</item>
 	<item id="5171" type="Armor" name="Brigadine Panzer Coat">
+		<set name="icon" val="icon.etc_pet_armor_i09" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -655,6 +727,7 @@
 		</for>
 	</item>
 	<item id="5172" type="Armor" name="Draconic Panzer Coat">
+		<set name="icon" val="icon.etc_pet_armor_i09" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -667,6 +740,7 @@
 		</for>
 	</item>
 	<item id="5173" type="Armor" name="Blood Panzer Coat">
+		<set name="icon" val="icon.etc_pet_armor_i10" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -679,6 +753,7 @@
 		</for>
 	</item>
 	<item id="5174" type="Armor" name="Ophidian Panzer Coat">
+		<set name="icon" val="icon.etc_pet_armor_i10" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -691,6 +766,7 @@
 		</for>
 	</item>
 	<item id="5175" type="Armor" name="Inferno Panzer Coat">
+		<set name="icon" val="icon.etc_pet_armor_i11" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -703,6 +779,7 @@
 		</for>
 	</item>
 	<item id="5176" type="Weapon" name="Serpentine Spike">
+		<set name="icon" val="icon.etc_pet_arms_i08" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -722,6 +799,7 @@
 		</for>
 	</item>
 	<item id="5177" type="Weapon" name="Drake Horn">
+		<set name="icon" val="icon.etc_pet_arms_i09" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -741,6 +819,7 @@
 		</for>
 	</item>
 	<item id="5178" type="Weapon" name="Assult Alicorn">
+		<set name="icon" val="icon.etc_pet_arms_i09" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -760,6 +839,7 @@
 		</for>
 	</item>
 	<item id="5179" type="Weapon" name="Draconic Slicer">
+		<set name="icon" val="icon.etc_pet_arms_i10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -779,6 +859,7 @@
 		</for>
 	</item>
 	<item id="5180" type="Weapon" name="Ohpdian Lance">
+		<set name="icon" val="icon.etc_pet_arms_i10" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -798,6 +879,7 @@
 		</for>
 	</item>
 	<item id="5181" type="Weapon" name="Diamond Drill">
+		<set name="icon" val="icon.etc_pet_arms_i11" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="strider" />
@@ -817,6 +899,7 @@
 		</for>
 	</item>
 	<item id="5182" type="Armor" name="Hatchling's Gorgon Coat">
+		<set name="icon" val="icon.etc_pet_armor_i05" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -829,6 +912,7 @@
 		</for>
 	</item>
 	<item id="5183" type="Armor" name="Hatchling's Ophidian Plate">
+		<set name="icon" val="icon.etc_pet_armor_i05" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -841,6 +925,7 @@
 		</for>
 	</item>
 	<item id="5184" type="Armor" name="Hatchling's Crimson Plate">
+		<set name="icon" val="icon.etc_pet_armor_i06" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -853,6 +938,7 @@
 		</for>
 	</item>
 	<item id="5185" type="Armor" name="Hatchling's Draconic Plate">
+		<set name="icon" val="icon.etc_pet_armor_i06" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -865,6 +951,7 @@
 		</for>
 	</item>
 	<item id="5186" type="Armor" name="Hatchling's Inferno Plate">
+		<set name="icon" val="icon.etc_pet_armor_i07" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -877,6 +964,7 @@
 		</for>
 	</item>
 	<item id="5187" type="Weapon" name="Serpentine Grinder">
+		<set name="icon" val="icon.etc_pet_arms_i05" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -896,6 +984,7 @@
 		</for>
 	</item>
 	<item id="5188" type="Weapon" name="Fang of Dahak">
+		<set name="icon" val="icon.etc_pet_arms_i05" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -915,6 +1004,7 @@
 		</for>
 	</item>
 	<item id="5189" type="Weapon" name="Crimson Blood Fang">
+		<set name="icon" val="icon.etc_pet_arms_i06" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -934,6 +1024,7 @@
 		</for>
 	</item>
 	<item id="5190" type="Weapon" name="Draconic Chopper">
+		<set name="icon" val="icon.etc_pet_arms_i06" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -953,6 +1044,7 @@
 		</for>
 	</item>
 	<item id="5191" type="Weapon" name="Diabolic Grinder">
+		<set name="icon" val="icon.etc_pet_arms_i07" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="PET" />
 		<set name="bodypart" val="hatchling" />
@@ -972,36 +1064,42 @@
 		</for>
 	</item>
 	<item id="5192" type="EtcItem" name="Rope of Magic: D-Grade">
+		<set name="icon" val="icon.etc_braided_hemp_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
 		<set name="price" val="100" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5193" type="EtcItem" name="Rope of Magic: C-Grade">
+		<set name="icon" val="icon.etc_braided_hemp_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
 		<set name="price" val="150" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5194" type="EtcItem" name="Rope of Magic: B-Grade">
+		<set name="icon" val="icon.etc_braided_hemp_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
 		<set name="price" val="250" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5195" type="EtcItem" name="Rope of Magic: A-Grade">
+		<set name="icon" val="icon.etc_braided_hemp_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
 		<set name="price" val="400" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5196" type="EtcItem" name="Rope of Magic: S Grade">
+		<set name="icon" val="icon.etc_braided_hemp_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="2" />
 		<set name="price" val="1500" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="5197" type="EtcItem" name="Chest Key - Grade 8">
+		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="10" />
@@ -1012,6 +1110,7 @@
 		<set name="item_skill" val="2065-1" />
 	</item>
 	<item id="5198" type="EtcItem" name="Chest Key - Grade 7">
+		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="10" />
@@ -1022,6 +1121,7 @@
 		<set name="item_skill" val="2065-2" />
 	</item>
 	<item id="5199" type="EtcItem" name="Chest Key - Grade 6">
+		<set name="icon" val="icon.etc_key_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="10" />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="600" type="Armor" name="Avadon Boots">
+		<set name="icon" val="icon.armor_t66_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="B" />
@@ -14,6 +15,7 @@
 		</for>
 	</item>
 	<item id="601" type="Armor" name="Boots of Doom">
+		<set name="icon" val="icon.armor_t71_b_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="B" />
@@ -27,6 +29,7 @@
 		</for>
 	</item>
 	<item id="602" type="Armor" name="Boots of Pledge">
+		<set name="icon" val="icon.armor_iron_boots_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="B" />
@@ -40,6 +43,7 @@
 		</for>
 	</item>
 	<item id="603" type="Armor" name="Divine Boots">
+		<set name="icon" val="icon.armor_t67_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="C" />
@@ -53,6 +57,7 @@
 		</for>
 	</item>
 	<item id="604" type="Armor" name="Crafted Leather Gloves">
+		<set name="icon" val="icon.armor_t09_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
@@ -66,6 +71,7 @@
 		</for>
 	</item>
 	<item id="605" type="Armor" name="Leather Gauntlets">
+		<set name="icon" val="icon.armor_t18_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
@@ -79,6 +85,7 @@
 		</for>
 	</item>
 	<item id="606" type="Armor" name="Rip Gauntlets">
+		<set name="icon" val="icon.armor_t40_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
@@ -92,6 +99,7 @@
 		</for>
 	</item>
 	<item id="607" type="Armor" name="Ogre Power Gauntlets">
+		<set name="icon" val="icon.armor_t45_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
@@ -105,6 +113,7 @@
 		</for>
 	</item>
 	<item id="608" type="Armor" name="Mithril Gauntlets">
+		<set name="icon" val="icon.armor_t61_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="C" />
@@ -118,6 +127,7 @@
 		</for>
 	</item>
 	<item id="609" type="Armor" name="Gauntlets of Ghost">
+		<set name="icon" val="icon.armor_gauntlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="C" />
@@ -131,6 +141,7 @@
 		</for>
 	</item>
 	<item id="610" type="Armor" name="Saint Knight's Gauntlets">
+		<set name="icon" val="icon.armor_gauntlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="B" />
@@ -144,6 +155,7 @@
 		</for>
 	</item>
 	<item id="611" type="Armor" name="Soul Leech Gauntlets">
+		<set name="icon" val="icon.armor_gauntlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="B" />
@@ -157,6 +169,7 @@
 		</for>
 	</item>
 	<item id="612" type="Armor" name="Zubei's Gauntlets">
+		<set name="icon" val="icon.armor_t64_g_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="B" />
@@ -170,6 +183,7 @@
 		</for>
 	</item>
 	<item id="613" type="Armor" name="Sand Dragon Gloves">
+		<set name="icon" val="icon.armor_gauntlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="A" />
@@ -183,6 +197,7 @@
 		</for>
 	</item>
 	<item id="614" type="Armor" name="Knight's Cloak">
+		<set name="icon" val="icon.armor_back04" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="D" />
@@ -196,6 +211,7 @@
 		</for>
 	</item>
 	<item id="615" type="Armor" name="Cobweb Cloak">
+		<set name="icon" val="icon.armor_back05" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="D" />
@@ -209,6 +225,7 @@
 		</for>
 	</item>
 	<item id="616" type="Armor" name="Cloak of Magic">
+		<set name="icon" val="icon.armor_back06" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="D" />
@@ -222,6 +239,7 @@
 		</for>
 	</item>
 	<item id="617" type="Armor" name="Mithril Cloak">
+		<set name="icon" val="icon.armor_back07" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="D" />
@@ -235,6 +253,7 @@
 		</for>
 	</item>
 	<item id="618" type="Armor" name="Cloak of Self Protection">
+		<set name="icon" val="icon.armor_back08" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="C" />
@@ -248,6 +267,7 @@
 		</for>
 	</item>
 	<item id="619" type="Armor" name="Ancient Cloak">
+		<set name="icon" val="icon.armor_back09" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="C" />
@@ -261,6 +281,7 @@
 		</for>
 	</item>
 	<item id="620" type="Armor" name="Cloak of Protection">
+		<set name="icon" val="icon.armor_back09" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="C" />
@@ -274,6 +295,7 @@
 		</for>
 	</item>
 	<item id="621" type="Armor" name="Cloak of Hell">
+		<set name="icon" val="icon.armor_back09" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="B" />
@@ -287,6 +309,7 @@
 		</for>
 	</item>
 	<item id="622" type="Armor" name="Holy Spirit's Cloak">
+		<set name="icon" val="icon.armor_back09" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="A" />
@@ -300,6 +323,7 @@
 		</for>
 	</item>
 	<item id="623" type="Armor" name="Divine Cloak">
+		<set name="icon" val="icon.armor_back09" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="A" />
@@ -313,6 +337,7 @@
 		</for>
 	</item>
 	<item id="624" type="Armor" name="Cloak of Invisibility">
+		<set name="icon" val="icon.armor_back09" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="material" val="CLOTH" />
@@ -324,6 +349,7 @@
 		</for>
 	</item>
 	<item id="625" type="Armor" name="Bone Shield">
+		<set name="icon" val="icon.shield_bone_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="BONE" />
@@ -337,6 +363,7 @@
 		</for>
 	</item>
 	<item id="626" type="Armor" name="Bronze Shield">
+		<set name="icon" val="icon.shield_bronze_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="D" />
@@ -352,6 +379,7 @@
 		</for>
 	</item>
 	<item id="627" type="Armor" name="Aspis">
+		<set name="icon" val="icon.shield_aspis_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="D" />
@@ -367,6 +395,7 @@
 		</for>
 	</item>
 	<item id="628" type="Armor" name="Hoplon">
+		<set name="icon" val="icon.shield_hoplon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="D" />
@@ -382,6 +411,7 @@
 		</for>
 	</item>
 	<item id="629" type="Armor" name="Kite Shield">
+		<set name="icon" val="icon.shield_kite_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="D" />
@@ -397,6 +427,7 @@
 		</for>
 	</item>
 	<item id="630" type="Armor" name="Square Shield">
+		<set name="icon" val="icon.shield_square_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="D" />
@@ -412,6 +443,7 @@
 		</for>
 	</item>
 	<item id="631" type="Armor" name="Eldarake">
+		<set name="icon" val="icon.shield_eldarake_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="C" />
@@ -427,6 +459,7 @@
 		</for>
 	</item>
 	<item id="632" type="Armor" name="Knight's Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="C" />
@@ -442,6 +475,7 @@
 		</for>
 	</item>
 	<item id="633" type="Armor" name="Zubei's Shield">
+		<set name="icon" val="icon.shield_shrnoens_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -457,6 +491,7 @@
 		</for>
 	</item>
 	<item id="634" type="Armor" name="Dragon Shield">
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="S" />
@@ -473,6 +508,7 @@
 		</for>
 	</item>
 	<item id="635" type="Armor" name="Wolf Shield">
+		<set name="icon" val="icon.shield_small_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -488,6 +524,7 @@
 		</for>
 	</item>
 	<item id="636" type="Armor" name="Shining Dragon Shield">
+		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -503,6 +540,7 @@
 		</for>
 	</item>
 	<item id="637" type="Armor" name="Shield of Valor">
+		<set name="icon" val="icon.shield_small_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -518,6 +556,7 @@
 		</for>
 	</item>
 	<item id="638" type="Armor" name="Glorious Shield">
+		<set name="icon" val="icon.shield_shield_of_victory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -533,6 +572,7 @@
 		</for>
 	</item>
 	<item id="639" type="Armor" name="Red Flame Shield">
+		<set name="icon" val="icon.shield_tower_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -548,6 +588,7 @@
 		</for>
 	</item>
 	<item id="640" type="Armor" name="Elven Crystal Shield">
+		<set name="icon" val="icon.shield_masterpiece_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -563,6 +604,7 @@
 		</for>
 	</item>
 	<item id="641" type="Armor" name="Dark Crystal Shield">
+		<set name="icon" val="icon.shield_dark_crystal_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="A" />
@@ -578,6 +620,7 @@
 		</for>
 	</item>
 	<item id="642" type="Armor" name="Elven Vagian Shield">
+		<set name="icon" val="icon.shield_shield_of_victory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -593,6 +636,7 @@
 		</for>
 	</item>
 	<item id="643" type="Armor" name="Dark Vagian Shield">
+		<set name="icon" val="icon.shield_shield_of_victory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -608,6 +652,7 @@
 		</for>
 	</item>
 	<item id="644" type="Armor" name="Hell Shield">
+		<set name="icon" val="icon.shield_shield_of_grace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -623,6 +668,7 @@
 		</for>
 	</item>
 	<item id="645" type="Armor" name="Art of Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -638,6 +684,7 @@
 		</for>
 	</item>
 	<item id="646" type="Armor" name="Shield of Silence">
+		<set name="icon" val="icon.shield_shield_of_assistance_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -653,6 +700,7 @@
 		</for>
 	</item>
 	<item id="647" type="Armor" name="Gust Shield">
+		<set name="icon" val="icon.shield_shield_of_grace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -668,6 +716,7 @@
 		</for>
 	</item>
 	<item id="648" type="Armor" name="Prairie Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -683,6 +732,7 @@
 		</for>
 	</item>
 	<item id="649" type="Armor" name="Shield of The Underworld">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -698,6 +748,7 @@
 		</for>
 	</item>
 	<item id="650" type="Armor" name="Shield of Concentration">
+		<set name="icon" val="icon.shield_shield_of_grace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -713,6 +764,7 @@
 		</for>
 	</item>
 	<item id="651" type="Armor" name="Ace's Shield">
+		<set name="icon" val="icon.shield_shield_of_assistance_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -728,6 +780,7 @@
 		</for>
 	</item>
 	<item id="652" type="Armor" name="Guardian's Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -743,6 +796,7 @@
 		</for>
 	</item>
 	<item id="653" type="Armor" name="Marksman Shield">
+		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -758,6 +812,7 @@
 		</for>
 	</item>
 	<item id="654" type="Armor" name="Shield of Mana">
+		<set name="icon" val="icon.shield_shield_of_pledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -773,6 +828,7 @@
 		</for>
 	</item>
 	<item id="655" type="Armor" name="Sage's Shield">
+		<set name="icon" val="icon.shield_sages_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -788,6 +844,7 @@
 		</for>
 	</item>
 	<item id="656" type="Armor" name="Paradia Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -803,6 +860,7 @@
 		</for>
 	</item>
 	<item id="657" type="Armor" name="Inferno Shield">
+		<set name="icon" val="icon.shield_shield_of_victory_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -818,6 +876,7 @@
 		</for>
 	</item>
 	<item id="658" type="Armor" name="Shield of Black Ore">
+		<set name="icon" val="icon.shield_composite_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -833,6 +892,7 @@
 		</for>
 	</item>
 	<item id="659" type="Armor" name="Shield of Summoning">
+		<set name="icon" val="icon.shield_shield_of_sola_eclipse_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -848,6 +908,7 @@
 		</for>
 	</item>
 	<item id="660" type="Armor" name="Otherworldly Shield">
+		<set name="icon" val="icon.shield_round_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -863,6 +924,7 @@
 		</for>
 	</item>
 	<item id="661" type="Armor" name="Elemental Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -878,6 +940,7 @@
 		</for>
 	</item>
 	<item id="662" type="Armor" name="Shield of Phantom">
+		<set name="icon" val="icon.shield_shield_of_assistance_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -893,6 +956,7 @@
 		</for>
 	</item>
 	<item id="663" type="Armor" name="Shield of Grace">
+		<set name="icon" val="icon.shield_leather_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -908,6 +972,7 @@
 		</for>
 	</item>
 	<item id="664" type="Armor" name="Shield of Holy Spirit">
+		<set name="icon" val="icon.shield_composite_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -923,6 +988,7 @@
 		</for>
 	</item>
 	<item id="665" type="Armor" name="Phoenix Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -938,6 +1004,7 @@
 		</for>
 	</item>
 	<item id="666" type="Armor" name="Cerberus Shield">
+		<set name="icon" val="icon.shield_doom_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -953,6 +1020,7 @@
 		</for>
 	</item>
 	<item id="667" type="Armor" name="Shield of Aid">
+		<set name="icon" val="icon.shield_shield_of_assistance_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -968,6 +1036,7 @@
 		</for>
 	</item>
 	<item id="668" type="Armor" name="Shield of Blessing">
+		<set name="icon" val="icon.shield_shield_of_pledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -983,6 +1052,7 @@
 		</for>
 	</item>
 	<item id="669" type="Armor" name="Flame Shield">
+		<set name="icon" val="icon.shield_composite_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -998,6 +1068,7 @@
 		</for>
 	</item>
 	<item id="670" type="Armor" name="Shield of Bravery">
+		<set name="icon" val="icon.shield_shield_of_assistance_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -1013,6 +1084,7 @@
 		</for>
 	</item>
 	<item id="671" type="Armor" name="Blood Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -1028,6 +1100,7 @@
 		</for>
 	</item>
 	<item id="672" type="Armor" name="Absolute Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -1043,6 +1116,7 @@
 		</for>
 	</item>
 	<item id="673" type="Armor" name="Avadon Shield">
+		<set name="icon" val="icon.shield_avadon_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -1058,6 +1132,7 @@
 		</for>
 	</item>
 	<item id="674" type="Armor" name="Divine Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="crystal_type" val="B" />
@@ -1073,6 +1148,7 @@
 		</for>
 	</item>
 	<item id="675" type="Armor" name="Silk Yarn Undergarment Set">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="material" val="CLOTH" />
@@ -1083,6 +1159,7 @@
 		</for>
 	</item>
 	<item id="676" type="Armor" name="Pure White Undergarment Set">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="material" val="CLOTH" />
@@ -1093,6 +1170,7 @@
 		</for>
 	</item>
 	<item id="677" type="Armor" name="One-Piece Swimsuit">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="D" />
@@ -1106,6 +1184,7 @@
 		</for>
 	</item>
 	<item id="678" type="Armor" name="Bikini Set">
+		<set name="icon" val="icon.armor_underwear02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="D" />
@@ -1119,6 +1198,7 @@
 		</for>
 	</item>
 	<item id="679" type="Armor" name="Cursed Undergarment Set">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="D" />
@@ -1132,6 +1212,7 @@
 		</for>
 	</item>
 	<item id="680" type="Armor" name="Mithril Undergarment Set">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="C" />
@@ -1145,6 +1226,7 @@
 		</for>
 	</item>
 	<item id="681" type="Armor" name="Fascination Undergarment Set">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="C" />
@@ -1158,6 +1240,7 @@
 		</for>
 	</item>
 	<item id="682" type="Armor" name="Demon's Undergarment Set">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="C" />
@@ -1171,6 +1254,7 @@
 		</for>
 	</item>
 	<item id="683" type="Armor" name="Holy Undergarment Set">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="B" />
@@ -1184,6 +1268,7 @@
 		</for>
 	</item>
 	<item id="684" type="Armor" name="Underwear of Rule">
+		<set name="icon" val="icon.armor_underwear02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="A" />
@@ -1197,6 +1282,7 @@
 		</for>
 	</item>
 	<item id="685" type="Armor" name="Crystal Swimsuit Set">
+		<set name="icon" val="icon.armor_underwear02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="crystal_type" val="S" />
@@ -1210,11 +1296,13 @@
 		</for>
 	</item>
 	<item id="686" type="EtcItem" name="Chair">
+		<set name="icon" val="icon.etc_branch_blue_i00" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="100" />
 		<set name="price" val="1000" />
 	</item>
 	<item id="687" type="EtcItem" name="Darin's Letter">
+		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1223,6 +1311,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="688" type="EtcItem" name="Roxxy's Kerchief">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
 		<set name="material" val="CLOTH" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1231,6 +1320,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="689" type="EtcItem" name="Poetry Book">
+		<set name="icon" val="icon.etc_spell_books_red_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1239,6 +1329,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="690" type="EtcItem" name="Lyrics Book">
+		<set name="icon" val="icon.item_normal06" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1247,6 +1338,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="691" type="EtcItem" name="Romance Novel">
+		<set name="icon" val="icon.item_normal07" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1255,6 +1347,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="692" type="EtcItem" name="Arujien's Letter">
+		<set name="icon" val="icon.item_canuse37" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1263,6 +1356,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="693" type="EtcItem" name="Greenis's Letter">
+		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1271,6 +1365,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="694" type="EtcItem" name="Ingredient List">
+		<set name="icon" val="icon.item_normal37" />
 		<set name="material" val="PAPER" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1279,6 +1374,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="695" type="EtcItem" name="Omen Beast's Blood">
+		<set name="icon" val="icon.item_canuse48" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1288,6 +1384,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="696" type="EtcItem" name="Mana Seeker's Husk">
+		<set name="icon" val="icon.item_normal30" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1297,6 +1394,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="697" type="EtcItem" name="Gargoyle's Horn">
+		<set name="icon" val="icon.item_normal24" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1306,6 +1404,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="698" type="EtcItem" name="Gilbert's List">
+		<set name="icon" val="icon.item_normal37" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -1314,6 +1413,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="699" type="EtcItem" name="Orc's Nose">
+		<set name="icon" val="icon.item_canuse05" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="9200" type="Armor" name="Jester Hat - Firework">
+		<set name="icon" val="icon.accessory_jester_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -13,6 +14,7 @@
 		<set name="duration" val="300" />
 	</item>
 	<item id="9201" type="Armor" name="Wizard Hat - Firework">
+		<set name="icon" val="icon.accessory_magic_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -25,6 +27,7 @@
 		<set name="duration" val="300" />
 	</item>
 	<item id="9202" type="Armor" name="Dapper Hat - Firework">
+		<set name="icon" val="icon.accessory_dandy_cap_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -37,6 +40,7 @@
 		<set name="duration" val="300" />
 	</item>
 	<item id="9203" type="Armor" name="Romantic Chapeau - Firework">
+		<set name="icon" val="icon.accessory_romantic_chaperon_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -49,6 +53,7 @@
 		<set name="duration" val="300" />
 	</item>
 	<item id="9204" type="Armor" name="Iron Circlet - Firework">
+		<set name="icon" val="icon.accessory_iron_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
@@ -61,6 +66,7 @@
 		<set name="duration" val="300" />
 	</item>
 	<item id="9205" type="EtcItem" name="Alchemist's Chest Key  (Event)">
+		<set name="icon" val="icon.etc_old_key_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="10" />
@@ -69,6 +75,7 @@
 		<set name="item_skill" val="2322-1" />
 	</item>
 	<item id="9206" type="EtcItem" name="Greater Healing Potion (Event)">
+		<set name="icon" val="icon.etc_reagent_white_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
@@ -82,6 +89,7 @@
 		<set name="shared_reuse_group" val="10" />
 	</item>
 	<item id="9207" type="EtcItem" name="Quick Healing Potion (Event)">
+		<set name="icon" val="icon.etc_potion_gold_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
@@ -94,6 +102,7 @@
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
 	<item id="9208" type="Armor" name="Phantom Mask (Event)">
+		<set name="icon" val="icon.accessary_mask_of_chaotic_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />

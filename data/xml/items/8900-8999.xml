@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="8900" type="EtcItem" name="Ancient Spellbook: Cyclone">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 	</item>
 	<item id="8901" type="EtcItem" name="Ancient Spellbook: Raging Waves">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 	</item>
 	<item id="8902" type="EtcItem" name="Ancient Spellbook: Day of Doom">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 	</item>
 	<item id="8903" type="EtcItem" name="Ancient Spellbook: Gehenna">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 	</item>
 	<item id="8904" type="EtcItem" name="Ancient Spellbook: Anti-Summoning Field">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 	</item>
 	<item id="8905" type="EtcItem" name="Ancient Spellbook: Purification Field">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 	</item>
 	<item id="8906" type="EtcItem" name="Ancient Spellbook: Miracle">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 	</item>
 	<item id="8907" type="EtcItem" name="Ancient Spellbook: Flames of Invincibility">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 	</item>
 	<item id="8908" type="EtcItem" name="Ancient Spellbook: Mass Recharge">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 	</item>
 	<item id="8909" type="EtcItem" name="Blueprint: Summon Swoop Cannon">
+		<set name="icon" val="icon.etc_plan_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="9600" />
 	</item>
 	<item id="8910" type="Armor" name="Black Feather Mask (Event)">
+		<set name="icon" val="icon.accessary_black_feather_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="STEEL" />
@@ -51,12 +62,14 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="8911" type="Armor" name="Black Half-Mask (Event)">
+		<set name="icon" val="icon.Accessary_black_half_mask_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="face" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8912" type="Armor" name="Single Stem Flower">
+		<set name="icon" val="icon.accessory_hairpin_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
 		<set name="material" val="STEEL" />
@@ -66,6 +79,7 @@
 		</cond>
 	</item>
 	<item id="8913" type="Armor" name="Butterfly Hairpin">
+		<set name="icon" val="icon.Accessary_butterfly_hearpin_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
 		<set name="material" val="STEEL" />
@@ -75,24 +89,28 @@
 		</cond>
 	</item>
 	<item id="8914" type="Armor" name="Luxurious Gold Circlet">
+		<set name="icon" val="icon.Accessary_gold_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8915" type="Armor" name="Luxurious Silver Circlet">
+		<set name="icon" val="icon.Accessary_gold_circlet_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8916" type="Armor" name="Eye Patch">
+		<set name="icon" val="icon.Accessary_one_eye_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="face" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8917" type="Armor" name="Goddess Circlet">
+		<set name="icon" val="icon.Accessary_goddess_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="STEEL" />
@@ -102,12 +120,14 @@
 		</cond>
 	</item>
 	<item id="8918" type="Armor" name="Leather Cap">
+		<set name="icon" val="icon.Accessary_middle_ages_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8919" type="Armor" name="First Mate's Hat - Event Use">
+		<set name="icon" val="icon.Accessary_middle_ages_i01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="STEEL" />
@@ -117,24 +137,28 @@
 		<set name="is_sellable" val="false" />
 	</item>
 	<item id="8920" type="Armor" name="Angel Halo">
+		<set name="icon" val="icon.Accessary_angel_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8921" type="Armor" name="Demon Circlet">
+		<set name="icon" val="icon.Accessary_demon_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8922" type="Armor" name="Pirate Hat">
+		<set name="icon" val="icon.Accessary_sea_robber_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="STEEL" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8923" type="Armor" name="Scar">
+		<set name="icon" val="icon.Accessary_scar_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="face" />
 		<set name="material" val="STEEL" />
@@ -144,17 +168,20 @@
 		</cond>
 	</item>
 	<item id="8924" type="EtcItem" name="Boat Ticket: Primeval Isle to Rune.">
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="20" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8925" type="EtcItem" name="Boat Ticket: Rune to Primeval Isle.">
+		<set name="icon" val="icon.etc_ticket_blue_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="20" />
 		<set name="price" val="25000" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8926" type="Weapon" name="Shadow Item: Sword of Delusion">
+		<set name="icon" val="icon.time_weapon_sword_of_delusion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -178,6 +205,7 @@
 		</for>
 	</item>
 	<item id="8927" type="Weapon" name="Shadow Item: Poleaxe">
+		<set name="icon" val="icon.time_weapon_poleaxe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -203,6 +231,7 @@
 		</for>
 	</item>
 	<item id="8928" type="Weapon" name="Shadow Item: Stick of Eternity">
+		<set name="icon" val="icon.time_weapon_stick_of_eternity_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
@@ -228,6 +257,7 @@
 		</for>
 	</item>
 	<item id="8929" type="Weapon" name="Shadow Item: Inferno Staff">
+		<set name="icon" val="icon.time_weapon_inferno_staff_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -253,6 +283,7 @@
 		</for>
 	</item>
 	<item id="8930" type="Weapon" name="Shadow Item: Pa'agrian Hammer">
+		<set name="icon" val="icon.time_weapon_paagrio_hammer_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -278,6 +309,7 @@
 		</for>
 	</item>
 	<item id="8931" type="Weapon" name="Shadow Item: Dark Screamer">
+		<set name="icon" val="icon.time_weapon_dark_screamer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -302,6 +334,7 @@
 		</for>
 	</item>
 	<item id="8932" type="Weapon" name="Shadow Item: Akat Long Bow">
+		<set name="icon" val="icon.time_weapon_akat_long_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
@@ -328,6 +361,7 @@
 		</for>
 	</item>
 	<item id="8933" type="Weapon" name="Shadow Item: Pa'agrian Sword">
+		<set name="icon" val="icon.time_weapon_sword_of_paagrio_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGSWORD" />
 		<set name="bodypart" val="lrhand" />
@@ -351,6 +385,7 @@
 		</for>
 	</item>
 	<item id="8934" type="Weapon" name="Shadow Item: Fisted Blade">
+		<set name="icon" val="icon.time_weapon_fist_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
@@ -375,6 +410,7 @@
 		</for>
 	</item>
 	<item id="8935" type="Weapon" name="Test Rapier">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -395,12 +431,14 @@
 		</for>
 	</item>
 	<item id="8936" type="Armor" name="Santa's Antlers">
+		<set name="icon" val="icon.accessory_santas_antler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8937" type="Weapon" name="Shadow Item: Stormbringer">
+		<set name="icon" val="icon.time_weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
@@ -424,6 +462,7 @@
 		</for>
 	</item>
 	<item id="8938" type="Weapon" name="Damascus * Tallum Blade">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
@@ -449,86 +488,102 @@
 		</for>
 	</item>
 	<item id="8939" type="EtcItem" name="Dominic's Mark">
+		<set name="icon" val="icon.etc_leash_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="8940" type="EtcItem" name="Mark of the Future: Human">
+		<set name="icon" val="icon.etc_jewel_green_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="8941" type="EtcItem" name="Mark of the Future: Dwarf">
+		<set name="icon" val="icon.etc_jewel_gold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="8942" type="EtcItem" name="Mark of the Future: Elf">
+		<set name="icon" val="icon.etc_jewel_silver_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="8943" type="EtcItem" name="Mark of the Future: Dark Elf">
+		<set name="icon" val="icon.etc_jewel_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="8944" type="EtcItem" name="Mark of the Future: Orc">
+		<set name="icon" val="icon.etc_jewel_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_stackable" val="true" />
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="8945" type="EtcItem" name="Spellbook: Celestial Shield">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="8100" />
 	</item>
 	<item id="8946" type="EtcItem" name="Spellbook: Invocation">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="6250" />
 	</item>
 	<item id="8947" type="Armor" name="L2 Day: Rabbit Ears">
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8948" type="Armor" name="L2 Day: Little Angel Wings">
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8949" type="Armor" name="L2 Day: Fairy Antennae">
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hair" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8950" type="Armor" name="L2 Day: Feathered Hat">
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8951" type="Armor" name="L2 Day: Artisan's Goggles">
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="hairall" />
 		<set name="material" val="WOOD" />
 		<set name="weight" val="10" />
 	</item>
 	<item id="8952" type="EtcItem" name="Greater Herb of Life">
+		<set name="icon" val="" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2278-2" />
 	</item>
 	<item id="8953" type="EtcItem" name="Greater Herb of Mana">
+		<set name="icon" val="" />
 		<set name="material" val="PAPER" />
 		<set name="handler" val="ItemSkills" />
 		<set name="item_skill" val="2279-2" />
 	</item>
 	<item id="8954" type="EtcItem" name="Blue Primeval Crystal">
+		<set name="icon" val="icon.etc_sp_crystal_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="crystal_type" val="S" />
@@ -541,6 +596,7 @@
 		<set name="item_skill" val="2306-1" />
 	</item>
 	<item id="8955" type="EtcItem" name="Green Primeval Crystal">
+		<set name="icon" val="icon.etc_sp_crystal_i02" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="crystal_type" val="S" />
@@ -553,6 +609,7 @@
 		<set name="item_skill" val="2306-2" />
 	</item>
 	<item id="8956" type="EtcItem" name="Red Primeval Crystal">
+		<set name="icon" val="icon.etc_sp_crystal_i01" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="SCROLL" />
 		<set name="crystal_type" val="S" />
@@ -565,21 +622,25 @@
 		<set name="item_skill" val="2306-3" />
 	</item>
 	<item id="8957" type="EtcItem" name="Attack Orders">
+		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8958" type="EtcItem" name="Defense Orders">
+		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8959" type="EtcItem" name="Supply Orders">
+		<set name="icon" val="icon.etc_lottery_card_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="8960" type="EtcItem" name="No Grade Shadow Armor Set Box">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -588,6 +649,7 @@
 		<set name="item_skill" val="2200-2" />
 	</item>
 	<item id="8961" type="EtcItem" name="D-Grade Shadow Armor Set Box">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -596,6 +658,7 @@
 		<set name="item_skill" val="2200-2" />
 	</item>
 	<item id="8962" type="EtcItem" name="C-Grade Shadow Armor Set Box">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -604,6 +667,7 @@
 		<set name="item_skill" val="2200-2" />
 	</item>
 	<item id="8963" type="EtcItem" name="B-Grade Shadow Armor Set Box">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -612,6 +676,7 @@
 		<set name="item_skill" val="2200-2" />
 	</item>
 	<item id="8964" type="EtcItem" name="A-Grade Shadow Armor Set Box">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -620,6 +685,7 @@
 		<set name="item_skill" val="2200-2" />
 	</item>
 	<item id="8965" type="EtcItem" name="S-Grade Shadow Armor Set Box">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -628,6 +694,7 @@
 		<set name="item_skill" val="2200-2" />
 	</item>
 	<item id="8966" type="EtcItem" name="No Grade Item Set Box (Warrior Use)">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -636,6 +703,7 @@
 		<set name="item_skill" val="2308-25" />
 	</item>
 	<item id="8967" type="EtcItem" name="D Grade Item Set Box (Warrior Use)">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -644,6 +712,7 @@
 		<set name="item_skill" val="2308-26" />
 	</item>
 	<item id="8968" type="EtcItem" name="C Grade Item Set Box (Warrior Use)">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -652,6 +721,7 @@
 		<set name="item_skill" val="2308-27" />
 	</item>
 	<item id="8969" type="EtcItem" name="B Grade Item Set Box (Warrior Use)">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -660,6 +730,7 @@
 		<set name="item_skill" val="2308-28" />
 	</item>
 	<item id="8970" type="EtcItem" name="A Grade Item Set Box (Warrior Use)">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -668,6 +739,7 @@
 		<set name="item_skill" val="2308-29" />
 	</item>
 	<item id="8971" type="EtcItem" name="A, S Grade Item Set Box (Warrior Use)">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
 		<set name="default_action" val="capsule" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="100" />
@@ -676,6 +748,7 @@
 		<set name="item_skill" val="2308-30" />
 	</item>
 	<item id="8972" type="Weapon" name="Shadow Item: Long Spear">
+		<set name="icon" val="icon.weapon_long_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -700,6 +773,7 @@
 		</for>
 	</item>
 	<item id="8973" type="Weapon" name="Shadow Item: Falchion">
+		<set name="icon" val="icon.weapon_falchion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -722,6 +796,7 @@
 		</for>
 	</item>
 	<item id="8974" type="Weapon" name="Shadow Item: Iron Hammer">
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -745,6 +820,7 @@
 		</for>
 	</item>
 	<item id="8975" type="Weapon" name="Shadow Item: Voodoo Doll">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -768,6 +844,7 @@
 		</for>
 	</item>
 	<item id="8976" type="Weapon" name="Shadow Item: Buzdygan">
+		<set name="icon" val="icon.weapon_buzdygan_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -791,6 +868,7 @@
 		</for>
 	</item>
 	<item id="8977" type="Weapon" name="Shadow Item: Mage Staff">
+		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -815,6 +893,7 @@
 		</for>
 	</item>
 	<item id="8978" type="Weapon" name="Shadow Item: Sword Breaker">
+		<set name="icon" val="icon.weapon_sword_breaker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -838,6 +917,7 @@
 		</for>
 	</item>
 	<item id="8979" type="Weapon" name="Shadow Item: Viper's Fang">
+		<set name="icon" val="icon.weapon_vipers_canine_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
@@ -861,6 +941,7 @@
 		</for>
 	</item>
 	<item id="8980" type="Weapon" name="Shadow Item: Composition Bow">
+		<set name="icon" val="icon.weapon_composition_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
@@ -886,6 +967,7 @@
 		</for>
 	</item>
 	<item id="8981" type="Weapon" name="Shadow Item: Crucifix of Blessing">
+		<set name="icon" val="icon.weapon_crucifix_of_blessing_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -909,6 +991,7 @@
 		</for>
 	</item>
 	<item id="8982" type="Weapon" name="Shadow Item: Two Handed Sword">
+		<set name="icon" val="icon.weapon_two_handed_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGSWORD" />
 		<set name="bodypart" val="lrhand" />
@@ -932,6 +1015,7 @@
 		</for>
 	</item>
 	<item id="8983" type="Weapon" name="Shadow Item: Crimson Sword">
+		<set name="icon" val="icon.weapon_crimson_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -955,6 +1039,7 @@
 		</for>
 	</item>
 	<item id="8984" type="Weapon" name="Shadow Item: Spiked Club">
+		<set name="icon" val="icon.weapon_spike_club_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -979,6 +1064,7 @@
 		</for>
 	</item>
 	<item id="8985" type="Weapon" name="Shadow Item: Staff of Magic">
+		<set name="icon" val="icon.weapon_staff_of_magicpower_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -1004,6 +1090,7 @@
 		</for>
 	</item>
 	<item id="8986" type="Weapon" name="Shadow Item: Kukuri">
+		<set name="icon" val="icon.weapon_kukuri_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -1028,6 +1115,7 @@
 		</for>
 	</item>
 	<item id="8987" type="Weapon" name="Shadow Item: Dagger of Mana">
+		<set name="icon" val="icon.weapon_dagger_of_mana_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
@@ -1053,6 +1141,7 @@
 		</for>
 	</item>
 	<item id="8988" type="Weapon" name="Shadow Item: Triple-Edged Jamadhr">
+		<set name="icon" val="icon.weapon_triple-edged_jamadhr_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />
@@ -1077,6 +1166,7 @@
 		</for>
 	</item>
 	<item id="8989" type="Weapon" name="Shadow Item: Gastraphetes">
+		<set name="icon" val="icon.weapon_gastraphetes_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
@@ -1103,6 +1193,7 @@
 		</for>
 	</item>
 	<item id="8990" type="Weapon" name="Shadow Item: War Hammer">
+		<set name="icon" val="icon.weapon_war_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -1128,6 +1219,7 @@
 		</for>
 	</item>
 	<item id="8991" type="Weapon" name="Shadow Item: Sword of Delusion">
+		<set name="icon" val="icon.weapon_sword_of_delusion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1151,6 +1243,7 @@
 		</for>
 	</item>
 	<item id="8992" type="Weapon" name="Shadow Item: Poleaxe">
+		<set name="icon" val="icon.weapon_poleaxe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -1176,6 +1269,7 @@
 		</for>
 	</item>
 	<item id="8993" type="Weapon" name="Shadow Item: Stick of Eternity">
+		<set name="icon" val="icon.weapon_stick_of_eternity_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1201,6 +1295,7 @@
 		</for>
 	</item>
 	<item id="8994" type="Weapon" name="Shadow Item: Inferno Staff">
+		<set name="icon" val="icon.weapon_inferno_staff_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -1226,6 +1321,7 @@
 		</for>
 	</item>
 	<item id="8995" type="Weapon" name="Shadow Item: Pa'agrian Hammer">
+		<set name="icon" val="icon.weapon_paagrio_hammer_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -1251,6 +1347,7 @@
 		</for>
 	</item>
 	<item id="8996" type="Weapon" name="Shadow Item: Dark Screamer">
+		<set name="icon" val="icon.weapon_dark_screamer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -1275,6 +1372,7 @@
 		</for>
 	</item>
 	<item id="8997" type="Weapon" name="Shadow Item: Akat Long Bow">
+		<set name="icon" val="icon.weapon_akat_long_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
@@ -1301,6 +1399,7 @@
 		</for>
 	</item>
 	<item id="8998" type="Weapon" name="Shadow Item: Pa'agrian Sword">
+		<set name="icon" val="icon.weapon_sword_of_paagrio_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGSWORD" />
 		<set name="bodypart" val="lrhand" />
@@ -1324,6 +1423,7 @@
 		</for>
 	</item>
 	<item id="8999" type="Weapon" name="Shadow Item: Fisted Blade">
+		<set name="icon" val="icon.weapon_fist_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUALFIST" />
 		<set name="bodypart" val="lrhand" />

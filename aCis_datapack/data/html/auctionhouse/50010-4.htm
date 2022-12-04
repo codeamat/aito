@@ -1,0 +1,22 @@
+<html><title>Auction Manager - (%item_name%)</title><body><center>
+<img src=L2UI_CH3.herotower_deco width=256 height=32>
+<img src=l2ui.squaregray width=296 height=1>
+<table width=296 bgcolor=000000><tr>
+<td height=40 width=40><button width=32 height=32 back=%item_icon% fore=%item_icon%></td>
+<td width=256>%item_name% %item_enchant%%item_count%<br1>
+<font color=B09878>Price </font> : %item_price%</td>
+</tr><tr><td width=40></td>
+<td width=256><font color=B09878>Time Remain</font> : %item_duration%</td></tr></table>
+<img src=L2UI.SquareGray width=296 height=1>
+<img height=197>
+<img src=L2UI.SquareGray width=270 height=1>
+<table width=270 bgcolor=000000><tr><td width=270 align=center><font color=B09878>Do you want to remove this item?</font></td></tr></table>
+<table width=270 bgcolor=000000><tr>
+<td width=134 align=right><button value="Confirm" action="bypass -h npc_%objectId%_removeMyAuction %auctionId%" width=65 height=19 back=L2UI_ch3.smallbutton2_over fore=L2UI_ch3.smallbutton2></td>
+<td width=134 align=left><button value="Cancel" action="bypass npc_%objectId%_mypage 1" width=65 height=19 back=L2UI_ch3.smallbutton2_over fore=L2UI_ch3.smallbutton2></td>
+</tr></table>
+<img src=L2UI.SquareGray width=270 height=1>
+<img height=10>
+<img src=L2UI.SquareGray width=296 height=1>
+<table width=296 bgcolor=000000><tr><td width=296 align=center>Lineage II SERVER</td></tr></table>
+</center></body></html>

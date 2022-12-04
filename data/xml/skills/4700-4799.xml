@@ -15,6 +15,7 @@
         <set name="hitTime" val="4000" />
         <set name="skillType" val="BUFF" />
         <set name="isMagic" val="true" />
+		<set name="icon" val="icon.skill1331" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="operateType" val="ACTIVE" />
         <set name="aggroPoints" val="#power" />
@@ -31,6 +32,7 @@
 		<table name="#aggroPoints"> 541 611 659 666 669 673 676 679 681 684 687 689 692 </table>
         <table name="#power"> 40 45 50 55 60 65 70 75 80 85 90 95 100 </table>
         <set name="mpConsume" val="#mpConsume" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="power" val="#power" />
         <set name="target" val="PARTY" />
         <set name="skillRadius" val="1000" />
@@ -57,6 +59,7 @@
         <set name="skillType" val="BUFF" />
         <set name="hitTime" val="4000" />
         <set name="reuseDelay" val="8000" />
+		<set name="icon" val="icon.skill1332" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="operateType" val="ACTIVE" />
         <set name="isMagic" val="true" />
@@ -80,6 +83,7 @@
         <set name="skillType" val="BUFF" />
         <set name="hitTime" val="4000" />
         <set name="reuseDelay" val="8000" />
+		<set name="icon" val="icon.skill1332" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="operateType" val="ACTIVE" />
         <set name="isMagic" val="true" />
@@ -101,6 +105,7 @@
         <set name="skillRadius" val="1000" />
         <set name="skillType" val="NEGATE" />
         <set name="hitTime" val="2000" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="ignoreResists" val="true" />
         <set name="reuseDelay" val="8000" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -116,6 +121,7 @@
 		<table name="#pDef"> 0.94 0.92 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 </table>
 		<table name="#mDef"> 0.95 0.92 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 </table>
 		<table name="#stackOrder"> 1 2 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill1333" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="ONE" />
@@ -145,6 +151,7 @@
 		<table name="#pDef"> 0.94 0.92 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 </table>
 		<table name="#mDef"> 0.95 0.92 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 0.9 </table>
 		<table name="#stackOrder"> 1 2 3 3 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill1333" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="AURA" />
@@ -170,6 +177,7 @@
 	    <table name="#magicLvl"> 57 66 75 77 78 79 80 81 82 83 84 85 86 </table>
 		<table name="#hpConsume"> 706 840 946 964 973 980 988 994 1000 1005 1010 1014 1017 </table>
 		<table name="#power"> 588 700 789 804 811 817 823 828 833 838 842 845 848 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="hpConsume" val="#hpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="ONE" />
@@ -193,6 +201,7 @@
         <set name="skillType" val="PDAM" />
         <set name="hitTime" val="2000" />
         <set name="reuseDelay" val="10000" />
+		<set name="icon" val="icon.skill0100" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -210,6 +219,7 @@
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
         <set name="target" val="ONE" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="baseLandRate" val="200" />
         <set name="skillType" val="BLOW" />
         <set name="hitTime" val="2000" />
@@ -230,6 +240,7 @@
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
         <set name="hitTime" val="1100" />
+		<set name="icon" val="icon.skill0100" />
 		<set name="coolTime" val="400" />
         <set name="reuseDelay" val="12000" />
 		<set name="isDebuff" val="true" />
@@ -249,6 +260,7 @@
         <set name="target" val="SELF" />
         <set name="skillType" val="BUFF" />
         <set name="hitTime" val="1100" />
+		<set name="icon" val="icon.skill0110" />
 		<set name="coolTime" val="400" />
         <set name="reuseDelay" val="120000" />
         <set name="operateType" val="ACTIVE" />
@@ -296,18 +308,21 @@
         <set name="aggroPoints" val="#aggro" />
 	</skill>
 	<skill id="4714" levels="1" name="Twilight Dragon">
+		<set name="icon" val="icon.skill1373" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="35" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4715" levels="1" name="Wind Dragon">
+		<set name="icon" val="icon.skill1373" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="35" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4716" levels="1" name="Star Dragon">
+		<set name="icon" val="icon.skill1373" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="35" />
@@ -354,6 +369,7 @@
 	    <table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -373,6 +389,7 @@
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
         <set name="hitTime" val="830" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="coolTime" val="660" />
         <set name="operateType" val="ACTIVE" />
         <set name="castRange" val="40" />
@@ -384,6 +401,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -399,6 +417,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -414,6 +433,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 74 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -433,6 +453,7 @@
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
         <set name="hitTime" val="830" />
+		<set name="icon" val="icon.skill0100" />
 		<set name="coolTime" val="660" />
         <set name="operateType" val="ACTIVE" />
 		<set name="isDebuff" val="true" />
@@ -446,6 +467,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 48 128 352 920 2377 4645 7195 8490 9855 11350 12936 14430 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0100" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -465,6 +487,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 26 68 188 491 1268 2479 3834 4519 5242 6037 6889 7675 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0100" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -484,6 +507,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 24 64 176 461 1189 2326 3598 4245 4928 5682 6461 7215 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0100" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -503,6 +527,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 23 60 165 429 1109 2172 3362 3971 4614 5313 6047 6756 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0100" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -522,6 +547,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 168 453 1251 3265 7446 16511 25566 30178 34864 39544 44350 49193 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="weaponsAllowed" val="DAGGER" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
@@ -539,6 +565,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 142 382 1056 2760 7131 13935 21585 25467 29565 34048 38806 43290 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="weaponsAllowed" val="DAGGER" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
@@ -556,6 +583,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 76 204 563 1473 3804 7437 11500 13555 15724 18112 20667 23023 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="weaponsAllowed" val="DAGGER" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
@@ -576,6 +604,7 @@
         <set name="weaponsAllowed" val="DAGGER" />
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
 		<set name="baseLandRate" val="1150" />
@@ -593,6 +622,7 @@
         <set name="weaponsAllowed" val="DAGGER" />
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
 		<set name="baseLandRate" val="1150" />
@@ -609,6 +639,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="AURA" />
         <set name="skillRadius" val="200" />
@@ -623,6 +654,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="AURA" />
         <set name="skillRadius" val="200" />
@@ -635,6 +667,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 26 68 188 491 1268 2479 3834 4519 5242 6037 6889 7675 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -651,6 +684,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="AURA" />
         <set name="skillRadius" val="200" />
@@ -665,6 +699,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="AURA" />
         <set name="skillRadius" val="200" />
@@ -679,6 +714,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -694,6 +730,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -709,6 +746,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -724,6 +762,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -739,6 +778,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -754,6 +794,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0100" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -771,6 +812,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 48 128 352 920 2377 4645 7195 8490 9855 11350 12936 14430 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0100" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -790,6 +832,7 @@
 		<table name="#mpConsume"> 18 25 35 47 59 72 83 88 91 93 95 96 </table>
 		<table name="#power"> 26 68 188 491 1268 2479 3834 4519 5242 6037 6889 7675 </table>
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
+		<set name="icon" val="icon.skill0100" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -811,6 +854,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0100" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -830,6 +874,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0100" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -850,6 +895,7 @@
         <set name="weaponsAllowed" val="DAGGER" />
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
 		<set name="baseLandRate" val="670" />
@@ -867,6 +913,7 @@
         <set name="weaponsAllowed" val="DAGGER" />
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
 		<set name="baseLandRate" val="670" />
@@ -884,6 +931,7 @@
         <set name="weaponsAllowed" val="DAGGER" />
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
 		<set name="baseLandRate" val="670" />
@@ -901,6 +949,7 @@
         <set name="weaponsAllowed" val="DAGGER" />
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
 		<set name="baseLandRate" val="670" />
@@ -918,6 +967,7 @@
         <set name="weaponsAllowed" val="DAGGER" />
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
 		<set name="baseLandRate" val="670" />
@@ -934,6 +984,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -948,6 +999,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -962,6 +1014,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -976,6 +1029,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -990,6 +1044,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1004,6 +1059,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1022,6 +1078,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1040,6 +1097,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1058,6 +1116,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1076,6 +1135,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1094,6 +1154,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1108,6 +1169,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1135,6 +1197,7 @@
         <table name="#power"> 138 372 1027 2691 6943 13584 21015 24795 28785 33188 37739 42148 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1149,6 +1212,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1167,6 +1231,7 @@
         <set name="skillType" val="PDAM" />
         <set name="hitTime" val="4500" />
         <set name="operateType" val="ACTIVE" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="isDebuff" val="true" />
         <set name="castRange" val="900" />
         <set name="effectRange" val="1400" />
@@ -1180,6 +1245,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1198,6 +1264,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1216,6 +1283,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1234,6 +1302,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0101" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1252,6 +1321,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1266,6 +1336,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1280,6 +1351,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1294,6 +1366,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1308,6 +1381,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="ONE" />
         <set name="skillType" val="PDAM" />
@@ -1322,6 +1396,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="CLAN" />
         <set name="skillType" val="HEAL" />
@@ -1338,6 +1413,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="CLAN" />
         <set name="skillType" val="HEAL" />
@@ -1354,6 +1430,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="CLAN" />
         <set name="skillType" val="HEAL" />
@@ -1370,6 +1447,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
         <set name="target" val="CLAN" />
         <set name="skillType" val="HEAL" />
@@ -1386,6 +1464,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
         <set name="mpConsume" val="#mpConsume" />
         <set name="power" val="#power" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="CLAN" />
         <set name="skillType" val="HEAL" />
@@ -1402,6 +1481,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
 		<table name="#stackOrder"> 11 12 13 14 15 16 17 17 18 18 19 19 </table>
         <set name="mpConsume" val="#mpConsume" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="CLAN" />
         <set name="skillType" val="HOT" />
@@ -1422,6 +1502,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
 		<table name="#stackOrder"> 11 12 13 14 15 16 17 17 18 18 19 19 </table>
         <set name="mpConsume" val="#mpConsume" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="CLAN" />
         <set name="skillType" val="HOT" />
@@ -1442,6 +1523,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
 		<table name="#stackOrder"> 11 12 13 14 15 16 17 17 18 18 19 19 </table>
         <set name="mpConsume" val="#mpConsume" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="CLAN" />
         <set name="skillType" val="HOT" />
@@ -1462,6 +1544,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
 		<table name="#stackOrder"> 11 12 13 14 15 16 17 17 18 18 19 19 </table>
         <set name="mpConsume" val="#mpConsume" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="CLAN" />
         <set name="skillType" val="HOT" />
@@ -1482,6 +1565,7 @@
 		<table name="#magicLvl"> 14 24 34 44 54 64 75 79 84 89 94 99 </table>
 		<table name="#stackOrder"> 11 12 13 14 15 16 17 17 18 18 19 19 </table>
         <set name="mpConsume" val="#mpConsume" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="CLAN" />
         <set name="skillType" val="HOT" />
@@ -1501,6 +1585,7 @@
         <table name="#mDef"> 1.03 1.06 1.09 1.1 1.12 1.15 1.18 1.21 1.24 1.27 1.3 </table>
         <set name="target" val="SELF" />
         <set name="skillType" val="BUFF" />
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="1" />
         <set name="operateType" val="PASSIVE" />
         <for>
@@ -1509,60 +1594,70 @@
         </for>
 	</skill>
 	<skill id="4790" levels="1" name="Raid Boss - Level 23">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4791" levels="1" name="Raid Boss - Level 30">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4792" levels="1" name="Raid Boss - Level 42">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4793" levels="1" name="Raid Boss - Level 55">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4794" levels="1" name="Raid Boss - Level 50">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4795" levels="1" name="Raid Boss - Level 60">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4796" levels="1" name="Raid Boss - Level 25">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4797" levels="1" name="Raid Boss - Level 34">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4798" levels="1" name="Raid Boss - Level 34">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4799" levels="1" name="Raid Boss - Level 49">
+		<set name="icon" val="icon.skillraid" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />

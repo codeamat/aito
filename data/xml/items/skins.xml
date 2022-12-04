@@ -2,6 +2,7 @@
 <list>
 	<!-- Banana Costume Jaune-->
 	<item id="30001" type="Armor" name="Yellow Banana Suit">
+		<set name="icon" val="LineageCustom_AgentPeely_byNevesOma.icons.costume_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -17,6 +18,7 @@
 	</item>
 	<!-- Banana Costumme Vert -->
 	<item id="30003" type="Armor" name="Green Banana Suit">
+		<set name="icon" val="LineageCustom_AgentPeelyV2_byNevesOma.icons.i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -33,6 +35,7 @@
 
 	<!-- Rabbit Rose Costume-->
 	<item id="30005" type="Armor" name="Rabbit Suit">
+		<set name="icon" val="LineageCustom_RabbitRider_byNevesOma.icons.costume_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -48,6 +51,7 @@
 	</item>
 	<!-- Aquaman Suit -->
 	<item id="30007" type="Armor" name="Aquaman Suit">
+		<set name="icon" val="LineageCustom_AquaMan_byNevesOma.icons.i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -63,6 +67,7 @@
 	</item>
 	<!-- Custom Suit -->
 	<item id="26355" type="Armor" name="Costume Ours">
+		<set name="icon" val="iPerfect_new_custom3.gomdori_chest_change" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -77,6 +82,7 @@
 		</for>
 	</item>
 	<item id="26359" type="Armor" name="Tahitian Bikini">
+		<set name="icon" val="iPerfect_new_custom3.g_co_sexy_underwear" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -91,6 +97,7 @@
 		</for>
 	</item>
 	<item id="26361" type="Armor" name="Steampunk Suit">
+		<set name="icon" val="costume_ico.6" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -105,6 +112,7 @@
 		</for>
 	</item>
 	<item id="26362" type="Armor" name="Steampunk Cap">
+		<set name="icon" val="costume_ico.9" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="face" />
@@ -119,6 +127,7 @@
 		</for>
 	</item>
 	<item id="26363" type="Armor" name="Crusader Suit">
+		<set name="icon" val="costume_ico.5" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -133,6 +142,7 @@
 		</for>
 	</item>
 	<item id="26364" type="Armor" name="Crusader Mask">
+		<set name="icon" val="costume_ico.11" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="face" />
@@ -147,6 +157,7 @@
 		</for>
 	</item>
 	<item id="26365" type="Armor" name="Fairy crown">
+		<set name="icon" val="costume_ico.13" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="face" />
@@ -161,6 +172,7 @@
 		</for>
 	</item>
 	<item id="26366" type="Armor" name="Fairy Suit">
+		<set name="icon" val="costume_ico.7" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -175,6 +187,7 @@
 		</for>
 	</item>
 	<item id="26400" type="Armor" name="Fairy Crown">
+		<set name="icon" val="Lineage2_ItemPack01.model_Icon.model_093_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -189,6 +202,7 @@
 		</for>
 	</item>
 	<item id="26401" type="Armor" name="Zarich Suit">
+		<set name="icon" val="Lineage2_ItemPack01.model_Icon.model_094_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -203,6 +217,7 @@
 		</for>
 	</item>
 	<item id="26402" type="Armor" name="New Year's Suit">
+		<set name="icon" val="Lineage2_ItemPack01.model_Icon.model_095_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -217,6 +232,7 @@
 		</for>
 	</item>
 	<item id="26403" type="Armor" name="Phoenix Suit">
+		<set name="icon" val="Lineage2_ItemPack01.model_Icon.model_111_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -231,6 +247,7 @@
 		</for>
 	</item>
 	<item id="26404" type="Armor" name="Dragon Slayer Suit">
+		<set name="icon" val="Lineage2_ItemPack01.model_Icon.model_120_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -245,6 +262,7 @@
 		</for>
 	</item>
 	<item id="26407" type="Armor" name="Deer Hat">
+		<set name="icon" val="Lineage2_ItemPack01.model_Icon.model_095_h_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="face" />
@@ -259,6 +277,7 @@
 		</for>
 	</item>
 	<item id="26408" type="Armor" name="Phoenix Hat">
+		<set name="icon" val="Lineage2_ItemPack01.model_Icon.model_111_h_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="face" />
@@ -274,6 +293,7 @@
 	</item>
 	<!-- Banana Costume Jaune-->
 	<item id="30001" type="Armor" name="Yellow Banana Cloth">
+		<set name="icon" val="LineageCustom_AgentPeely_byNevesOma.icons.costume_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -289,6 +309,7 @@
 	</item>
 	<!-- Banana Costumme Vert -->
 	<item id="30003" type="Armor" name="Green Banana Cloth">
+		<set name="icon" val="LineageCustom_AgentPeelyV2_byNevesOma.icons.i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -305,6 +326,7 @@
 
 	<!-- Rabbit Rose Costume-->
 	<item id="30005" type="Armor" name="Rabbit Cloth">
+		<set name="icon" val="LineageCustom_RabbitRider_byNevesOma.icons.costume_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -320,6 +342,7 @@
 	</item>
 	<!-- Aquaman Cloth -->
 	<item id="30007" type="Armor" name="Aquaman Cloth">
+		<set name="icon" val="LineageCustom_AquaMan_byNevesOma.icons.i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />

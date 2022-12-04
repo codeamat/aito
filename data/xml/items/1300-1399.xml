@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="1300" type="Weapon" name="Apprentice's Rod">
+		<set name="icon" val="icon.weapon_apprentices_rod_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -23,6 +24,7 @@
 		</for>
 	</item>
 	<item id="1301" type="Weapon" name="Big Hammer">
+		<set name="icon" val="icon.weapon_big_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -45,6 +47,7 @@
 		</for>
 	</item>
 	<item id="1302" type="Weapon" name="Bec de Corbin">
+		<set name="icon" val="icon.weapon_bech_de_corbin_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -68,6 +71,7 @@
 		</for>
 	</item>
 	<item id="1303" type="Weapon" name="Lance">
+		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -91,6 +95,7 @@
 		</for>
 	</item>
 	<item id="1304" type="Weapon" name="Conjuror's Staff">
+		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
 		<set name="bodypart" val="lrhand" />
@@ -113,6 +118,7 @@
 		</for>
 	</item>
 	<item id="1305" type="Weapon" name="Knife">
+		<set name="icon" val="icon.weapon_knife_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -135,6 +141,7 @@
 		</for>
 	</item>
 	<item id="1306" type="Weapon" name="Crafted Dagger">
+		<set name="icon" val="icon.weapon_knife_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -157,6 +164,7 @@
 		</for>
 	</item>
 	<item id="1307" type="Weapon" name="Bow">
+		<set name="icon" val="icon.weapon_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
@@ -181,6 +189,7 @@
 		</for>
 	</item>
 	<item id="1308" type="Armor" name="Compound Scale Mail">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -194,6 +203,7 @@
 		</for>
 	</item>
 	<item id="1309" type="Armor" name="Mithril Breastplate">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -207,6 +217,7 @@
 		</for>
 	</item>
 	<item id="1310" type="Armor" name="Tunic of Magic">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -221,6 +232,7 @@
 		</for>
 	</item>
 	<item id="1311" type="Armor" name="Puma Skin Shirt">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -234,6 +246,7 @@
 		</for>
 	</item>
 	<item id="1312" type="Armor" name="White Tunic">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -248,6 +261,7 @@
 		</for>
 	</item>
 	<item id="1313" type="Armor" name="Compound Scale Gaiters">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -261,6 +275,7 @@
 		</for>
 	</item>
 	<item id="1314" type="Armor" name="Mithril Gaiters">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -274,6 +289,7 @@
 		</for>
 	</item>
 	<item id="1315" type="Armor" name="Stockings of Magic">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -288,6 +304,7 @@
 		</for>
 	</item>
 	<item id="1316" type="Armor" name="Puma Skin Gaiters">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -301,6 +318,7 @@
 		</for>
 	</item>
 	<item id="1317" type="Armor" name="Dark Stockings">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -315,6 +333,7 @@
 		</for>
 	</item>
 	<item id="1318" type="Armor" name="Gloves">
+		<set name="icon" val="icon.armor_gauntlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="material" val="CLOTH" />
@@ -327,6 +346,7 @@
 		</for>
 	</item>
 	<item id="1319" type="Armor" name="Leather Gloves">
+		<set name="icon" val="icon.armor_gauntlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="material" val="LEATHER" />
@@ -339,6 +359,7 @@
 		</for>
 	</item>
 	<item id="1320" type="Armor" name="Crafted Leather Gloves">
+		<set name="icon" val="icon.armor_gauntlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="material" val="LEATHER" />
@@ -351,6 +372,7 @@
 		</for>
 	</item>
 	<item id="1321" type="Armor" name="Rip Gauntlets">
+		<set name="icon" val="icon.armor_gauntlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="material" val="LEATHER" />
@@ -363,6 +385,7 @@
 		</for>
 	</item>
 	<item id="1322" type="Armor" name="Bracer">
+		<set name="icon" val="icon.armor_gauntlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="material" val="LEATHER" />
@@ -375,6 +398,7 @@
 		</for>
 	</item>
 	<item id="1323" type="Armor" name="Leather Shoes">
+		<set name="icon" val="icon.armor_iron_boots_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="LEATHER" />
@@ -387,6 +411,7 @@
 		</for>
 	</item>
 	<item id="1324" type="Armor" name="Low Boots">
+		<set name="icon" val="icon.armor_iron_boots_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="LEATHER" />
@@ -399,6 +424,7 @@
 		</for>
 	</item>
 	<item id="1325" type="Armor" name="Leather Boots">
+		<set name="icon" val="icon.armor_iron_boots_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="LEATHER" />
@@ -411,6 +437,7 @@
 		</for>
 	</item>
 	<item id="1326" type="Armor" name="Iron Boots">
+		<set name="icon" val="icon.armor_iron_boots_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="FINE_STEEL" />
@@ -423,6 +450,7 @@
 		</for>
 	</item>
 	<item id="1327" type="Armor" name="Boots">
+		<set name="icon" val="icon.armor_iron_boots_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="CLOTH" />
@@ -435,6 +463,7 @@
 		</for>
 	</item>
 	<item id="1328" type="Armor" name="Shield of Grace">
+		<set name="icon" val="icon.shield_leather_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="MITHRIL" />
@@ -450,6 +479,7 @@
 		</for>
 	</item>
 	<item id="1329" type="Armor" name="Shield of Victory">
+		<set name="icon" val="icon.shield_small_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="ADAMANTAITE" />
@@ -465,6 +495,7 @@
 		</for>
 	</item>
 	<item id="1330" type="Armor" name="Zubei's Shield">
+		<set name="icon" val="icon.shield_buckler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="MITHRIL" />
@@ -480,6 +511,7 @@
 		</for>
 	</item>
 	<item id="1331" type="Armor" name="Otherworldly Shield">
+		<set name="icon" val="icon.shield_round_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="ADAMANTAITE" />
@@ -495,6 +527,7 @@
 		</for>
 	</item>
 	<item id="1332" type="Armor" name="Knight's Shield">
+		<set name="icon" val="icon.shield_tower_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="FINE_STEEL" />
@@ -510,6 +543,7 @@
 		</for>
 	</item>
 	<item id="1333" type="Weapon" name="Brandish">
+		<set name="icon" val="icon.weapon_brandish_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGSWORD" />
 		<set name="bodypart" val="lrhand" />
@@ -529,6 +563,7 @@
 		</for>
 	</item>
 	<item id="1334" type="EtcItem" name="Predator's Fang">
+		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
@@ -536,6 +571,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1335" type="EtcItem" name="Goblin Club">
+		<set name="icon" val="icon.weapon_club_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_dropable" val="false" />
 		<set name="is_depositable" val="false" />
@@ -543,36 +579,42 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1336" type="EtcItem" name="Glass Shard">
+		<set name="icon" val="icon.etc_crystal_ball_blue_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="80" />
 		<set name="price" val="200" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1337" type="EtcItem" name="Emerald">
+		<set name="icon" val="icon.etc_jewel_green_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="80" />
 		<set name="price" val="20000" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1338" type="EtcItem" name="Blue Onyx">
+		<set name="icon" val="icon.etc_jewel_blue_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="80" />
 		<set name="price" val="1000" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1339" type="EtcItem" name="Onyx">
+		<set name="icon" val="icon.etc_bead_red_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="80" />
 		<set name="price" val="600" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1340" type="EtcItem" name="Silvery Leaf">
+		<set name="icon" val="icon.etc_feather_white_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="3" />
 		<set name="price" val="20" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1341" type="EtcItem" name="Bone Arrow">
+		<set name="icon" val="icon.etc_bone_quiver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="ARROW" />
 		<set name="bodypart" val="lhand" />
@@ -583,6 +625,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1342" type="EtcItem" name="Fine Steel Arrow">
+		<set name="icon" val="icon.etc_fine_steel_quiver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="ARROW" />
 		<set name="bodypart" val="lhand" />
@@ -593,6 +636,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1343" type="EtcItem" name="Silver Arrow">
+		<set name="icon" val="icon.etc_silver_quiver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="ARROW" />
 		<set name="bodypart" val="lhand" />
@@ -603,6 +647,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1344" type="EtcItem" name="Mithril Arrow">
+		<set name="icon" val="icon.etc_mithril_quiver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="ARROW" />
 		<set name="bodypart" val="lhand" />
@@ -613,6 +658,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1345" type="EtcItem" name="Shining Arrow">
+		<set name="icon" val="icon.etc_shining_quiver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="ARROW" />
 		<set name="bodypart" val="lhand" />
@@ -623,6 +669,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1346" type="EtcItem" name="Golem's Stoneheart">
+		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -632,6 +679,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1347" type="EtcItem" name="Monster Eye Carcass">
+		<set name="icon" val="icon.etc_bark_gold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -641,6 +689,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1348" type="EtcItem" name="Basilisk's Gizzard">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -650,6 +699,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1349" type="EtcItem" name="Anatomy Diagram">
+		<set name="icon" val="icon.etc_spell_books_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -659,6 +709,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1350" type="EtcItem" name="Zombie Head">
+		<set name="icon" val="icon.etc_skull_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -668,6 +719,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1351" type="EtcItem" name="Zombie Heart">
+		<set name="icon" val="icon.etc_bodypart_heart_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -677,6 +729,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1352" type="EtcItem" name="Zombie Liver">
+		<set name="icon" val="icon.etc_bodypart_liver_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -686,6 +739,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1353" type="EtcItem" name="Skull">
+		<set name="icon" val="icon.etc_skull_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -695,6 +749,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1354" type="EtcItem" name="Rib Bone">
+		<set name="icon" val="icon.etc_rib_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -704,6 +759,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1355" type="EtcItem" name="Spine">
+		<set name="icon" val="icon.etc_piece_bone_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -713,6 +769,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1356" type="EtcItem" name="Arm Bone">
+		<set name="icon" val="icon.etc_piece_bone_black_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -722,6 +779,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1357" type="EtcItem" name="Thigh Bone">
+		<set name="icon" val="icon.etc_piece_bone_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -731,6 +789,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1358" type="EtcItem" name="Complete Skeleton">
+		<set name="icon" val="icon.etc_ashes_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -740,6 +799,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1359" type="EtcItem" name="Red Cross Badge">
+		<set name="icon" val="icon.etc_jewel_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -749,6 +809,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1360" type="EtcItem" name="Blue Cross Badge">
+		<set name="icon" val="icon.etc_jewel_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -758,6 +819,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1361" type="EtcItem" name="Black Cross Badge">
+		<set name="icon" val="icon.etc_jewel_gold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -767,6 +829,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1362" type="EtcItem" name="Spider's Carapace">
+		<set name="icon" val="icon.item_normal72" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -776,6 +839,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1363" type="EtcItem" name="Spider Silk">
+		<set name="icon" val="icon.item_normal168" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -785,6 +849,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1364" type="EtcItem" name="Spider Venom Sac">
+		<set name="icon" val="icon.item_canuse28" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -794,6 +859,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1365" type="EtcItem" name="Broken Stoneheart">
+		<set name="icon" val="icon.etc_plate_glay_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -803,6 +869,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1366" type="EtcItem" name="Monster Eye's Lens">
+		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -812,6 +879,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1367" type="EtcItem" name="Wolf Claw">
+		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -821,6 +889,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1368" type="EtcItem" name="Imp Shackles">
+		<set name="icon" val="icon.accessary_cerberuss_earing_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -830,6 +899,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1369" type="EtcItem" name="Black Lion Mark">
+		<set name="icon" val="icon.etc_badge_black_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -839,27 +909,32 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="1370" type="EtcItem" name="Spellbook: Aqua Swirl">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="750" />
 	</item>
 	<item id="1371" type="EtcItem" name="Spellbook: Twister">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="750" />
 	</item>
 	<item id="1372" type="EtcItem" name="Spellbook: Blaze">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="750" />
 	</item>
 	<item id="1373" type="EtcItem" name="Magic Gem">
+		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="80" />
 		<set name="price" val="600" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="1374" type="EtcItem" name="Greater Haste Potion">
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
@@ -873,6 +948,7 @@
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
 	<item id="1375" type="EtcItem" name="Greater Swift Attack Potion">
+		<set name="icon" val="icon.etc_lesser_potion_purple_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
@@ -886,6 +962,7 @@
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
 	<item id="1376" type="Weapon" name="Guard Spear">
+		<set name="icon" val="icon.weapon_guard_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -911,116 +988,139 @@
 		</for>
 	</item>
 	<item id="1377" type="EtcItem" name="Spellbook: Poison Recovery">
+		<set name="icon" val="icon.etc_spell_books_efighter_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="750" />
 	</item>
 	<item id="1378" type="EtcItem" name="Spellbook: Divine Heal">
+		<set name="icon" val="icon.etc_spell_books_hfighter_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1600" />
 	</item>
 	<item id="1379" type="EtcItem" name="Spellbook: Cure Bleeding">
+		<set name="icon" val="icon.etc_spell_books_efighter_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1150" />
 	</item>
 	<item id="1380" type="EtcItem" name="Spellbook: Entangle">
+		<set name="icon" val="icon.etc_spell_books_efighter_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="500" />
 	</item>
 	<item id="1381" type="EtcItem" name="Spellbook: Freezing Strike">
+		<set name="icon" val="icon.etc_spell_books_defighter_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="2600" />
 	</item>
 	<item id="1382" type="EtcItem" name="Spellbook: Power Break">
+		<set name="icon" val="icon.etc_spell_books_defighter_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="2600" />
 	</item>
 	<item id="1383" type="EtcItem" name="Spellbook: Poison">
+		<set name="icon" val="icon.etc_spell_books_defighter_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="750" />
 	</item>
 	<item id="1384" type="EtcItem" name="Spellbook: Sprint">
+		<set name="icon" val="icon.etc_spell_books_efighter_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="2600" />
 	</item>
 	<item id="1385" type="EtcItem" name="Spellbook: Recharge">
+		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1800" />
 	</item>
 	<item id="1386" type="EtcItem" name="Spellbook: Disrupt Undead">
+		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="750" />
 	</item>
 	<item id="1387" type="EtcItem" name="Spellbook: Resist Poison">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="2450" />
 	</item>
 	<item id="1388" type="EtcItem" name="Spellbook: Mental Shield">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1250" />
 	</item>
 	<item id="1389" type="EtcItem" name="Spellbook: Holy Weapon">
+		<set name="icon" val="icon.etc_spell_books_white_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1250" />
 	</item>
 	<item id="1390" type="EtcItem" name="Spellbook: Regeneration">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="2450" />
 	</item>
 	<item id="1391" type="EtcItem" name="Spellbook: Empower">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1250" />
 	</item>
 	<item id="1392" type="EtcItem" name="Spellbook: Berserker Spirit">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="2450" />
 	</item>
 	<item id="1393" type="EtcItem" name="Spellbook: Quickness">
+		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1250" />
 	</item>
 	<item id="1394" type="EtcItem" name="Spellbook: Sleep">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1800" />
 	</item>
 	<item id="1395" type="EtcItem" name="Spellbook: Surrender to Water">
+		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1250" />
 	</item>
 	<item id="1396" type="EtcItem" name="Spellbook: Surrender to Wind">
+		<set name="icon" val="icon.etc_spell_books_blue_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1250" />
 	</item>
 	<item id="1397" type="EtcItem" name="Spellbook: Peace">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="2450" />
 	</item>
 	<item id="1398" type="EtcItem" name="Spellbook: Focus">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="1250" />
 	</item>
 	<item id="1399" type="EtcItem" name="Spellbook: Concentration">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
 		<set name="material" val="PAPER" />
 		<set name="weight" val="120" />
 		<set name="price" val="750" />

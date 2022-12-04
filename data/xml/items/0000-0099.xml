@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="1" type="Weapon" name="Short Sword">
+		<set name="icon" val="icon.weapon_small_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -20,6 +21,7 @@
 		</for>
 	</item>
 	<item id="2" type="Weapon" name="Long Sword">
+		<set name="icon" val="icon.weapon_long_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -39,6 +41,7 @@
 		</for>
 	</item>
 	<item id="3" type="Weapon" name="Broadsword">
+		<set name="icon" val="icon.weapon_broad_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -58,6 +61,7 @@
 		</for>
 	</item>
 	<item id="4" type="Weapon" name="Club">
+		<set name="icon" val="icon.weapon_club_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -78,6 +82,7 @@
 		</for>
 	</item>
 	<item id="5" type="Weapon" name="Mace">
+		<set name="icon" val="icon.weapon_mace_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -98,6 +103,7 @@
 		</for>
 	</item>
 	<item id="6" type="Weapon" name="Apprentice's Wand">
+		<set name="icon" val="icon.weapon_apprentices_wand_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
@@ -122,6 +128,7 @@
 		</for>
 	</item>
 	<item id="7" type="Weapon" name="Apprentice's Rod">
+		<set name="icon" val="icon.weapon_apprentices_rod_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
@@ -143,6 +150,7 @@
 		</for>
 	</item>
 	<item id="8" type="Weapon" name="Willow Staff">
+		<set name="icon" val="icon.weapon_willow_staff_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -164,6 +172,7 @@
 		</for>
 	</item>
 	<item id="9" type="Weapon" name="Cedar Staff">
+		<set name="icon" val="icon.weapon_cedar_staff_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -185,6 +194,7 @@
 		</for>
 	</item>
 	<item id="10" type="Weapon" name="Dagger">
+		<set name="icon" val="icon.weapon_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -208,6 +218,7 @@
 		</for>
 	</item>
 	<item id="11" type="Weapon" name="Bone Dagger">
+		<set name="icon" val="icon.weapon_bone_dagger_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -228,6 +239,7 @@
 		</for>
 	</item>
 	<item id="12" type="Weapon" name="Knife">
+		<set name="icon" val="icon.weapon_knife_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DAGGER" />
 		<set name="bodypart" val="rhand" />
@@ -248,6 +260,7 @@
 		</for>
 	</item>
 	<item id="13" type="Weapon" name="Short Bow">
+		<set name="icon" val="icon.weapon_short_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
@@ -270,6 +283,7 @@
 		</for>
 	</item>
 	<item id="14" type="Weapon" name="Bow">
+		<set name="icon" val="icon.weapon_bow_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
@@ -292,6 +306,7 @@
 		</for>
 	</item>
 	<item id="15" type="Weapon" name="Short Spear">
+		<set name="icon" val="icon.weapon_short_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -313,6 +328,7 @@
 		</for>
 	</item>
 	<item id="16" type="Weapon" name="Long Spear">
+		<set name="icon" val="icon.weapon_long_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -334,6 +350,7 @@
 		</for>
 	</item>
 	<item id="17" type="EtcItem" name="Wooden Arrow">
+		<set name="icon" val="icon.etc_wooden_quiver_i00" />
 		<set name="default_action" val="equip" />
 		<set name="etcitem_type" val="ARROW" />
 		<set name="bodypart" val="lhand" />
@@ -343,6 +360,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="18" type="Armor" name="Leather Shield">
+		<set name="icon" val="icon.shield_leather_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="LEATHER" />
@@ -355,6 +373,7 @@
 		</for>
 	</item>
 	<item id="19" type="Armor" name="Small Shield">
+		<set name="icon" val="icon.shield_small_shield_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="STEEL" />
@@ -367,6 +386,7 @@
 		</for>
 	</item>
 	<item id="20" type="Armor" name="Buckler">
+		<set name="icon" val="icon.shield_buckler_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="WOOD" />
@@ -379,6 +399,7 @@
 		</for>
 	</item>
 	<item id="21" type="Armor" name="Shirt">
+		<set name="icon" val="icon.armor_t02_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -390,6 +411,7 @@
 		</for>
 	</item>
 	<item id="22" type="Armor" name="Leather Shirt">
+		<set name="icon" val="icon.armor_t04_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -401,6 +423,7 @@
 		</for>
 	</item>
 	<item id="23" type="Armor" name="Wooden Breastplate">
+		<set name="icon" val="icon.armor_t06_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -412,6 +435,7 @@
 		</for>
 	</item>
 	<item id="24" type="Armor" name="Bone Breastplate">
+		<set name="icon" val="icon.armor_t32_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -423,6 +447,7 @@
 		</for>
 	</item>
 	<item id="25" type="Armor" name="Piece Bone Breastplate">
+		<set name="icon" val="icon.armor_t33_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -434,6 +459,7 @@
 		</for>
 	</item>
 	<item id="26" type="Armor" name="Bronze Breastplate">
+		<set name="icon" val="icon.armor_t34_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -445,6 +471,7 @@
 		</for>
 	</item>
 	<item id="27" type="Armor" name="Hard Leather Shirt">
+		<set name="icon" val="icon.armor_t30_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -456,6 +483,7 @@
 		</for>
 	</item>
 	<item id="28" type="Armor" name="Pants">
+		<set name="icon" val="icon.armor_t02_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -467,6 +495,7 @@
 		</for>
 	</item>
 	<item id="29" type="Armor" name="Leather Pants">
+		<set name="icon" val="icon.armor_t04_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -478,6 +507,7 @@
 		</for>
 	</item>
 	<item id="30" type="Armor" name="Hard Leather Pants">
+		<set name="icon" val="icon.armor_t06_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -489,6 +519,7 @@
 		</for>
 	</item>
 	<item id="31" type="Armor" name="Bone Gaiters">
+		<set name="icon" val="icon.armor_t32_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -500,6 +531,7 @@
 		</for>
 	</item>
 	<item id="32" type="Armor" name="Piece Bone Gaiters">
+		<set name="icon" val="icon.armor_t33_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -511,6 +543,7 @@
 		</for>
 	</item>
 	<item id="33" type="Armor" name="Hard Leather Gaiters">
+		<set name="icon" val="icon.armor_t30_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -522,6 +555,7 @@
 		</for>
 	</item>
 	<item id="34" type="Armor" name="Bronze Gaiters">
+		<set name="icon" val="icon.armor_t34_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -533,6 +567,7 @@
 		</for>
 	</item>
 	<item id="35" type="Armor" name="Cloth Shoes">
+		<set name="icon" val="icon.armor_t02_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="CLOTH" />
@@ -543,6 +578,7 @@
 		</for>
 	</item>
 	<item id="36" type="Armor" name="Leather Sandals">
+		<set name="icon" val="icon.armor_t03_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="LEATHER" />
@@ -553,6 +589,7 @@
 		</for>
 	</item>
 	<item id="37" type="Armor" name="Leather Shoes">
+		<set name="icon" val="icon.armor_t05_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="LEATHER" />
@@ -563,6 +600,7 @@
 		</for>
 	</item>
 	<item id="38" type="Armor" name="Low Boots">
+		<set name="icon" val="icon.armor_t32_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="LEATHER" />
@@ -573,6 +611,7 @@
 		</for>
 	</item>
 	<item id="39" type="Armor" name="Boots">
+		<set name="icon" val="icon.armor_t30_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="material" val="CLOTH" />
@@ -583,6 +622,7 @@
 		</for>
 	</item>
 	<item id="40" type="Armor" name="Leather Boots">
+		<set name="icon" val="icon.armor_t09_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="D" />
@@ -596,6 +636,7 @@
 		</for>
 	</item>
 	<item id="41" type="Armor" name="Cloth Cap">
+		<set name="icon" val="icon.armor_cloth_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="material" val="CLOTH" />
@@ -606,6 +647,7 @@
 		</for>
 	</item>
 	<item id="42" type="Armor" name="Leather Cap">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="material" val="LEATHER" />
@@ -616,6 +658,7 @@
 		</for>
 	</item>
 	<item id="43" type="Armor" name="Wooden Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="material" val="WOOD" />
@@ -626,6 +669,7 @@
 		</for>
 	</item>
 	<item id="44" type="Armor" name="Leather Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="material" val="LEATHER" />
@@ -636,6 +680,7 @@
 		</for>
 	</item>
 	<item id="45" type="Armor" name="Bone Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="D" />
@@ -649,6 +694,7 @@
 		</for>
 	</item>
 	<item id="46" type="Armor" name="Bronze Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="D" />
@@ -662,6 +708,7 @@
 		</for>
 	</item>
 	<item id="47" type="Armor" name="Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="D" />
@@ -675,6 +722,7 @@
 		</for>
 	</item>
 	<item id="48" type="Armor" name="Short Gloves">
+		<set name="icon" val="icon.armor_t02_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="material" val="CLOTH" />
@@ -685,6 +733,7 @@
 		</for>
 	</item>
 	<item id="49" type="Armor" name="Gloves">
+		<set name="icon" val="icon.armor_t06_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="material" val="CLOTH" />
@@ -695,6 +744,7 @@
 		</for>
 	</item>
 	<item id="50" type="Armor" name="Leather Gloves">
+		<set name="icon" val="icon.armor_t32_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="material" val="LEATHER" />
@@ -705,6 +755,7 @@
 		</for>
 	</item>
 	<item id="51" type="Armor" name="Bracer">
+		<set name="icon" val="icon.armor_t30_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="material" val="LEATHER" />
@@ -715,6 +766,7 @@
 		</for>
 	</item>
 	<item id="52" type="Armor" name="Hemp Cloak">
+		<set name="icon" val="icon.armor_back01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="material" val="CLOTH" />
@@ -725,6 +777,7 @@
 		</for>
 	</item>
 	<item id="53" type="Armor" name="Cotton Cloak">
+		<set name="icon" val="icon.armor_back02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="material" val="CLOTH" />
@@ -735,6 +788,7 @@
 		</for>
 	</item>
 	<item id="54" type="Armor" name="Silk Cloak">
+		<set name="icon" val="icon.armor_back03" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="material" val="CLOTH" />
@@ -745,6 +799,7 @@
 		</for>
 	</item>
 	<item id="55" type="Armor" name="Cotton Undergarment">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="material" val="COTTON" />
@@ -755,6 +810,7 @@
 		</for>
 	</item>
 	<item id="56" type="Armor" name="Wool Undergarment">
+		<set name="icon" val="icon.armor_underwear01" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="underwear" />
 		<set name="material" val="WOOD" />
@@ -765,11 +821,13 @@
 		</for>
 	</item>
 	<item id="57" type="EtcItem" name="Adena">
+		<set name="icon" val="icon.etc_adena_i00" />
 		<set name="material" val="GOLD" />
 		<set name="price" val="1" />
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="58" type="Armor" name="Mithril Breastplate">
+		<set name="icon" val="icon.armor_t19_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -784,6 +842,7 @@
 		</for>
 	</item>
 	<item id="59" type="Armor" name="Mithril Gaiters">
+		<set name="icon" val="icon.armor_t19_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -798,6 +857,7 @@
 		</for>
 	</item>
 	<item id="60" type="Armor" name="Composite Armor">
+		<set name="icon" val="icon.armor_t61_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -812,6 +872,7 @@
 		</for>
 	</item>
 	<item id="61" type="Armor" name="Mithril Gloves">
+		<set name="icon" val="icon.armor_t46_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
@@ -825,6 +886,7 @@
 		</for>
 	</item>
 	<item id="62" type="Armor" name="Mithril Boots">
+		<set name="icon" val="icon.armor_t47_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="C" />
@@ -838,6 +900,7 @@
 		</for>
 	</item>
 	<item id="63" type="Armor" name="Gauntlets">
+		<set name="icon" val="icon.armor_t10_g_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="gloves" />
 		<set name="crystal_type" val="D" />
@@ -851,6 +914,7 @@
 		</for>
 	</item>
 	<item id="64" type="Armor" name="Composite Boots">
+		<set name="icon" val="icon.armor_t61_b_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="feet" />
 		<set name="crystal_type" val="C" />
@@ -864,6 +928,7 @@
 		</for>
 	</item>
 	<item id="65" type="EtcItem" name="Red Potion">
+		<set name="icon" val="icon.etc_potion_red_i00" />
 		<set name="default_action" val="skill_reduce" />
 		<set name="etcitem_type" val="POTION" />
 		<set name="material" val="LIQUID" />
@@ -874,6 +939,7 @@
 		<set name="use_condition" val="{{uc_transmode_exclude;{tt_flying}}}" />
 	</item>
 	<item id="66" type="Weapon" name="Gladius">
+		<set name="icon" val="icon.weapon_gladius_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -893,6 +959,7 @@
 		</for>
 	</item>
 	<item id="67" type="Weapon" name="Orcish Sword">
+		<set name="icon" val="icon.weapon_orcish_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -912,6 +979,7 @@
 		</for>
 	</item>
 	<item id="68" type="Weapon" name="Falchion">
+		<set name="icon" val="icon.weapon_falchion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -931,6 +999,7 @@
 		</for>
 	</item>
 	<item id="69" type="Weapon" name="Bastard Sword">
+		<set name="icon" val="icon.weapon_bastard_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -954,6 +1023,7 @@
 		</for>
 	</item>
 	<item id="70" type="Weapon" name="Claymore">
+		<set name="icon" val="icon.weapon_claymore_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGSWORD" />
 		<set name="bodypart" val="lrhand" />
@@ -977,6 +1047,7 @@
 		</for>
 	</item>
 	<item id="71" type="Weapon" name="Flamberge">
+		<set name="icon" val="icon.weapon_flamberge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGSWORD" />
 		<set name="bodypart" val="lrhand" />
@@ -1000,6 +1071,7 @@
 		</for>
 	</item>
 	<item id="72" type="Weapon" name="Stormbringer">
+		<set name="icon" val="icon.weapon_stormbringer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1023,6 +1095,7 @@
 		</for>
 	</item>
 	<item id="73" type="Weapon" name="Shamshir">
+		<set name="icon" val="icon.weapon_shamshir_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1046,6 +1119,7 @@
 		</for>
 	</item>
 	<item id="74" type="Weapon" name="Katana">
+		<set name="icon" val="icon.weapon_katana_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1069,6 +1143,7 @@
 		</for>
 	</item>
 	<item id="75" type="Weapon" name="Caliburs">
+		<set name="icon" val="icon.weapon_caliburs_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1092,6 +1167,7 @@
 		</for>
 	</item>
 	<item id="76" type="Weapon" name="Sword of Delusion">
+		<set name="icon" val="icon.weapon_sword_of_delusion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1115,6 +1191,7 @@
 		</for>
 	</item>
 	<item id="77" type="Weapon" name="Tsurugi">
+		<set name="icon" val="icon.weapon_tsurugi_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1138,6 +1215,7 @@
 		</for>
 	</item>
 	<item id="78" type="Weapon" name="Great Sword">
+		<set name="icon" val="icon.weapon_great_sword_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGSWORD" />
 		<set name="bodypart" val="lrhand" />
@@ -1161,6 +1239,7 @@
 		</for>
 	</item>
 	<item id="79" type="Weapon" name="Sword of Damascus">
+		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1184,6 +1263,7 @@
 		</for>
 	</item>
 	<item id="80" type="Weapon" name="Tallum Blade">
+		<set name="icon" val="icon.weapon_tallum_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1207,6 +1287,7 @@
 		</for>
 	</item>
 	<item id="81" type="Weapon" name="Dragon Slayer">
+		<set name="icon" val="icon.weapon_dragon_slayer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGSWORD" />
 		<set name="bodypart" val="lrhand" />
@@ -1230,6 +1311,7 @@
 		</for>
 	</item>
 	<item id="82" type="Weapon" name="God's Blade">
+		<set name="icon" val="icon.weapon_forgotten_blade_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -1256,6 +1338,7 @@
 		</for>
 	</item>
 	<item id="83" type="Weapon" name="Sword of Magic">
+		<set name="icon" val="icon.weapon_sword_of_magic_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
@@ -1280,6 +1363,7 @@
 		</for>
 	</item>
 	<item id="84" type="Weapon" name="Homunkulus's Sword">
+		<set name="icon" val="icon.weapon_homunkuluss_sword_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
@@ -1304,6 +1388,7 @@
 		</for>
 	</item>
 	<item id="85" type="Weapon" name="Phantom Sword">
+		<set name="icon" val="icon.weapon_phantom_sword_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
@@ -1328,6 +1413,7 @@
 		</for>
 	</item>
 	<item id="86" type="Weapon" name="Tomahawk">
+		<set name="icon" val="icon.weapon_tomahawk_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -1352,6 +1438,7 @@
 		</for>
 	</item>
 	<item id="87" type="Weapon" name="Iron Hammer">
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -1372,6 +1459,7 @@
 		</for>
 	</item>
 	<item id="88" type="Weapon" name="Morning Star">
+		<set name="icon" val="icon.weapon_morning_star_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -1396,6 +1484,7 @@
 		</for>
 	</item>
 	<item id="89" type="Weapon" name="Big Hammer">
+		<set name="icon" val="icon.weapon_big_hammer_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -1420,6 +1509,7 @@
 		</for>
 	</item>
 	<item id="90" type="Weapon" name="Goat Head Staff">
+		<set name="icon" val="icon.weapon_goathead_staff_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -1445,6 +1535,7 @@
 		</for>
 	</item>
 	<item id="91" type="Weapon" name="Heavy War Axe">
+		<set name="icon" val="icon.weapon_heavy_war_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BLUNT" />
 		<set name="bodypart" val="rhand" />
@@ -1469,6 +1560,7 @@
 		</for>
 	</item>
 	<item id="92" type="Weapon" name="Sprite's Staff">
+		<set name="icon" val="icon.weapon_sprites_staff_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -1494,6 +1586,7 @@
 		</for>
 	</item>
 	<item id="93" type="Weapon" name="Winged Spear">
+		<set name="icon" val="icon.weapon_winged_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -1519,6 +1612,7 @@
 		</for>
 	</item>
 	<item id="94" type="Weapon" name="Bec de Corbin">
+		<set name="icon" val="icon.weapon_bech_de_corbin_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -1544,6 +1638,7 @@
 		</for>
 	</item>
 	<item id="95" type="Weapon" name="Poleaxe">
+		<set name="icon" val="icon.weapon_poleaxe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -1569,6 +1664,7 @@
 		</for>
 	</item>
 	<item id="96" type="Weapon" name="Scythe">
+		<set name="icon" val="icon.weapon_scythe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -1594,6 +1690,7 @@
 		</for>
 	</item>
 	<item id="97" type="Weapon" name="Lance">
+		<set name="icon" val="icon.weapon_lancia_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -1619,6 +1716,7 @@
 		</for>
 	</item>
 	<item id="98" type="Weapon" name="Halberd">
+		<set name="icon" val="icon.weapon_halbard_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -1644,6 +1742,7 @@
 		</for>
 	</item>
 	<item id="99" type="Weapon" name="Apprentice's Spellbook">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />

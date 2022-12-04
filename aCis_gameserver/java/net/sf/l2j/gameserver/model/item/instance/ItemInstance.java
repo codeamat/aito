@@ -507,6 +507,14 @@ public final class ItemInstance extends WorldObject implements Runnable, Compara
 	}
 	
 	/**
+	 * @return if item can be listed on auction house.
+	 */
+	public boolean isAuctionItem()
+	{
+		return _item.isAuctionItem();
+	}
+	
+	/**
 	 * @return if item is sellable.
 	 */
 	public boolean isSellable()

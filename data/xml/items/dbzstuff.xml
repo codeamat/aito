@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <list>
   <item id="56170" type="Armor" name="Sayan Face 1">
+		<set name="icon" val="lazonahair.goku_icon" />
     <set name="default_action" val="equip" />
     <set name="bodypart" val="face" />
     <set name="crystal_type" val="S" />
@@ -16,6 +17,7 @@
     </for>
   </item>
   <item id="56171" type="Armor" name="Sayan Face 2">
+		<set name="icon" val="lazonahair.goku_icon_normal" />
     <set name="default_action" val="equip" />
     <set name="bodypart" val="face" />
     <set name="crystal_type" val="S" />
@@ -31,6 +33,7 @@
     </for>
   </item>
   <item id="56172" type="Armor" name="Super Sayan Face">
+		<set name="icon" val="lazonahair.goku_icon_ssj" />
     <set name="default_action" val="equip" />
     <set name="bodypart" val="face" />
     <set name="crystal_type" val="S" />
@@ -48,6 +51,7 @@
 
   <!-- Boule -->
   <item id="9922" type="EtcItem" name="Pearl of Papeete">
+		<set name="icon" val="ball1.presenteball1.etc_gourd_i01" />
     <set name="default_action" val="skill_reduce" />
     <set name="material" val="LIQUID" />
     <set name="weight" val="10" />
@@ -56,6 +60,7 @@
     <set name="is_oly_restricted" val="true" />
   </item>
   <item id="9923" type="EtcItem" name="Pearl of Paea">
+		<set name="icon" val="ball2.presenteball2.etc_gourd_i01" />
     <set name="default_action" val="skill_reduce" />
     <set name="material" val="LIQUID" />
     <set name="weight" val="10" />
@@ -64,6 +69,7 @@
     <set name="is_oly_restricted" val="true" />
   </item>
   <item id="9924" type="EtcItem" name="Pearl of Taravao">
+		<set name="icon" val="ball3.presenteball3.etc_gourd_i01" />
     <set name="default_action" val="skill_reduce" />
     <set name="material" val="LIQUID" />
     <set name="weight" val="10" />
@@ -72,6 +78,7 @@
     <set name="is_oly_restricted" val="true" />
   </item>
   <item id="9925" type="EtcItem" name="Pearl of Tautira">
+		<set name="icon" val="ball4.presenteball4.etc_gourd_i01" />
     <set name="default_action" val="skill_reduce" />
     <set name="material" val="LIQUID" />
     <set name="weight" val="10" />
@@ -80,6 +87,7 @@
     <set name="is_oly_restricted" val="true" />
   </item>
   <item id="9926" type="EtcItem" name="Pearl of Mahaena">
+		<set name="icon" val="ball5.presenteball5.etc_gourd_i01" />
     <set name="default_action" val="skill_reduce" />
     <set name="material" val="LIQUID" />
     <set name="weight" val="10" />
@@ -88,6 +96,7 @@
     <set name="is_oly_restricted" val="true" />
   </item>
   <item id="9927" type="EtcItem" name="Pearl of Teahupo'o">
+		<set name="icon" val="ball6.presenteball6.etc_gourd_i01" />
     <set name="default_action" val="skill_reduce" />
     <set name="material" val="LIQUID" />
     <set name="weight" val="10" />
@@ -96,6 +105,7 @@
     <set name="is_oly_restricted" val="true" />
   </item>
   <item id="9928" type="EtcItem" name="Pearl of Orohena">
+		<set name="icon" val="ball7.presenteball7.etc_gourd_i01" />
     <set name="default_action" val="skill_reduce" />
     <set name="material" val="LIQUID" />
     <set name="weight" val="10" />

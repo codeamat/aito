@@ -6,6 +6,7 @@
 		<table name="#mpInitialConsume"> 24 25 26 28 29 30 31 31 </table>
 		<table name="#mpConsume"> 96 99 102 110 116 120 122 124 </table>
 		<table name="#power"> 120 124 128 138 144 149 153 155 </table>
+		<set name="icon" val="icon.skill1013" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -27,6 +28,7 @@
 		<table name="#cancel"> 18 25 36 42 48 53 </table>
 		<table name="#aggro"> 204 285 418 495 566 624 </table>
 		<table name="#stackOrder"> 1 2 3 4 5 6 </table>
+		<set name="icon" val="icon.skill1078" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -48,6 +50,7 @@
 	<skill id="5202" levels="12" name="NPC Ranged Stun">
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 7 10 14 19 25 31 36 38 40 42 42 43 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="50" />
@@ -67,6 +70,7 @@
 	<skill id="5203" levels="12" name="NPC Ranged Fear">
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 7 10 14 19 25 31 36 38 40 42 42 43 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="50" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -83,6 +87,7 @@
 		</for>
 	</skill>
 	<skill id="5204" levels="1" name="Production-First Gigantic Pig Combination">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -90,6 +95,7 @@
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="5205" levels="1" name="Boss Regeneration">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="99" />
 		<set name="power" val="100" />
 		<set name="target" val="ONE" />
@@ -97,6 +103,7 @@
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="5206" levels="1" name="Decrease Speed">
+		<set name="icon" val="icon.skill1160" />
 		<set name="magicLvl" val="95" />
 		<set name="mpInitialConsume" val="16" />
 		<set name="mpConsume" val="62" />
@@ -118,6 +125,7 @@
 		</for>
 	</skill>
 	<skill id="5207" levels="1" name="Decrease Atk. Spd.">
+		<set name="icon" val="icon.skill4038" />
 		<set name="magicLvl" val="95" />
 		<set name="mpInitialConsume" val="16" />
 		<set name="mpConsume" val="62" />
@@ -139,6 +147,7 @@
 		</for>
 	</skill>
 	<skill id="5208" levels="1" name="Golden Pig Wind Walk">
+		<set name="icon" val="icon.skill1204" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -153,6 +162,7 @@
 		</for>
 	</skill>
 	<skill id="5209" levels="1" name="Golden Pig Shield">
+		<set name="icon" val="icon.skill1040" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -167,6 +177,7 @@
 		</for>
 	</skill>
 	<skill id="5210" levels="1" name="Golden Pig Blessed Body">
+		<set name="icon" val="icon.skill1045" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -181,6 +192,7 @@
 		</for>
 	</skill>
 	<skill id="5211" levels="1" name="Golden Pig Vampiric Rage">
+		<set name="icon" val="icon.skill1268" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -195,6 +207,7 @@
 		</for>
 	</skill>
 	<skill id="5212" levels="1" name="Golden Pig Regeneration">
+		<set name="icon" val="icon.skill1044" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -209,6 +222,7 @@
 		</for>
 	</skill>
 	<skill id="5213" levels="1" name="Golden Pig Haste">
+		<set name="icon" val="icon.skill1086" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -223,6 +237,7 @@
 		</for>
 	</skill>
 	<skill id="5214" levels="1" name="Golden Pig Blessed Soul">
+		<set name="icon" val="icon.skill1048" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -237,6 +252,7 @@
 		</for>
 	</skill>
 	<skill id="5215" levels="1" name="Golden Pig Acumen">
+		<set name="icon" val="icon.skill1085" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -251,6 +267,7 @@
 		</for>
 	</skill>
 	<skill id="5216" levels="1" name="Golden Pig Concentration">
+		<set name="icon" val="icon.skill1078" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -265,6 +282,7 @@
 		</for>
 	</skill>
 	<skill id="5217" levels="1" name="Golden Pig Empower">
+		<set name="icon" val="icon.skill1059" />
 		<set name="magicLvl" val="60" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -279,6 +297,7 @@
 		</for>
 	</skill>
 	<skill id="5218" levels="1" name="Production: Event Teleport">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -288,6 +307,7 @@
 		<set name="effectRange" val="900" />
 	</skill>
 	<skill id="5219" levels="1" name="Huge Pig Stun">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="95" />
 		<set name="lvlDepend" val="1" />
 		<set name="power" val="50" />
@@ -307,6 +327,7 @@
 		</for>
 	</skill>
 	<skill id="5220" levels="1" name="Huge Pig Fear">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="95" />
 		<set name="mpConsume" val="43" />
 		<set name="power" val="50" />

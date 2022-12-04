@@ -1,96 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<skill id="4500" levels="1" name="Treasure Chest - Level 27">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4501" levels="1" name="Treasure Chest - Level 29">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4502" levels="1" name="Treasure Chest - Level 31">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4503" levels="1" name="Treasure Chest - Level 32">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4504" levels="1" name="Treasure Chest - Level 33">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4505" levels="1" name="Treasure Chest - Level 35">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4506" levels="1" name="Treasure Chest - Level 39">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4507" levels="1" name="Treasure Chest - Level 42">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4508" levels="1" name="Treasure Chest - Level 43">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4509" levels="1" name="Treasure Chest - Level 45">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4510" levels="1" name="Treasure Chest - Level 47">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4511" levels="1" name="Treasure Chest - Level 49">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4512" levels="1" name="Treasure Chest - Level 52">
+		<set name="icon" val="icon.skill0042" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4513" levels="1" name="Squash - Level up">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" /> <!-- Just Broadcast -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="4514" levels="1" name="Squash - Poisoned">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" /> <!-- Just Broadcast -->
 		<set name="magicLvl" val="1" />
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="4515" levels="1" name="Raid Curse">
+		<set name="icon" val="icon.skill4111" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="PARALYZE" />
 		<set name="isDebuff" val="true" />
@@ -104,6 +120,7 @@
 		</for>
 	</skill>
 	<skill id="4516" levels="1" name="Orfen Heal">
+		<set name="icon" val="icon.skill0000" />
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -119,6 +136,7 @@
 		<set name="target" val="ONE" />
 	</skill>
 	<skill id="4517" levels="1" name="Quest - BOSS Defend">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="TOGGLE" />
 		<set name="skillType" val="CONT" />
@@ -132,6 +150,7 @@
 		</for>
 	</skill>
 	<skill id="4518" levels="1" name="Quest - BOSS Rampage">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="TOGGLE" />
 		<set name="skillType" val="CONT" />
@@ -145,6 +164,7 @@
 		</for>
 	</skill>
 	<skill id="4519" levels="1" name="Quest - BOSS Defend">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="TOGGLE" />
 		<set name="skillType" val="CONT" />
@@ -157,6 +177,7 @@
 		</for>
 	</skill>
 	<skill id="4520" levels="1" name="Quest - BOSS Rampage">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="TOGGLE" />
 		<set name="skillType" val="CONT" />
@@ -169,6 +190,7 @@
 		</for>
 	</skill>
 	<skill id="4521" levels="1" name="Quest - BOSS Resist non Bow Weapon">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -183,6 +205,7 @@
 		</for>
 	</skill>
 	<skill id="4522" levels="1" name="Eye of Assassin">
+		<set name="icon" val="icon.skill0016" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="isMagic" val="true" />
@@ -199,6 +222,7 @@
 		</for>
 	</skill>
 	<skill id="4523" levels="1" name="Quest - BOSS Evasion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="hitTime" val="10000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="76" />
@@ -213,6 +237,7 @@
 		</for>
 	</skill>
 	<skill id="4524" levels="1" name="Quest - BOSS Bluff">
+		<set name="icon" val="icon.skill0000" />
 		<set name="hitTime" val="10000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="76" />
@@ -225,6 +250,7 @@
 		</for>
 	</skill>
 	<skill id="4525" levels="1" name="Quest - BOSS Defend">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="TOGGLE" />
 		<set name="skillType" val="CONT" />
@@ -238,6 +264,7 @@
 		</for>
 	</skill>
 	<skill id="4526" levels="1" name="Quest - BOSS Summon">
+		<set name="icon" val="icon.skill0000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="ACTIVE" />
@@ -246,6 +273,7 @@
 		<set name="target" val="SELF" />
 	</skill>
 	<skill id="4527" levels="1" name="Quest - BOSS Inc HP to Summoned">
+		<set name="icon" val="icon.skill0000" />
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -262,6 +290,7 @@
 		</for>
 	</skill>
 	<skill id="4528" levels="1" name="Quest - BOSS Movement to Summoned">
+		<set name="icon" val="icon.skill0000" />
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
@@ -277,6 +306,7 @@
 		</for>
 	</skill>
 	<skill id="4529" levels="1" name="Quest - Summoned Explosion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="ACTIVE" />
@@ -287,6 +317,7 @@
 		<set name="target" val="AURA" />
 	</skill>
 	<skill id="4530" levels="1" name="Quest - Summoned HP Heal">
+		<set name="icon" val="icon.skill0000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="ACTIVE" />
@@ -297,6 +328,7 @@
 		<set name="target" val="AURA" />
 	</skill>
 	<skill id="4531" levels="1" name="Quest - Summoned MP Heal">
+		<set name="icon" val="icon.skill0000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="ACTIVE" />
@@ -307,6 +339,7 @@
 		<set name="target" val="AURA" />
 	</skill>
 	<skill id="4532" levels="1" name="Quest - BOSS Reflect">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="TOGGLE" />
 		<set name="skillType" val="CONT" />
@@ -319,6 +352,7 @@
 		</for>
 	</skill>
 	<skill id="4533" levels="1" name="Dance of Resistance">
+		<set name="icon" val="icon.skill0272" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -336,6 +370,7 @@
 		</for>
 	</skill>
 	<skill id="4534" levels="1" name="Dance of Nihil">
+		<set name="icon" val="icon.skill0275" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -353,6 +388,7 @@
 		</for>
 	</skill>
 	<skill id="4535" levels="1" name="Dance of Weakness">
+		<set name="icon" val="icon.skill0310" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -370,6 +406,7 @@
 		</for>
 	</skill>
 	<skill id="4536" levels="1" name="Song of Seduce">
+		<set name="icon" val="icon.skill0268" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -387,6 +424,7 @@
 		</for>
 	</skill>
 	<skill id="4537" levels="1" name="Song of Sweet Whisper">
+		<set name="icon" val="icon.skill0266" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -404,6 +442,7 @@
 		</for>
 	</skill>
 	<skill id="4538" levels="1" name="Song of Temptation">
+		<set name="icon" val="icon.skill0305" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="1500" />
@@ -421,6 +460,7 @@
 		</for>
 	</skill>
 	<skill id="4539" levels="1" name="Curse of Vague">
+		<set name="icon" val="icon.skill1240" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -439,6 +479,7 @@
 		</for>
 	</skill>
 	<skill id="4540" levels="1" name="Curse of Weakness">
+		<set name="icon" val="icon.skill1040" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -457,6 +498,7 @@
 		</for>
 	</skill>
 	<skill id="4541" levels="1" name="Curse of Nihil">
+		<set name="icon" val="icon.skill1068" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="hitTime" val="4000" />
@@ -476,6 +518,7 @@
 		</for>
 	</skill>
 	<skill id="4542" levels="1" name="Quest - Henchman 90% Sleep Stun Weakness">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -486,6 +529,7 @@
 		</for>
 	</skill>
 	<skill id="4543" levels="1" name="Quest - BOSS Stun Weakness">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -498,6 +542,7 @@
 		<table name="#pDef"> 0.8 0.6 0.7 </table>
 		<table name="#pAtkSpd"> 0.9 0.8 0.6 </table>
 		<table name="#pAtk"> 0.7 0.6 0.5 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="ACTIVE" />
@@ -512,6 +557,7 @@
 		</for>
 	</skill>
 	<skill id="4545" levels="1" name="Quest - BOSS Reflect">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="76" />
 		<set name="operateType" val="TOGGLE" />
 		<set name="skillType" val="CONT" />
@@ -525,6 +571,7 @@
 		</for>
 	</skill>
 	<skill id="4546" levels="1" name="Quest - Commune to Slate">
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="1000" />
 		<set name="effectRange" val="1500" />
 		<set name="magicLvl" val="99" />
@@ -533,6 +580,7 @@
 		<set name="target" val="ONE" />
 	</skill>
 	<skill id="4547" levels="1" name="Gaze of Watcher">
+		<set name="icon" val="icon.skill0131" />
 		<set name="castRange" val="1000" />
 		<set name="effectRange" val="1500" />
 		<set name="isDebuff" val="true" />
@@ -546,6 +594,7 @@
 		</for>
 	</skill>
 	<skill id="4548" levels="1" name="Quest - Dispel Watcher Gaze">
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="1000" />
 		<set name="effectRange" val="1500" />
 		<set name="magicLvl" val="99" />
@@ -555,6 +604,7 @@
 		<set name="target" val="ONE" />
 	</skill>
 	<skill id="4549" levels="1" name="Quest - Unsealed Altar">
+		<set name="icon" val="icon.skill0000" />
 		<set name="hitTime" val="3000" />
 		<set name="magicLvl" val="99" />
 		<set name="operateType" val="ACTIVE" />
@@ -562,6 +612,7 @@
 		<set name="target" val="SELF" />
 	</skill>
 	<skill id="4550" levels="1" name="Quest - Cursed Altar">
+		<set name="icon" val="icon.skill0000" />
 		<set name="hitTime" val="3000" />
 		<set name="magicLvl" val="99" />
 		<set name="operateType" val="ACTIVE" />
@@ -572,6 +623,7 @@
 		<table name="#pDef"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.85 </table>
 		<table name="#rCrit"> 30 50 80 100 50 0 0 0 0 0 </table>
 		<table name="#stackOrder"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<set name="icon" val="icon.skill1164" />
 		<set name="mpInitialConsume" val="14" />
 		<set name="mpConsume" val="55" />
 		<set name="power" val="100" />
@@ -595,6 +647,7 @@
 		<table name="#rEvas"> 0 3 3 3 5 5 5 8 8 10 </table>
 		<table name="#accCombat"> 3 6 8 10 6 0 0 0 0 0 </table>
 		<table name="#stackOrder"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<set name="icon" val="icon.skill1164" />
 		<set name="mpInitialConsume" val="14" />
 		<set name="mpConsume" val="55" />
 		<set name="power" val="100" />
@@ -618,6 +671,7 @@
 		<table name="#pAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
 		<table name="#pAtk"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.85 </table>
 		<table name="#stackOrder"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<set name="icon" val="icon.skill1164" />
 		<set name="mpInitialConsume" val="14" />
 		<set name="mpConsume" val="55" />
 		<set name="power" val="100" />
@@ -641,6 +695,7 @@
 		<table name="#mAtkSpd"> 1.04 1.08 1.12 1.16 1.08 1 1 1 1 1 </table>
 		<table name="#MpConsumeRate"> 1 0.96 0.96 0.96 0.92 0.92 0.92 0.88 0.88 0.84 </table>
 		<table name="#stackOrder"> 1 2 3 4 5 6 7 8 9 10 </table>
+		<set name="icon" val="icon.skill1164" />
 		<set name="mpInitialConsume" val="14" />
 		<set name="mpConsume" val="55" />
 		<set name="power" val="100" />
@@ -661,6 +716,7 @@
 		</for>
 	</skill>
 	<skill id="4555" levels="1" name="NPC Resist Mutant">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="75" />
 		<set name="operateType" val="PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -674,6 +730,7 @@
 		</for>
 	</skill>
 	<skill id="4556" levels="1" name="Dispel Hot Spring Disease A_D">
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="isMagic" val="true" />
@@ -689,6 +746,7 @@
 		</for>
 	</skill>
 	<skill id="4557" levels="1" name="Dispel Hot Spring Disease B_D">
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="isMagic" val="true" />
@@ -704,6 +762,7 @@
 		</for>
 	</skill>
 	<skill id="4558" levels="1" name="Dispel Hot Spring Disease C_D">
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="isMagic" val="true" />
@@ -719,6 +778,7 @@
 		</for>
 	</skill>
 	<skill id="4559" levels="1" name="Hot Spring Illusion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="75" />
 		<set name="target" val="ONE" />
 		<set name="skillType" val="BUFF" />
@@ -733,6 +793,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<table name="#power"> 13 15 18 20 23 26 29 32 35 38 42 44 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="ONE" />
@@ -750,6 +811,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 4 5 8 9 12 14 17 18 19 19 20 20 </table>
 		<table name="#power"> 13 15 18 20 23 26 29 32 35 38 42 44 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="ONE" />
@@ -767,6 +829,7 @@
 		<table name="#mpInitialConsume"> 3 5 7 9 12 14 17 18 18 19 20 20 </table>
 		<table name="#mpConsume"> 12 19 26 35 45 55 65 69 72 75 77 78 </table>
 		<table name="#power"> 22 33 47 65 85 107 127 137 145 152 157 161 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="element" val="HOLY" />
@@ -786,6 +849,7 @@
 		<table name="#mpInitialConsume"> 3 5 7 9 12 14 17 18 18 19 20 20 </table>
 		<table name="#mpConsume"> 12 19 26 35 45 55 65 69 72 75 77 78 </table>
 		<table name="#power"> 22 33 47 65 85 107 127 137 145 152 157 161 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="element" val="HOLY" />
@@ -804,6 +868,7 @@
 		<table name="#mpInitialConsume"> 3 5 7 9 12 14 17 18 18 19 20 20 </table>
 		<table name="#mpConsume"> 12 19 26 35 45 55 65 69 72 75 77 78 </table>
 		<table name="#power"> 11 17 24 33 43 54 64 69 73 76 79 81 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="1000" />
 		<set name="effectRange" val="1500" />
 		<set name="element" val="HOLY" />
@@ -821,6 +886,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<table name="#power"> 37 39 41 43 45 46 48 50 51 53 54 56 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="AREA" />
@@ -839,6 +905,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<table name="#power"> 37 39 41 43 45 46 48 50 51 53 54 56 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="AREA" />
@@ -856,6 +923,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
 		<table name="#power"> 37 39 41 43 45 46 48 50 51 53 54 56 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="AREA" />
@@ -874,6 +942,7 @@
 		<table name="#mpInitialConsume"> 5 8 10 14 17 21 25 26 27 28 29 29 </table>
 		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
 		<table name="#power"> 11 17 24 33 43 54 64 69 73 76 79 81 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="element" val="HOLY" />
@@ -894,6 +963,7 @@
 		<table name="#mpInitialConsume"> 5 8 10 14 17 21 25 26 27 28 29 29 </table>
 		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
 		<table name="#power"> 11 17 24 33 43 54 64 69 73 76 79 81 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="element" val="HOLY" />
@@ -913,6 +983,7 @@
 		<table name="#mpInitialConsume"> 5 8 10 14 17 21 25 26 27 28 29 29 </table>
 		<table name="#mpConsume"> 17 29 39 53 67 83 97 103 108 112 115 116 </table>
 		<table name="#power"> 6 9 12 17 22 27 32 35 37 38 40 41 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="1000" />
 		<set name="effectRange" val="1500" />
 		<set name="element" val="HOLY" />
@@ -931,6 +1002,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 18 29 40 53 68 83 98 104 109 113 115 117 </table>
 		<table name="#power"> 42 44 46 48 50 52 55 57 58 60 62 64 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="AURA" />
@@ -947,6 +1019,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 25 40 56 76 99 121 142 151 159 165 168 170 </table>
 		<table name="#power"> 92 210 438 833 1443 2272 3252 3752 4224 4640 4974 5233 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="baseCritRate" val="15" />
 		<set name="castRange" val="40" />
 		<set name="effectRange" val="400" />
@@ -964,6 +1037,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 28 38 50 61 71 76 80 83 84 85 </table>
 		<table name="#power"> 46 105 219 417 722 1136 1626 1876 2112 2320 2487 2617 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="baseCritRate" val="15" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -980,6 +1054,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 9 14 19 26 33 41 48 51 53 55 56 57 </table>
 		<table name="#power"> 31 70 146 278 481 758 1084 1251 1408 1547 1658 1745 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="baseCritRate" val="15" />
 		<set name="castRange" val="500" />
 		<set name="effectRange" val="1000" />
@@ -999,6 +1074,7 @@
 		<table name="#mpConsume"> 16 39 </table>
 		<table name="#pAtkSpd"> 1.15 1.33 </table>
 		<table name="#stackOrder"> 1 2 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1022,6 +1098,7 @@
 		<table name="#mpConsume"> 12 21 39 </table>
 		<table name="#reflectDam"> 10 15 20 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="aggroPoints" val="100" />
 		<set name="hitTime" val="2000" />
 		<set name="isMagic" val="true" />
@@ -1045,6 +1122,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill1222" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1065,6 +1143,7 @@
 		</for>
 	</skill>
 	<skill id="4578" levels="1" name="Petrification">
+		<set name="icon" val="icon.skill4111" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="500" />
@@ -1086,6 +1165,7 @@
 		<table name="#damage"> 27 39 51 66 81 93 102 102 105 105 108 108 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="icon" val="icon.skill0096" />
 		<set name="abnormalLvl" val="#abnormalLvl" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
@@ -1109,6 +1189,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill4037" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1130,6 +1211,7 @@
 	<skill id="4581" levels="12" name="Hold">
 		<table name="#mpConsume"> 24 39 54 73 94 116 136 144 152 158 161 163 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="icon" val="icon.skill4047" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1151,6 +1233,7 @@
 		<table name="#dmg"> 36 54 72 93 114 132 144 144 150 150 153 153 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="icon" val="icon.skill4035" />
 		<set name="abnormalLvl" val="#abnormalLvl" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
@@ -1173,6 +1256,7 @@
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill1160" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1197,6 +1281,7 @@
 		<table name="#pDef"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#stackOrder"> 11 12 12 13 13 13 13 13 13 13 13 13 </table>
+		<set name="icon" val="icon.skill0100" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="target" val="ONE" />
@@ -1226,6 +1311,7 @@
 		<table name="#pDef"> 0.95 0.95 0.92 </table>
 		<table name="#mDef"> 0.9 0.9 0.84 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1254,6 +1340,7 @@
 		<table name="#rEvas"> 1 2 3 4 5 6 7 8 9 10 11 12 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill1222" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1279,6 +1366,7 @@
 		<table name="#pAtk"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill4037" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1310,6 +1398,7 @@
 		<table name="#pDef"> 0.95 0.92 </table>
 		<table name="#mDef"> 0.9 0.84 </table>
 		<table name="#stackOrder"> 1 2 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1338,6 +1427,7 @@
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill1160" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1362,6 +1452,7 @@
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill1160" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1385,6 +1476,7 @@
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill1160" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1409,6 +1501,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill0122" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1434,6 +1527,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill0122" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1458,6 +1552,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#time"> 5 10 10 15 15 15 15 15 15 15 15 15 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill0122" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1483,6 +1578,7 @@
 		<table name="#mAtkSpd"> 1.15 1.23 1.3 </table>
 		<table name="#pDef"> 1.08 1.12 1.15 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="mpInitialConsume" val="#mpInitialConsume" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -1506,6 +1602,7 @@
 		<table name="#damage"> 27 39 51 66 81 93 102 102 105 105 108 108 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="icon" val="icon.skill0096" />
 		<set name="abnormalLvl" val="#abnormalLvl" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
@@ -1529,6 +1626,7 @@
 		<table name="#damage"> 27 39 51 66 81 93 102 102 105 105 108 108 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="icon" val="icon.skill0096" />
 		<set name="abnormalLvl" val="#abnormalLvl" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
@@ -1551,6 +1649,7 @@
 		<table name="#damage"> 27 39 51 66 81 93 102 102 105 105 108 108 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
+		<set name="icon" val="icon.skill0096" />
 		<set name="abnormalLvl" val="#abnormalLvl" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
@@ -1573,6 +1672,7 @@
 		<table name="#runSpd"> 0.83 0.8 0.8 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 0.77 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#stackOrder"> 1 2 2 3 3 3 3 3 3 3 3 3 </table>
+		<set name="icon" val="icon.skill1160" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />

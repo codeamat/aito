@@ -5,6 +5,7 @@
 		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
 		<table name="#hitTime"> 4000 4000 4000 4000 4000 4000 4000 1000 1000 1000 1000 1000 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -23,6 +24,7 @@
 		<table name="#mpConsume"> 18 29 40 53 68 83 98 104 109 112 115 117 </table>
 		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
 		<set name="mpConsume" val="#mpConsume" />
@@ -39,6 +41,7 @@
 		<set name="absorbPart" val="0.2" />
 	</skill>
 	<skill id="4003" levels="1" name="Golem Body">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="1" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -50,6 +53,7 @@
 		</for>
 	</skill>
 	<skill id="4004" levels="1" name="Fragile Skull">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="1" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -59,6 +63,7 @@
 		</for>
 	</skill>
 	<skill id="4005" levels="1" name="Floating Target">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="1" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -69,6 +74,7 @@
 		</for>
 	</skill>
 	<skill id="4006" levels="1" name="Blazing Log">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="1" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -79,6 +85,7 @@
 		</for>
 	</skill>
 	<skill id="4007" levels="1" name="Immortal Life">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="1" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -89,6 +96,7 @@
 		</for>
 	</skill>
 	<skill id="4008" levels="1" name="Insect Skin">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="1" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -134,6 +142,7 @@
 		</for>
 	</skill>
 	<skill id="4013" levels="1" name="Resistance To Fire, Vulnerable To Water">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="PASSIVE" />
@@ -143,6 +152,7 @@
 		</for>
 	</skill>
 	<skill id="4014" levels="1" name="Resistance To Water, Vulnerable To Fire">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="PASSIVE" />
@@ -152,6 +162,7 @@
 		</for>
 	</skill>
 	<skill id="4015" levels="1" name="Resistance To Wind, Vulnerable To Earth">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="PASSIVE" />
@@ -161,6 +172,7 @@
 		</for>
 	</skill>
 	<skill id="4016" levels="1" name="Resistance To Earth, Vulnerable To Wind">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="PASSIVE" />
@@ -170,6 +182,7 @@
 		</for>
 	</skill>
 	<skill id="4017" levels="1" name="Queen Ant Brandish">
+		<set name="icon" val="icon.skill0000" />
 		<set name="coolTime" val="500" />
 		<set name="hitTime" val="1300" />
 		<set name="magicLvl" val="40" />
@@ -216,6 +229,7 @@
 		</for>
 	</skill>
 	<skill id="4020" levels="1" name="Heal Queen Ant1">
+		<set name="icon" val="icon.skill0000" />
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -228,6 +242,7 @@
 		<set name="target" val="ONE" />
 	</skill>
 	<skill id="4021" levels="1" name="Queen Ant">
+		<set name="icon" val="icon.skillboss" />
 		<set name="magicLvl" val="40" />
 		<set name="operateType" val="PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -239,6 +254,7 @@
 	</skill>
 	<skill id="4022" levels="1" name="Body Of Nurse Ant">
 		<!-- This Skill Is Only For Description In The Client -->
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="35" />
 		<set name="operateType" val="PASSIVE" />
 		<set name="skillType" val="PASSIVE" />
@@ -246,12 +262,14 @@
 	</skill>
 	<skill id="4023" levels="1" name="Body Of Royal Guard Ant">
 		<!-- This Skill Is Only For Description In The Client -->
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="35" />
 		<set name="operateType" val="PASSIVE" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="target" val="SELF" />
 	</skill>
 	<skill id="4024" levels="1" name="Heal Queen Ant2">
+		<set name="icon" val="icon.skill0000" />
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -268,6 +286,7 @@
 		<table name="#power"> 23 38 52 70 90 110 129 138 144 149 153 155 </table>
 		<table name="#aggro"> 138 204 285 379 477 566 635 659 676 689 700 709 </table>
 		<table name="#magicLvl"> 17 27 37 47 57 67 77 82 87 92 97 102 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="ONE" />
@@ -282,6 +301,7 @@
 		<set name="aggroPoints" val="#aggro" />
 	</skill>
 	<skill id="4026" levels="1" name="Gludio Flame">
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="900" />
 		<set name="effectRange" val="1400" />
 		<set name="element" val="FIRE" />
@@ -297,6 +317,7 @@
 		<set name="mpConsume" val="28" />
 	</skill>
 	<skill id="4027" levels="1" name="Gludio Heal">
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="hitTime" val="5000" />
@@ -314,6 +335,7 @@
 		<table name="#magicLvl"> 20 40 70 </table>
 		<table name="#pAtk"> 1.08 1.12 1.15 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="SELF" />
@@ -333,6 +355,7 @@
 		<table name="#pDef"> 1.08 1.12 1.15 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
 		<table name="#mpConsume"> 10 18 33 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="SELF" />
@@ -352,6 +375,7 @@
 		<table name="#pAtk"> 1.08 1.12 1.15 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
 		<table name="#mpConsume"> 10 18 33 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="CLAN" />
@@ -395,6 +419,7 @@
 		<table name="#power"> 46 105 219 417 722 1136 1626 1876 2112 2320 2487 2617 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 14 22 31 43 55 68 79 84 89 92 94 95 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
@@ -412,6 +437,7 @@
 		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 18 29 40 53 68 83 98 104 109 113 115 117 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
@@ -428,6 +454,7 @@
 		<table name="#power"> 11 16 23 31 41 51 61 66 70 73 76 78 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
+		<set name="icon" val="icon.skill1184" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
@@ -549,6 +576,7 @@
 		<table name="#power"> 34 57 78 105 134 165 194 206 216 224 229 232 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
@@ -566,6 +594,7 @@
 		<table name="#power"> 122 279 584 1110 1920 3030 4336 5002 5632 6187 6632 6978 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 27 44 62 85 109 135 157 168 177 183 187 189 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
@@ -582,6 +611,7 @@
 		<table name="#magicLvl"> 45 50 </table>
 		<table name="#power"> 60 68 </table>
 		<table name="#mpConsume"> 40 45 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -596,6 +626,7 @@
 		<set name="target" val="ONE" />
 	</skill>
 	<skill id="4042" levels="1" name="Nurka Blaze">
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="element" val="FIRE" />
@@ -610,6 +641,7 @@
 		<set name="mpConsume" val="40" />
 	</skill>
 	<skill id="4043" levels="1" name="Partisan Flame">
+		<set name="icon" val="icon.skill0000" />
 		<set name="castRange" val="400" />
 		<set name="effectRange" val="900" />
 		<set name="element" val="FIRE" />
@@ -625,6 +657,7 @@
 		<set name="mpConsume" val="60" />
 	</skill>
 	<skill id="4044" levels="1" name="Partisan Heal">
+		<set name="icon" val="icon.skill0000" />
 		<set name="aggroPoints" val="100" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -639,6 +672,7 @@
 		<set name="mpConsume" val="70" />
 	</skill>
 	<skill id="4045" levels="1" name="Resist Full Magic Attack">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="50" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -694,6 +728,7 @@
 	<skill id="4048" levels="3" name="NPC Dash">
 		<table name="#magicLvl"> 10 10 10 </table>
 		<table name="#runSpd"> 1.5 1.8 2 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="12" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="SELF" />
@@ -708,6 +743,7 @@
 	<skill id="4049" levels="8" name="Cubic Drain"> <!-- storm cubic, not a drain -->
 		<table name="#magicLvl"> 40 46 52 58 62 66 70 74 </table>
 		<table name="#power"> 436 645 936 1242 1520 1792 2086 2399 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="power" val="#power" />
@@ -717,6 +753,7 @@
 	<skill id="4050" levels="7" name="Cubic DD"> <!-- vampiric cubic -->
 		<table name="#magicLvl"> 43 49 55 60 64 68 72 </table>
 		<table name="#power"> 543 760 1084 1377 1635 1955 2262 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="absorbPart" val="0.4" /> <!-- absorbs 40% of damage -->
 		<set name="isMagic" val="true" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -729,6 +766,7 @@
 		<table name="#aggroPoints"> 408 467 523 566 597 624 646 653 </table>
 		<table name="#magicLvl"> 43 49 55 60 64 68 72 74 </table>
 		<table name="#power"> 201 241 281 314 339 361 382 390 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="aggroPoints" val="#aggroPoints" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
@@ -743,6 +781,7 @@
 		<table name="#abnormalLvl"> 5 6 7 7 7 8 </table>
 		<table name="#dot"> 93 114 132 132 132 144 </table>
 		<table name="#magicLvl"> 49 55 60 64 68 72 </table>
+		<set name="icon" val="icon.skill1168" />
 		<set name="abnormalLvl" val="#abnormalLvl" />
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="true" />
@@ -758,6 +797,7 @@
 	</skill>
 	<skill id="4053" levels="16" name="Decrease P.Atk"> <!-- poltergeist cubic -->
 		<table name="#magicLvl"> 40 46 52 58 62 66 70 74 76 78 80 81 82 83 84 85 </table>
+		<set name="icon" val="icon.skill1164" />
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="true" />
 		<set name="lvlDepend" val="2" />
@@ -774,6 +814,7 @@
 	</skill>
 	<skill id="4054" levels="8" name="Decrease P. Def"> <!-- poltergeist cubic -->
 		<table name="#magicLvl"> 40 46 52 58 62 66 70 74 </table>
+		<set name="icon" val="icon.skill0122" />
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="true" />
 		<set name="lvlDepend" val="2" />
@@ -790,6 +831,7 @@
 	</skill>
 	<skill id="4055" levels="8" name="Decrease Atk.Speed"> <!-- poltergeist cubic -->
 		<table name="#magicLvl"> 40 46 52 58 62 66 70 74 </table>
+		<set name="icon" val="icon.skill1206" />
 		<set name="isDebuff" val="true" />
 		<set name="isMagic" val="true" />
 		<set name="lvlDepend" val="2" />
@@ -805,11 +847,13 @@
 		</for>
 	</skill>
 	<skill id="4056" levels="1" name="Immortal Attack">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="PASSIVE" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="4057" levels="1" name="Insect Weak Point">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="1" />
@@ -819,6 +863,7 @@
 		</for>
 	</skill>
 	<skill id="4058" levels="1" name="Plant Weak Point">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="1" />
@@ -828,6 +873,7 @@
 		</for>
 	</skill>
 	<skill id="4059" levels="1" name="Animal Weak Point">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="1" />
@@ -837,6 +883,7 @@
 		</for>
 	</skill>
 	<skill id="4060" levels="1" name="Beast Weak Point">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="1" />
@@ -846,6 +893,7 @@
 		</for>
 	</skill>
 	<skill id="4061" levels="1" name="Dragon Weak Point">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="magicLvl" val="1" />
@@ -855,6 +903,7 @@
 		</for>
 	</skill>
 	<skill id="4062" levels="1" name="Orfen">
+		<set name="icon" val="icon.skillboss" />
 		<set name="magicLvl" val="50" />
 		<set name="operateType" val="PASSIVE" />
 		<set name="skillType" val="BUFF" />
@@ -865,6 +914,7 @@
 		</for>
 	</skill>
 	<skill id="4063" levels="1" name="Paralysis">
+		<set name="icon" val="icon.skill1170" />
 		<set name="castRange" val="50" />
 		<set name="effectRange" val="200" />
 		<set name="hitTime" val="3600" />
@@ -879,6 +929,7 @@
 		</for>
 	</skill>
 	<skill id="4064" levels="1" name="Paralysis">
+		<set name="icon" val="icon.skill1170" />
 		<set name="castRange" val="800" />
 		<set name="effectRange" val="1300" />
 		<set name="hitTime" val="4000" />
@@ -896,6 +947,7 @@
 	<skill id="4065" levels="12" name="NPC Heal">
 		<table name="#power"> 83 151 245 362 494 628 743 789 826 867 895 913 </table>
 		<table name="#mpConsume"> 17 30 44 62 80 98 114 122 127 130 132 132 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="ONE" />
@@ -912,6 +964,7 @@
 		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
@@ -928,6 +981,7 @@
 		<table name="#power"> 137 314 656 1249 2164 3408 4878 5627 6335 6960 7461 7850 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 14 22 31 43 55 68 79 84 89 92 94 95 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
@@ -945,6 +999,7 @@
 		<table name="#power"> 46 105 219 417 722 1136 1626 1876 2112 2320 2487 2617 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 14 22 31 43 55 68 79 84 89 92 94 95 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
@@ -961,6 +1016,7 @@
 		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
@@ -974,6 +1030,7 @@
 		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="4070" levels="1" name="Decrease Atk. Spd.">
+		<set name="icon" val="icon.skill1206" />
 		<set name="isDebuff" val="true" />
 		<set name="lvlDepend" val="1" />
 		<set name="magicLvl" val="1" />
@@ -1000,6 +1057,7 @@
 		<table name="#power"> 16 35 73 139 241 379 542 626 704 774 829 873 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 14 22 31 43 55 68 79 84 89 92 94 95 </table>
+		<set name="icon" val="icon.skill0100" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
@@ -1020,6 +1078,7 @@
 		<table name="#power"> 16 35 73 139 241 379 542 626 704 774 829 873 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 14 22 31 43 55 68 79 84 89 92 94 95 </table>
+		<set name="icon" val="icon.skill0100" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
@@ -1042,6 +1101,7 @@
 		<table name="#pAtkSpd"> 1.15 1.33 </table>
 		<table name="#stackOrder"> 1 2 </table>
 		<table name="#mpConsume"> 14 33 </table>
+		<set name="icon" val="icon.skill1086" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="ONE" />
@@ -1062,6 +1122,7 @@
 	<skill id="4075" levels="12" name="Shock">
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 14 23 32 43 55 68 79 84 89 92 94 95 </table>
+		<set name="icon" val="icon.skill0092" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
@@ -1084,6 +1145,7 @@
 		<table name="#magicLvl"> 20 40 70 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
 		<table name="#mpConsume"> 20 35 65 </table>
+		<set name="icon" val="icon.skill1160" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
@@ -1107,6 +1169,7 @@
 		<table name="#power"> 14 21 30 42 55 68 82 88 93 98 101 104 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
@@ -1124,6 +1187,7 @@
 		<table name="#power"> 9 13 19 26 34 43 51 55 58 61 63 65 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 18 29 40 53 68 83 98 104 109 113 115 117 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
@@ -1140,6 +1204,7 @@
 		<set name="effectRange" val="900" />
 	</skill>
 	<skill id="4079" levels="1" name="Siege Hammer">
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="150" />
 		<set name="magicLvl" val="49" />
 		<set name="power" val="266024" />
@@ -1152,6 +1217,7 @@
 		<set name="effectRange" val="1100" />
 	</skill>
 	<skill id="4080" levels="1" name="Dark Heal">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="60" />
 		<set name="power" val="628" />
 		<set name="lvlDepend" val="1" />
@@ -1166,6 +1232,7 @@
 		<set name="mpConsume" val="98" />
 	</skill>
 	<skill id="4081" levels="1" name="Pretending to steal">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="ONE" />
 		<set name="hitTime" val="4000" />
 		<set name="skillType" val="BUFF" /> <!-- Just Broadcast -->
@@ -1194,6 +1261,7 @@
 		</for>
 	</skill>
 	<skill id="4083" levels="1" name="Die! You fool!">
+		<set name="icon" val="icon.skill0000" />
 		<set name="power" val="90000" />
 		<set name="target" val="ONE" />
 		<set name="hitTime" val="1000" />
@@ -1233,6 +1301,7 @@
 		<table name="#power"> 18 26 38 52 68 85 102 110 116 122 126 129 </table>
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="power" val="#power" />
@@ -1252,6 +1321,7 @@
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#abnormalLvl"> 2 3 4 5 6 7 8 8 9 9 10 10 </table>
 		<table name="#mpConsume"> 13 20 28 38 50 61 71 76 80 83 84 85 </table>
+		<set name="icon" val="icon.skill0096" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="abnormalLvl" val="#abnormalLvl" />
 		<set name="magicLvl" val="#magicLvl" />
@@ -1272,6 +1342,7 @@
 		</for>
 	</skill>
 	<skill id="4089" levels="1" name="NPC Bear Spirit Totem">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="40" />
 		<set name="mpConsume" val="18" />
 		<set name="target" val="SELF" />
@@ -1287,6 +1358,7 @@
 		</for>
 	</skill>
 	<skill id="4090" levels="1" name="NPC Wolf Spirit Totem">
+		<set name="icon" val="icon.skill0000" />
 		<set name="magicLvl" val="40" />
 		<set name="target" val="SELF" />
 		<set name="reuseDelay" val="8000" />
@@ -1301,6 +1373,7 @@
 		<set name="mpConsume" val="18" />
 	</skill>
 	<skill id="4091" levels="1" name="NPC Ogre Spirit Totem">
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="18" />
 		<set name="magicLvl" val="40" />
 		<set name="target" val="SELF" />
@@ -1318,6 +1391,7 @@
 		</for>
 	</skill>
 	<skill id="4092" levels="1" name="NPC Puma Spirit Totem">
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="18" />
 		<set name="magicLvl" val="40" />
 		<set name="target" val="SELF" />
@@ -1344,6 +1418,7 @@
 	<skill id="4094" levels="12" name="NPC Cancel Magic">
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="1" />
@@ -1373,6 +1448,7 @@
 		<table name="#accCombat"> 6 8 10 </table>
 		<table name="#stackOrder"> 1 2 3 </table>
 		<table name="#mpConsume"> 10 18 33 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="SELF" />
@@ -1393,6 +1469,7 @@
 		<table name="#power"> 1 2 3 4 5 6 7 8 9 10 11 12 </table>
 		<table name="#stackOrder"> 1 2 3 4 5 6 7 8 9 10 11 12 </table>
 		<table name="#mpConsume"> 33 59 88 122 159 195 228 242 252 259 262 262 </table>
+		<set name="icon" val="icon.skill1229" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="power" val="#power" />
 		<set name="target" val="ONE" />
@@ -1411,6 +1488,7 @@
 	<skill id="4098" levels="12" name="Magic Skill Block">
 		<table name="#magicLvl"> 10 20 30 40 50 60 70 75 80 85 90 95 </table>
 		<table name="#mpConsume"> 13 20 27 35 45 55 65 69 73 75 77 78 </table>
+		<set name="icon" val="icon.skill1064" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="lvlDepend" val="2" />
@@ -1440,6 +1518,7 @@
 		<table name="#rEvas"> 5 8 </table>
 		<table name="#stackOrder"> 1 2 </table>
 		<table name="#mpConsume"> 18 33 </table>
+		<set name="icon" val="icon.skill1062" />
 		<set name="mpConsume" val="#mpConsume" />
 		<set name="magicLvl" val="#magicLvl" />
 		<set name="target" val="SELF" />

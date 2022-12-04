@@ -60,6 +60,7 @@ public abstract class L2Skill implements IChanceSkillTrigger
 	private final int _level;
 	
 	private final String _name;
+	private final String _icon;
 	private final SkillOpType _operateType;
 	
 	private final boolean _isMagic;
@@ -188,6 +189,7 @@ public abstract class L2Skill implements IChanceSkillTrigger
 		_level = set.getInteger("level", 1);
 		
 		_name = set.getString("name");
+		_icon = set.getString("icon", String.format("icon.skill%04d", _id));
 		_operateType = set.getEnum("operateType", SkillOpType.class);
 		
 		_isMagic = set.getBool("isMagic", false);
@@ -746,6 +748,14 @@ public abstract class L2Skill implements IChanceSkillTrigger
 	public final String getName()
 	{
 		return _name;
+	}
+	
+	/**
+	 * @return String the icon of the skill.
+	 */
+	public final String getIcon()
+	{
+		return _icon;
 	}
 	
 	/**

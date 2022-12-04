@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="4100" type="EtcItem" name="Zubei's Gauntlets Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -8,6 +9,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4101" type="EtcItem" name="Zubei's Shield Fragment">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -15,6 +17,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4102" type="EtcItem" name="Zubei's Helmet Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -22,6 +25,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4103" type="EtcItem" name="Pata Blade">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -29,6 +33,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4104" type="EtcItem" name="Great Sword Blade">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -36,6 +41,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4105" type="EtcItem" name="Heavy War Axe Head">
+		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -43,6 +49,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4106" type="EtcItem" name="Sprite's Staff Head">
+		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -50,6 +57,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4107" type="EtcItem" name="Keshanberk Blade">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -57,6 +65,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4108" type="EtcItem" name="Sword of Valhalla Blade">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -64,6 +73,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4109" type="EtcItem" name="Kris Edge">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -71,6 +81,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4110" type="EtcItem" name="Hell Knife Edge">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -78,6 +89,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4111" type="EtcItem" name="Arthro Nail Blade">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -85,6 +97,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4112" type="EtcItem" name="Dark Elven Longbow Shaft">
+		<set name="icon" val="icon.etc_branch_gold_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -92,6 +105,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4113" type="EtcItem" name="Great Axe Head">
+		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -99,6 +113,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4114" type="EtcItem" name="Sword of Damascus Blade">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -106,6 +121,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4115" type="EtcItem" name="Lance Blade">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -113,6 +129,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4116" type="EtcItem" name="Deadman's Glory Stone">
+		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -120,6 +137,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4117" type="EtcItem" name="Art of Battle Axe Blade">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -127,6 +145,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4118" type="EtcItem" name="Evil Spirit Head">
+		<set name="icon" val="icon.etc_squares_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -134,6 +153,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4119" type="EtcItem" name="Demon Dagger Edge">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -141,6 +161,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4120" type="EtcItem" name="Bellion Cestus Edge">
+		<set name="icon" val="icon.etc_sword_body_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -148,6 +169,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4121" type="EtcItem" name="Bow of Peril Shaft">
+		<set name="icon" val="icon.etc_branch_gold_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -155,6 +177,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="4122" type="EtcItem" name="Recipe: Maestro Holder">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -164,6 +187,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4123" type="EtcItem" name="Recipe: Maestro Anvil Lock">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -173,6 +197,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4124" type="EtcItem" name="Recipe: Craftsman Mold">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -182,6 +207,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4125" type="EtcItem" name="Recipe: Maestro Mold">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -191,6 +217,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4126" type="EtcItem" name="Recipe: Adamantite Earrings">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -200,6 +227,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4127" type="EtcItem" name="Recipe: Adamantite Ring">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -209,6 +237,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4128" type="EtcItem" name="Recipe: Adamantite Necklace">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -218,6 +247,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4129" type="EtcItem" name="Recipe: Earrings of Black Ore">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -227,6 +257,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4130" type="EtcItem" name="Recipe: Ring of Black Ore">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -236,6 +267,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4131" type="EtcItem" name="Recipe: Necklace of Black Ore">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -245,6 +277,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4132" type="EtcItem" name="Recipe: Composite Shield">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -254,6 +287,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4133" type="EtcItem" name="Recipe: Zubei's Breastplate">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -263,6 +297,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4134" type="EtcItem" name="Recipe: Zubei's Gaiters">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -272,6 +307,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4135" type="EtcItem" name="Recipe: Implosion Boots">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -281,6 +317,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4136" type="EtcItem" name="Recipe: Boots of Silence">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -290,6 +327,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4137" type="EtcItem" name="Recipe: Guardian's Boots">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -299,6 +337,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4138" type="EtcItem" name="Recipe: Paradia Boots">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -308,6 +347,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4139" type="EtcItem" name="Recipe: Elemental Boots">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -317,6 +357,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4140" type="EtcItem" name="Recipe: Boots of Grace">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -326,6 +367,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4141" type="EtcItem" name="Recipe: Avadon Breastplate">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -335,6 +377,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4142" type="EtcItem" name="Recipe: Avadon Gaiters">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -344,6 +387,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4143" type="EtcItem" name="Recipe: Zubei's Leather Shirt">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -353,6 +397,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4144" type="EtcItem" name="Recipe: Zubei's Leather Gaiters">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -362,6 +407,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4145" type="EtcItem" name="Recipe: Avadon Leather Armor">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -371,6 +417,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4146" type="EtcItem" name="Recipe: Tunic of Zubei">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -380,6 +427,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4147" type="EtcItem" name="Recipe: Stockings of Zubei">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -389,6 +437,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4148" type="EtcItem" name="Recipe: Avadon Robe">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -398,6 +447,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4149" type="EtcItem" name="Recipe: Avadon Circlet">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -407,6 +457,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4150" type="EtcItem" name="Recipe: Avadon Gloves">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -416,6 +467,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4151" type="EtcItem" name="Recipe: Chain Gloves of Silence">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -425,6 +477,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4152" type="EtcItem" name="Recipe: Guardian's Gloves">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -434,6 +487,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4153" type="EtcItem" name="Recipe: Gloves of Blessing">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -443,6 +497,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4154" type="EtcItem" name="Recipe: Doom Shield">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -452,6 +507,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4155" type="EtcItem" name="Recipe: Blue Wolf Breastplate">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -461,6 +517,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4156" type="EtcItem" name="Recipe: Boots of Blessing">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -470,6 +527,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4157" type="EtcItem" name="Recipe: Blue Wolf Gaiters">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -479,6 +537,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4158" type="EtcItem" name="Recipe: Doom Plate Armor">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -488,6 +547,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4159" type="EtcItem" name="Recipe: Blue Wolf Leather Armor">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -497,6 +557,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4160" type="EtcItem" name="Recipe: Leather Armor of Doom">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -506,6 +567,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4161" type="EtcItem" name="Recipe: Blue Wolf Tunic">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -515,6 +577,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4162" type="EtcItem" name="Recipe: Tunic of Doom">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -524,6 +587,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4163" type="EtcItem" name="Recipe: Blue Wolf Stockings">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -533,6 +597,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4164" type="EtcItem" name="Recipe: Stockings of Doom">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -542,6 +607,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4165" type="EtcItem" name="Recipe: Blue Wolf Helmet">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -551,6 +617,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4166" type="EtcItem" name="Recipe: Doom Helmet">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -560,6 +627,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4167" type="EtcItem" name="Recipe: Blue Wolf Boots">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -569,6 +637,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4168" type="EtcItem" name="Recipe: Doom Gloves">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -578,6 +647,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4169" type="EtcItem" name="Recipe: Elemental Gloves">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -587,6 +657,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4170" type="EtcItem" name="Recipe: Gloves of Grace">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -596,6 +667,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4171" type="EtcItem" name="Recipe: Implosion Gauntlets">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -605,6 +677,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4172" type="EtcItem" name="Recipe: Paradia Gloves">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -614,6 +687,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4173" type="EtcItem" name="Recipe: Blue Wolf Gloves">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -623,6 +697,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4174" type="EtcItem" name="Recipe: Zubei's Boots">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -632,6 +707,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4175" type="EtcItem" name="Recipe: Avadon Boots">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -641,6 +717,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4176" type="EtcItem" name="Recipe: Doom Boots">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -650,6 +727,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4177" type="EtcItem" name="Recipe: Zubei's Gauntlets">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -659,6 +737,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4178" type="EtcItem" name="Recipe: Zubei's Shield (100%)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -668,6 +747,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4179" type="EtcItem" name="Recipe: Zubei's Helmet">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -677,6 +757,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4180" type="EtcItem" name="Recipe: Silver Arrow">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -686,6 +767,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4181" type="EtcItem" name="Recipe: Pata">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -695,6 +777,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4182" type="EtcItem" name="Recipe: Great Sword">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -704,6 +787,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4183" type="EtcItem" name="Recipe: Heavy War Axe">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -713,6 +797,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4184" type="EtcItem" name="Recipe: Sprite's Staff">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -722,6 +807,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4185" type="EtcItem" name="Recipe: Keshanberk">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -731,6 +817,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4186" type="EtcItem" name="Recipe: Sword of Valhalla">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -740,6 +827,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4187" type="EtcItem" name="Recipe: Kris">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -749,6 +837,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4188" type="EtcItem" name="Recipe: Hell Knife">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -758,6 +847,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4189" type="EtcItem" name="Recipe: Arthro Nail">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -767,6 +857,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4190" type="EtcItem" name="Recipe: Dark Elven Long Bow">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -776,6 +867,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4191" type="EtcItem" name="Recipe: Great Axe">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -785,6 +877,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4192" type="EtcItem" name="Recipe: Sword of Damascus">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -794,6 +887,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4193" type="EtcItem" name="Recipe: Lance">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -803,6 +897,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4194" type="EtcItem" name="Recipe: Deadman's Glory">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -812,6 +907,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4195" type="EtcItem" name="Recipe: Art of Battle Axe">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -821,6 +917,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4196" type="EtcItem" name="Recipe: Staff of Evil Spirits">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -830,6 +927,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4197" type="EtcItem" name="Recipe: Demon Dagger">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -839,6 +937,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4198" type="EtcItem" name="Recipe: Bellion Cestus">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />
@@ -848,6 +947,7 @@
 		<set name="handler" val="Recipes" />
 	</item>
 	<item id="4199" type="EtcItem" name="Recipe: Bow of Peril">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="default_action" val="recipe" />
 		<set name="etcitem_type" val="RECIPE" />
 		<set name="material" val="LIQUID" />

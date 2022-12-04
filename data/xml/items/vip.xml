@@ -3,18 +3,21 @@
 
     <!-- VIP 1 Jour -->
     <item id="18000" idTemplate="9800" type="EtcItem" name="VIP 1">
+		<set name="icon" val="ball5.presenteball5.etc_gourd_i01" />
         <set name="handler" val="VipCoin" />
         <set name="etcitem_type" val="POTION" />
         <set name="material" val="LIQUID" />
     </item>
     <!-- VIP 15 Jours -->
     <item id="18001" type="EtcItem" name="VIP 2">
+		<set name="icon" val="ball6.presenteball6.etc_gourd_i01" />
         <set name="handler" val="VipCoin" />
         <set name="etcitem_type" val="POTION" />
         <set name="material" val="LIQUID" />
     </item>
     <!-- VIP 30 jours -->
     <item id="18002" type="EtcItem" name="VIP Max">
+		<set name="icon" val="ball7.presenteball7.etc_gourd_i01" />
         <set name="handler" val="VipCoin" />
         <set name="etcitem_type" val="POTION" />
         <set name="material" val="LIQUID" />

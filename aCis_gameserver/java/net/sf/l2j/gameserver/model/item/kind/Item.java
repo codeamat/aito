@@ -105,6 +105,7 @@ public abstract class Item
 	
 	private final int _itemId;
 	private final String _name;
+	private final String _icon;
 	protected int _type1; // needed for item list (inventory)
 	protected int _type2; // different lists for armor, weapon, etc
 	private final int _weight;
@@ -121,6 +122,7 @@ public abstract class Item
 	private final boolean _destroyable;
 	private final boolean _tradable;
 	private final boolean _depositable;
+	private final boolean _auctionItem;
 	
 	private final boolean _heroItem;
 	private final boolean _isOlyRestricted;
@@ -138,6 +140,7 @@ public abstract class Item
 	{
 		_itemId = set.getInteger("item_id");
 		_name = set.getString("name");
+		_icon = set.getString("icon", "icon.noimage");
 		_weight = set.getInteger("weight", 0);
 		_materialType = set.getEnum("material", MaterialType.class, MaterialType.STEEL);
 		_duration = set.getInteger("duration", -1);
@@ -152,6 +155,7 @@ public abstract class Item
 		_destroyable = set.getBool("is_destroyable", true);
 		_tradable = set.getBool("is_tradable", true);
 		_depositable = set.getBool("is_depositable", true);
+		_auctionItem = set.getBool("auctionItem", true);
 		
 		_heroItem = (_itemId >= 6611 && _itemId <= 6621) || _itemId == 6842;
 		_isOlyRestricted = set.getBool("is_oly_restricted", false);
@@ -288,6 +292,14 @@ public abstract class Item
 	}
 	
 	/**
+	 * @return String the icon of the item
+	 */
+	public final String getIcon()
+	{
+		return _icon;
+	}
+	
+	/**
 	 * @return int the part of the body used with the item.
 	 */
 	public final int getBodyPart()
@@ -375,6 +387,15 @@ public abstract class Item
 	public final boolean isDepositable()
 	{
 		return _depositable;
+	}
+	
+	/**
+	 * Returns if the item can be put into auction house
+	 * @return boolean
+	 */
+	public final boolean isAuctionItem()
+	{
+		return _auctionItem;
 	}
 	
 	/**

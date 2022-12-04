@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="9897" type="Armor" name="Star Drone">
+		<set name="icon" val="client184.lilithcloak" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="face" />
 		<set name="crystal_type" val="S" />
@@ -14,6 +15,7 @@
 		</for>
 	</item>
 	<item id="9898" type="Armor" name="Alexander Shield">
+		<set name="icon" val="client184.lilithcloak" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="face" />
 		<set name="crystal_type" val="S" />

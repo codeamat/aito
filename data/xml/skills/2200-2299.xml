@@ -6,6 +6,7 @@
 			6908,24,31.5;7609,26,28.8
 			6908,24,34.5;7609,26,31.5428
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -23,6 +24,7 @@
 			6904,1,5.028;6908,28,17.957;6909,8,16.76;7609,30,16.76
 			6904,1,5.22;6908,28,18.6428;6909,8,17.3999;7609,30,17.4
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -40,6 +42,7 @@
 			6904,1,6.816;6908,28,24.3428;6909,8,22.7199;7609,30,22.72
 			6904,1,7.296;6908,56,13.0286;6909,14,10.8088;7609,30,24.32
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -57,6 +60,7 @@
 			6910,3,50.688
 			6910,3,54.912
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -74,6 +78,7 @@
 			6910,3,69.76
 			6910,3,74.048
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -91,6 +96,7 @@
 			6910,3,89.728
 			6910,6,54.88
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -108,6 +114,7 @@
 			6910,6,61.536
 			6910,6,65.248
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -125,6 +132,7 @@
 			6910,6,76.896
 			6910,6,81.664
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -137,32 +145,38 @@
 		</cond>
 	</skill>
 	<skill id="2208" levels="1" name="Item - Blessed Scroll of Enchant Armor">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="2209" levels="1" name="Item - Blessed Scroll of Enchant Armor">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="2210" levels="1" name="Item - Blessed Scroll of Enchant Armor">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="2211" levels="1" name="Item - Blessed Scroll of Enchant Armor">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="2212" levels="1" name="Item - Blessed Scroll of Enchant Armor">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="2213" levels="22" name="Escape - to X Town">
 		<table name="#teleCoords"> -84318,244579,-3730 46934,51467,-2977 9745,15606,-4574 -44836,-112524,-235 115113,-178212,-901 -80826,149775,-3043 -12678,122776,-3116 15670,142983,-2705 17836,170178,-3507 83400,147943,-3404 105918,109759,-3207 111409,219364,-3545 82956,53162,-1495 85348,16142,-3699 116819,76994,-2714 146331,25762,-2018 147928,-55273,-2734 43799,-47727,-798 87331,-142842,-1317 149864,-81062,-5618 108275,-53785,-2524 -117251,46771,360 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="20000" />
 		<set name="staticHitTime" val="true" />
@@ -172,6 +186,7 @@
 	</skill>
 	<skill id="2214" levels="10" name="Scroll of Escape to Talking Island">
 		<table name="#teleCoords"> -84318,244579,-3730 46934,51467,-2977 9745,15606,-4574 -44836,-112524,-235 115113,-178212,-901 -117251,46771,360 0,0,0 0,0,0 0,0,0 83400,147943,-3404 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="20000" />
 		<set name="staticHitTime" val="true" />
@@ -186,6 +201,7 @@
 			57,100000,12;3456,1,10;3470,1,12;3454,1,6;3455,1,6.5;3450,1,10;3452,1,19.5;3447,1,24
 			57,100000,19;3456,1,10;3470,1,5.9;3454,1,4;3455,1,6.5;3450,1,10;3452,1,19.6;3447,1,25
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -204,6 +220,7 @@
 			57,100,34;1867,1,33;1872,1,33
 			57,100,34;1867,1,33;1872,1,33
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -223,6 +240,7 @@
 			6857,1,8.5;6859,1,8.5;6867,1,8.5;6869,1,8.5;6875,1,8.5;6877,1,8.5;6861,1,8.5;6863,1,8.5;6871,1,8.5;6879,1,8.5;57,340000,15
 			6855,1,20;6853,1,20;6865,1,20;6873,1,20;57,850000,20
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -240,6 +258,7 @@
 			4039,4,20;4043,4,20;4044,4,20;4040,2,15;4042,2,15;4041,1,10
 			1060,1,39;1061,1,11.8;1539,1,32.2;1540,1,3;735,1,7;6035,1,7
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -256,6 +275,7 @@
 			1882,20,18;1876,20,16;1879,20,10;1881,20,10;1880,20,5;1874,20,10;1875,20,10;1877,20,11;57,150000,10
 			4039,4,20;4043,4,20;4044,4,20;4040,4,10;4042,4,10;4041,4,10;57,160000,10
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -279,6 +299,7 @@
 			6908,3,99.2
 			6908,6,53.2
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -302,6 +323,7 @@
 			6908,6,65.6
 			6908,6,65.2
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -325,6 +347,7 @@
 			6904,1,1.728;6908,6,28.7998;6909,2,17.2798
 			6904,1,1.744;6908,6,29.0665;6909,2,17.4398
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -348,6 +371,7 @@
 			6904,1,2.376;6908,8,31.68;6909,2,23.76
 			6904,1,2.432;6908,8,32.4264;6909,2,24.32
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -371,6 +395,7 @@
 			6910,1,40.32
 			6910,1,41.184
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -394,6 +419,7 @@
 			6910,2,27.216
 			6910,2,27.792
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -417,6 +443,7 @@
 			6910,2,38.592
 			6910,2,41.184
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -440,6 +467,7 @@
 			6910,2,48
 			6910,2,48.96
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -463,6 +491,7 @@
 			6910,2,80.064
 			6910,2,81.664
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -476,6 +505,7 @@
 	</skill>
 	<skill id="2229" levels="8" name="Treasure Chest Key">
 		<table name="#itemId"> 6665 6666 6667 6668 6669 6670 6671 6672 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="UNLOCKABLE" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -488,12 +518,14 @@
 		<set name="itemConsumeCount" val="1"/>
 	</skill>
 	<skill id="2230" levels="1" name="Item - Theme Sound Crystal">
+		<set name="icon" val="icon.skill0000" />
 		<set name="isPotion" val="true" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="DUMMY" />
 		<set name="operateType" val="ACTIVE" />
 	</skill>
 	<skill id="2231" levels="1" name="Amulet: Protection of Valakas">
+		<set name="icon" val="icon.etc_blesscharm_ward_val_i00" />
 		<set name="hitTime" val="1000" />
 		<set name="staticHitTime" val="true" />
 		<set name="magicLvl" val="75" />
@@ -511,6 +543,7 @@
 		</for>
 	</skill>
 	<skill id="2232" levels="1" name="Amulet: Slay Valakas">
+		<set name="icon" val="icon.etc_blesscharm_slay_val_i00" />
 		<set name="hitTime" val="1000" />
 		<set name="magicLvl" val="75" />
 		<set name="operateType" val="ACTIVE" />
@@ -528,6 +561,7 @@
 		</for>
 	</skill>
 	<skill id="2233" levels="1" name="Amulet: Flames of Valakas">
+		<set name="icon" val="icon.skill0000" />
 		<set name="hitTime" val="1000" />
 		<set name="magicLvl" val="75" />
 		<set name="negateId" val="4683,4684" />
@@ -541,6 +575,7 @@
 		</cond>
 	</skill>
 	<skill id="2234" levels="1" name="Soul Breaking Arrow">
+		<set name="icon" val="icon.etc_destory_soul_arrow_i00" />
 		<set name="target" val="ONE" />
 		<set name="trait" val="SHOCK" />
 		<set name="skillType" val="PDAM" />
@@ -561,6 +596,7 @@
 		</for>
 	</skill>
 	<skill id="2235" levels="1" name="Anteroom Door Key">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
 		<set name="reuseDelay" val="3000" />
@@ -573,6 +609,7 @@
 		</cond>
 	</skill>
 	<skill id="2236" levels="1" name="Chapel Door Key">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
 		<set name="reuseDelay" val="3000" />
@@ -585,6 +622,7 @@
 		</cond>
 	</skill>
 	<skill id="2237" levels="1" name="Altar Door Key">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
 		<set name="reuseDelay" val="3000" />
@@ -597,6 +635,7 @@
 		</cond>
 	</skill>
 	<skill id="2238" levels="1" name="Room of Splendor Key">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="UNLOCKABLE" />
 		<set name="skillType" val="UNLOCK_SPECIAL" />
 		<set name="reuseDelay" val="3000" />
@@ -609,6 +648,7 @@
 		</cond>
 	</skill>
 	<skill id="2239" levels="1" name="Petrification Scroll">
+		<set name="icon" val="icon.ect_piece_of_paper_white_i00" />
 		<set name="castRange" val="600" />
 		<set name="effectRange" val="1100" />
 		<set name="itemConsumeCount" val="1" />
@@ -622,6 +662,7 @@
 		</for>
 	</skill>
 	<skill id="2240" levels="1" name="Hot Spring Nectar">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
@@ -631,6 +672,7 @@
 		</cond>
 	</skill>
 	<skill id="2241" levels="1" name="Hot Spring Mineral Water">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
@@ -640,6 +682,7 @@
 		</cond>
 	</skill>
 	<skill id="2242" levels="1" name="Hot Spring Fountain Water">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
@@ -649,6 +692,7 @@
 		</cond>
 	</skill>
 	<skill id="2243" levels="1" name="Hot Spring Sulfur">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="reuseDelay" val="2000" />
@@ -658,6 +702,7 @@
 		</cond>
 	</skill>
 	<skill id="2244" levels="1" name="Herb of Life">
+		<set name="icon" val="icon.skill0000" />
 		<set name="power" val="15" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
@@ -671,6 +716,7 @@
 		</cond>
 	</skill>
 	<skill id="2245" levels="1" name="Herb of Mana">
+		<set name="icon" val="icon.skill0000" />
 		<set name="power" val="12" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
@@ -684,6 +730,7 @@
 		</cond>
 	</skill>
 	<skill id="2246" levels="1" name="Herb of Power">
+		<set name="icon" val="icon.etc_herb_red_i00" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="SELF" />
@@ -701,6 +748,7 @@
 		</for>
 	</skill>
 	<skill id="2247" levels="1" name="Herb of Magic">
+		<set name="icon" val="icon.etc_herb_blue_i00" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="SELF" />
@@ -718,6 +766,7 @@
 		</for>
 	</skill>
 	<skill id="2248" levels="1" name="Bless of Fire">
+		<set name="icon" val="icon.etc_fire_crystal_i00" />
 		<set name="element" val="FIRE" />
 		<set name="hitTime" val="1000" />
 		<set name="staticHitTime" val="true" />
@@ -736,6 +785,7 @@
 		</for>
 	</skill>
 	<skill id="2249" levels="1" name="Bless of Water">
+		<set name="icon" val="icon.etc_water_crystal_i00" />
 		<set name="element" val="WATER" />
 		<set name="hitTime" val="1000" />
 		<set name="staticHitTime" val="true" />
@@ -754,6 +804,7 @@
 		</for>
 	</skill>
 	<skill id="2250" levels="1" name="Bless of Wind">
+		<set name="icon" val="icon.etc_wind_crystal_i00" />
 		<set name="element" val="WIND" />
 		<set name="hitTime" val="1000" />
 		<set name="staticHitTime" val="true" />
@@ -772,6 +823,7 @@
 		</for>
 	</skill>
 	<skill id="2251" levels="1" name="Bless of Earth">
+		<set name="icon" val="icon.etc_earth_crystal_i00" />
 		<set name="element" val="EARTH" />
 		<set name="hitTime" val="1000" />
 		<set name="staticHitTime" val="true" />
@@ -790,6 +842,7 @@
 		</for>
 	</skill>
 	<skill id="2252" levels="1" name="Bless of Darkness">
+		<set name="icon" val="icon.etc_unholy_crystal_i00" />
 		<set name="element" val="DARK" />
 		<set name="hitTime" val="1000" />
 		<set name="staticHitTime" val="true" />
@@ -808,6 +861,7 @@
 		</for>
 	</skill>
 	<skill id="2253" levels="1" name="Bless of Sacredness">
+		<set name="icon" val="icon.etc_holy_crystal_i00" />
 		<set name="element" val="HOLY" />
 		<set name="hitTime" val="1000" />
 		<set name="staticHitTime" val="true" />
@@ -826,6 +880,7 @@
 		</for>
 	</skill>
 	<skill id="2254" levels="3" name="Crystal of Fire">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
@@ -837,6 +892,7 @@
 		</cond>
 	</skill>
 	<skill id="2255" levels="3" name="Crystal of Water">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
@@ -848,6 +904,7 @@
 		</cond>
 	</skill>
 	<skill id="2256" levels="3" name="Crystal of Wind">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
@@ -859,6 +916,7 @@
 		</cond>
 	</skill>
 	<skill id="2257" levels="3" name="Crystal of Earth">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
@@ -870,6 +928,7 @@
 		</cond>
 	</skill>
 	<skill id="2258" levels="3" name="Crystal of Darkness">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
@@ -881,6 +940,7 @@
 		</cond>
 	</skill>
 	<skill id="2259" levels="3" name="Crystal of Sacredness">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
@@ -892,6 +952,7 @@
 		</cond>
 	</skill>
 	<skill id="2260" levels="1" name="Key of Riddles">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="CREATE_ITEM" />
 		<set name="operateType" val="ACTIVE" />
@@ -912,6 +973,7 @@
 			6913,1,19.84;6911,2,33.0666;8353,4,24.8
 			6913,1,16.96;6911,4,17.6667;8353,4,26.5
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -935,6 +997,7 @@
 			6913,1,24;6911,4,18.75;8359,4,24.9999
 			6913,1,24.64;6911,4,19.25;8359,4,25.6666
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -958,6 +1021,7 @@
 			6913,1,27.584;6911,4,21.55;8355,4,19.1556
 			6913,1,27.84;6911,4,21.75;8355,4,19.3334
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -981,6 +1045,7 @@
 			6913,2,19.008;6911,8,19.7999;8354,2,29.7
 			6913,2,19.456;6911,8,20.2666;8354,2,30.4
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -1004,6 +1069,7 @@
 			6914,1,20.16;6912,4,21;8377,1,5.04;8357,4,16.8001
 			6914,1,20.592;6912,4,21.45;8378,1,5.148;8357,4,17.1601
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -1027,6 +1093,7 @@
 			6914,2,13.596;6912,8,18.8833;8377,1,6.798;8358,4,14.1625
 			6914,2,13.884;6912,8,19.2833;8378,1,6.942;8358,4,14.4625
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -1050,6 +1117,7 @@
 			6914,2,15.4368;6912,9,14.2932;8377,1,7.7184;8374,1,1.9296;8352,4,13.7828
 			6914,2,16.464;6912,9,15.2444;8378,1,8.232;8375,1,2.058;8352,4,14.6999
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -1073,6 +1141,7 @@
 			6914,2,19.2;6912,9,17.778;8377,1,9.6;8374,1,2.4;8356,4,15
 			6914,2,19.5744;6912,9,18.1244;8378,1,9.7872;8375,1,2.4468;8356,4,15.2925
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -1096,6 +1165,7 @@
 			6914,4,12.0096;6912,18,11.12;8377,1,12.0096;8374,1,3.0024;8351,4,16.6801
 			6914,4,12.2496;6912,18,11.3422;8378,1,12.2496;8375,1,3.0624;8351,7,9.722
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE_FISH" />
@@ -1117,6 +1187,7 @@
 			8177,1,22.2222;8178,1,18.5185;8179,1,15.8730
 			8175,1,16.6666
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1132,6 +1203,7 @@
 		<table name="#extractableItems">
 			8034,3,85;2134,3,4;2133,7,11
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1144,6 +1216,7 @@
 		</cond>
 	</skill>
 	<skill id="2272" levels="1" name="Item - Fight Song Crystal">
+		<set name="icon" val="icon.skill0000" />
 		<set name="isPotion" val="true" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="DUMMY" />
@@ -1153,6 +1226,7 @@
 		<table name="#extractableItems">
 			8552,1,25;8187,1,25;8555,5,25;6406,10,15;6407,5,9.991;5577,1,0.002;5578,1,0.002;5579,1,0.002;5580,1,0.001;5581,1,0.001;5582,1,0.001
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1167,6 +1241,7 @@
 	<skill id="2274" levels="9" name="Fisherman's Potion">
 		<table name="#power"> 2 5 8 11 14 17 20 23 26 </table>
 		<table name="#active_skill_id_lvl"> 1315,4 1315,7 1315,10 1315,13 1315,16 1315,19 1315,22 1315,25 1315,28 </table>
+		<set name="icon" val="icon.etc_oblivion_green_i00" />
 		<set name="power" val="#power" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1183,6 +1258,7 @@
 		</for>
 	</skill>
 	<skill id="2275" levels="1" name="Fishing Potion">
+		<set name="icon" val="icon.etc_oblivion_black_i00" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="NEGATE" />
 		<set name="isPotion" val="true" />
@@ -1193,6 +1269,7 @@
 		</cond>
 	</skill>
 	<skill id="2276" levels="1" name="Dewdrop of Destruction">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="ACTIVE" />
@@ -1208,6 +1285,7 @@
 			1539,20,93.00;730,1,2.0;729,1,0.50;1538,1,3.00;3936,1,1.41;4639,1,0.03;4650,1,0.03;4661,1,0.03
 			1539,20,93.00;730,1,2.0;729,1,0.50;1538,1,3.00;3936,1,1.41;4639,1,0.03;4650,1,0.03;4661,1,0.03
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1221,6 +1299,7 @@
 	</skill>
 	<skill id="2278" levels="3" name="Herb of Life">
 		<table name="#power"> 15 25 100 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="power" val="#power" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
@@ -1236,6 +1315,7 @@
 	<skill id="2279" levels="3" name="Herb of Mana">
 		<!-- Lvl 2 is Greater Herb of Mana Lvl 3 is Superior Herb of Mana -->
 		<table name="#power"> 12 18 100 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="power" val="#power" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
@@ -1249,6 +1329,7 @@
 		</cond>
 	</skill>
 	<skill id="2280" levels="1" name="Herb of Power">
+		<set name="icon" val="icon.etc_herb_red_i00" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="SELF" />
@@ -1266,6 +1347,7 @@
 		</for>
 	</skill>
 	<skill id="2281" levels="1" name="Herb of Magic">
+		<set name="icon" val="icon.etc_herb_blue_i00" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="SELF" />
@@ -1283,6 +1365,7 @@
 		</for>
 	</skill>
 	<skill id="2282" levels="1" name="Herb of Atk. Spd.">
+		<set name="icon" val="icon.etc_attack_sp_herb_i00" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="SELF" />
@@ -1300,6 +1383,7 @@
 		</for>
 	</skill>
 	<skill id="2283" levels="1" name="Herb of Casting Spd.">
+		<set name="icon" val="icon.etc_magic_sp_herb_i00" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="SELF" />
@@ -1317,6 +1401,7 @@
 		</for>
 	</skill>
 	<skill id="2284" levels="1" name="Herb of Critical Attack">
+		<set name="icon" val="icon.etc_critical_herb_i00" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="SELF" />
@@ -1334,6 +1419,7 @@
 		</for>
 	</skill>
 	<skill id="2285" levels="1" name="Herb of Speed">
+		<set name="icon" val="icon.etc_move_herb_i00" />
 		<set name="hitTime" val="100" />
 		<set name="staticHitTime" val="true" />
 		<set name="target" val="SELF" />
@@ -1353,6 +1439,7 @@
 	<skill id="2286" levels="6" name="Scroll: Recovery">
 		<table name="#minLvl"> 0 20 40 52 61 76 </table>
 		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
 		<set name="operateType" val="ACTIVE" />
@@ -1373,6 +1460,7 @@
 		<table name="#power"> 250 650 1100 1500 1900 2300 </table>
 		<table name="#minLvl"> 0 20 40 52 61 76 </table>
 		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="power" val="#power" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="HEAL_STATIC" />
@@ -1395,6 +1483,7 @@
 		<table name="#power"> 60 140 220 290 360 420 </table>
 		<table name="#minLvl"> 0 20 40 52 61 76 </table>
 		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="power" val="#power" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="MANAHEAL" />
@@ -1417,6 +1506,7 @@
 		<table name="#power"> 150 350 600 800 1000 1200 </table>
 		<table name="#minLvl"> 0 20 40 52 61 76 </table>
 		<table name="#maxLvl"> 20 40 52 61 76 86 </table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="power" val="#power" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="COMBATPOINTHEAL" />
@@ -1439,6 +1529,7 @@
 		<table name="#extractableItems">
 			8661,1,15;8660,1,15;5234,3,30;6406,10,20;6407,5,19.991;5577,1,0.002;5578,1,0.002;5579,1,0.002;5580,1,0.001;5581,1,0.001;5582,1,0.001
 		</table>
+		<set name="icon" val="icon.skill0000" />
 		<set name="capsuled_items_skill" val="#extractableItems" />
 		<set name="operateType" val="ACTIVE" />
 		<set name="skillType" val="EXTRACTABLE" />
@@ -1451,6 +1542,7 @@
 		</cond>
 	</skill>
 	<skill id="2291" levels="1" name="Facelifting Potion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1462,6 +1554,7 @@
 		</cond>
 	</skill>
 	<skill id="2292" levels="1" name="Facelifting Potion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1473,6 +1566,7 @@
 		</cond>
 	</skill>
 	<skill id="2293" levels="1" name="Facelifting Potion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1484,6 +1578,7 @@
 		</cond>
 	</skill>
 	<skill id="2294" levels="1" name="Dye Potion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1495,6 +1590,7 @@
 		</cond>
 	</skill>
 	<skill id="2295" levels="1" name="Dye Potion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1506,6 +1602,7 @@
 		</cond>
 	</skill>
 	<skill id="2296" levels="1" name="Dye Potion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1517,6 +1614,7 @@
 		</cond>
 	</skill>
 	<skill id="2297" levels="1" name="Dye Potion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1528,6 +1626,7 @@
 		</cond>
 	</skill>
 	<skill id="2298" levels="1" name="Hair Style Change Potion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />
@@ -1539,6 +1638,7 @@
 		</cond>
 	</skill>
 	<skill id="2299" levels="1" name="Hair Style Change Potion">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="SELF" />
 		<set name="hitTime" val="500" />
 		<set name="staticHitTime" val="true" />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="300" type="Weapon" name="Great Axe">
+		<set name="icon" val="icon.weapon_great_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -26,6 +27,7 @@
 		</for>
 	</item>
 	<item id="301" type="Weapon" name="Scorpion">
+		<set name="icon" val="icon.weapon_scorpion_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -51,6 +53,7 @@
 		</for>
 	</item>
 	<item id="302" type="Weapon" name="Body Slasher">
+		<set name="icon" val="icon.weapon_body_slasher_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -76,6 +79,7 @@
 		</for>
 	</item>
 	<item id="303" type="Weapon" name="Widow Maker">
+		<set name="icon" val="icon.weapon_widow_maker_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -101,6 +105,7 @@
 		</for>
 	</item>
 	<item id="304" type="Weapon" name="Orcish Halberd">
+		<set name="icon" val="icon.weapon_orcish_halbard_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -126,6 +131,7 @@
 		</for>
 	</item>
 	<item id="305" type="Weapon" name="Tallum Glaive">
+		<set name="icon" val="icon.weapon_tallum_glaive_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -151,6 +157,7 @@
 		</for>
 	</item>
 	<item id="306" type="Weapon" name="Dragon Claw Axe">
+		<set name="icon" val="icon.weapon_dragon_hunter_axe_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -176,6 +183,7 @@
 		</for>
 	</item>
 	<item id="307" type="Weapon" name="Aurakyria Lance">
+		<set name="icon" val="icon.weapon_saint_spear_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="POLE" />
 		<set name="bodypart" val="lrhand" />
@@ -202,6 +210,7 @@
 		</for>
 	</item>
 	<item id="308" type="Weapon" name="Buffalo's Horn">
+		<set name="icon" val="icon.weapon_buffalo_horn_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -222,6 +231,7 @@
 		</for>
 	</item>
 	<item id="309" type="Weapon" name="Tears of Eva">
+		<set name="icon" val="icon.weapon_tears_of_eva_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -242,6 +252,7 @@
 		</for>
 	</item>
 	<item id="310" type="Weapon" name="Relic of The Saints">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -262,6 +273,7 @@
 		</for>
 	</item>
 	<item id="311" type="Weapon" name="Crucifix of Blessing">
+		<set name="icon" val="icon.weapon_crucifix_of_blessing_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -282,6 +294,7 @@
 		</for>
 	</item>
 	<item id="312" type="Weapon" name="Branch of Life">
+		<set name="icon" val="icon.weapon_branch_of_life_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -306,6 +319,7 @@
 		</for>
 	</item>
 	<item id="313" type="Weapon" name="Temptation of Abyss">
+		<set name="icon" val="icon.weapon_temptation_of_abyss_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -330,6 +344,7 @@
 		</for>
 	</item>
 	<item id="314" type="Weapon" name="Proof of Revenge">
+		<set name="icon" val="icon.weapon_proof_of_revenge_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -354,6 +369,7 @@
 		</for>
 	</item>
 	<item id="315" type="Weapon" name="Divine Tome">
+		<set name="icon" val="icon.weapon_divine_tome_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -378,6 +394,7 @@
 		</for>
 	</item>
 	<item id="316" type="Weapon" name="Blood of Saints">
+		<set name="icon" val="icon.weapon_blood_of_saints_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -402,6 +419,7 @@
 		</for>
 	</item>
 	<item id="317" type="Weapon" name="Tome of Blood">
+		<set name="icon" val="icon.weapon_tome_of_blood_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -426,6 +444,7 @@
 		</for>
 	</item>
 	<item id="318" type="Weapon" name="Crucifix of Blood">
+		<set name="icon" val="icon.weapon_crucifix_of_blood_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -450,6 +469,7 @@
 		</for>
 	</item>
 	<item id="319" type="Weapon" name="Eye of Infinity">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -474,6 +494,7 @@
 		</for>
 	</item>
 	<item id="320" type="Weapon" name="Blue Crystal Skull">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -498,6 +519,7 @@
 		</for>
 	</item>
 	<item id="321" type="Weapon" name="Demon Fangs">
+		<set name="icon" val="icon.weapon_demon_fangs_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -522,6 +544,7 @@
 		</for>
 	</item>
 	<item id="322" type="Weapon" name="Vajra Wands">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -546,6 +569,7 @@
 		</for>
 	</item>
 	<item id="323" type="Weapon" name="Ancient Reagent">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -570,6 +594,7 @@
 		</for>
 	</item>
 	<item id="324" type="Weapon" name="Tears of Fairy">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -594,6 +619,7 @@
 		</for>
 	</item>
 	<item id="325" type="Weapon" name="Horn of Glory">
+		<set name="icon" val="icon.weapon_horn_of_glory_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -618,6 +644,7 @@
 		</for>
 	</item>
 	<item id="326" type="Weapon" name="Heathen's Book">
+		<set name="icon" val="icon.weapon_heathens_book_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -642,6 +669,7 @@
 		</for>
 	</item>
 	<item id="327" type="Weapon" name="Hex Doll">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -666,6 +694,7 @@
 		</for>
 	</item>
 	<item id="328" type="Weapon" name="Candle of Wisdom">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -690,6 +719,7 @@
 		</for>
 	</item>
 	<item id="329" type="Weapon" name="Blessed Branch">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -714,6 +744,7 @@
 		</for>
 	</item>
 	<item id="330" type="Weapon" name="Phoenix Feather">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -738,6 +769,7 @@
 		</for>
 	</item>
 	<item id="331" type="Weapon" name="Cerberus Eye">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -762,6 +794,7 @@
 		</for>
 	</item>
 	<item id="332" type="Weapon" name="Scroll of Destruction">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -786,6 +819,7 @@
 		</for>
 	</item>
 	<item id="333" type="Weapon" name="Claws of Black Dragon">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -810,6 +844,7 @@
 		</for>
 	</item>
 	<item id="334" type="Weapon" name="Three Eyed Crow's Feather">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -834,6 +869,7 @@
 		</for>
 	</item>
 	<item id="335" type="Weapon" name="Soul Crystal">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -858,6 +894,7 @@
 		</for>
 	</item>
 	<item id="336" type="Weapon" name="Scroll of Mana">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -882,6 +919,7 @@
 		</for>
 	</item>
 	<item id="337" type="Weapon" name="Scroll of Massacre">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -906,6 +944,7 @@
 		</for>
 	</item>
 	<item id="338" type="Weapon" name="Wyvern's Skull">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -930,6 +969,7 @@
 		</for>
 	</item>
 	<item id="339" type="Weapon" name="Blood Crystal">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -954,6 +994,7 @@
 		</for>
 	</item>
 	<item id="340" type="Weapon" name="Unicorn's Horn">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -978,6 +1019,7 @@
 		</for>
 	</item>
 	<item id="341" type="Weapon" name="Forgotten Tome">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -1002,6 +1044,7 @@
 		</for>
 	</item>
 	<item id="342" type="Weapon" name="Enchanted Flute">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -1026,6 +1069,7 @@
 		</for>
 	</item>
 	<item id="343" type="Weapon" name="Headless Arrow">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -1050,6 +1094,7 @@
 		</for>
 	</item>
 	<item id="344" type="Weapon" name="Proof of Overlord">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -1074,6 +1119,7 @@
 		</for>
 	</item>
 	<item id="345" type="Weapon" name="Deathbringer Sword">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -1098,6 +1144,7 @@
 		</for>
 	</item>
 	<item id="346" type="Weapon" name="Tears of Fallen Angel">
+		<set name="icon" val="icon.weapon_apprentices_spellbook_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="ETC" />
@@ -1122,6 +1169,7 @@
 		</for>
 	</item>
 	<item id="347" type="Armor" name="Ring Mail Breastplate">
+		<set name="icon" val="icon.armor_t12_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1136,6 +1184,7 @@
 		</for>
 	</item>
 	<item id="348" type="Armor" name="Scale Mail">
+		<set name="icon" val="icon.armor_t08_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1150,6 +1199,7 @@
 		</for>
 	</item>
 	<item id="349" type="Armor" name="Compound Scale Mail">
+		<set name="icon" val="icon.armor_t20_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1164,6 +1214,7 @@
 		</for>
 	</item>
 	<item id="350" type="Armor" name="Dwarven Scale Mail">
+		<set name="icon" val="icon.armor_t15_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1178,6 +1229,7 @@
 		</for>
 	</item>
 	<item id="351" type="Armor" name="Blast Plate">
+		<set name="icon" val="icon.armor_t40_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1192,6 +1244,7 @@
 		</for>
 	</item>
 	<item id="352" type="Armor" name="Brigandine Tunic">
+		<set name="icon" val="icon.armor_t43_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1206,6 +1259,7 @@
 		</for>
 	</item>
 	<item id="353" type="Armor" name="Half Plate Armor">
+		<set name="icon" val="icon.armor_t46_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1220,6 +1274,7 @@
 		</for>
 	</item>
 	<item id="354" type="Armor" name="Chain Mail Shirt">
+		<set name="icon" val="icon.armor_t48_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1234,6 +1289,7 @@
 		</for>
 	</item>
 	<item id="355" type="Armor" name="Dwarven Chain Mail Shirt">
+		<set name="icon" val="icon.armor_t60_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1248,6 +1304,7 @@
 		</for>
 	</item>
 	<item id="356" type="Armor" name="Full Plate Armor">
+		<set name="icon" val="icon.armor_t62_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1262,6 +1319,7 @@
 		</for>
 	</item>
 	<item id="357" type="Armor" name="Zubei's Breastplate">
+		<set name="icon" val="icon.armor_t64_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1276,6 +1334,7 @@
 		</for>
 	</item>
 	<item id="358" type="Armor" name="Blue Wolf Breastplate">
+		<set name="icon" val="icon.armor_t68_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1290,6 +1349,7 @@
 		</for>
 	</item>
 	<item id="359" type="Armor" name="Shining Dragon Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1304,6 +1364,7 @@
 		</for>
 	</item>
 	<item id="360" type="Armor" name="Armor of Victory">
+		<set name="icon" val="icon.armor_dwarven_scale_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1318,6 +1379,7 @@
 		</for>
 	</item>
 	<item id="361" type="Armor" name="Breastplate of Valor">
+		<set name="icon" val="icon.armor_dwarven_scale_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1332,6 +1394,7 @@
 		</for>
 	</item>
 	<item id="362" type="Armor" name="Glorious Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1346,6 +1409,7 @@
 		</for>
 	</item>
 	<item id="363" type="Armor" name="Red Flame Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1360,6 +1424,7 @@
 		</for>
 	</item>
 	<item id="364" type="Armor" name="Elven Crystal Breastplate">
+		<set name="icon" val="icon.armor_dwarven_scale_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1374,6 +1439,7 @@
 		</for>
 	</item>
 	<item id="365" type="Armor" name="Dark Crystal Breastplate">
+		<set name="icon" val="icon.armor_t74_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1388,6 +1454,7 @@
 		</for>
 	</item>
 	<item id="366" type="Armor" name="Implosion Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1402,6 +1469,7 @@
 		</for>
 	</item>
 	<item id="367" type="Armor" name="Dark Dragon Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1416,6 +1484,7 @@
 		</for>
 	</item>
 	<item id="368" type="Armor" name="Elven Vagian Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1430,6 +1499,7 @@
 		</for>
 	</item>
 	<item id="369" type="Armor" name="Dark Vagian Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1444,6 +1514,7 @@
 		</for>
 	</item>
 	<item id="370" type="Armor" name="Complete Set of Plate Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1458,6 +1529,7 @@
 		</for>
 	</item>
 	<item id="371" type="Armor" name="Hell Plate">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1472,6 +1544,7 @@
 		</for>
 	</item>
 	<item id="372" type="Armor" name="Art of Plate">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1486,6 +1559,7 @@
 		</for>
 	</item>
 	<item id="373" type="Armor" name="Masterpiece Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1500,6 +1574,7 @@
 		</for>
 	</item>
 	<item id="374" type="Armor" name="Armor of Nightmare">
+		<set name="icon" val="icon.armor_t80_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="fullarmor" />
@@ -1514,6 +1589,7 @@
 		</for>
 	</item>
 	<item id="375" type="Armor" name="Dragon Scale Mail">
+		<set name="icon" val="icon.armor_t15_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="chest" />
@@ -1531,6 +1607,7 @@
 		</for>
 	</item>
 	<item id="376" type="Armor" name="Iron Plate Gaiters">
+		<set name="icon" val="icon.armor_t12_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1545,6 +1622,7 @@
 		</for>
 	</item>
 	<item id="377" type="Armor" name="Scale Gaiters">
+		<set name="icon" val="icon.armor_t08_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1559,6 +1637,7 @@
 		</for>
 	</item>
 	<item id="378" type="Armor" name="Compound Scale Gaiters">
+		<set name="icon" val="icon.armor_t20_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1573,6 +1652,7 @@
 		</for>
 	</item>
 	<item id="379" type="Armor" name="Dwarven Scale Gaiters">
+		<set name="icon" val="icon.armor_t15_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1587,6 +1667,7 @@
 		</for>
 	</item>
 	<item id="380" type="Armor" name="Plate Gaiters">
+		<set name="icon" val="icon.armor_t46_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1601,6 +1682,7 @@
 		</for>
 	</item>
 	<item id="381" type="Armor" name="Chain Gaiters">
+		<set name="icon" val="icon.armor_t48_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1615,6 +1697,7 @@
 		</for>
 	</item>
 	<item id="382" type="Armor" name="Dwarven Chain Gaiters">
+		<set name="icon" val="icon.armor_t60_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1629,6 +1712,7 @@
 		</for>
 	</item>
 	<item id="383" type="Armor" name="Zubei's Gaiters">
+		<set name="icon" val="icon.armor_t64_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1643,6 +1727,7 @@
 		</for>
 	</item>
 	<item id="384" type="Armor" name="Wolf Gaiters">
+		<set name="icon" val="icon.armor_plate_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1657,6 +1742,7 @@
 		</for>
 	</item>
 	<item id="385" type="Armor" name="Gaiters of Victory">
+		<set name="icon" val="icon.armor_plate_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1671,6 +1757,7 @@
 		</for>
 	</item>
 	<item id="386" type="Armor" name="Gaiters of Valor">
+		<set name="icon" val="icon.armor_plate_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1685,6 +1772,7 @@
 		</for>
 	</item>
 	<item id="387" type="Armor" name="Elven Crystal Gaiters">
+		<set name="icon" val="icon.armor_plate_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1699,6 +1787,7 @@
 		</for>
 	</item>
 	<item id="388" type="Armor" name="Dark Crystal Gaiters">
+		<set name="icon" val="icon.armor_t74_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1713,6 +1802,7 @@
 		</for>
 	</item>
 	<item id="389" type="Armor" name="Dragon Scale Gaiters">
+		<set name="icon" val="icon.armor_t15_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="HEAVY" />
 		<set name="bodypart" val="legs" />
@@ -1730,6 +1820,7 @@
 		</for>
 	</item>
 	<item id="390" type="Armor" name="Cotton Shirt">
+		<set name="icon" val="icon.armor_t07_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -1741,6 +1832,7 @@
 		</for>
 	</item>
 	<item id="391" type="Armor" name="Puma Skin Shirt">
+		<set name="icon" val="icon.armor_t09_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -1755,6 +1847,7 @@
 		</for>
 	</item>
 	<item id="392" type="Armor" name="Lion Skin Shirt">
+		<set name="icon" val="icon.armor_t18_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -1769,6 +1862,7 @@
 		</for>
 	</item>
 	<item id="393" type="Armor" name="Mithril Banded Mail">
+		<set name="icon" val="icon.armor_t10_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -1783,6 +1877,7 @@
 		</for>
 	</item>
 	<item id="394" type="Armor" name="Reinforced Leather Shirt">
+		<set name="icon" val="icon.armor_t13_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -1797,6 +1892,7 @@
 		</for>
 	</item>
 	<item id="395" type="Armor" name="Manticore Skin Shirt">
+		<set name="icon" val="icon.armor_t42_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -1811,6 +1907,7 @@
 		</for>
 	</item>
 	<item id="396" type="Armor" name="Salamander Skin Mail">
+		<set name="icon" val="icon.armor_t45_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -1825,6 +1922,7 @@
 		</for>
 	</item>
 	<item id="397" type="Armor" name="Mithril Shirt">
+		<set name="icon" val="icon.armor_t47_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -1839,6 +1937,7 @@
 		</for>
 	</item>
 	<item id="398" type="Armor" name="Plated Leather">
+		<set name="icon" val="icon.armor_t47_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -1853,6 +1952,7 @@
 		</for>
 	</item>
 	<item id="399" type="Armor" name="Rind Leather Armor">
+		<set name="icon" val="icon.armor_t49_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />

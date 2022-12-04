@@ -747,6 +747,7 @@
 		</for>
 	</skill>
 	<skill id="331" levels="1" name="Skill Mastery">
+		<set name="icon" val="icon.skill0330" />
 		<set name="magicLvl" val="77" />
 		<set name="target" val="SELF" />
 		<set name="skillType" val="BUFF" />
@@ -1720,16 +1721,19 @@
 		<set name="minPledgeClass" val="4"/>
 	</skill>
 	<skill id="392" levels="1" name="none">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="393" levels="1" name="none">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="PASSIVE" />
 	</skill>
 	<skill id="394" levels="1" name="none">
+		<set name="icon" val="icon.skill0000" />
 		<set name="target" val="NONE" />
 		<set name="skillType" val="NOTDONE" />
 		<set name="operateType" val="PASSIVE" />

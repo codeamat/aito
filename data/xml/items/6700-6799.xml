@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="6700" type="EtcItem" name="Sealed Tateossian Necklace Chain">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -8,6 +9,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6701" type="EtcItem" name="Sealed Imperial Crusader Breastplate Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -15,6 +17,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6702" type="EtcItem" name="Sealed Imperial Crusader Gaiters Pattern">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -22,6 +25,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6703" type="EtcItem" name="Sealed Imperial Crusader Gauntlets Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -29,6 +33,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6704" type="EtcItem" name="Sealed Imperial Crusader Boots Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -36,6 +41,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6705" type="EtcItem" name="Sealed Imperial Crusader Shield Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -43,6 +49,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6706" type="EtcItem" name="Sealed Imperial Crusader Helmet Pattern">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -50,6 +57,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6707" type="EtcItem" name="Sealed Draconic Leather Armor Part">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -57,6 +65,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6708" type="EtcItem" name="Sealed Draconic Leather Gloves Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -64,6 +73,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6709" type="EtcItem" name="Sealed Draconic Leather Boots Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -71,6 +81,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6710" type="EtcItem" name="Sealed Draconic Leather Helmet Pattern">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -78,6 +89,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6711" type="EtcItem" name="Sealed Major Arcana Robe Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -85,6 +97,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6712" type="EtcItem" name="Sealed Major Arcana Gloves fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -92,6 +105,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6713" type="EtcItem" name="Sealed Major Arcana Boots Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -99,6 +113,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6714" type="EtcItem" name="Sealed Major Arcana Circlet Pattern">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
 		<set name="etcitem_type" val="MATERIAL" />
 		<set name="material" val="LIQUID" />
 		<set name="weight" val="60" />
@@ -106,6 +121,7 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6715" type="Weapon" name="Monster Only(Silenos Archer)">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
@@ -128,6 +144,7 @@
 		</for>
 	</item>
 	<item id="6716" type="Weapon" name="Monster Only(Silenos Shaman)">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -149,6 +166,7 @@
 		</for>
 	</item>
 	<item id="6717" type="Weapon" name="Monster Only(Einhasad Warrior)">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="SWORD" />
 		<set name="bodypart" val="rhand" />
@@ -168,6 +186,7 @@
 		</for>
 	</item>
 	<item id="6718" type="Weapon" name="Monster Only(Einhasad Shaman)">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
 		<set name="bodypart" val="lrhand" />
@@ -188,6 +207,7 @@
 		</for>
 	</item>
 	<item id="6719" type="Weapon" name="Monster Only(Ketra Orc Chieftain)">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="is_magical" val="true" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGBLUNT" />
@@ -213,6 +233,7 @@
 		</for>
 	</item>
 	<item id="6720" type="Weapon" name="Monster Only(Shadow of Halisha)">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BOW" />
 		<set name="bodypart" val="lrhand" />
@@ -235,6 +256,7 @@
 		</for>
 	</item>
 	<item id="6721" type="Armor" name="Monster Only(Shield of Imperial Warlord Zombie)">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="lhand" />
 		<set name="material" val="LEATHER" />
@@ -247,6 +269,7 @@
 		</for>
 	</item>
 	<item id="6722" type="Weapon" name="Monster Only(Ahrimanes)">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="DUAL" />
 		<set name="bodypart" val="lrhand" />
@@ -271,6 +294,7 @@
 		</for>
 	</item>
 	<item id="6723" type="Weapon" name="Monster Only(Vampire Warrior)">
+		<set name="icon" val="icon.weapon_monster_i00" />
 		<set name="default_action" val="equip" />
 		<set name="weapon_type" val="BIGSWORD" />
 		<set name="bodypart" val="lrhand" />
@@ -294,6 +318,7 @@
 		</for>
 	</item>
 	<item id="6724" type="Armor" name="Sealed Tateossian Earring">
+		<set name="icon" val="icon.accessory_tateossian_earring_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rear;lear" />
 		<set name="crystal_type" val="S" />
@@ -307,6 +332,7 @@
 		</for>
 	</item>
 	<item id="6725" type="Armor" name="Sealed Tateossian Ring">
+		<set name="icon" val="icon.accessory_tateossian_ring_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="rfinger;lfinger" />
 		<set name="crystal_type" val="S" />
@@ -320,6 +346,7 @@
 		</for>
 	</item>
 	<item id="6726" type="Armor" name="Sealed Tateossian Necklace">
+		<set name="icon" val="icon.accessory_tateossian_necklace_i02" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="neck" />
 		<set name="crystal_type" val="S" />
@@ -333,6 +360,7 @@
 		</for>
 	</item>
 	<item id="6727" type="EtcItem" name="Seed: Alternative Great Coba">
+		<set name="icon" val="icon.etc_great_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -343,6 +371,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6728" type="EtcItem" name="Seed: Alternative Sea Coba">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -353,6 +382,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6729" type="EtcItem" name="Seed: Alternative Sea Coba">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -363,6 +393,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6730" type="EtcItem" name="Seed: Alternative Sea Coba">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -373,6 +404,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6731" type="EtcItem" name="Seed: Alternative Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -383,6 +415,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6732" type="EtcItem" name="Seed: Alternative Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -393,6 +426,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6733" type="EtcItem" name="Seed: Alternative Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -403,6 +437,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6734" type="EtcItem" name="Seed: Alternative Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -413,6 +448,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6735" type="EtcItem" name="Seed: Alternative Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -423,6 +459,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6736" type="EtcItem" name="Seed: Alternative Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -433,6 +470,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6737" type="EtcItem" name="Seed: Alternative Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -443,6 +481,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6738" type="EtcItem" name="Seed: Alternative Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -453,6 +492,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6739" type="EtcItem" name="Seed: Alternative Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -463,6 +503,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6740" type="EtcItem" name="Seed: Alternative Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -473,6 +514,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6741" type="EtcItem" name="Seed: Alternative Twin Coba">
+		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -483,6 +525,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6742" type="EtcItem" name="Seed: Alternative Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -493,6 +536,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6743" type="EtcItem" name="Seed: Alternative Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -503,6 +547,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6744" type="EtcItem" name="Seed: Alternative Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -513,6 +558,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6745" type="EtcItem" name="Seed: Alternative Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -523,6 +569,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6746" type="EtcItem" name="Seed: Alternative Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -533,6 +580,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6747" type="EtcItem" name="Seed: Alternative Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -543,6 +591,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6748" type="EtcItem" name="Seed: Alternative Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -553,6 +602,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6749" type="EtcItem" name="Seed: Alternative Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -563,6 +613,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6750" type="EtcItem" name="Seed: Alternative Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -573,6 +624,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6751" type="EtcItem" name="Seed: Alternative Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -583,6 +635,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6752" type="EtcItem" name="Seed: Alternative Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED2" />
 		<set name="material" val="PAPER" />
@@ -593,6 +646,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6753" type="EtcItem" name="Seed: Great Coba">
+		<set name="icon" val="icon.etc_great_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -603,6 +657,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6754" type="EtcItem" name="Seed: Sea Coba">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -613,6 +668,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6755" type="EtcItem" name="Seed: Sea Coba">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -623,6 +679,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6756" type="EtcItem" name="Seed: Sea Coba">
+		<set name="icon" val="icon.etc_sea_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -633,6 +690,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6757" type="EtcItem" name="Seed: Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -643,6 +701,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6758" type="EtcItem" name="Seed: Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -653,6 +712,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6759" type="EtcItem" name="Seed: Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -663,6 +723,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6760" type="EtcItem" name="Seed: Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -673,6 +734,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6761" type="EtcItem" name="Seed: Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -683,6 +745,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6762" type="EtcItem" name="Seed: Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -693,6 +756,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6763" type="EtcItem" name="Seed: Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -703,6 +767,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6764" type="EtcItem" name="Seed: Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -713,6 +778,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6765" type="EtcItem" name="Seed: Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -723,6 +789,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6766" type="EtcItem" name="Seed: Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -733,6 +800,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6767" type="EtcItem" name="Seed: Twin Coba">
+		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -743,6 +811,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6768" type="EtcItem" name="Seed: Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -753,6 +822,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6769" type="EtcItem" name="Seed: Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -763,6 +833,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6770" type="EtcItem" name="Seed: Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -773,6 +844,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6771" type="EtcItem" name="Seed: Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -783,6 +855,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6772" type="EtcItem" name="Seed: Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -793,6 +866,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6773" type="EtcItem" name="Seed: Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -803,6 +877,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6774" type="EtcItem" name="Seed: Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -813,6 +888,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6775" type="EtcItem" name="Seed: Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -823,6 +899,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6776" type="EtcItem" name="Seed: Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -833,6 +910,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6777" type="EtcItem" name="Seed: Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -843,6 +921,7 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6778" type="EtcItem" name="Seed: Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
 		<set name="default_action" val="seed" />
 		<set name="etcitem_type" val="SEED" />
 		<set name="material" val="PAPER" />
@@ -853,126 +932,147 @@
 		<set name="item_skill" val="2097-3" />
 	</item>
 	<item id="6779" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6780" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6781" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6782" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6783" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6784" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6785" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6786" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6787" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="icon" val="icon.mticket_cleric_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6788" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="icon" val="icon.mticket_wizard_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6789" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6790" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6791" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6792" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="icon" val="icon.mticket_sword_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6793" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="icon" val="icon.mticket_pole_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6794" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="icon" val="icon.mticket_bow_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6795" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="icon" val="icon.mticket_cleric_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6796" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="icon" val="icon.mticket_wizard_fix_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6797" type="EtcItem" name="Greater Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="icon" val="icon.mticket_sword_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6798" type="EtcItem" name="Greater Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="icon" val="icon.mticket_pole_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />
 		<set name="handler" val="MercenaryTickets" />
 	</item>
 	<item id="6799" type="EtcItem" name="Greater Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="icon" val="icon.mticket_bow_move_i00" />
 		<set name="etcitem_type" val="CASTLE_GUARD" />
 		<set name="material" val="PAPER" />
 		<set name="is_stackable" val="true" />

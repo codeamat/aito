@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="3200" type="EtcItem" name="Black Willow Leaf">
+		<set name="icon" val="icon.etc_leaf_gold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -10,6 +11,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3201" type="EtcItem" name="Blight Treant Sap">
+		<set name="icon" val="icon.etc_reagent_gold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -19,6 +21,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3202" type="EtcItem" name="Arkenia's Letter">
+		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -28,6 +31,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3203" type="EtcItem" name="Mark of Glory">
+		<set name="icon" val="icon.etc_badge_gold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -37,6 +41,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3204" type="EtcItem" name="Vokian's Order">
+		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -46,6 +51,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3205" type="EtcItem" name="Manashen Shard">
+		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -55,6 +61,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3206" type="EtcItem" name="Tyrant Talon">
+		<set name="icon" val="icon.etc_claw_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -64,6 +71,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3207" type="EtcItem" name="Guardian Basilisk Fang">
+		<set name="icon" val="icon.etc_fang_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -73,6 +81,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3208" type="EtcItem" name="Vokian's Order">
+		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -82,6 +91,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3209" type="EtcItem" name="Necklace of Authority">
+		<set name="icon" val="icon.accessary_necklace_of_binding_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -91,6 +101,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3210" type="EtcItem" name="Chianta's 1st Order">
+		<set name="icon" val="icon.etc_letter_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -100,6 +111,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3211" type="EtcItem" name="Scepter of Breka">
+		<set name="icon" val="icon.weapon_buzdygan_i01" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -109,6 +121,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3212" type="EtcItem" name="Scepter of Enku">
+		<set name="icon" val="icon.weapon_buzdygan_i01" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -118,6 +131,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3213" type="EtcItem" name="Scepter of Vuku">
+		<set name="icon" val="icon.weapon_buzdygan_i01" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -127,6 +141,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3214" type="EtcItem" name="Scepter of Turek">
+		<set name="icon" val="icon.weapon_buzdygan_i01" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -136,6 +151,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3215" type="EtcItem" name="Scepter of Tunath">
+		<set name="icon" val="icon.weapon_buzdygan_i01" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -145,6 +161,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3216" type="EtcItem" name="Chianta's 2nd Order">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -154,6 +171,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3217" type="EtcItem" name="Chianta's 3rd Order">
+		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -163,6 +181,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3218" type="EtcItem" name="Tamlin Orc Skull">
+		<set name="icon" val="icon.etc_skull_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -172,6 +191,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3219" type="EtcItem" name="Timak Orc Head">
+		<set name="icon" val="icon.etc_skull_black_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -181,6 +201,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3220" type="EtcItem" name="Scepter Box">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -190,6 +211,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3221" type="EtcItem" name="Pashika's Head">
+		<set name="icon" val="icon.etc_skull_black_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -199,6 +221,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3222" type="EtcItem" name="Vultus' Head">
+		<set name="icon" val="icon.etc_skull_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -208,6 +231,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3223" type="EtcItem" name="Glove of Voltar">
+		<set name="icon" val="icon.armor_short_leather_gloves_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -217,6 +241,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3224" type="EtcItem" name="Enku Overlord Head">
+		<set name="icon" val="icon.etc_skull_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -226,6 +251,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3225" type="EtcItem" name="Glove of Kepra">
+		<set name="icon" val="icon.armor_short_leather_gloves_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -235,6 +261,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3226" type="EtcItem" name="Makum Bugbear Head">
+		<set name="icon" val="icon.etc_skull_black_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -244,6 +271,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3227" type="EtcItem" name="Glove of Burai">
+		<set name="icon" val="icon.armor_short_leather_gloves_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -253,6 +281,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3228" type="EtcItem" name="Manakia's 1st Letter">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -262,6 +291,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3229" type="EtcItem" name="Manakia's 2nd Letter">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -271,6 +301,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3230" type="EtcItem" name="Kasman's 1st Letter">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -280,6 +311,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3231" type="EtcItem" name="Kasman's 2nd Letter">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -289,6 +321,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3232" type="EtcItem" name="Kasman's 3rd Letter">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -298,6 +331,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3233" type="EtcItem" name="Driko's Contract">
+		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -307,6 +341,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3234" type="EtcItem" name="Stakato Drone Husk">
+		<set name="icon" val="icon.etc_parasite_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -316,6 +351,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3235" type="EtcItem" name="Tanapi's Order">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -325,6 +361,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3236" type="EtcItem" name="Scepter of Tantos">
+		<set name="icon" val="icon.weapon_buzdygan_i01" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -334,6 +371,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3237" type="EtcItem" name="Ritual Box">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -343,6 +381,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3238" type="EtcItem" name="Mark of Prosperity">
+		<set name="icon" val="icon.etc_coins_gold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -352,6 +391,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3239" type="EtcItem" name="1st Ring of Testimony">
+		<set name="icon" val="icon.accessary_ring_of_assistance_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -361,6 +401,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3240" type="EtcItem" name="2nd Ring of Testimony">
+		<set name="icon" val="icon.accessary_aquastone_ring_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -370,6 +411,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3241" type="EtcItem" name="Old Account Book">
+		<set name="icon" val="icon.etc_spellbook_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -379,6 +421,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3242" type="EtcItem" name="Blessed Seed">
+		<set name="icon" val="icon.etc_fruit_yellow_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -388,6 +431,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3243" type="EtcItem" name="Emily's Recipe">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -397,6 +441,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3244" type="EtcItem" name="Lilith's Elven Wafer">
+		<set name="icon" val="icon.etc_lump_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -406,6 +451,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3245" type="EtcItem" name="Maphr Tablet Fragment">
+		<set name="icon" val="icon.etc_plate_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -415,6 +461,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3246" type="EtcItem" name="Collection License">
+		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -424,6 +471,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3247" type="EtcItem" name="Lockirin's 1st Notice">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -433,6 +481,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3248" type="EtcItem" name="Lockirin's 2nd Notice">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -442,6 +491,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3249" type="EtcItem" name="Lockirin's 3rd Notice">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -451,6 +501,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3250" type="EtcItem" name="Lockirin's 4th Notice">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -460,6 +511,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3251" type="EtcItem" name="Lockirin's 5th Notice">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -469,6 +521,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3252" type="EtcItem" name="Contribution of Shari">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -478,6 +531,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3253" type="EtcItem" name="Contribution of Mion">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -487,6 +541,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3254" type="EtcItem" name="Contribution of Maryse">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -496,6 +551,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3255" type="EtcItem" name="Maryse's Request">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -505,6 +561,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3256" type="EtcItem" name="Contribution of Toma">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -514,6 +571,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3257" type="EtcItem" name="Receipt of Bolter">
+		<set name="icon" val="icon.etc_ticket_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -523,6 +581,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3258" type="EtcItem" name="1st Receipt of Contribution">
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -532,6 +591,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3259" type="EtcItem" name="2nd Receipt of Contribution">
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -541,6 +601,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3260" type="EtcItem" name="3rd Receipt of Contribution">
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -550,6 +611,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3261" type="EtcItem" name="4th Receipt of Contribution">
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -559,6 +621,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3262" type="EtcItem" name="5th Receipt of Contribution">
+		<set name="icon" val="icon.etc_ticket_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -568,6 +631,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3263" type="EtcItem" name="Procuration of Torocco">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -577,6 +641,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3264" type="EtcItem" name="Bright's List">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -586,6 +651,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3265" type="EtcItem" name="Mandragora Petal">
+		<set name="icon" val="icon.etc_herb_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -595,6 +661,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3266" type="EtcItem" name="Crimson Moss">
+		<set name="icon" val="icon.etc_powder_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -604,6 +671,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3267" type="EtcItem" name="Mandragora Bouquet">
+		<set name="icon" val="icon.etc_branch_gold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -613,6 +681,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3268" type="EtcItem" name="Parman's Instructions">
+		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -622,6 +691,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3269" type="EtcItem" name="Parman's Letter">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -631,6 +701,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3270" type="EtcItem" name="Clay Dough">
+		<set name="icon" val="icon.etc_powder_black_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -640,6 +711,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3271" type="EtcItem" name="Pattern of Keyhole">
+		<set name="icon" val="icon.etc_plate_black_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -649,6 +721,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3272" type="EtcItem" name="Nikolas' List">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -658,6 +731,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3273" type="EtcItem" name="Stakato Shell">
+		<set name="icon" val="icon.etc_parasite_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -667,6 +741,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3274" type="EtcItem" name="Toad Lord Sac">
+		<set name="icon" val="icon.etc_poison_pouch_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -676,6 +751,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3275" type="EtcItem" name="Spider Thorn">
+		<set name="icon" val="icon.etc_horn_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -685,6 +761,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3276" type="EtcItem" name="Mark of Champion">
+		<set name="icon" val="icon.etc_jewel_gold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -694,6 +771,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3277" type="EtcItem" name="Ascalon's 1st Letter">
+		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -703,6 +781,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3278" type="EtcItem" name="Mason's Letter">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -712,6 +791,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3279" type="EtcItem" name="Iron Rose Ring">
+		<set name="icon" val="icon.accessary_magic_ring_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -721,6 +801,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3280" type="EtcItem" name="Ascalon's 2nd Letter">
+		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -730,6 +811,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3281" type="EtcItem" name="White Rose Insignia">
+		<set name="icon" val="icon.shield_knight_shield_i01" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -739,6 +821,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3282" type="EtcItem" name="Groot's Letter">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -748,6 +831,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3283" type="EtcItem" name="Ascalon's 3rd Letter">
+		<set name="icon" val="icon.etc_scroll_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -757,6 +841,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3284" type="EtcItem" name="Mouen's 1st Order">
+		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -766,6 +851,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3285" type="EtcItem" name="Mouen's 2nd Order">
+		<set name="icon" val="icon.etc_scroll_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -775,6 +861,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3286" type="EtcItem" name="Mouen's Letter">
+		<set name="icon" val="icon.etc_piece_of_paper_black_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -784,6 +871,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3287" type="EtcItem" name="Harpy's Egg">
+		<set name="icon" val="icon.etc_bead_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -793,6 +881,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3288" type="EtcItem" name="Medusa's Venom">
+		<set name="icon" val="icon.etc_reagent_green_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -802,6 +891,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3289" type="EtcItem" name="Windsus Bile">
+		<set name="icon" val="icon.etc_potion_scarlet_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -811,6 +901,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3290" type="EtcItem" name="Bloody Axe Head">
+		<set name="icon" val="icon.etc_skull_red_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -820,6 +911,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3291" type="EtcItem" name="Road Ratman Head">
+		<set name="icon" val="icon.etc_skull_black_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -829,6 +921,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3292" type="EtcItem" name="Leto Lizardman Fang">
+		<set name="icon" val="icon.etc_fang_gray_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -838,6 +931,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3293" type="EtcItem" name="Mark of Sagittarius">
+		<set name="icon" val="icon.weapon_wooden_arrow_i01" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -847,6 +941,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3294" type="EtcItem" name="Bernard's Introduction">
+		<set name="icon" val="icon.etc_letter_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -856,6 +951,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3295" type="EtcItem" name="Hamil's 1st Letter">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -865,6 +961,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3296" type="EtcItem" name="Hamil's 2nd Letter">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -874,6 +971,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3297" type="EtcItem" name="Hamil's 3rd Letter">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -883,6 +981,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3298" type="EtcItem" name="Hunter's 1st Rune">
+		<set name="icon" val="icon.etc_mold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />
@@ -892,6 +991,7 @@
 		<set name="etcitem_type" val="QUEST" />
 	</item>
 	<item id="3299" type="EtcItem" name="Hunter's 2nd Rune">
+		<set name="icon" val="icon.etc_mold_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />
 		<set name="is_dropable" val="false" />

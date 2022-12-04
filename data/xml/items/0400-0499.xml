@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
 	<item id="400" type="Armor" name="Theca Leather Armor">
+		<set name="icon" val="icon.armor_t63_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -15,6 +16,7 @@
 		</for>
 	</item>
 	<item id="401" type="Armor" name="Drake Leather Armor">
+		<set name="icon" val="icon.armor_t21_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -29,6 +31,7 @@
 		</for>
 	</item>
 	<item id="402" type="Armor" name="Chain Mail of Silence">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -43,6 +46,7 @@
 		</for>
 	</item>
 	<item id="403" type="Armor" name="Gust Chain Mail">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -57,6 +61,7 @@
 		</for>
 	</item>
 	<item id="404" type="Armor" name="Prairie Leather Armor">
+		<set name="icon" val="icon.armor_mithril_banded_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -71,6 +76,7 @@
 		</for>
 	</item>
 	<item id="405" type="Armor" name="Leather Armor of The Underworld">
+		<set name="icon" val="icon.armor_mithril_banded_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -85,6 +91,7 @@
 		</for>
 	</item>
 	<item id="406" type="Armor" name="Leather Suit of Concentration">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -99,6 +106,7 @@
 		</for>
 	</item>
 	<item id="407" type="Armor" name="Ace's Leather Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -113,6 +121,7 @@
 		</for>
 	</item>
 	<item id="408" type="Armor" name="Guardian's Leather Armor">
+		<set name="icon" val="icon.armor_mithril_banded_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -127,6 +136,7 @@
 		</for>
 	</item>
 	<item id="409" type="Armor" name="Marksman's Leather Armor">
+		<set name="icon" val="icon.armor_mithril_banded_mail_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="chest" />
@@ -141,6 +151,7 @@
 		</for>
 	</item>
 	<item id="410" type="Armor" name="Unicorn Leather Armor">
+		<set name="icon" val="icon.armor_composite_armor_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -155,6 +166,7 @@
 		</for>
 	</item>
 	<item id="411" type="Armor" name="Dragon Leather Armor">
+		<set name="icon" val="icon.armor_t45_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="fullarmor" />
@@ -172,6 +184,7 @@
 		</for>
 	</item>
 	<item id="412" type="Armor" name="Cotton Pants">
+		<set name="icon" val="icon.armor_t07_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -183,6 +196,7 @@
 		</for>
 	</item>
 	<item id="413" type="Armor" name="Puma Skin Gaiters">
+		<set name="icon" val="icon.armor_t09_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -197,6 +211,7 @@
 		</for>
 	</item>
 	<item id="414" type="Armor" name="Lion Skin Gaiters">
+		<set name="icon" val="icon.armor_t18_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -211,6 +226,7 @@
 		</for>
 	</item>
 	<item id="415" type="Armor" name="Mithril Banded Gaiters">
+		<set name="icon" val="icon.armor_t10_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -225,6 +241,7 @@
 		</for>
 	</item>
 	<item id="416" type="Armor" name="Reinforced Leather Gaiters">
+		<set name="icon" val="icon.armor_t13_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -239,6 +256,7 @@
 		</for>
 	</item>
 	<item id="417" type="Armor" name="Manticore Skin Gaiters">
+		<set name="icon" val="icon.armor_t42_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -253,6 +271,7 @@
 		</for>
 	</item>
 	<item id="418" type="Armor" name="Plated Leather Gaiters">
+		<set name="icon" val="icon.armor_t47_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -267,6 +286,7 @@
 		</for>
 	</item>
 	<item id="419" type="Armor" name="Rind Leather Gaiters">
+		<set name="icon" val="icon.armor_t49_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -281,6 +301,7 @@
 		</for>
 	</item>
 	<item id="420" type="Armor" name="Theca Leather Gaiters">
+		<set name="icon" val="icon.armor_t63_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -295,6 +316,7 @@
 		</for>
 	</item>
 	<item id="421" type="Armor" name="Prairie Leather Gaiters">
+		<set name="icon" val="icon.armor_mithril_banded_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -309,6 +331,7 @@
 		</for>
 	</item>
 	<item id="422" type="Armor" name="Gaiters of The Underworld">
+		<set name="icon" val="icon.armor_mithril_banded_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -323,6 +346,7 @@
 		</for>
 	</item>
 	<item id="423" type="Armor" name="Guardian's Leather Gaiters">
+		<set name="icon" val="icon.armor_mithril_banded_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -337,6 +361,7 @@
 		</for>
 	</item>
 	<item id="424" type="Armor" name="Marksman's Leather Gaiters">
+		<set name="icon" val="icon.armor_mithril_banded_gaiters_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="legs" />
@@ -351,6 +376,7 @@
 		</for>
 	</item>
 	<item id="425" type="Armor" name="Apprentice's Tunic">
+		<set name="icon" val="icon.armor_t01_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -366,6 +392,7 @@
 		</for>
 	</item>
 	<item id="426" type="Armor" name="Tunic">
+		<set name="icon" val="icon.armor_t03_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -378,6 +405,7 @@
 		</for>
 	</item>
 	<item id="427" type="Armor" name="Cotton Robe">
+		<set name="icon" val="icon.armor_cotton_robe_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -390,6 +418,7 @@
 		</for>
 	</item>
 	<item id="428" type="Armor" name="Feriotic Tunic">
+		<set name="icon" val="icon.armor_t52_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -402,6 +431,7 @@
 		</for>
 	</item>
 	<item id="429" type="Armor" name="Leather Tunic">
+		<set name="icon" val="icon.armor_t05_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -414,6 +444,7 @@
 		</for>
 	</item>
 	<item id="430" type="Armor" name="Robe of Devotion">
+		<set name="icon" val="icon.armor_cotton_robe_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -426,6 +457,7 @@
 		</for>
 	</item>
 	<item id="431" type="Armor" name="Robe of Magic">
+		<set name="icon" val="icon.armor_cotton_robe_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -438,6 +470,7 @@
 		</for>
 	</item>
 	<item id="432" type="Armor" name="Cursed Tunic">
+		<set name="icon" val="icon.armor_t14_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -453,6 +486,7 @@
 		</for>
 	</item>
 	<item id="433" type="Armor" name="Elven Tunic">
+		<set name="icon" val="icon.armor_t11_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -468,6 +502,7 @@
 		</for>
 	</item>
 	<item id="434" type="Armor" name="White Tunic">
+		<set name="icon" val="icon.armor_t16_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -483,6 +518,7 @@
 		</for>
 	</item>
 	<item id="435" type="Armor" name="Mystic's Tunic">
+		<set name="icon" val="icon.armor_t17_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -498,6 +534,7 @@
 		</for>
 	</item>
 	<item id="436" type="Armor" name="Tunic of Knowledge">
+		<set name="icon" val="icon.armor_t41_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -513,6 +550,7 @@
 		</for>
 	</item>
 	<item id="437" type="Armor" name="Mithril Tunic">
+		<set name="icon" val="icon.armor_t51_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -528,6 +566,7 @@
 		</for>
 	</item>
 	<item id="438" type="Armor" name="Sage's Rag">
+		<set name="icon" val="icon.armor_t44_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -543,6 +582,7 @@
 		</for>
 	</item>
 	<item id="439" type="Armor" name="Karmian Tunic">
+		<set name="icon" val="icon.armor_t53_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -558,6 +598,7 @@
 		</for>
 	</item>
 	<item id="440" type="Armor" name="Robe of Seal">
+		<set name="icon" val="icon.armor_t44_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -573,6 +614,7 @@
 		</for>
 	</item>
 	<item id="441" type="Armor" name="Demon's Tunic">
+		<set name="icon" val="icon.armor_t54_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -588,6 +630,7 @@
 		</for>
 	</item>
 	<item id="442" type="Armor" name="Divine Tunic">
+		<set name="icon" val="icon.armor_t57_u_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -603,6 +646,7 @@
 		</for>
 	</item>
 	<item id="443" type="Armor" name="Tunic of Mana">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -618,6 +662,7 @@
 		</for>
 	</item>
 	<item id="444" type="Armor" name="Sage's Robe">
+		<set name="icon" val="icon.armor_cotton_robe_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -633,6 +678,7 @@
 		</for>
 	</item>
 	<item id="445" type="Armor" name="Paradia Tunic">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -648,6 +694,7 @@
 		</for>
 	</item>
 	<item id="446" type="Armor" name="Inferno Tunic">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -663,6 +710,7 @@
 		</for>
 	</item>
 	<item id="447" type="Armor" name="Tunic of Solar Eclipse">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -678,6 +726,7 @@
 		</for>
 	</item>
 	<item id="448" type="Armor" name="Robe of Black Ore">
+		<set name="icon" val="icon.armor_cotton_robe_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -693,6 +742,7 @@
 		</for>
 	</item>
 	<item id="449" type="Armor" name="Tunic of Summoning">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -708,6 +758,7 @@
 		</for>
 	</item>
 	<item id="450" type="Armor" name="Otherworldly Robe">
+		<set name="icon" val="icon.armor_cotton_robe_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -723,6 +774,7 @@
 		</for>
 	</item>
 	<item id="451" type="Armor" name="Elemental Tunic">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -738,6 +790,7 @@
 		</for>
 	</item>
 	<item id="452" type="Armor" name="Tunic of Phantom">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -753,6 +806,7 @@
 		</for>
 	</item>
 	<item id="453" type="Armor" name="Tunic of Grace">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -768,6 +822,7 @@
 		</for>
 	</item>
 	<item id="454" type="Armor" name="Robe of Holy Spirit">
+		<set name="icon" val="icon.armor_cotton_robe_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -783,6 +838,7 @@
 		</for>
 	</item>
 	<item id="455" type="Armor" name="Phoenix Tunic">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -798,6 +854,7 @@
 		</for>
 	</item>
 	<item id="456" type="Armor" name="Cerberus Tunic">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -813,6 +870,7 @@
 		</for>
 	</item>
 	<item id="457" type="Armor" name="Tunic of Aid">
+		<set name="icon" val="icon.armor_tunic_of_knowledge_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="chest" />
@@ -828,6 +886,7 @@
 		</for>
 	</item>
 	<item id="458" type="Armor" name="Robe of Blessing">
+		<set name="icon" val="icon.armor_cotton_robe_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -843,6 +902,7 @@
 		</for>
 	</item>
 	<item id="459" type="Armor" name="Dasparion's Robe">
+		<set name="icon" val="icon.armor_cotton_robe_i02" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -858,6 +918,7 @@
 		</for>
 	</item>
 	<item id="460" type="Armor" name="The Robe">
+		<set name="icon" val="icon.armor_t44_ul_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="fullarmor" />
@@ -876,6 +937,7 @@
 		</for>
 	</item>
 	<item id="461" type="Armor" name="Apprentice's Stockings">
+		<set name="icon" val="icon.armor_t01_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -891,6 +953,7 @@
 		</for>
 	</item>
 	<item id="462" type="Armor" name="Stockings">
+		<set name="icon" val="icon.armor_t03_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -903,6 +966,7 @@
 		</for>
 	</item>
 	<item id="463" type="Armor" name="Feriotic Stockings">
+		<set name="icon" val="icon.armor_t52_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -915,6 +979,7 @@
 		</for>
 	</item>
 	<item id="464" type="Armor" name="Leather Stockings">
+		<set name="icon" val="icon.armor_t05_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -927,6 +992,7 @@
 		</for>
 	</item>
 	<item id="465" type="Armor" name="Cursed Stockings">
+		<set name="icon" val="icon.armor_t14_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -942,6 +1008,7 @@
 		</for>
 	</item>
 	<item id="466" type="Armor" name="Elven Stockings">
+		<set name="icon" val="icon.armor_t11_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -957,6 +1024,7 @@
 		</for>
 	</item>
 	<item id="467" type="Armor" name="Dark Stockings">
+		<set name="icon" val="icon.armor_t16_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -972,6 +1040,7 @@
 		</for>
 	</item>
 	<item id="468" type="Armor" name="Mystic's Stockings">
+		<set name="icon" val="icon.armor_t17_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -987,6 +1056,7 @@
 		</for>
 	</item>
 	<item id="469" type="Armor" name="Stockings of Knowledge">
+		<set name="icon" val="icon.armor_t41_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1002,6 +1072,7 @@
 		</for>
 	</item>
 	<item id="470" type="Armor" name="Mithril Stockings">
+		<set name="icon" val="icon.armor_t51_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1017,6 +1088,7 @@
 		</for>
 	</item>
 	<item id="471" type="Armor" name="Karmian Stockings">
+		<set name="icon" val="icon.armor_t53_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1032,6 +1104,7 @@
 		</for>
 	</item>
 	<item id="472" type="Armor" name="Demon's Stockings">
+		<set name="icon" val="icon.armor_t54_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1047,6 +1120,7 @@
 		</for>
 	</item>
 	<item id="473" type="Armor" name="Divine Stockings">
+		<set name="icon" val="icon.armor_t57_l_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1062,6 +1136,7 @@
 		</for>
 	</item>
 	<item id="474" type="Armor" name="Stockings of Mana">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1077,6 +1152,7 @@
 		</for>
 	</item>
 	<item id="475" type="Armor" name="Paradia Stockings">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1092,6 +1168,7 @@
 		</for>
 	</item>
 	<item id="476" type="Armor" name="Inferno Stockings">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1107,6 +1184,7 @@
 		</for>
 	</item>
 	<item id="477" type="Armor" name="Stockings of Solar Eclipse">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1122,6 +1200,7 @@
 		</for>
 	</item>
 	<item id="478" type="Armor" name="Stockings of Summoning">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1137,6 +1216,7 @@
 		</for>
 	</item>
 	<item id="479" type="Armor" name="Elemental Stockings">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1152,6 +1232,7 @@
 		</for>
 	</item>
 	<item id="480" type="Armor" name="Stockings of Phantom">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1167,6 +1248,7 @@
 		</for>
 	</item>
 	<item id="481" type="Armor" name="Stockings of Grace">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1182,6 +1264,7 @@
 		</for>
 	</item>
 	<item id="482" type="Armor" name="Phoenix Stockings">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1197,6 +1280,7 @@
 		</for>
 	</item>
 	<item id="483" type="Armor" name="Cerberus Stockings">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1212,6 +1296,7 @@
 		</for>
 	</item>
 	<item id="484" type="Armor" name="Stockings of Aid">
+		<set name="icon" val="icon.armor_leather_hose_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="MAGIC" />
 		<set name="bodypart" val="legs" />
@@ -1227,6 +1312,7 @@
 		</for>
 	</item>
 	<item id="485" type="Armor" name="Tattoo of Power">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1239,6 +1325,7 @@
 		</for>
 	</item>
 	<item id="486" type="Armor" name="Tattoo of Fire">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1253,6 +1340,7 @@
 		</for>
 	</item>
 	<item id="487" type="Armor" name="Tattoo of Resolve">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1267,6 +1355,7 @@
 		</for>
 	</item>
 	<item id="488" type="Armor" name="Tattoo of Flame">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1281,6 +1370,7 @@
 		</for>
 	</item>
 	<item id="489" type="Armor" name="Tattoo of Bravery">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1295,6 +1385,7 @@
 		</for>
 	</item>
 	<item id="490" type="Armor" name="Tattoo of Blood">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1309,6 +1400,7 @@
 		</for>
 	</item>
 	<item id="491" type="Armor" name="Tattoo of Absolute">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1323,6 +1415,7 @@
 		</for>
 	</item>
 	<item id="492" type="Armor" name="Tattoo of Soul">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1337,6 +1430,7 @@
 		</for>
 	</item>
 	<item id="493" type="Armor" name="Tattoo of Avadon">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1351,6 +1445,7 @@
 		</for>
 	</item>
 	<item id="494" type="Armor" name="Tattoo of Doom">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1365,6 +1460,7 @@
 		</for>
 	</item>
 	<item id="495" type="Armor" name="Tattoo of Pledge">
+		<set name="icon" val="icon.item_normal03" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1379,6 +1475,7 @@
 		</for>
 	</item>
 	<item id="496" type="Armor" name="Tattoo of Divine">
+		<set name="icon" val="icon.weapon_voodoo_doll_i00" />
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="NONE" />
 		<set name="bodypart" val="underwear" />
@@ -1393,6 +1490,7 @@
 		</for>
 	</item>
 	<item id="497" type="Armor" name="Chain Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="C" />
@@ -1406,6 +1504,7 @@
 		</for>
 	</item>
 	<item id="498" type="Armor" name="Steel Plate Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="C" />
@@ -1419,6 +1518,7 @@
 		</for>
 	</item>
 	<item id="499" type="Armor" name="Mithril Helmet">
+		<set name="icon" val="icon.armor_circlet_i00" />
 		<set name="default_action" val="equip" />
 		<set name="bodypart" val="head" />
 		<set name="crystal_type" val="C" />
