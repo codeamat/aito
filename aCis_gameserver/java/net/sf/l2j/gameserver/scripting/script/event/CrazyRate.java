@@ -17,8 +17,9 @@ public class CrazyRate extends ScheduledQuest
 	protected void onStart()
 	{
 		LOGGER.info("Crazy Rate: Event ongoing!");
-		World.announceToOnlinePlayers("Crazy rate started together let's level up multiplied "+_multipler+"x Rates.", true);
-		
+		World.announceToOnlinePlayers("L'Event du Week-end va commencer!", true);
+		World.announceToOnlinePlayers("[EXP Boost]: "+_multipler+"x Rates.", true);
+		World.announceToOnlinePlayers("Enjoy le jeu, Jah Love!");
 		Config.RATE_XP = _multipler * Config.RATE_XP;
 		Config.RATE_SP = _multipler * Config.RATE_SP;
 		Config.RATE_DROP_ITEMS = _multipler * Config.RATE_DROP_ITEMS;
@@ -30,7 +31,7 @@ public class CrazyRate extends ScheduledQuest
 	protected void onEnd()
 	{
 		LOGGER.info("Crazy Rate: Event end!");
-		World.announceToOnlinePlayers("Crazy Rate came to an end rates returned to normal!");
+		World.announceToOnlinePlayers("[EXP Boost]: Fin de l'Event, Maururu!");
 		
 		Config.RATE_XP = Config.RATE_XP / _multipler;
 		Config.RATE_SP = Config.RATE_SP / _multipler;
