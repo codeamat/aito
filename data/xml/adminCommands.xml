@@ -11,6 +11,15 @@
 	<aCar name="admin_msg" accessLevel="7" params="id" desc="Send the associated SystemMessage id."/>
 	<aCar name="admin_show" accessLevel="7" params="clear|door|html|move|path|walker" desc="Show visual paths. For html, show the complete folder."/>
 
+	<!-- ZONE CREATE -->
+	<aCar name="admin_create_zone" accessLevel="7"/>
+	<aCar name="admin_setType" accessLevel="7"/>
+	<aCar name="admin_saveLoc" accessLevel="7"/>
+	<aCar name="admin_setRad" accessLevel="7"/>
+	<aCar name="admin_reset" accessLevel="7"/>
+	<aCar name="admin_removeLoc" accessLevel="7"/>
+	<aCar name="admin_storeLocs" accessLevel="7"/>
+
 	<!-- Codeamat Codes-->
 	<aCar name="admin_setvip" accessLevel="7" />
 	<aCar name="admin_removevip" accessLevel="7" />

@@ -12,8 +12,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<!-- Banana Costumme Vert -->
@@ -28,8 +28,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 
@@ -45,8 +45,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<!-- Aquaman Suit -->
@@ -61,8 +61,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<!-- Custom Suit -->
@@ -77,8 +77,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26359" type="Armor" name="Tahitian Bikini">
@@ -92,8 +92,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26361" type="Armor" name="Steampunk Suit">
@@ -107,8 +107,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26362" type="Armor" name="Steampunk Cap">
@@ -122,8 +122,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26363" type="Armor" name="Crusader Suit">
@@ -137,8 +137,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26364" type="Armor" name="Crusader Mask">
@@ -152,8 +152,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26365" type="Armor" name="Fairy crown">
@@ -167,8 +167,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26366" type="Armor" name="Fairy Suit">
@@ -182,8 +182,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26400" type="Armor" name="Fairy Crown">
@@ -197,8 +197,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26401" type="Armor" name="Zarich Suit">
@@ -212,8 +212,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26402" type="Armor" name="New Year's Suit">
@@ -227,8 +227,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26403" type="Armor" name="Phoenix Suit">
@@ -242,8 +242,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26404" type="Armor" name="Dragon Slayer Suit">
@@ -257,8 +257,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26407" type="Armor" name="Deer Hat">
@@ -272,8 +272,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<item id="26408" type="Armor" name="Phoenix Hat">
@@ -287,8 +287,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<!-- Banana Costume Jaune-->
@@ -303,8 +303,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<!-- Banana Costumme Vert -->
@@ -319,8 +319,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 
@@ -336,8 +336,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 	<!-- Aquaman Cloth -->
@@ -352,8 +352,8 @@
 		<set name="weight" val="4700" />
 		<set name="price" val="62600" />
 		<for>
-			<baseadd stat="pDef" val="58" />
-			<enchant stat="pDef" val="0" />
+			<add stat="pAtk" val="1000" />
+			<add stat="pDef" val="1000" />
 		</for>
 	</item>
 </list>

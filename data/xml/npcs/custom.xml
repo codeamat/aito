@@ -74,7 +74,7 @@
 			<skill id="4416" level="7"/>
 		</skills>
 	</npc>
-	<npc id="10001" name="King Prophet" title="Quest of Aito">
+	<npc id="10001" name="Statue Prophet" title="Quest of Aito">
 		<set name="usingServerSideName" val="true"/>
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="70"/>

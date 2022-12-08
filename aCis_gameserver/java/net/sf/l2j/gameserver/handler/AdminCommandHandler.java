@@ -36,6 +36,7 @@ import net.sf.l2j.gameserver.handler.admincommandhandlers.AdminTeleport;
 import net.sf.l2j.gameserver.handler.admincommandhandlers.AdminTest;
 import net.sf.l2j.gameserver.handler.admincommandhandlers.AdminVip;
 import net.sf.l2j.gameserver.handler.admincommandhandlers.AdminZone;
+import net.sf.l2j.gameserver.handler.admincommandhandlers.AdminZoneCreation;
 
 public class AdminCommandHandler
 {
@@ -76,6 +77,7 @@ public class AdminCommandHandler
 		registerHandler(new AdminTeleport());
 		registerHandler(new AdminTest());
 		registerHandler(new AdminZone());
+		registerHandler(new AdminZoneCreation());
 	}
 	
 	private void registerHandler(IAdminCommandHandler handler)

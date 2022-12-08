@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<npc id="13038" name="Statue Meduza" title="Quest of Aito">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="27"/>
+		<set name="rHand" val="273"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Guard"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="3290.11306877694"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="970.537548504614"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="662.751329129412"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="1000" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="17"/>
+		</skills>
+	</npc>
+	<npc id="13039" name="Statue Masta" title="Quest of Aito">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="27"/>
+		<set name="rHand" val="273"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Guard"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="3290.11306877694"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="970.537548504614"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="662.751329129412"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="1000" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="17"/>
+		</skills>
+	</npc>
+	<npc id="13040" name="Statue Vanguard" title="Quest of Aito">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="27"/>
+		<set name="rHand" val="273"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Guard"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="3290.11306877694"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="970.537548504614"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="662.751329129412"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="1000" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="17"/>
+		</skills>
+	</npc>
+	<npc id="13041" name="Statue Paati" title="Quest of Aito">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="27"/>
+		<set name="rHand" val="273"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Guard"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="3290.11306877694"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="970.537548504614"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="662.751329129412"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="1000" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="17"/>
+		</skills>
+	</npc>
+	<npc id="13042" name="Statue Ume" title="Quest of Aito">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="27"/>
+		<set name="rHand" val="273"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Guard"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="3290.11306877694"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="970.537548504614"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="662.751329129412"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="1000" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="17"/>
+		</skills>
+	</npc>
+	<npc id="13043" name="Statue Paihere" title="Quest of Aito">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="27"/>
+		<set name="rHand" val="273"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Guard"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="3290.11306877694"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="970.537548504614"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="662.751329129412"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="1000" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="17"/>
+		</skills>
+	</npc>
+	<npc id="13044" name="Statue pupuhi" title="Quest of Aito">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="27"/>
+		<set name="rHand" val="273"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Guard"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="3290.11306877694"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="970.537548504614"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="662.751329129412"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="1000" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="17"/>
+		</skills>
+	</npc>
+	<npc id="13045" name="Statue sapau" title="Quest of Aito">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="27"/>
+		<set name="rHand" val="273"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Guard"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="3290.11306877694"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="970.537548504614"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="662.751329129412"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="1000" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="17"/>
+		</skills>
+	</npc>
+	<npc id="13046" name="Statue Melo" title="Quest of Aito">
+		<set name="usingServerSideName" val="true"/>
+		<set name="usingServerSideTitle" val="true"/>
+		<set name="level" val="80"/>
+		<set name="radius" val="8"/>
+		<set name="height" val="45"/>
+		<set name="rHand" val="273"/>
+		<set name="lHand" val="0"/>
+		<set name="type" val="Guard"/>
+		<set name="exp" val="0"/>
+		<set name="sp" val="0"/>
+		<set name="hp" val="3290.11306877694"/>
+		<set name="mp" val="1674.8"/>
+		<set name="hpRegen" val="8.5"/>
+		<set name="mpRegen" val="3"/>
+		<set name="pAtk" val="970.537548504614"/>
+		<set name="pDef" val="341.375"/>
+		<set name="mAtk" val="662.751329129412"/>
+		<set name="mDef" val="249.80341"/>
+		<set name="crit" val="8"/>
+		<set name="atkSpd" val="253"/>
+		<set name="str" val="40"/>
+		<set name="int" val="21"/>
+		<set name="dex" val="30"/>
+		<set name="wit" val="20"/>
+		<set name="con" val="43"/>
+		<set name="men" val="10"/>
+		<set name="corpseTime" val="7"/>
+		<set name="walkSpd" val="50"/>
+		<set name="runSpd" val="160"/>
+		<set name="dropHerbGroup" val="0"/>
+		<ai type="DEFAULT" ssCount="0" ssRate="0" spsCount="0" spsRate="0" aggro="1000" canMove="true" seedable="false"/>
+		<skills>
+			<skill id="4045" level="1"/>
+			<skill id="4416" level="17"/>
+		</skills>
+	</npc>
+</list>
