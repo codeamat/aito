@@ -144,7 +144,7 @@ public class AdminZoneCreation implements IAdminCommandHandler
 			filePath = file.getAbsolutePath().replaceAll("\\\\", "/");
 			writer.write(getHeadLine());
 			for (Location loc : savedLocs)
-				writer.write(String.format("\t<node X=\"%s\" Y=\"%s\" />\r\n", loc.getX(), loc.getY()));
+				writer.write(String.format("\t<node X=\"%s\" Y=\"%s\" Z=\"%s\" />\r\n", loc.getX(), loc.getY(), loc.getZ()));
 			
 			writer.write("</zone>");
 		}
