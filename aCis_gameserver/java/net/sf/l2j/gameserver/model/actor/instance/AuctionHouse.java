@@ -354,7 +354,7 @@ public class AuctionHouse extends Folk
 			sb.append("<table width=296 bgcolor=000000><tr>");
 			sb.append("<td height=40 width=40><button action=\"bypass npc_" + getObjectId() + "_selectItem " + item.getItemId() + "\" width=32 height=32 back=" + item.getIcon() + " fore=" + item.getIcon() + "></td>");
 			sb.append("<td width=256>" + name + " " + (item.isStackable() ? "(" + StringUtil.formatNumber(temp.getCount()) + ")" : temp.getEnchantLevel() > 0 ? "<font color=LEVEL>+" + temp.getEnchantLevel() + "</font>" : "") + "<br1>");
-			sb.append("<font color=B09878>Sore it for 7 day(s)</font></td>");
+			sb.append("<font color=B09878>Vendre pour 7 jour(s)</font></td>");
 			sb.append("</tr></table>");
 			sb.append("<img src=L2UI.SquareGray width=296 height=1>");
 			row++;

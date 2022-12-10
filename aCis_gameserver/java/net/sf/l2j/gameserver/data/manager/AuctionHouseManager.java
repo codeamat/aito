@@ -134,7 +134,7 @@ public class AuctionHouseManager implements Runnable
 		}
 		catch (Exception e)
 		{
-			LOGGER.warn("Coundn't deleteItem() from auction manager item list.");
+			LOGGER.warn("Coundn't deleteItem() from Tahitian Trader item list.");
 		}
 	}
 	

@@ -5,7 +5,7 @@
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="80"/>
 		<set name="radius" val="8"/>
-		<set name="height" val="27"/>
+		<set name="height" val="40"/>
 		<set name="rHand" val="273"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Guard"/>
@@ -42,7 +42,7 @@
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="80"/>
 		<set name="radius" val="8"/>
-		<set name="height" val="27"/>
+		<set name="height" val="40"/>
 		<set name="rHand" val="273"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Guard"/>
@@ -79,7 +79,7 @@
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="80"/>
 		<set name="radius" val="8"/>
-		<set name="height" val="27"/>
+		<set name="height" val="40"/>
 		<set name="rHand" val="273"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Guard"/>
@@ -116,7 +116,7 @@
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="80"/>
 		<set name="radius" val="8"/>
-		<set name="height" val="27"/>
+		<set name="height" val="40"/>
 		<set name="rHand" val="273"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Guard"/>
@@ -153,7 +153,7 @@
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="80"/>
 		<set name="radius" val="8"/>
-		<set name="height" val="27"/>
+		<set name="height" val="40"/>
 		<set name="rHand" val="273"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Guard"/>
@@ -190,7 +190,7 @@
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="80"/>
 		<set name="radius" val="8"/>
-		<set name="height" val="27"/>
+		<set name="height" val="40"/>
 		<set name="rHand" val="273"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Guard"/>
@@ -227,7 +227,7 @@
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="80"/>
 		<set name="radius" val="8"/>
-		<set name="height" val="27"/>
+		<set name="height" val="40"/>
 		<set name="rHand" val="273"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Guard"/>
@@ -264,7 +264,7 @@
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="80"/>
 		<set name="radius" val="8"/>
-		<set name="height" val="27"/>
+		<set name="height" val="40"/>
 		<set name="rHand" val="273"/>
 		<set name="lHand" val="0"/>
 		<set name="type" val="Guard"/>

@@ -20098,7 +20098,7 @@
 		<set name="walkSpd" val="45"/>
 		<set name="runSpd" val="175"/>
 		<set name="dropHerbGroup" val="1"/>
-		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="500" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
+		<ai type="DEFAULT" ssCount="100" ssRate="30" spsCount="0" spsRate="0" aggro="1000" clan="ketra_orc_clan" clanRange="300" canMove="true" seedable="true"/>
 		<skills>
 			<skill id="4072" level="8"/>
 			<skill id="4099" level="2"/>
