@@ -11,6 +11,7 @@ import net.sf.l2j.commons.logging.CLogger;
 import net.sf.l2j.commons.pool.ConnectionPool;
 
 import net.sf.l2j.gameserver.enums.QuestStatus;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.network.serverpackets.ExShowQuestMark;
 import net.sf.l2j.gameserver.network.serverpackets.QuestList;
@@ -215,6 +216,9 @@ public final class QuestState extends MemoSet
 		// Get current state and skip of no change.
 		if (getState() == state)
 			return;
+		
+		if (state == QuestStatus.COMPLETED)
+			_player.getMissions().update(MissionType.QUEST_COMPLETE);
 		
 		// Set new state.
 		set(STATE, state);

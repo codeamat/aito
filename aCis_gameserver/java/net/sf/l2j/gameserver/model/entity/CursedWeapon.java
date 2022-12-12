@@ -13,6 +13,7 @@ import net.sf.l2j.commons.random.Rnd;
 
 import net.sf.l2j.gameserver.data.SkillTable;
 import net.sf.l2j.gameserver.enums.MessageType;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Attackable;
 import net.sf.l2j.gameserver.model.actor.Creature;
@@ -620,6 +621,8 @@ public class CursedWeapon
 		
 		// Refresh player stats
 		_player.broadcastUserInfo();
+		
+		_player.getMissions().update(MissionType.CURSED_WEAPON);
 		
 		World.toAllOnlinePlayers(SystemMessage.getSystemMessage(SystemMessageId.THE_OWNER_OF_S2_HAS_APPEARED_IN_THE_S1_REGION).addZoneName(_player.getPosition()).addItemName(_item.getItemId()));
 	}

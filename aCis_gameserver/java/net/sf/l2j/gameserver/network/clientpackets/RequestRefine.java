@@ -3,6 +3,7 @@ package net.sf.l2j.gameserver.network.clientpackets;
 import net.sf.l2j.gameserver.data.xml.AugmentationData;
 import net.sf.l2j.gameserver.enums.ShortcutType;
 import net.sf.l2j.gameserver.enums.StatusType;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.Augmentation;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
@@ -126,5 +127,7 @@ public final class RequestRefine extends AbstractRefinePacket
 		StatusUpdate su = new StatusUpdate(player);
 		su.addAttribute(StatusType.CUR_LOAD, player.getCurrentWeight());
 		player.sendPacket(su);
+		
+		player.getMissions().update(MissionType.AUGMENT);
 	}
 }

@@ -5,6 +5,7 @@ import java.util.List;
 import net.sf.l2j.gameserver.data.SkillTable;
 import net.sf.l2j.gameserver.data.xml.NpcData;
 import net.sf.l2j.gameserver.data.xml.SummonItemData;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.handler.IItemHandler;
 import net.sf.l2j.gameserver.model.actor.Npc;
 import net.sf.l2j.gameserver.model.actor.Playable;
@@ -81,6 +82,9 @@ public class SummonItems implements IItemHandler
 					final Npc npc = spawn.doSpawn(true);
 					npc.setTitle(player.getName());
 					npc.setWalkOrRun(false);
+					
+					if (npcTemplate.getNpcId() == ChristmasTree.SPECIAL_TREE_ID)
+						player.getMissions().update(MissionType.SPAWN_CHRISTMAS_TREE);
 				}
 				catch (Exception e)
 				{

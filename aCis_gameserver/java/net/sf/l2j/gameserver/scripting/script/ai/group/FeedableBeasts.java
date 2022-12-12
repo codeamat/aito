@@ -10,6 +10,7 @@ import net.sf.l2j.commons.util.ArraysUtil;
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.data.xml.NpcData;
 import net.sf.l2j.gameserver.enums.ScriptEventType;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.idfactory.IdFactory;
 import net.sf.l2j.gameserver.model.actor.Creature;
 import net.sf.l2j.gameserver.model.actor.Npc;
@@ -731,7 +732,10 @@ public class FeedableBeasts extends AttackableAIScript
 			
 			// Polymorph the mob, with a certain chance, given its current growth level
 			if (Rnd.get(100) < GROWTH_CAPABLE_MOBS.get(npcId).getChance())
+			{
 				spawnNext(npc, growthLevel, caster, food);
+				caster.getMissions().update(MissionType.FEED_BEAST);
+			}
 		}
 		
 		return super.onSkillSee(npc, caster, skill, targets, isPet);

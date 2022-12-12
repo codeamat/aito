@@ -37,6 +37,7 @@ import net.sf.l2j.gameserver.data.xml.HerbDropData;
 import net.sf.l2j.gameserver.data.xml.InstantTeleportData;
 import net.sf.l2j.gameserver.data.xml.ItemData;
 import net.sf.l2j.gameserver.data.xml.MapRegionData;
+import net.sf.l2j.gameserver.data.xml.MissionData;
 import net.sf.l2j.gameserver.data.xml.MultisellData;
 import net.sf.l2j.gameserver.data.xml.NewbieBuffData;
 import net.sf.l2j.gameserver.data.xml.NpcData;
@@ -242,6 +243,7 @@ public class GameServer
 		}
 		
 		StringUtil.printSection("Events");
+		MissionData.getInstance();
 		DerbyTrackManager.getInstance();
 		LotteryManager.getInstance();
 		

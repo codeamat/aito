@@ -18,6 +18,7 @@ DROP TABLE IF EXISTS character_friends;
 DROP TABLE IF EXISTS character_hennas;
 DROP TABLE IF EXISTS character_macroses;
 DROP TABLE IF EXISTS character_memo;
+DROP TABLE IF EXISTS character_mission;
 DROP TABLE IF EXISTS character_quests;
 DROP TABLE IF EXISTS character_raid_points;
 DROP TABLE IF EXISTS character_recipebook;

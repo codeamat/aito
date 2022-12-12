@@ -7,6 +7,7 @@ import net.sf.l2j.commons.lang.StringUtil;
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.data.manager.CastleManager;
 import net.sf.l2j.gameserver.data.manager.CoupleManager;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
@@ -178,6 +179,9 @@ public class WeddingManagerNpc extends Folk
 		// Fireworks
 		requester.broadcastPacket(new MagicSkillUse(requester, requester, 2025, 1, 1, 0));
 		partner.broadcastPacket(new MagicSkillUse(partner, partner, 2025, 1, 1, 0));
+		
+		requester.getMissions().update(MissionType.MARRIED);
+		partner.getMissions().update(MissionType.MARRIED);
 		
 		World.announceToOnlinePlayers("Congratulations to " + requester.getName() + " and " + partner.getName() + "! They have been married.");
 	}

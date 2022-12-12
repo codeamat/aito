@@ -13,6 +13,7 @@ import net.sf.l2j.gameserver.data.xml.PlayerData;
 import net.sf.l2j.gameserver.data.xml.SkillTreeData;
 import net.sf.l2j.gameserver.enums.FloodProtector;
 import net.sf.l2j.gameserver.enums.actors.ClassId;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.enums.skills.AcquireSkillType;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.container.player.SubClass;
@@ -485,6 +486,9 @@ public class VillageMaster extends Folk
 							return;
 						
 						player.setActiveClass(player.getSubClasses().size());
+						
+						if (player.getMissions().getMission(MissionType.SUBCLASS).getValue() < player.getSubClasses().size())
+							player.getMissions().set(MissionType.SUBCLASS, 1, true, false);
 						
 						html.setFile("data/html/villagemaster/SubClass_AddOk.htm");
 						player.sendPacket(SystemMessageId.ADD_NEW_SUBCLASS); // Subclass added.

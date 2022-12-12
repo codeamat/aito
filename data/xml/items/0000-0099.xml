@@ -820,7 +820,7 @@
 			<baseadd stat="pDef" val="5" />
 		</for>
 	</item>
-	<item id="57" type="EtcItem" name="Adena">
+	<item id="57" type="EtcItem" name="Moni">
 		<set name="icon" val="icon.etc_adena_i00" />
 		<set name="material" val="GOLD" />
 		<set name="price" val="1" />

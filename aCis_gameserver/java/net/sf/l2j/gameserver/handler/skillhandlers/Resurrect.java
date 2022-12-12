@@ -1,5 +1,6 @@
 package net.sf.l2j.gameserver.handler.skillhandlers;
 
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.enums.items.ShotType;
 import net.sf.l2j.gameserver.enums.skills.SkillType;
 import net.sf.l2j.gameserver.handler.ISkillHandler;
@@ -27,7 +28,10 @@ public class Resurrect implements ISkillHandler
 			if (activeChar instanceof Player)
 			{
 				if (cha instanceof Player)
+				{
 					((Player) cha).reviveRequest((Player) activeChar, skill, false);
+					((Player) activeChar).getMissions().update(MissionType.RESSURECT);
+				}
 				else if (cha instanceof Pet)
 				{
 					if (((Pet) cha).getOwner() == activeChar)

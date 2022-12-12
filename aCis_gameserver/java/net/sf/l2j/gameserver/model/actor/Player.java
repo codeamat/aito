@@ -70,6 +70,7 @@ import net.sf.l2j.gameserver.enums.ZoneId;
 import net.sf.l2j.gameserver.enums.actors.ClassId;
 import net.sf.l2j.gameserver.enums.actors.ClassRace;
 import net.sf.l2j.gameserver.enums.actors.ClassType;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.enums.actors.MoveType;
 import net.sf.l2j.gameserver.enums.actors.OperateType;
 import net.sf.l2j.gameserver.enums.actors.Sex;
@@ -105,6 +106,7 @@ import net.sf.l2j.gameserver.model.actor.container.player.CubicList;
 import net.sf.l2j.gameserver.model.actor.container.player.FishingStance;
 import net.sf.l2j.gameserver.model.actor.container.player.HennaList;
 import net.sf.l2j.gameserver.model.actor.container.player.MacroList;
+import net.sf.l2j.gameserver.model.actor.container.player.MissionList;
 import net.sf.l2j.gameserver.model.actor.container.player.Punishment;
 import net.sf.l2j.gameserver.model.actor.container.player.QuestList;
 import net.sf.l2j.gameserver.model.actor.container.player.RadarList;
@@ -381,7 +383,8 @@ public final class Player extends Playable
 	private final CubicList _cubicList = new CubicList(this);
 	private final BlockList _blockList = new BlockList(this);
 	private final QuestList _questList = new QuestList(this);
-	
+	private final MissionList _missionList = new MissionList(this);
+
 	private Summon _summon;
 	private TamedBeast _tamedBeast;
 	
@@ -1090,6 +1093,9 @@ public final class Player extends Playable
 	 */
 	public void setKarma(int karma)
 	{
+		if (!isCursedWeaponEquipped() && _missionList.getMission(MissionType.KARMA).getValue() < karma)
+			_missionList.set(MissionType.KARMA, karma, false, false);
+
 		if (karma < 0)
 			karma = 0;
 		
@@ -1338,6 +1344,8 @@ public final class Player extends Playable
 				
 				// Reward the ousted members with graduation gift : academy circlet
 				addItem("Gift", 8181, 1, this, true);
+
+				_missionList.update(MissionType.ACADEMY);
 			}
 			
 			if (isSubClassActive())
@@ -2795,6 +2803,7 @@ public final class Player extends Playable
 		// Icons update in order to get retained buffs list
 		updateEffectIcons();
 		
+		_missionList.update(MissionType.DEATHS);
 		return true;
 	}
 	
@@ -2929,6 +2938,8 @@ public final class Player extends Playable
 				// Add PvP point to attacker.
 				setPvpKills(getPvpKills() + 1);
 				
+				_missionList.update(MissionType.PVP);
+
 				// Send UserInfo packet to attacker with its Karma and PK Counter
 				sendPacket(new UserInfo(this));
 			}
@@ -2938,8 +2949,12 @@ public final class Player extends Playable
 		{
 			// PK Points are increased only if you kill a player.
 			if (target instanceof Player)
+			{
 				setPkKills(getPkKills() + 1);
-			
+
+				_missionList.update(MissionType.PK);
+			}
+
 			// Calculate new karma.
 			setKarma(getKarma() + Formulas.calculateKarmaGain(getPkKills(), target instanceof Summon));
 			
@@ -4485,6 +4500,9 @@ public final class Player extends Playable
 		
 		// Retrieve from the database all quest states and variables for this Player and add them to _quests.
 		_questList.restore();
+
+		// Retrieve from the database all mission data of this Player and add them to _missionList.
+		_missionList.restore();
 	}
 	
 	/**
@@ -4496,6 +4514,9 @@ public final class Player extends Playable
 		storeCharBase();
 		storeCharSub();
 		storeEffect(storeActiveEffects);
+
+
+		_missionList.store();
 		
 		getMission().storeMe();
 	}
@@ -5638,6 +5659,11 @@ public final class Player extends Playable
 		return _questList;
 	}
 	
+	public MissionList getMissions()
+	{
+		return _missionList;
+	}
+
 	public boolean isHero()
 	{
 		return _isHero;
@@ -5810,6 +5836,9 @@ public final class Player extends Playable
 				LOGGER.error("Couldn't update nobless status for {}.", e, getName());
 			}
 		}
+
+		if (isNoble && storeInDb)
+			_missionList.update(MissionType.NOBLE);
 	}
 	
 	public void setLvlJoinedAcademy(int lvl)
@@ -6293,6 +6322,8 @@ public final class Player extends Playable
 					doRevive(_revivePower);
 				else
 					doRevive();
+
+				_missionList.update(MissionType.RESSURECTED);
 			}
 			else if (_summon != null)
 			{

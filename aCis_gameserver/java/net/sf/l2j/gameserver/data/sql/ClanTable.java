@@ -18,6 +18,7 @@ import net.sf.l2j.commons.pool.ThreadPool;
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.data.manager.CastleManager;
 import net.sf.l2j.gameserver.data.manager.ClanHallManager;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.idfactory.IdFactory;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.clanhall.SiegableHall;
@@ -206,6 +207,7 @@ public class ClanTable
 		player.sendPacket(new PledgeShowMemberListAll(clan, 0));
 		player.sendPacket(new UserInfo(player));
 		player.sendPacket(SystemMessageId.CLAN_CREATED);
+		player.getMissions().update(MissionType.LEADER);
 		return clan;
 	}
 	

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <list>
-	<npc id="41000" idTemplate="25220" name="Tahitian Quete" title="Quest of Aito">
+	<npc id="41000" idTemplate="25220" name="Tahitian Quest" title="Quest of Aito">
 		<set name="usingServerSideName" val="true"/>
 		<set name="usingServerSideTitle" val="true"/>
 		<set name="level" val="70"/>

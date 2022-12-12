@@ -22,6 +22,7 @@ import net.sf.l2j.gameserver.data.sql.PlayerInfoTable;
 import net.sf.l2j.gameserver.data.xml.NpcData;
 import net.sf.l2j.gameserver.data.xml.PlayerData;
 import net.sf.l2j.gameserver.enums.actors.ClassId;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
@@ -932,6 +933,8 @@ public class HeroManager
 		_heroMessages.put(player.getObjectId(), "");
 		
 		updateHeroes();
+		
+		player.getMissions().update(MissionType.HEROIC);
 	}
 	
 	public static HeroManager getInstance()

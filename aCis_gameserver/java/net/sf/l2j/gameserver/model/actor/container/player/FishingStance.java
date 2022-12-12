@@ -9,6 +9,7 @@ import net.sf.l2j.commons.random.Rnd;
 import net.sf.l2j.gameserver.data.manager.FishingChampionshipManager;
 import net.sf.l2j.gameserver.data.xml.FishData;
 import net.sf.l2j.gameserver.data.xml.NpcData;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.idfactory.IdFactory;
 import net.sf.l2j.gameserver.model.Fish;
 import net.sf.l2j.gameserver.model.actor.Npc;
@@ -631,6 +632,7 @@ public class FishingStance
 				
 				FishingChampionshipManager.getInstance().newFish(_fisher, _lure.getItemId());
 			}
+			_fisher.getMissions().update(MissionType.FISHING);
 		}
 		
 		if (_fish == null)

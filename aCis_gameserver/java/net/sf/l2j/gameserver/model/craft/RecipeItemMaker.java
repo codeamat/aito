@@ -4,6 +4,7 @@ import net.sf.l2j.commons.random.Rnd;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.enums.StatusType;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.holder.IntIntHolder;
 import net.sf.l2j.gameserver.model.item.Recipe;
@@ -161,6 +162,7 @@ public class RecipeItemMaker implements Runnable
 		{
 			rewardPlayer();
 			updateMakeInfo(true);
+			_player.getMissions().update(MissionType.CRAFT_SUCCESS);
 		}
 		// Fail ; we only send messages and update craft window.
 		else
@@ -174,6 +176,7 @@ public class RecipeItemMaker implements Runnable
 				_target.sendPacket(SystemMessageId.ITEM_MIXING_FAILED);
 			
 			updateMakeInfo(false);
+			_player.getMissions().update(MissionType.CRAFT_FAIL);
 		}
 		
 		// Update load and mana bar of craft window.

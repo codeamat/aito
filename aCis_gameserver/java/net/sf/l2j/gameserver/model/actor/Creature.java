@@ -17,6 +17,7 @@ import net.sf.l2j.gameserver.data.xml.NpcData;
 import net.sf.l2j.gameserver.enums.AiEventType;
 import net.sf.l2j.gameserver.enums.StatusType;
 import net.sf.l2j.gameserver.enums.ZoneId;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.enums.actors.MoveType;
 import net.sf.l2j.gameserver.enums.items.WeaponType;
 import net.sf.l2j.gameserver.enums.skills.AbnormalEffect;
@@ -35,6 +36,11 @@ import net.sf.l2j.gameserver.model.actor.cast.CreatureCast;
 import net.sf.l2j.gameserver.model.actor.container.creature.ChanceSkillList;
 import net.sf.l2j.gameserver.model.actor.container.creature.EffectList;
 import net.sf.l2j.gameserver.model.actor.container.creature.FusionSkill;
+import net.sf.l2j.gameserver.model.actor.container.player.MissionList;
+import net.sf.l2j.gameserver.model.actor.instance.GrandBoss;
+import net.sf.l2j.gameserver.model.actor.instance.Monster;
+import net.sf.l2j.gameserver.model.actor.instance.RaidBoss;
+import net.sf.l2j.gameserver.model.actor.instance.SiegeGuard;
 import net.sf.l2j.gameserver.model.actor.move.CreatureMove;
 import net.sf.l2j.gameserver.model.actor.status.CreatureStatus;
 import net.sf.l2j.gameserver.model.actor.template.CreatureTemplate;
@@ -485,6 +491,7 @@ public abstract class Creature extends WorldObject
 		getStatus().stopHpMpRegeneration();
 		stopAllEffectsExceptThoseThatLastThroughDeath();
 		
+		calculateMission(killer);
 		calculateRewards(killer);
 		
 		// Send the Server->Client packet StatusUpdate with current HP and MP to all other Player to inform
@@ -516,6 +523,77 @@ public abstract class Creature extends WorldObject
 	 */
 	protected void calculateRewards(Creature creature)
 	{
+	}
+	
+	protected void calculateMission(Creature killer)
+	{
+		if (killer == null)
+			return;
+		
+		final Player player = killer instanceof Summon ? ((Summon) killer).getOwner() : killer instanceof Player ? (Player) killer : null;
+		if (player == null || player == this)
+			return;
+		
+		final MissionList missions = player.getMissions();
+		if (this instanceof GrandBoss)
+		{
+			player.getMissions().updateParty(MissionType.GRANDBOSS);
+			final GrandBoss grandboss = (GrandBoss) this;
+			switch (grandboss.getNpcId())
+			{
+				case 29019:
+				case 29066:
+				case 29067:
+				case 29068:
+					missions.updateParty(MissionType.ANTHARAS);
+					break;
+				case 29001:
+					missions.updateParty(MissionType.QUEEN_ANT);
+					break;
+				case 29006:
+					missions.updateParty(MissionType.CORE);
+					break;
+				case 29014:
+					missions.updateParty(MissionType.ORFEN);
+					break;
+				case 29022:
+					missions.updateParty(MissionType.ZAKEN);
+					break;
+				case 29020:
+					missions.updateParty(MissionType.BAIUM);
+					break;
+				case 29028:
+					missions.updateParty(MissionType.VALAKAS);
+					break;
+				case 29047:
+					missions.updateParty(MissionType.HALISHA);
+					break;
+			}
+		}
+		
+		if ((player.getStatus().getLevel() - getStatus().getLevel()) > 8)
+			return;
+		
+		if (this instanceof RaidBoss)
+			missions.updateParty(MissionType.RAIDBOSS);
+		else if (this instanceof SiegeGuard)
+			missions.update(MissionType.GUARD);
+		else if (this instanceof Monster)
+		{
+			final Monster monster = (Monster) this;
+			switch (monster.getNpcId())
+			{
+				case 22215:
+				case 22216:
+				case 22217:
+					missions.update(MissionType.TYRANNOSAURUS);
+					break;
+				
+				default:
+					missions.update(MissionType.MONSTER);
+					break;
+			}
+		}
 	}
 	
 	/** Sets HP, MP and CP and revives the Creature. */

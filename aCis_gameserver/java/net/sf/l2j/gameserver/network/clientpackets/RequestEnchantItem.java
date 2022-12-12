@@ -6,8 +6,10 @@ import net.sf.l2j.gameserver.data.SkillTable;
 import net.sf.l2j.gameserver.data.xml.ArmorSetData;
 import net.sf.l2j.gameserver.enums.Paperdoll;
 import net.sf.l2j.gameserver.enums.StatusType;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.model.actor.container.player.MissionList;
 import net.sf.l2j.gameserver.model.item.ArmorSet;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
 import net.sf.l2j.gameserver.model.item.kind.Armor;
@@ -94,6 +96,8 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 			return;
 		}
 		
+		final MissionList mission = player.getMissions();
+		
 		synchronized (item)
 		{
 			double chance = scrollTemplate.getChance(item);
@@ -170,6 +174,12 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 					}
 				}
 				player.sendPacket(EnchantResult.SUCCESS);
+				
+				final MissionType type = item.isWeapon() ? MissionType.ENCHANT_WEAPON : MissionType.ENCHANT_OTHER;
+				if (mission.getMission(type).getValue() < item.getEnchantLevel())
+					mission.set(type, item.getEnchantLevel(), false, false);
+				
+				mission.update(MissionType.ENCHANT_SUCCESS);
 			}
 			else
 			{
@@ -264,6 +274,8 @@ public final class RequestEnchantItem extends AbstractEnchantPacket
 					su.addAttribute(StatusType.CUR_LOAD, player.getCurrentWeight());
 					player.sendPacket(su);
 				}
+				
+				mission.update(MissionType.ENCHANT_FAILED);
 			}
 			
 			player.sendPacket(new ItemList(player, false));

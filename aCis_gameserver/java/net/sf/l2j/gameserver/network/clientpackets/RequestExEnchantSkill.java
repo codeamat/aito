@@ -5,6 +5,7 @@ import net.sf.l2j.commons.random.Rnd;
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.data.SkillTable;
 import net.sf.l2j.gameserver.data.xml.SkillTreeData;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.instance.Folk;
 import net.sf.l2j.gameserver.model.holder.skillnode.EnchantSkillNode;
@@ -81,6 +82,10 @@ public final class RequestExEnchantSkill extends L2GameClientPacket
 		{
 			player.addSkill(skill, true, true);
 			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_HAVE_SUCCEEDED_IN_ENCHANTING_THE_SKILL_S1).addSkillName(_skillId, _skillLevel));
+			
+			final int value = _skillLevel >= 130 ? _skillLevel - 140 : _skillLevel - 100;
+			if (player.getMissions().getMission(MissionType.ENCHANT_SKILL).getValue() < value)
+				player.getMissions().set(MissionType.ENCHANT_SKILL, value, false, false);
 		}
 		else
 		{

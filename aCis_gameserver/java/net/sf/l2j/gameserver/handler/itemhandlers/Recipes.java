@@ -2,6 +2,7 @@ package net.sf.l2j.gameserver.handler.itemhandlers;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.data.xml.RecipeData;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.enums.actors.OperateType;
 import net.sf.l2j.gameserver.handler.IItemHandler;
 import net.sf.l2j.gameserver.model.actor.Playable;
@@ -61,6 +62,7 @@ public class Recipes implements IItemHandler
 				player.getRecipeBook().putRecipe(recipe, isDwarven, true);
 				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_ADDED).addItemName(item));
 				player.sendPacket(new RecipeBookItemList(player, isDwarven));
+				player.getMissions().update(MissionType.RECIPE_LEARN);
 			}
 		}
 		else
@@ -78,6 +80,7 @@ public class Recipes implements IItemHandler
 				player.getRecipeBook().putRecipe(recipe, isDwarven, true);
 				player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_ADDED).addItemName(item));
 				player.sendPacket(new RecipeBookItemList(player, isDwarven));
+				player.getMissions().update(MissionType.RECIPE_LEARN);
 			}
 		}
 	}

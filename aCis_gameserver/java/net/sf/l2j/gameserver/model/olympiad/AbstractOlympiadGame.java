@@ -10,6 +10,7 @@ import net.sf.l2j.gameserver.data.xml.MapRegionData;
 import net.sf.l2j.gameserver.enums.MessageType;
 import net.sf.l2j.gameserver.enums.OlympiadType;
 import net.sf.l2j.gameserver.enums.SpawnType;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.actor.Creature;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.Summon;
@@ -193,6 +194,12 @@ public abstract class AbstractOlympiadGame
 	
 	protected final void addPointsToParticipant(Participant par, int points)
 	{
+		if (par.getPlayer() != null)
+		{
+			par.getPlayer().getMissions().update(MissionType.OLYMPIAD_FIGHT);
+			par.getPlayer().getMissions().update(MissionType.OLYMPIAD_FIGHT_WON);
+		}
+		
 		par.updateStat(POINTS, points);
 		
 		broadcastPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_HAS_GAINED_S2_OLYMPIAD_POINTS).addString(par.getName()).addNumber(points));
@@ -200,6 +207,12 @@ public abstract class AbstractOlympiadGame
 	
 	protected final void removePointsFromParticipant(Participant par, int points)
 	{
+		if (par.getPlayer() != null)
+		{
+			par.getPlayer().getMissions().update(MissionType.OLYMPIAD_FIGHT);
+			par.getPlayer().getMissions().update(MissionType.OLYMPIAD_FIGHT_LOST);
+		}
+
 		par.updateStat(POINTS, -points);
 		
 		broadcastPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_HAS_LOST_S2_OLYMPIAD_POINTS).addString(par.getName()).addNumber(points));

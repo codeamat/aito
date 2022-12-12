@@ -10,6 +10,7 @@ import net.sf.l2j.commons.pool.ThreadPool;
 import net.sf.l2j.gameserver.data.manager.DuelManager;
 import net.sf.l2j.gameserver.enums.TeamType;
 import net.sf.l2j.gameserver.enums.ZoneId;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.actor.Summon;
 import net.sf.l2j.gameserver.network.SystemMessageId;
@@ -848,15 +849,24 @@ public class Duel
 					winner = _playerB;
 				
 				for (Player partyPlayer : winner.getParty().getMembers())
+				{
+					partyPlayer.getMissions().update(MissionType.DUAL_WON);
 					partyPlayer.setDuelState(DuelState.WINNER);
+				}
 			}
 		}
 		else
 		{
 			if (_playerA == player)
+			{
 				_playerB.setDuelState(DuelState.WINNER);
+				_playerB.getMissions().update(MissionType.DUAL_WON);
+			}
 			else
+			{
 				_playerA.setDuelState(DuelState.WINNER);
+				_playerA.getMissions().update(MissionType.DUAL_WON);
+			}
 		}
 	}
 	

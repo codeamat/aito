@@ -1,5 +1,6 @@
 package net.sf.l2j.gameserver.network.clientpackets;
 
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.network.SystemMessageId;
@@ -66,8 +67,10 @@ public final class RequestEvaluate extends L2GameClientPacket
 		player.giveRecom(target);
 		player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_HAVE_RECOMMENDED_S1_YOU_HAVE_S2_RECOMMENDATIONS_LEFT).addCharName(target).addNumber(player.getRecomLeft()));
 		player.sendPacket(new UserInfo(player));
+		player.getMissions().update(MissionType.RECOMMEND);
 		
 		target.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_HAVE_BEEN_RECOMMENDED_BY_S1).addCharName(player));
 		target.broadcastUserInfo();
+		target.getMissions().update(MissionType.RECOMMENDED);
 	}
 }

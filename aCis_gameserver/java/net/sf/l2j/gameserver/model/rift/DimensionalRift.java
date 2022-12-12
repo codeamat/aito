@@ -12,6 +12,7 @@ import net.sf.l2j.commons.random.Rnd;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.data.manager.DimensionalRiftManager;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.WorldObject;
 import net.sf.l2j.gameserver.model.actor.Npc;
 import net.sf.l2j.gameserver.model.actor.Player;
@@ -58,7 +59,10 @@ public class DimensionalRift
 		party.setDimensionalRift(this);
 		
 		for (Player member : party.getMembers())
+		{
 			member.teleToLocation(room.getTeleportLoc());
+			member.getMissions().update(MissionType.ENTER_RIFT);
+		}
 		
 		prepareNextRoom();
 	}

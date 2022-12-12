@@ -24,6 +24,7 @@ import net.sf.l2j.gameserver.data.xml.TeleportData;
 import net.sf.l2j.gameserver.enums.SayType;
 import net.sf.l2j.gameserver.enums.ScriptEventType;
 import net.sf.l2j.gameserver.enums.TeleportType;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.enums.actors.NpcAiType;
 import net.sf.l2j.gameserver.enums.actors.NpcRace;
 import net.sf.l2j.gameserver.enums.actors.NpcSkillType;
@@ -1378,7 +1379,10 @@ public class Npc extends Creature
 			{
 				final int adena = LotteryManager.checkTicket(item)[1];
 				if (adena > 0)
+				{
 					player.addAdena("Loto", adena, this, true);
+					player.getMissions().update(MissionType.LOTTERY_WIN);
+				}
 			}
 			return;
 		}

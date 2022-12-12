@@ -93,17 +93,17 @@ public class Pagination<A> extends AbstractList<A>
 	
 	public void generatePages(StringBuilder sb, String action)
 	{
-		StringUtil.append(sb, "<table width=270 bgcolor=000000><tr><td width=30 align=center><button action=\"", action.replace("%page%", String.valueOf(1)), "\" back=L2UI_CH3.prev1_down fore=L2UI_CH3.prev1 width=16 height=16></td>");
+		StringUtil.append(sb, "<table width=296 bgcolor=000000><tr><td width=22 align=center><button action=\"", action.replace("%page%", String.valueOf(1)), "\" back=L2UI_CH3.prev1_down fore=L2UI_CH3.prev1 width=16 height=16></td>");
 		
 		for (int index = _page - 5; index < _page - 1; index++)
-			StringUtil.append(sb, "<td width=30>" + (index < 0 ? "" : "<a action=\"" + action.replace("%page%", String.valueOf(index + 1)) + "\">" + (((index + 1) < 10 ? "0" : "") + (index + 1)) + "</a>") + "</td>");
+			StringUtil.append(sb, "<td width=28 align=center>" + (index < 0 ? "" : "<a action=\"" + action.replace("%page%", String.valueOf(index + 1)) + "\">" + (((index + 1) < 10 ? "0" : "") + (index + 1)) + "</a>") + "</td>");
 		
-		StringUtil.append(sb, "<td width=30><font color=LEVEL>", ((_page < 10 ? "0" : "") + (_page == 0 ? "1" : _page)), "</font></td>");
+		StringUtil.append(sb, "<td width=28 align=center><font color=LEVEL>", ((_page < 10 ? "0" : "") + (_page == 0 ? "1" : _page)), "</font></td>");
 		
 		for (int index = _page; index < _page + 4; index++)
-			StringUtil.append(sb, "<td width=30>" + (index < _total ? "<a action=\"" + action.replace("%page%", String.valueOf(index + 1)) + "\">" + (((index + 1) < 10 ? "0" : "") + (index + 1)) + "</a>" : "") + "</td>");
+			StringUtil.append(sb, "<td width=28 align=center>" + (index < _total ? "<a action=\"" + action.replace("%page%", String.valueOf(index + 1)) + "\">" + (((index + 1) < 10 ? "0" : "") + (index + 1)) + "</a>" : "") + "</td>");
 		
-		StringUtil.append(sb, "<td width=30 align=center><button action=\"", action.replace("%page%", String.valueOf(_total)), "\" back=L2UI_CH3.next1_down fore=L2UI_CH3.next1 width=16 height=16></td></tr></table>");
+		StringUtil.append(sb, "<td width=22 align=center><button action=\"", action.replace("%page%", String.valueOf(_total)), "\" back=L2UI_CH3.next1_down fore=L2UI_CH3.next1 width=16 height=16></td></tr></table>");
 	}
 	
 	@Override

@@ -4,6 +4,7 @@ import net.sf.l2j.commons.random.Rnd;
 import net.sf.l2j.commons.util.ArraysUtil;
 
 import net.sf.l2j.gameserver.enums.ScriptEventType;
+import net.sf.l2j.gameserver.enums.actors.MissionType;
 import net.sf.l2j.gameserver.model.actor.Creature;
 import net.sf.l2j.gameserver.model.actor.Npc;
 import net.sf.l2j.gameserver.model.actor.Player;
@@ -129,6 +130,7 @@ public class Chests extends AttackableAIScript
 							{
 								chest.setSpecialDrop();
 								chest.doDie(caster);
+								caster.getMissions().update(MissionType.OPEN_CHEST);
 							}
 							// Used a key but failed to open: disappears with no rewards.
 							else
