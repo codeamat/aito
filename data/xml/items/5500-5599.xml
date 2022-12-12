@@ -588,7 +588,7 @@
 		<set name="material" val="GOLD" />
 		<set name="is_stackable" val="true" />
 	</item>
-	<item id="5575" type="EtcItem" name="Ancient Adena">
+	<item id="5575" type="EtcItem" name="Ancient Moni">
 		<set name="icon" val="icon.etc_ancient_adena_i00" />
 		<set name="material" val="GOLD" />
 		<set name="is_stackable" val="true" />

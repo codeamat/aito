@@ -245,6 +245,10 @@ public class GameServer
 		DerbyTrackManager.getInstance();
 		LotteryManager.getInstance();
 		
+		StringUtil.printSection("Custom Mods");
+		DailyMissionData.getInstance();
+		IconData.getInstance();
+
 		if (Config.ALLOW_WEDDING)
 			CoupleManager.getInstance();
 		

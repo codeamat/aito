@@ -1,6 +1,7 @@
 package net.sf.l2j.gameserver.model.actor;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -9,6 +10,7 @@ import net.sf.l2j.commons.random.Rnd;
 import net.sf.l2j.commons.util.ArraysUtil;
 
 import net.sf.l2j.Config;
+import net.sf.l2j.gameserver.data.manager.DailyMissionData;
 import net.sf.l2j.gameserver.enums.IntentionType;
 import net.sf.l2j.gameserver.enums.ScriptEventType;
 import net.sf.l2j.gameserver.enums.ZoneId;
@@ -26,6 +28,7 @@ import net.sf.l2j.gameserver.model.actor.instance.RiftInvader;
 import net.sf.l2j.gameserver.model.actor.status.AttackableStatus;
 import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import net.sf.l2j.gameserver.model.missions.events.impl.character.npc.OnMissionEventAttackableKill;
 import net.sf.l2j.gameserver.scripting.Quest;
 import net.sf.l2j.gameserver.skills.L2Skill;
 
@@ -110,6 +113,11 @@ public class Attackable extends Npc
 	{
 		if (!super.doDie(killer))
 			return false;
+		
+		if (Objects.nonNull(killer) && killer instanceof Playable playable)
+		{
+			DailyMissionData.getInstance().notifyEventAsync(new OnMissionEventAttackableKill(playable.getActingPlayer(), this), playable.getActingPlayer());
+		}
 		
 		// Test the ON_KILL ScriptEventType.
 		for (Quest quest : getTemplate().getEventQuests(ScriptEventType.ON_KILL))

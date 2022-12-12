@@ -1171,7 +1171,7 @@
 		<set name="handler" val="Keys" />
 		<set name="item_skill" val="2229-8" />
 	</item>
-	<item id="6673" type="EtcItem" name="Festival Adena">
+	<item id="6673" type="EtcItem" name="Festival Moni">
 		<set name="icon" val="icon.etc_coin_of_fair_i00" />
 		<set name="material" val="STEEL" />
 		<set name="is_tradable" val="false" />

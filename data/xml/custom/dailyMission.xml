@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/dailyMission.xsd">
+	
+	<settings>
+		<set name="maxMissionPerInstance" val="3" /> <!-- Maximum mission a player can take at once. 0 To disable -->
+		<set name="soundEffectEnabled" val="true" /> <!-- Enable the sound effect upon mission completion -->
+	</settings>
+	
+	<missions>
+		<mission id="1" name="Connexion le Dimanche" script="Login" type="WEEKLY">
+			<parameter>
+				<param name="day" val="1" />
+			</parameter>
+			<items>
+				<item id="57" count="10000000" />
+			</items>
+		</mission>
+		<mission id="2" name="Abbattre 25 monstres" script="AttackableKill" type="DAILY">
+			<parameter>
+				<param name="isRaid" val="false" />
+				<param name="count" val="25" />
+			</parameter>
+			<items>
+				<item id="57" count="1000" />
+				<item id="6393" count="10" />
+				<item id="5592" count="5" />
+			</items>
+		</mission>
+		<mission id="3" name="Abattre 250 monstres" script="AttackableKill" type="DAILY">
+			<parameter>
+				<param name="isRaid" val="false" />
+				<param name="count" val="250" />
+			</parameter>
+			<items>
+				<item id="57" count="1000" />
+				<item id="6393" count="10" />
+				<item id="5592" count="100" />
+			</items>
+		</mission>
+		<mission id="4" name="Hunt 10 monsters of Lv 80-85" script="AttackableKill" type="DAILY">
+			<parameter>
+				<param name="isRaid" val="false" />
+				<param name="count" val="10" />
+				<param name="minLevel" val="80" />
+				<param name="maxLevel" val="85" />
+			</parameter>
+			<items>
+				<item id="57" count="1000" />
+				<item id="6393" count="10" />
+				<item id="728" count="50" />
+			</items>
+		</mission>
+		<mission id="5" name="Kill 100 players at any state" script="PlayerKill" type="SINGLE">
+			<parameter>
+				<param name="count" val="100" />
+			</parameter>
+			<items>
+				<item id="6393" count="10" />
+				<item id="1539" count="100" />
+			</items>
+		</mission>
+		<mission id="6" name="Kill 50 players while on karma" script="PlayerKill" type="SINGLE">
+			<parameter>
+				<param name="isPk" val="true" />
+				<param name="count" val="50" />
+			</parameter>
+			<items>
+				<item id="6393" count="10" />
+				<item id="1539" count="100" />
+			</items>
+		</mission>
+		<mission id="7" name="Kill 500 players while on flag" script="PlayerKill" type="SINGLE">
+			<parameter>
+				<param name="isPvP" val="true" />
+				<param name="count" val="500" />
+			</parameter>
+			<items>
+				<item id="6393" count="50" />
+				<item id="1539" count="250" />
+			</items>
+		</mission>
+		<mission id="8" name="Kill 10 hero players at any state" script="PlayerKill" type="SINGLE">
+			<parameter>
+				<param name="isHero" val="true" />
+				<param name="count" val="10" />
+			</parameter>
+			<items>
+				<item id="6393" count="10" />
+				<item id="1539" count="100" />
+			</items>
+		</mission>
+	</missions>
+	
+</list>

@@ -12,9 +12,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <!-- Custom Hat -->
     <item id="9800" type="Armor" name="Cabeleira N1">
@@ -27,9 +30,11 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+                
     </item>
     <item id="9801" type="Armor" name="Cabeleira N2">
 		<set name="icon" val="JohnScott_Goddess_Hair.br_plastic_hair_f_i01" />
@@ -41,9 +46,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9802" type="Armor" name="Cabeleira N3">
 		<set name="icon" val="LineageAccessoryRaccoon3.Raccon_etc_gourd_i00" />
@@ -55,9 +63,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9803" type="Armor" name="Refined Wizard Hat">
 		<set name="icon" val="kamui_acc.accessory_magician_cap2_i00" />
@@ -69,9 +80,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9804" type="Armor" name="Refined Jester Hat">
 		<set name="icon" val="kamui_acc.accessory_jester_cap_2_i00" />
@@ -83,9 +97,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9805" type="Armor" name="Refined Romantic Chapeau">
 		<set name="icon" val="kamui_acc.accessory_archer_hat2_i00" />
@@ -97,9 +114,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9806" type="Armor" name="Refined Dapper Cap">
 		<set name="icon" val="kamui_acc.accessory_dandy_cap2_i00" />
@@ -111,9 +131,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9807" type="Armor" name="Assassin's Bamboo Hat">
 		<set name="icon" val="JohnScott_Bamboo_Hat.br_Bamboo_Hat_i00" />
@@ -125,9 +148,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9808" type="Armor" name="Laborer Hat">
 		<set name="icon" val="cap.icon" />
@@ -139,9 +165,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9809" type="Armor" name="Noblesse Oblige">
 		<set name="icon" val="Mask_Vesper_Tex.noblesse_oblige_of_vesper_i00" />
@@ -153,9 +182,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9810" type="Armor" name="TopFormal Hat">
 		<set name="icon" val="zSnow_News_Hat.Icone_TopFormal_Cap" />
@@ -167,9 +199,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9811" type="Armor" name="Barba Ruiva Hat">
 		<set name="icon" val="zSnow_News_Hat.Icone_Barba_Ruiva_Cap" />
@@ -181,9 +216,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9812" type="Armor" name="Barba Negra Hat">
 		<set name="icon" val="zSnow_News_Hat.Icone_Barba_Negra_Cap" />
@@ -195,9 +233,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9813" type="Armor" name="Nike Hat">
 		<set name="icon" val="Munch_HatsTex.Nike_i00" />
@@ -209,9 +250,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
 <!--    <item id="9814" type="Armor" name="Black Afro Hair">
 		<set name="icon" val="LineageAccessoryTex-k.afro_hair_i00" />
@@ -223,9 +267,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>-->
     <item id="9815" type="Armor" name="Magician Hat">
 		<set name="icon" val="icon_acc.accessory_magicial_cap_i00" />
@@ -237,9 +284,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
 <!--    <item id="9816" type="Armor" name="Ninja Mask">
 		<set name="icon" val="LineageAccessoryTex-k.ninja_mask_i00" />
@@ -251,9 +301,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>-->
     <item id="9817" type="Armor" name="Straw Hat">
 		<set name="icon" val="iPerfect_Helmet.icon.accessory_straw_hat_i00" />
@@ -265,9 +318,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
 <!--    <item id="9818" type="Armor" name="Headphone">
 		<set name="icon" val="LineageAccessoryTex-k.headphone_i00" />
@@ -279,9 +335,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>-->
 <!--    <item id="9819" type="Armor" name="Goggles">
 		<set name="icon" val="LineageAccessoryTex-k.goggles_i00" />
@@ -293,8 +352,11 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
     </item>-->
 <!--    <item id="9820" type="Armor" name="Glasses">
 		<set name="icon" val="LineageAccessoryTex-k.glasses_i00" />
@@ -306,8 +368,11 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
     </item>-->
 <!--    <item id="9821" type="Armor" name="Black Gem Mask">
 		<set name="icon" val="LineageAccessoryTex-k.black_gem_mask_i00" />
@@ -319,9 +384,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>-->
 <!--    <item id="9822" type="Armor" name="Varka Crown">
 		<set name="icon" val="LineageAccessoryTex-k.varka_crown_i00" />
@@ -333,9 +401,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>-->
     <item id="9823" type="Armor" name="Halisha Crown">
 		<set name="icon" val="frintessa_SHEV_Tex.icone.frintessa_icone" />
@@ -347,9 +418,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
 <!--    <item id="9824" type="Armor" name="Devil Horn">
 		<set name="icon" val="LineageAccessoryTex-k.devil_horn_i00" />
@@ -361,9 +435,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>-->
     <item id="9825" type="Armor" name="Explorer Hat">
 		<set name="icon" val="icon_acc.accessory_explorer_hat_i00" />
@@ -375,9 +452,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9826" type="Armor" name="Flag Hat">
 		<set name="icon" val="cartola_by_SHEV.br_flag_cap_icon" />
@@ -389,9 +469,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9827" type="Armor" name="Napoleon Hat">
 		<set name="icon" val="icon_acc.br_napoleonic_cap_i00" />
@@ -403,9 +486,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9828" type="Armor" name="Uniform Dark Hat">
 		<set name="icon" val="icon_acc.br_Uniform_Hat_i00" />
@@ -417,9 +503,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9829" type="Armor" name="Uniform Light Hat">
 		<set name="icon" val="icon_themega_ru.Uniform_Hat_2" />
@@ -431,9 +520,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
 <!--    <item id="9830" type="Armor" name="Taliban Dark Hat">
 		<set name="icon" val="LineageAccessoryTex-k.turban_yellow_hat_i00" />
@@ -445,9 +537,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>-->
 <!--    <item id="9831" type="Armor" name="Taliban Light Hat">
 		<set name="icon" val="LineageAccessoryTex-k.turban_yellow_hat_i01" />
@@ -459,9 +554,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>-->
     <item id="9832" type="Armor" name="Zaken Pirate Hat">
 		<set name="icon" val="iPerfect.zaken_cap_i00" />
@@ -473,9 +571,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
 <!--    <item id="9833" type="Armor" name="Valakas Head">
 		<set name="icon" val="LineageAccessoryTex-k.valakas_the_flame_i00" />
@@ -487,9 +588,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>-->
     <item id="9834" type="Armor" name="Panic Mask">
 		<set name="icon" val="AccessoryTex_Euro-PvP_ru.icones.icone_panic" />
@@ -501,9 +605,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9835" type="Armor" name="King Hat Cats">
 		<set name="icon" val="icon_acc.accessory_king_of_cat_cap_i00" />
@@ -515,9 +622,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9836" type="Armor" name="Graduate Cap">
 		<set name="icon" val="icon_acc.accessory_graduation_cap_i00" />
@@ -529,9 +639,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9837" type="Armor" name="Tiger's Mask">
 		<set name="icon" val="icon_acc.br_tiger_cap_i00" />
@@ -543,9 +656,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9838" type="Armor" name="Sweet Cheese Hat">
 		<set name="icon" val="icon_acc.br_bigrat_cap_i00" />
@@ -557,9 +673,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9839" type="Armor" name="Diadem Master Force">
 		<set name="icon" val="icon_acc.freya_hair_accessary" />
@@ -571,9 +690,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9840" type="Armor" name="Elegant Angel Wrap">
 		<set name="icon" val="icon_acc.accessory_angel_ring_i00" />
@@ -585,9 +707,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9841" type="Armor" name="Fashionable Hat">
 		<set name="icon" val="icon_acc.pi_silverchaperon" />
@@ -599,9 +724,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9842" type="Armor" name="Frog Hat">
 		<set name="icon" val="icon_acc.accessory_frog_cap_i00" />
@@ -613,9 +741,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9843" type="Armor" name="Cowboy Cap">
 		<set name="icon" val="iPerfect.cowboy_i00" />
@@ -627,9 +758,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9844" type="Armor" name="Golden Skeleton Circlet">
 		<set name="icon" val="iPerfect.golden_skeleton_circlet_i00" />
@@ -641,9 +775,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9845" type="Armor" name="Valkyrie Cap">
 		<set name="icon" val="iPerfect.br_valkyrie_cap_i00" />
@@ -655,9 +792,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9846" type="Armor" name="Beach Cap">
 		<set name="icon" val="iPerfect.g_beach_cap" />
@@ -669,9 +809,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9847" type="Armor" name="Ketra Karm">
 		<set name="icon" val="iPerfect.Ketra_Karm_m001_a_i00" />
@@ -683,9 +826,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9848" type="Armor" name="Animal Skeleton Circlet">
 		<set name="icon" val="iPerfect.Animal_Skeleton_Circlet_i00" />
@@ -697,9 +843,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9849" type="Armor" name="Cap in Flower">
 		<set name="icon" val="iPerfect_Helmet.icon.pi_flowerhat_for_lady" />
@@ -711,9 +860,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9850" type="Armor" name="Hat Forest Tinkerbell">
 		<set name="icon" val="iPerfect_Helmet.icon.pi_forgetmenot_cap" />
@@ -725,9 +877,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9851" type="Armor" name="Hat Grasshopper">
 		<set name="icon" val="iPerfect_Helmet.icon.br_locust_cap_i00" />
@@ -739,9 +894,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9852" type="Armor" name="Gas Mask">
 		<set name="icon" val="Munch_Hats.Gas_Mask_i00" />
@@ -753,9 +911,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9853" type="Armor" name="Hunter Hat">
 		<set name="icon" val="Munch_Hats.Hunter_Hat_i00" />
@@ -767,9 +928,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9854" type="Armor" name="Beany Hat">
 		<set name="icon" val="Munch_Hats.Beany_i00" />
@@ -781,9 +945,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9855" type="Armor" name="White Priest Hat">
 		<set name="icon" val="Munch_Hats.Priest_Hat_i00" />
@@ -795,9 +962,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9856" type="Armor" name="Black Priest Hat">
 		<set name="icon" val="Munch_Hats.Priest_Hat_i10" />
@@ -809,9 +979,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9857" type="Armor" name="Miner Hat">
 		<set name="icon" val="Munch_Hats.Miner_Hat_i00" />
@@ -823,9 +996,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9858" type="Armor" name="Chic Silver Horn Cap">
 		<set name="icon" val="Horn_Hat_Tex.accessory_horn01_hat_i01" />
@@ -837,9 +1013,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9859" type="Armor" name="Chic Gold Horn Cap">
 		<set name="icon" val="Horn_Hat_Tex.accessory_horn01_hat_i00" />
@@ -851,9 +1030,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9860" type="Armor" name="Santa's Red Hat">
 		<set name="icon" val="xmas.accessory_santas_cap_i001" />
@@ -865,9 +1047,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9861" type="Armor" name="Santa's Pink Hat">
 		<set name="icon" val="xmas.accessory_santas_cap_i002" />
@@ -879,9 +1064,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9862" type="Armor" name="Santa's Green Hat">
 		<set name="icon" val="xmas.accessory_santas_cap_i003" />
@@ -893,9 +1081,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9863" type="Armor" name="Santa's Blue Hat">
 		<set name="icon" val="xmas.accessory_santas_cap_i004" />
@@ -907,9 +1098,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9864" type="Armor" name="Santa's Yellow Hat">
 		<set name="icon" val="xmas.accessory_santas_cap_i005" />
@@ -921,9 +1115,12 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
     <item id="9865" type="Armor" name="Santa's Black Hat">
 		<set name="icon" val="xmas.accessory_santas_cap_i006" />
@@ -935,8 +1132,11 @@
         <set name="material" val="DYESTUFF"/>
         <set name="weight" val="4050"/>
         <set name="price" val="152000"/>
-        <for>
-
+         <for>
+            <add stat="pDef" val="300" />
+            <add stat="mDef" val="300" />
         </for>
+
+
     </item>
 </list>

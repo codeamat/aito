@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
+
 	<!-- Banana Costume Jaune-->
 	<item id="30001" type="Armor" name="Yellow Banana Suit">
 		<set name="icon" val="LineageCustom_AgentPeely_byNevesOma.icons.costume_i00" />
@@ -281,71 +282,6 @@
 		<set name="default_action" val="equip" />
 		<set name="armor_type" val="LIGHT" />
 		<set name="bodypart" val="face" />
-		<set name="crystal_type" val="D" />
-		<set name="crystal_count" val="113" />
-		<set name="material" val="LEATHER" />
-		<set name="weight" val="4700" />
-		<set name="price" val="62600" />
-		<for>
-			<add stat="pAtk" val="1000" />
-			<add stat="pDef" val="1000" />
-		</for>
-	</item>
-	<!-- Banana Costume Jaune-->
-	<item id="30001" type="Armor" name="Yellow Banana Cloth">
-		<set name="icon" val="LineageCustom_AgentPeely_byNevesOma.icons.costume_i00" />
-		<set name="default_action" val="equip" />
-		<set name="armor_type" val="LIGHT" />
-		<set name="bodypart" val="chest" />
-		<set name="crystal_type" val="D" />
-		<set name="crystal_count" val="113" />
-		<set name="material" val="LEATHER" />
-		<set name="weight" val="4700" />
-		<set name="price" val="62600" />
-		<for>
-			<add stat="pAtk" val="1000" />
-			<add stat="pDef" val="1000" />
-		</for>
-	</item>
-	<!-- Banana Costumme Vert -->
-	<item id="30003" type="Armor" name="Green Banana Cloth">
-		<set name="icon" val="LineageCustom_AgentPeelyV2_byNevesOma.icons.i00" />
-		<set name="default_action" val="equip" />
-		<set name="armor_type" val="LIGHT" />
-		<set name="bodypart" val="chest" />
-		<set name="crystal_type" val="D" />
-		<set name="crystal_count" val="113" />
-		<set name="material" val="LEATHER" />
-		<set name="weight" val="4700" />
-		<set name="price" val="62600" />
-		<for>
-			<add stat="pAtk" val="1000" />
-			<add stat="pDef" val="1000" />
-		</for>
-	</item>
-
-	<!-- Rabbit Rose Costume-->
-	<item id="30005" type="Armor" name="Rabbit Cloth">
-		<set name="icon" val="LineageCustom_RabbitRider_byNevesOma.icons.costume_i00" />
-		<set name="default_action" val="equip" />
-		<set name="armor_type" val="LIGHT" />
-		<set name="bodypart" val="chest" />
-		<set name="crystal_type" val="D" />
-		<set name="crystal_count" val="113" />
-		<set name="material" val="LEATHER" />
-		<set name="weight" val="4700" />
-		<set name="price" val="62600" />
-		<for>
-			<add stat="pAtk" val="1000" />
-			<add stat="pDef" val="1000" />
-		</for>
-	</item>
-	<!-- Aquaman Cloth -->
-	<item id="30007" type="Armor" name="Aquaman Cloth">
-		<set name="icon" val="LineageCustom_AquaMan_byNevesOma.icons.i00" />
-		<set name="default_action" val="equip" />
-		<set name="armor_type" val="LIGHT" />
-		<set name="bodypart" val="chest" />
 		<set name="crystal_type" val="D" />
 		<set name="crystal_count" val="113" />
 		<set name="material" val="LEATHER" />

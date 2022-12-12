@@ -15,7 +15,7 @@
         <set name="etcitem_type" val="POTION" />
         <set name="material" val="LIQUID" />
     </item>
-    <!-- VIP 30 jours -->
+    <!-- VIP 31 jours -->
     <item id="18002" type="EtcItem" name="VIP Max">
 		<set name="icon" val="ball7.presenteball7.etc_gourd_i01" />
         <set name="handler" val="VipCoin" />

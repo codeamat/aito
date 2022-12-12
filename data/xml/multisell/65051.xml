@@ -5,21 +5,347 @@
 
 <list maintainEnchantment="true">
 
-  <!-- Blood Mark -->
-  <item id="1">
-    <ingredient id="57" count="25000000"/>
-    <production id="1419" count="1"/>
-  </item>
-  <item id="2">
+  <item id="56">
     <ingredient id="65436" count="100000"/>
     <production id="18000" count="1"/>
   </item>
-  <item id="3">
+  <item id="57">
     <ingredient id="65436" count="300000"/>
     <production id="18001" count="1"/>
   </item>
-  <item id="4">
+  <item id="58">
     <ingredient id="65436" count="500000"/>
     <production id="18002" count="1"/>
   </item>
+  <!-- CustomSkin -->
+  <item id="1">
+    <ingredient id="65436" count="300"/>
+    <production id="9800" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="2">
+    <ingredient id="65436" count="300"/>
+    <production id="9802" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="3">
+    <ingredient id="65436" count="300"/>
+    <production id="9802" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="4">
+    <ingredient id="65436" count="300"/>
+    <production id="9803" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="5">
+    <ingredient id="65436" count="300"/>
+    <production id="9804" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="6">
+    <ingredient id="65436" count="300"/>
+    <production id="9805" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="7">
+    <ingredient id="65436" count="300"/>
+    <production id="9806" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="8">
+    <ingredient id="65436" count="300"/>
+    <production id="9807" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="9">
+    <ingredient id="65436" count="300"/>
+    <production id="9808" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="10">
+    <ingredient id="65436" count="300"/>
+    <production id="9809" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="11">
+    <ingredient id="65436" count="300"/>
+    <production id="9810" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="12">
+    <ingredient id="65436" count="300"/>
+    <production id="9811" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="13">
+    <ingredient id="65436" count="300"/>
+    <production id="9812" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="14">
+    <ingredient id="65436" count="300"/>
+    <production id="9813" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="15">
+    <ingredient id="65436" count="300"/>
+    <production id="9815" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="16">
+    <ingredient id="65436" count="300"/>
+    <production id="9817" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="17">
+    <ingredient id="65436" count="300"/>
+    <production id="9823" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="18">
+    <ingredient id="65436" count="300"/>
+    <production id="9825" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="19">
+    <ingredient id="65436" count="300"/>
+    <production id="9826" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="20">
+    <ingredient id="65436" count="300"/>
+    <production id="9827" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="21">
+    <ingredient id="65436" count="300"/>
+    <production id="9828" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="22">
+    <ingredient id="65436" count="300"/>
+    <production id="9829" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="23">
+    <ingredient id="65436" count="300"/>
+    <production id="9832" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="24">
+    <ingredient id="65436" count="300"/>
+    <production id="9834" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="25">
+    <ingredient id="65436" count="300"/>
+    <production id="9835" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="26">
+    <ingredient id="65436" count="300"/>
+    <production id="9836" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="27">
+    <ingredient id="65436" count="300"/>
+    <production id="9837" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="28">
+    <ingredient id="65436" count="300"/>
+    <production id="9838" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="29">
+    <ingredient id="65436" count="300"/>
+    <production id="9839" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="30">
+    <ingredient id="65436" count="300"/>
+    <production id="9840" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="31">
+    <ingredient id="65436" count="300"/>
+    <production id="9841" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="32">
+    <ingredient id="65436" count="300"/>
+    <production id="9842" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="33">
+    <ingredient id="65436" count="300"/>
+    <production id="9843" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="34">
+    <ingredient id="65436" count="300"/>
+    <production id="9844" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="35">
+    <ingredient id="65436" count="300"/>
+    <production id="9845" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="36">
+    <ingredient id="65436" count="300"/>
+    <production id="9846" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="37">
+    <ingredient id="65436" count="300"/>
+    <production id="9847" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="38">
+    <ingredient id="65436" count="300"/>
+    <production id="9848" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="39">
+    <ingredient id="65436" count="300"/>
+    <production id="9849" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="40">
+    <ingredient id="65436" count="300"/>
+    <production id="9850" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="41">
+    <ingredient id="65436" count="300"/>
+    <production id="9851" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="42">
+    <ingredient id="65436" count="300"/>
+    <production id="9852" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="43">
+    <ingredient id="65436" count="300"/>
+    <production id="9853" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="44">
+    <ingredient id="65436" count="300"/>
+    <production id="9854" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="45">
+    <ingredient id="65436" count="300"/>
+    <production id="9855" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="46">
+    <ingredient id="65436" count="300"/>
+    <production id="9856" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="47">
+    <ingredient id="65436" count="300"/>
+    <production id="9857" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="48">
+    <ingredient id="65436" count="300"/>
+    <production id="9858" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="49">
+    <ingredient id="65436" count="300"/>
+    <production id="9859" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="50">
+    <ingredient id="65436" count="300"/>
+    <production id="9860" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="51">
+    <ingredient id="65436" count="300"/>
+    <production id="9861" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="52">
+    <ingredient id="65436" count="300"/>
+    <production id="9862" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="53">
+    <ingredient id="65436" count="300"/>
+    <production id="9863" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="54">
+    <ingredient id="65436" count="300"/>
+    <production id="9864" count="1"/>
+  </item>
+
+  <!-- CustomSkin -->
+  <item id="55">
+    <ingredient id="65436" count="300"/>
+    <production id="9865" count="1"/>
+  </item>
+
+
 </list>

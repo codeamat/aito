@@ -11,6 +11,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -36,6 +37,7 @@ import net.sf.l2j.gameserver.data.SkillTable.FrequentSkill;
 import net.sf.l2j.gameserver.data.manager.CastleManager;
 import net.sf.l2j.gameserver.data.manager.CoupleManager;
 import net.sf.l2j.gameserver.data.manager.CursedWeaponManager;
+import net.sf.l2j.gameserver.data.manager.DailyMissionData;
 import net.sf.l2j.gameserver.data.manager.DimensionalRiftManager;
 import net.sf.l2j.gameserver.data.manager.FestivalOfDarknessManager;
 import net.sf.l2j.gameserver.data.manager.HeroManager;
@@ -57,6 +59,7 @@ import net.sf.l2j.gameserver.enums.GaugeColor;
 import net.sf.l2j.gameserver.enums.LootRule;
 import net.sf.l2j.gameserver.enums.MessageType;
 import net.sf.l2j.gameserver.enums.Paperdoll;
+import net.sf.l2j.gameserver.enums.PlayerAction;
 import net.sf.l2j.gameserver.enums.PunishmentType;
 import net.sf.l2j.gameserver.enums.ShortcutType;
 import net.sf.l2j.gameserver.enums.SpawnType;
@@ -88,6 +91,7 @@ import net.sf.l2j.gameserver.handler.ItemHandler;
 import net.sf.l2j.gameserver.handler.skillhandlers.SummonFriend;
 import net.sf.l2j.gameserver.model.AccessLevel;
 import net.sf.l2j.gameserver.model.PetDataEntry;
+import net.sf.l2j.gameserver.model.PlayerMission;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.WorldObject;
 import net.sf.l2j.gameserver.model.actor.ai.type.CreatureAI;
@@ -141,6 +145,8 @@ import net.sf.l2j.gameserver.model.itemcontainer.listeners.ItemPassiveSkillsList
 import net.sf.l2j.gameserver.model.location.Location;
 import net.sf.l2j.gameserver.model.location.SpawnLocation;
 import net.sf.l2j.gameserver.model.memo.PlayerMemo;
+import net.sf.l2j.gameserver.model.missions.events.impl.character.player.OnMissionEventLogin;
+import net.sf.l2j.gameserver.model.missions.events.impl.character.player.OnMissionEventPlayerKill;
 import net.sf.l2j.gameserver.model.multisell.PreparedListContainer;
 import net.sf.l2j.gameserver.model.olympiad.OlympiadGameManager;
 import net.sf.l2j.gameserver.model.olympiad.OlympiadGameTask;
@@ -2726,6 +2732,11 @@ public final class Player extends Playable
 		{
 			final Player pk = killer.getActingPlayer();
 			
+			if (Objects.nonNull(pk))
+			{
+				DailyMissionData.getInstance().notifyEventAsync(new OnMissionEventPlayerKill(pk, this), pk);
+			}
+			
 			// Clear resurrect xp calculation
 			setExpBeforeDeath(0);
 			
@@ -4382,6 +4393,8 @@ public final class Player extends Playable
 					
 					player.restoreFriendList();
 					
+					player.getMission().restoreMe();
+					
 					// Retrieve the name and ID of the other characters assigned to this account.
 					try (PreparedStatement ps2 = con.prepareStatement("SELECT obj_Id, char_name FROM characters WHERE account_name=? AND obj_Id<>?"))
 					{
@@ -4483,6 +4496,8 @@ public final class Player extends Playable
 		storeCharBase();
 		storeCharSub();
 		storeEffect(storeActiveEffects);
+		
+		getMission().storeMe();
 	}
 	
 	public void store()
@@ -6202,6 +6217,8 @@ public final class Player extends Playable
 		
 		revalidateZone(true);
 		notifyFriends(true);
+		
+		DailyMissionData.getInstance().notifyEventSync(new OnMissionEventLogin(this), this);
 	}
 	
 	public long getLastAccess()
@@ -7494,5 +7511,53 @@ public final class Player extends Playable
 			gms.add(this);
 		
 		return gms;
+	}
+	
+	private final PlayerMission _mission = new PlayerMission(this);
+	
+	public PlayerMission getMission()
+	{
+		return _mission;
+	}
+	
+	private int _actionMask;
+	
+	/**
+	 * @param act
+	 * @return {@code true} if action was added successfully, {@code false} otherwise.
+	 */
+	public boolean addAction(final PlayerAction act)
+	{
+		if (!hasAction(act))
+		{
+			_actionMask |= act.getMask();
+			return true;
+		}
+
+		return false;
+	}
+
+	/**
+	 * @param act
+	 * @return {@code true} if action was removed successfully, {@code false} otherwise.
+	 */
+	public boolean removeAction(final PlayerAction act)
+	{
+		if (hasAction(act))
+		{
+			_actionMask &= ~act.getMask();
+			return true;
+		}
+
+		return false;
+	}
+
+	/**
+	 * @param act
+	 * @return {@code true} if action is present, {@code false} otherwise.
+	 */
+	public boolean hasAction(final PlayerAction act)
+	{
+		return (_actionMask & act.getMask()) == act.getMask();
 	}
 }

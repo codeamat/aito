@@ -133,7 +133,7 @@ public final class RequestRestartPoint extends L2GameClientPacket
 		}
 		// Nothing has been found, use regular "To town" behavior.
 		else
-			loc = MapRegionData.getInstance().getLocationToTeleport(player, TeleportType.TOWN);
+			loc = new Location(-5342,-43394,-3969);
 		
 		player.setIsIn7sDungeon(false);
 		

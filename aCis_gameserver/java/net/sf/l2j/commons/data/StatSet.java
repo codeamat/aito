@@ -516,4 +516,58 @@ public class StatSet extends HashMap<String, Object>
 		
 		return defaultValue;
 	}
+	
+	public int[] getIntArray(final String key, final String splitOn)
+	{
+		return getIntArray(key, null, splitOn);
+	}
+
+	public int[] getIntArray(final String key, final String defaultValue, final String splitOn)
+	{
+		final Object val = getOrDefault(key, defaultValue);
+
+		if (val == null)
+		{
+			throw new IllegalArgumentException("Integer value required, but not specified");
+		}
+
+		if (val instanceof Number)
+		{
+			return new int[]
+			{
+				((Number) val).intValue()
+			};
+		}
+
+		int c = 0;
+
+		final String[] values = ((String) val).split(splitOn);
+		final int[] result = new int[values.length];
+
+		for (final String v : values)
+		{
+			try
+			{
+				result[c++] = Integer.parseInt(v);
+			}
+			catch (final Exception e)
+			{
+				throw new IllegalArgumentException("Integer value required, but found: " + val);
+			}
+		}
+
+		return result;
+	}
+
+	public List<Integer> getIntegerList(final String key, final String splitOn)
+	{
+		final List<Integer> result = new ArrayList<>();
+
+		for (final int i : getIntArray(key, splitOn))
+		{
+			result.add(i);
+		}
+
+		return result;
+	}
 }
