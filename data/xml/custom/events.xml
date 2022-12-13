@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <!-- 1ER EVENT -->
+    <event class="TeamVsTeam.java" load="true">
+        <settings name="[Team Vs Team]" schedule="00:00 04:00 08:00 12:00 16:00 20:00" registration="500"
+                  duration="2700"/>
+        <settings level="1-80" capacity="2-1000"/>
+        <!--	<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56"/>-->
+        <settings allowEffects="true" allowSummons="true" allowPotions="false"/>
+        <team name="TOA" color="0000FF">
+            <spawn x="85818" y="27576" z="-2929"/>
+            <spawn x="85807" y="27635" z="-2929"/>
+            <spawn x="85779" y="27700" z="-2929"/>
+        </team>
+        <team name="AITO" color="FF6060">
+            <spawn x="-883" y="-45123" z="-4049"/>
+            <spawn x="-766" y="-45077" z="-4049"/>
+            <spawn x="-1277" y="-45030" z="-4017"/>
+        </team>
+        <reward type="MVP" itemId="6392" min="10" max="10"/>
+        <reward type="WINNER" itemId="6392" min="10" max="10"/>
+        <reward type="LOSSER" itemId="6392" min="2" max="5"/>
+        <reward type="TIE" itemId="6392" min="5" max="4"/>
+    </event>
+
+    <!-- 2EME EVENT -->
+    <event class="CaptureTheFlag.java" load="true">
+        <settings name="[Capturer le Drapeau]" schedule="01:00 05:00 09:00 13:00 17:00 21:00" registration="500"
+                  duration="2700"/>
+        <settings level="1-80" capacity="2-1000"/>
+        <!--	<settings doors="24190001;24190002;24190003;24190004"/>-->
+        <!--		<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56"/>-->
+        <settings allowEffects="true" allowSummons="true" allowPotions="false"/>
+        <team name="TOA" color="0000FF" npcs="36002;36004">
+            <spawn x="149203" y="70398" z="-3617"/>
+        </team>
+        <npc id="36002"><!-- Red Team Flag -->
+            <spawn x="23005" y="-10566" z="5839" h="24873"/>
+        </npc>
+        <npc id="36004"><!-- Red Team Flag Holder -->
+            <spawn x="-23833" y="-39935" z="-4049"/>
+        </npc>
+        <team name="AITO" color="FF6060" npcs="36003;36005">
+            <spawn x="150584" y="63767" z="-3585"/>
+        </team>
+        <npc id="36003"><!-- Blue Team Flag -->
+            <spawn x="22970" y="-10042" z="5823" h="17079"/>
+        </npc>
+        <npc id="36005"><!-- Blue Team Flag Holder -->
+            <spawn x="-20572" y="-40880" z="-4209"/>
+        </npc>
+        <reward type="MVP" itemId="6392" min="10" max="10"/>
+        <reward type="WINNER" itemId="6392" min="10" max="10"/>
+        <reward type="LOSSER" itemId="6392" min="2" max="5"/>
+        <reward type="TIE" itemId="6392" min="5" max="4"/>
+    </event>
+    <!-- 3EME EVENT -->
+    <event class="DeathMatch.java" load="true">
+        <settings name="[Deathmatch]" schedule="02:00 06:00 10:00 14:00 18:00 22:00" registration="500" duration="2700"/>
+        <settings level="1-80" capacity="2-1000"/>
+        <!--	<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56"/>-->
+        <settings allowEffects="true" allowSummons="true" allowPotions="false"/>
+        <team name="AITO" color="FF00A8">
+            <spawn x="22775" y="-10502" z="5839"/>
+            <spawn x="22720" y="-10058" z="5823"/>
+            <spawn x="23065" y="-9894" z="5823"/>
+            <spawn x="23368" y="-9972" z="-5823"/>
+            <spawn x="23062" y="-10476" z="5839"/>
+            <spawn x="23242" y="-10275" z="5839"/>
+            <spawn x="23033" y="-9985" z="5823"/>
+            <spawn x="23055" y="-10225" z="5839"/>
+        </team>
+        <reward type="WINNER" itemId="6393" min="1" max="10"/>
+        <reward type="LOSSER" itemId="6392" min="2" max="5"/>
+        <reward type="TIE" itemId="6392" min="5" max="4"/>
+    </event>
+    <!-- 4EME EVENT -->
+    <event class="Domination.java" load="true">
+        <settings name="Domination" schedule="03:00 07:00 11:00 15:00 19:00 23:00" registration="500" duration="2700"/>
+        <settings level="1-80" capacity="2-1000"/>
+        <!--		<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56" />-->
+        <settings allowEffects="true" allowSummons="true" allowPotions="false"/>
+        <team name="AITO" color="0000FF">
+            <spawn x="-962" y="-45501" z="-4049"/>
+        </team>
+        <team name="TOA" color="FF6060">
+            <spawn x="-962" y="-45501" z="-4049"/>
+        </team>
+        <npc id="36006">
+            <!-- Domination Tower -->
+            <spawn x="23043" y="-10351" z="5839"/>
+        </npc>
+        <reward type="MVP" itemId="6393" min="1" max="3"/>
+        <reward type="TIE" itemId="6392" min="4" max="4"/>
+        <reward type="WINNER" itemId="6392" min="50" max="50"/>
+        <reward type="LOSSER" itemId="6392" min="5" max="5"/>
+        <reward type="KILL" itemId="6392" min="1" max="1" chance="50"/>
+        <reward type="KILL" itemId="6393" min="1" max="1" chance="5"/>
+    </event>
+</list>

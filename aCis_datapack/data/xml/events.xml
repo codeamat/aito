@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<event class="TeamVsTeam.java" load="true">
+		<settings name="Team vs Team" schedule="12:00 15:00 18:00 21:00 0:00 03:00 06:00 09:00" registration="300" duration="900"/>
+		<settings level="76-80" capacity="2-100"/>
+		<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56"/>
+		<settings allowEffects="true" allowSummons="true" allowPotions="false"/>
+		<team name="Red Team" color="0000FF">
+			<spawn x="150555" y="46472" z="-3405"/>
+			<spawn x="150555" y="46722" z="-3405"/>
+			<spawn x="150555" y="46957" z="-3405"/>
+		</team>
+		<team name="Blue Team" color="FF6060">
+			<spawn x="148392" y="46472" z="-3405"/>
+			<spawn x="148392" y="46722" z="-3405"/>
+			<spawn x="148392" y="46957" z="-3405"/>
+		</team>
+		<reward type="MVP" itemId="6392" min="10" max="10"/>
+		<reward type="WINNER" itemId="6392" min="10" max="10"/>
+		<reward type="LOSSER" itemId="6392" min="2" max="5"/>
+		<reward type="TIE" itemId="6392" min="5" max="4"/>
+	</event>
+	<event class="CaptureTheFlag.java" load="true">
+		<settings name="Capture The Flag" schedule="13:00 16:00 19:00 22:00 01:00 04:00 07:00 10:00" registration="300" duration="900"/>
+		<settings level="76-80" capacity="2-100"/>
+		<settings doors="24190001;24190002;24190003;24190004"/>
+		<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56"/>
+		<settings allowEffects="true" allowSummons="true" allowPotions="false"/>
+		<team name="Red Team" color="0000FF" npcs="36002;36004" doors="24190002">
+			<spawn x="147543" y="46722" z="-3401"/>
+		</team>
+		<npc id="36002"><!-- Red Team Flag -->
+			<spawn x="148385" y="46722" z="-3405" h="32908"/>
+		</npc>
+		<npc id="36004"><!-- Red Team Flag Holder -->
+			<spawn x="148231" y="46722" z="-3404"/>
+		</npc>
+		<team name="Blue Team" color="FF6060" npcs="36003;36005" doors="24190003">
+			<spawn x="151417" y="46722" z="-3401"/>
+		</team>
+		<npc id="36003"><!-- Blue Team Flag -->
+			<spawn x="150556" y="46722" z="-3405" h="63255"/>
+		</npc>
+		<npc id="36005"><!-- Blue Team Flag Holder -->
+			<spawn x="150713" y="46722" z="-3404"/>
+		</npc>
+		<reward type="MVP" itemId="6392" min="10" max="10"/>
+		<reward type="WINNER" itemId="6392" min="10" max="10"/>
+		<reward type="LOSSER" itemId="6392" min="2" max="5"/>
+		<reward type="TIE" itemId="6392" min="5" max="4"/>
+	</event>
+	<event class="DeathMatch.java" load="true">
+		<settings name="Death Match" schedule="14:00 17:00 20:00 23:00 02:00 05:00 08:00 11:00" registration="300" duration="900"/>
+		<settings level="76-80" capacity="2-100"/>
+		<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56"/>
+		<settings allowEffects="true" allowSummons="true" allowPotions="false"/>
+		<team name="Challenger" color="207010">
+			<spawn x="150728" y="47608" z="-3408"/>
+			<spawn x="149944" y="47880" z="-3408"/>
+			<spawn x="149064" y="47880" z="-3408"/>
+			<spawn x="148264" y="47624" z="-3408"/>
+			<spawn x="148248" y="45864" z="-3408"/>
+			<spawn x="149048" y="45624" z="-3408"/>
+			<spawn x="149912" y="45608" z="-3408"/>
+			<spawn x="150728" y="45896" z="-3408"/>
+		</team>
+		<reward type="WINNER" itemId="6392" min="10" max="10"/>
+		<reward type="LOSSER" itemId="6392" min="2" max="5"/>
+		<reward type="TIE" itemId="6392" min="5" max="4"/>
+	</event>
+</list>

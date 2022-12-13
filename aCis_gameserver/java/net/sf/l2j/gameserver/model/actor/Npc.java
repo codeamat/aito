@@ -30,6 +30,7 @@ import net.sf.l2j.gameserver.enums.actors.NpcRace;
 import net.sf.l2j.gameserver.enums.actors.NpcSkillType;
 import net.sf.l2j.gameserver.enums.actors.NpcTalkCond;
 import net.sf.l2j.gameserver.enums.items.ShotType;
+import net.sf.l2j.gameserver.events.EventManager;
 import net.sf.l2j.gameserver.idfactory.IdFactory;
 import net.sf.l2j.gameserver.model.WorldObject;
 import net.sf.l2j.gameserver.model.actor.status.NpcStatus;
@@ -176,6 +177,9 @@ public class Npc extends Creature
 		if (hasRandomAnimation())
 			onRandomAnimation(Rnd.get(8));
 		
+		if (player.isInEvent() && !EventManager.getInstance().getCurrentEvent().onInteract(player, this))
+			return;
+
 		player.getQuestList().setLastQuestNpcObjectId(getObjectId());
 		
 		List<Quest> scripts = getTemplate().getEventQuests(ScriptEventType.ON_FIRST_TALK);

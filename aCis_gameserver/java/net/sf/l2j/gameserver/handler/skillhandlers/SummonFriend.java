@@ -104,7 +104,7 @@ public class SummonFriend implements ISkillHandler
 	 */
 	public static boolean checkSummoner(Player player)
 	{
-		if (player.isMounted())
+		if (player.isMounted() || player.isInEvent())
 			return false;
 		
 		if (player.isInOlympiadMode() || player.isInObserverMode() || player.isInsideZone(ZoneId.NO_SUMMON_FRIEND))
@@ -164,7 +164,7 @@ public class SummonFriend implements ISkillHandler
 			return false;
 		}
 		
-		if (targetPlayer.isInObserverMode() || targetPlayer.isInsideZone(ZoneId.NO_SUMMON_FRIEND))
+		if (targetPlayer.isInObserverMode() || targetPlayer.isInsideZone(ZoneId.NO_SUMMON_FRIEND) || player.isInEvent())
 		{
 			player.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.S1_IN_SUMMON_BLOCKING_AREA).addCharName(targetPlayer));
 			return false;

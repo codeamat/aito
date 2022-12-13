@@ -52,6 +52,7 @@ import net.sf.l2j.gameserver.data.xml.StaticObjectData;
 import net.sf.l2j.gameserver.data.xml.SummonItemData;
 import net.sf.l2j.gameserver.data.xml.TeleportData;
 import net.sf.l2j.gameserver.data.xml.WalkerRouteData;
+import net.sf.l2j.gameserver.events.EventManager;
 import net.sf.l2j.gameserver.geoengine.GeoEngine;
 import net.sf.l2j.gameserver.handler.AdminCommandHandler;
 import net.sf.l2j.gameserver.handler.ChatHandler;
@@ -59,6 +60,7 @@ import net.sf.l2j.gameserver.handler.ItemHandler;
 import net.sf.l2j.gameserver.handler.SkillHandler;
 import net.sf.l2j.gameserver.handler.TargetHandler;
 import net.sf.l2j.gameserver.handler.UserCommandHandler;
+import net.sf.l2j.gameserver.handler.VoiceCommandHandler;
 import net.sf.l2j.gameserver.idfactory.IdFactory;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.boat.BoatGiranTalking;
@@ -250,6 +252,9 @@ public class GameServer
 		StringUtil.printSection("Custom Mods");
 		DailyMissionData.getInstance();
 		IconData.getInstance();
+		StringUtil.printSection("SM-Engine");
+		EventManager.getInstance();
+
 
 		if (Config.ALLOW_WEDDING)
 			CoupleManager.getInstance();
@@ -264,7 +269,8 @@ public class GameServer
 		LOGGER.info("Loaded {} skill handlers.", SkillHandler.getInstance().size());
 		LOGGER.info("Loaded {} target handlers.", TargetHandler.getInstance().size());
 		LOGGER.info("Loaded {} user command handlers.", UserCommandHandler.getInstance().size());
-		
+		LOGGER.info("Loaded {} voice command handlers.", VoiceCommandHandler.getInstance().size());
+
 		StringUtil.printSection("System");
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
 		

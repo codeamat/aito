@@ -6,6 +6,7 @@ import java.sql.PreparedStatement;
 import net.sf.l2j.commons.pool.ConnectionPool;
 
 import net.sf.l2j.gameserver.data.manager.CursedWeaponManager;
+import net.sf.l2j.gameserver.events.EventManager;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
 import net.sf.l2j.gameserver.network.SystemMessageId;
@@ -49,6 +50,9 @@ public final class RequestDestroyItem extends L2GameClientPacket
 		}
 		
 		if (!itemToRemove.isStackable() && _count > 1)
+			return;
+		
+		if (player.isInEvent() && !EventManager.getInstance().getCurrentEvent().onDestroyItem(player, itemToRemove))
 			return;
 		
 		final int itemId = itemToRemove.getItemId();

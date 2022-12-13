@@ -10,6 +10,7 @@ import net.sf.l2j.gameserver.data.xml.AdminData;
 import net.sf.l2j.gameserver.enums.FloodProtector;
 import net.sf.l2j.gameserver.handler.AdminCommandHandler;
 import net.sf.l2j.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2j.gameserver.handler.VoiceCommandHandler;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.WorldObject;
 import net.sf.l2j.gameserver.model.actor.Npc;
@@ -185,5 +186,7 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			final int arenaId = Integer.parseInt(_command.substring(12).trim());
 			player.enterOlympiadObserverMode(arenaId);
 		}
+		else if (_command.startsWith("vch"))
+			VoiceCommandHandler.getInstance().handleVoicedCommand(player, _command.substring(4));
 	}
 }

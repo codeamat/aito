@@ -86,6 +86,7 @@ import net.sf.l2j.gameserver.enums.items.WeaponType;
 import net.sf.l2j.gameserver.enums.skills.EffectFlag;
 import net.sf.l2j.gameserver.enums.skills.EffectType;
 import net.sf.l2j.gameserver.enums.skills.Stats;
+import net.sf.l2j.gameserver.events.EventManager;
 import net.sf.l2j.gameserver.geoengine.GeoEngine;
 import net.sf.l2j.gameserver.handler.IItemHandler;
 import net.sf.l2j.gameserver.handler.ItemHandler;
@@ -2224,7 +2225,7 @@ public final class Player extends Playable
 	
 	public boolean isSpawnProtected()
 	{
-		return _protectTask != null;
+		return !isInEvent() && _protectTask != null;
 	}
 	
 	/**
@@ -2752,6 +2753,9 @@ public final class Player extends Playable
 				CursedWeaponManager.getInstance().drop(_cursedWeaponEquippedId, killer);
 			else
 			{
+				if (isInEvent())
+					EventManager.getInstance().getCurrentEvent().onDie(this, killer);
+				
 				if (pk == null || !pk.isCursedWeaponEquipped())
 				{
 					onDieDropItem(killer); // Check if any item should be dropped
@@ -2968,6 +2972,9 @@ public final class Player extends Playable
 	
 	public void updatePvPStatus()
 	{
+		if (isInEvent())
+			return;
+		
 		if (isInsideZone(ZoneId.PVP))
 			return;
 		
@@ -2981,6 +2988,9 @@ public final class Player extends Playable
 	{
 		final Player player = target.getActingPlayer();
 		if (player == null)
+			return;
+		
+		if (isInEvent())
 			return;
 		
 		if (isInDuel() && player.getDuelId() == getDuelId())
@@ -3015,6 +3025,9 @@ public final class Player extends Playable
 	 */
 	public void applyDeathPenalty(boolean atWar, boolean killedByPlayable)
 	{
+		if (isInEvent())
+			return;
+		
 		if (isInsideZone(ZoneId.PVP))
 		{
 			// No xp loss inside siege zone if a Charm of Courage is active.
@@ -5926,7 +5939,7 @@ public final class Player extends Playable
 	 */
 	public boolean addSubClass(int classId, int classIndex)
 	{
-		if (!_subclassLock.tryLock())
+		if (!_subclassLock.tryLock() || isInEvent() || isEventRegistred())
 			return false;
 		
 		try
@@ -6551,6 +6564,9 @@ public final class Player extends Playable
 	@Override
 	public void deleteMe()
 	{
+		if (isInEvent())
+			EventManager.getInstance().getCurrentEvent().onLogout(this);
+		
 		super.deleteMe();
 		
 		cleanup();
@@ -6813,6 +6829,9 @@ public final class Player extends Playable
 	 */
 	public void calculateDeathPenaltyBuffLevel(Creature killer)
 	{
+		if (isInEvent())
+			return;
+		
 		if (_deathPenaltyBuffLevel >= 15) // maximum level reached
 			return;
 		
@@ -6932,6 +6951,9 @@ public final class Player extends Playable
 		}
 		else
 			sendPacket(SystemMessage.getSystemMessage(SystemMessageId.YOU_DID_S1_DMG).addNumber(damage));
+		
+		if (isInEvent() && damage > 1)
+			EventManager.getInstance().getCurrentEvent().onDamage(this, target, damage);
 		
 		if (isInOlympiadMode() && target instanceof Player && ((Player) target).isInOlympiadMode() && ((Player) target).getOlympiadGameId() == getOlympiadGameId())
 			OlympiadGameManager.getInstance().notifyCompetitorDamage(this, damage);

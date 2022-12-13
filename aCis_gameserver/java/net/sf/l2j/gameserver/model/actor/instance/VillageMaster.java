@@ -60,6 +60,12 @@ public class VillageMaster extends Folk
 	@Override
 	public void onBypassFeedback(Player player, String command)
 	{
+		if (player.isEventRegistred() || player.isInEvent())
+		{
+			player.sendMessage("You can't use my services while you are related to event.");
+			return;
+		}
+		
 		String[] commandStr = command.split(" ");
 		String actualCommand = commandStr[0];
 		

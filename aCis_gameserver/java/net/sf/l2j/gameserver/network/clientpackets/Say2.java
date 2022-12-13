@@ -6,6 +6,7 @@ import java.util.logging.Logger;
 
 import net.sf.l2j.Config;
 import net.sf.l2j.gameserver.enums.SayType;
+import net.sf.l2j.gameserver.events.EventManager;
 import net.sf.l2j.gameserver.handler.ChatHandler;
 import net.sf.l2j.gameserver.handler.IChatHandler;
 import net.sf.l2j.gameserver.model.actor.Player;
@@ -117,6 +118,9 @@ public final class Say2 extends L2GameClientPacket
 		}
 		
 		_text = _text.replaceAll("\\\\n", "");
+		
+		if (player.isInEvent() && !EventManager.getInstance().getCurrentEvent().onSay(type, player, _text))
+			return;
 		
 		final IChatHandler handler = ChatHandler.getInstance().getHandler(type);
 		if (handler == null)

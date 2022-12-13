@@ -25,6 +25,9 @@ import net.sf.l2j.gameserver.enums.skills.EffectFlag;
 import net.sf.l2j.gameserver.enums.skills.EffectType;
 import net.sf.l2j.gameserver.enums.skills.SkillType;
 import net.sf.l2j.gameserver.enums.skills.Stats;
+import net.sf.l2j.gameserver.events.EventManager;
+import net.sf.l2j.gameserver.events.enums.EventState;
+import net.sf.l2j.gameserver.events.model.AbstractEvent;
 import net.sf.l2j.gameserver.geoengine.GeoEngine;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.WorldObject;
@@ -2021,5 +2024,48 @@ public abstract class Creature extends WorldObject
 	public boolean canBeHealed()
 	{
 		return !isDead() && !isInvul();
+	}
+	
+	public final boolean isEventRegistred()
+	{
+		if (!EventManager.getInstance().is(EventState.REGISTER))
+			return false;
+		
+		final Player player = getActingPlayer();
+		return player != null && EventManager.getInstance().isRegistred(player);
+	}
+	
+	public final boolean isInEvent()
+	{
+		final AbstractEvent event = EventManager.getInstance().getCurrentEvent();
+		if (event == null)
+			return false;
+		
+		final Player player = getActingPlayer();
+		if (player == null)
+			return false;
+		
+		return EventManager.getInstance().is(EventState.STARTING, EventState.PROGRESS, EventState.FINISH) && event.getPlayer(player) != null;
+	}
+	
+	public final boolean isEventTeamWith(Creature creature)
+	{
+		final AbstractEvent event = EventManager.getInstance().getCurrentEvent();
+		if (event == null)
+			return false;
+		
+		final Player player = getActingPlayer();
+		final Player target = creature.getActingPlayer();
+		if (player == null || target == null)
+			return false;
+		
+		return event.getPlayerTeam(player) == event.getPlayerTeam(target);
+	}
+	
+	public final boolean canEventAttack(Creature creature)
+	{
+		final Player player = getActingPlayer();
+		final AbstractEvent event = EventManager.getInstance().getCurrentEvent();
+		return player != null && event != null && event.canAttack(getActingPlayer(), creature);
 	}
 }

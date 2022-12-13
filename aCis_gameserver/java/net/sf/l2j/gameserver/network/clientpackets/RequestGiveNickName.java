@@ -27,6 +27,12 @@ public class RequestGiveNickName extends L2GameClientPacket
 		if (player == null)
 			return;
 		
+		if (player.isInEvent())
+		{
+			player.sendMessage("You are not allowed to change title while you are related to event.");
+			return;
+		}
+		
 		if (!StringUtil.isValidString(_title, "^[a-zA-Z0-9 !@#$&()\\-`.+,/\"]*{0,16}$"))
 		{
 			player.sendPacket(SystemMessageId.NOT_WORKING_PLEASE_TRY_AGAIN_LATER);

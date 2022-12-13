@@ -34,7 +34,6 @@ public class TargetAlly implements ITargetHandler
 		
 		if (skill.addSummon(caster, player, false))
 			list.add(player.getSummon());
-		
 		if (player.getClan() != null)
 		{
 			for (Playable playable : caster.getKnownTypeInRadius(Playable.class, skill.getSkillRadius()))
@@ -45,7 +44,11 @@ public class TargetAlly implements ITargetHandler
 				final Player targetPlayer = playable.getActingPlayer();
 				if (targetPlayer == null || targetPlayer.getClan() == null)
 					continue;
-				
+
+				// Target isn't same team while caster is event related.
+				if (caster.isInEvent() && !caster.isEventTeamWith(playable))
+					continue;
+
 				// Only buff allies
 				if (player.getClanId() != targetPlayer.getClanId() || (player.getAllyId() > 0 && player.getAllyId() != targetPlayer.getAllyId()))
 					continue;

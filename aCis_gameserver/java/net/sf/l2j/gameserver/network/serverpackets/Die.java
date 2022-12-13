@@ -18,6 +18,7 @@ public class Die extends L2GameServerPacket
 	
 	private boolean _sweepable;
 	private boolean _allowFixedRes;
+	private boolean _allowReturn;
 	private Clan _clan;
 	
 	public Die(Creature creature)
@@ -30,8 +31,8 @@ public class Die extends L2GameServerPacket
 		{
 			Player player = (Player) creature;
 			_allowFixedRes = player.getAccessLevel().allowFixedRes();
+			_allowReturn = !player.isInEvent();
 			_clan = player.getClan();
-			
 		}
 		else if (creature instanceof Monster)
 			_sweepable = ((Monster) creature).getSpoilState().isSweepable();
@@ -45,6 +46,18 @@ public class Die extends L2GameServerPacket
 		
 		writeC(0x06);
 		writeD(_objectId);
+		
+		if (!_allowReturn)
+		{
+			writeD(0x00); // to nearest village
+			writeD(0x00); // to clanhall
+			writeD(0x00); // to castle
+			writeD(0x00); // to siege HQ
+			writeD(0x00); // sweepable (blue glow)
+			writeD(0x00); // FIXED
+			return;
+		}
+		
 		writeD(0x01); // to nearest village
 		
 		if (_clan != null)

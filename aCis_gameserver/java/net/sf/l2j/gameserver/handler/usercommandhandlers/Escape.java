@@ -16,7 +16,7 @@ public class Escape implements IUserCommandHandler
 	@Override
 	public void useUserCommand(int id, Player player)
 	{
-		if (player.isInOlympiadMode() || player.isInObserverMode() || player.isFestivalParticipant() || player.isInJail() || player.isInsideZone(ZoneId.BOSS))
+		if (player.isInEvent() || player.isInOlympiadMode() || player.isInObserverMode() || player.isFestivalParticipant() || player.isInJail() || player.isInsideZone(ZoneId.BOSS))
 		{
 			player.sendPacket(SystemMessageId.NO_UNSTUCK_PLEASE_SEND_PETITION);
 			return;

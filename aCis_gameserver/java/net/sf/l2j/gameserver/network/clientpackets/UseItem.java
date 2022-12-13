@@ -6,6 +6,7 @@ import net.sf.l2j.gameserver.enums.items.ActionType;
 import net.sf.l2j.gameserver.enums.items.EtcItemType;
 import net.sf.l2j.gameserver.enums.items.WeaponType;
 import net.sf.l2j.gameserver.enums.skills.SkillType;
+import net.sf.l2j.gameserver.events.EventManager;
 import net.sf.l2j.gameserver.handler.IItemHandler;
 import net.sf.l2j.gameserver.handler.ItemHandler;
 import net.sf.l2j.gameserver.model.actor.Player;
@@ -54,6 +55,9 @@ public final class UseItem extends L2GameClientPacket
 		
 		final ItemInstance item = player.getInventory().getItemByObjectId(_objectId);
 		if (item == null)
+			return;
+		
+		if (player.isInEvent() && !EventManager.getInstance().getCurrentEvent().onUseItem(player, item))
 			return;
 		
 		if (player.isItemDisabled(item))

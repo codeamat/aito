@@ -25,6 +25,9 @@ public class PlayableAttack<T extends Playable> extends CreatureAttack<T>
 		
 		if (target instanceof Playable)
 		{
+			if (_actor.isInEvent() && target.isInEvent())
+				return _actor.canEventAttack(target);
+			
 			if (_actor.isInsideZone(ZoneId.PEACE))
 			{
 				_actor.sendPacket(SystemMessage.getSystemMessage(SystemMessageId.CANT_ATK_PEACEZONE));

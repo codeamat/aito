@@ -3,6 +3,7 @@ package net.sf.l2j.gameserver.handler.chathandlers;
 import net.sf.l2j.gameserver.enums.FloodProtector;
 import net.sf.l2j.gameserver.enums.SayType;
 import net.sf.l2j.gameserver.handler.IChatHandler;
+import net.sf.l2j.gameserver.handler.VoiceCommandHandler;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.network.serverpackets.CreatureSay;
 
@@ -16,6 +17,9 @@ public class ChatAll implements IChatHandler
 	@Override
 	public void handleChat(SayType type, Player player, String target, String text)
 	{
+		if (VoiceCommandHandler.getInstance().handleVoicedCommand(player, text))
+			return;
+		
 		if (!player.getClient().performAction(FloodProtector.GLOBAL_CHAT))
 			return;
 		

@@ -33,6 +33,10 @@ public class TargetAreaSummon implements ITargetHandler
 			
 			if (creature instanceof Attackable || creature instanceof Playable)
 			{
+				// Exclude targets that are not attackable during event.
+				if (caster.isInEvent() && creature.isInEvent() && !caster.canEventAttack(creature))
+					continue;
+				
 				if (creature.isAttackableWithoutForceBy((Playable) caster))
 					list.add(creature);
 			}

@@ -12,6 +12,7 @@ import net.sf.l2j.gameserver.enums.SiegeSide;
 import net.sf.l2j.gameserver.enums.ZoneId;
 import net.sf.l2j.gameserver.enums.skills.EffectFlag;
 import net.sf.l2j.gameserver.enums.skills.EffectType;
+import net.sf.l2j.gameserver.events.EventManager;
 import net.sf.l2j.gameserver.model.actor.attack.PlayableAttack;
 import net.sf.l2j.gameserver.model.actor.cast.PlayableCast;
 import net.sf.l2j.gameserver.model.actor.container.npc.AggroInfo;
@@ -117,7 +118,7 @@ public abstract class Playable extends Creature
 			if (getCharmOfLuck())
 				stopCharmOfLuck(null);
 		}
-		else
+		else if (!isInEvent())
 			stopAllEffectsExceptThoseThatLastThroughDeath();
 		
 		// Send the Server->Client packet StatusUpdate with current HP and MP to all other Player to inform
@@ -134,7 +135,12 @@ public abstract class Playable extends Creature
 		{
 			final Player player = killer.getActingPlayer();
 			if (player != null)
-				player.onKillUpdatePvPKarma(this);
+			{
+				if (player.isInEvent())
+					EventManager.getInstance().getCurrentEvent().onKill(player, this);
+				else
+					player.onKillUpdatePvPKarma(this);
+			}
 		}
 		
 		return true;
@@ -349,7 +355,10 @@ public abstract class Playable extends Creature
 		// No checks for players in Duel
 		if (getActingPlayer().isInDuel() && targetPlayer.isInDuel() && getActingPlayer().getDuelId() == targetPlayer.getDuelId())
 			return true;
-		
+
+		if (isInEvent() && target.isInEvent())
+			return canEventAttack(target);
+
 		final boolean sameParty = isInParty() && targetPlayer.isInParty() && getParty().getLeader() == targetPlayer.getParty().getLeader();
 		final boolean sameCommandChannel = isInParty() && targetPlayer.isInParty() && getParty().getCommandChannel() != null && getParty().getCommandChannel().containsPlayer(targetPlayer);
 		
@@ -437,6 +446,9 @@ public abstract class Playable extends Creature
 			if (getActingPlayer().isInOlympiadMode() && !getActingPlayer().isOlympiadStart())
 				return false;
 			
+			if (isInEvent() && attacker.isInEvent())
+				return attacker.canEventAttack(this);
+
 			if (isInsideZone(ZoneId.PVP))
 				return true;
 			
@@ -467,7 +479,10 @@ public abstract class Playable extends Creature
 		
 		if (getActingPlayer().getDuelState() == DuelState.DUELLING && getActingPlayer().getDuelId() == attackerPlayer.getDuelId())
 			return true;
-		
+
+		if (isInEvent() && attacker.isInEvent())
+			return attacker.canEventAttack(this);
+
 		final boolean sameParty = isInParty() && attackerPlayer.isInParty() && getParty().getLeader() == attackerPlayer.getParty().getLeader();
 		final boolean sameCommandChannel = isInParty() && attackerPlayer.isInParty() && getParty().getCommandChannel() != null && getParty().getCommandChannel().containsPlayer(attackerPlayer);
 		
@@ -523,6 +538,9 @@ public abstract class Playable extends Creature
 			if (targetPlayer.isInOlympiadMode() && getActingPlayer().isInOlympiadMode() && getActingPlayer().isOlympiadStart() && targetPlayer.getOlympiadGameId() == getActingPlayer().getOlympiadGameId())
 				return true;
 			
+			if (isInEvent() && targetPlayer.isInEvent())
+				return canEventAttack(targetPlayer);
+
 			// Playables in Duel can be kept attacked.
 			if (getActingPlayer().getDuelState() == DuelState.DUELLING && getActingPlayer().getDuelId() == targetPlayer.getDuelId())
 				return true;

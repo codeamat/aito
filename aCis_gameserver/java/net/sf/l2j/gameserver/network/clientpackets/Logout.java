@@ -48,6 +48,13 @@ public final class Logout extends L2GameClientPacket
 			return;
 		}
 		
+		if (player.isEventRegistred() || player.isInEvent())
+		{
+			player.sendMessage("You cannot logout while you are related to event.");
+			player.sendPacket(ActionFailed.STATIC_PACKET);
+			return;
+		}
+		
 		player.removeFromBossZone();
 		player.logout(true);
 	}

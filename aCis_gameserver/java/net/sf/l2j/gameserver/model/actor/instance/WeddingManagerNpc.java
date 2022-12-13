@@ -45,6 +45,12 @@ public class WeddingManagerNpc extends Folk
 	@Override
 	public void onBypassFeedback(Player player, String command)
 	{
+		if (player.isEventRegistred() || player.isInEvent())
+		{
+			player.sendMessage("You can't use my services while you are related to event.");
+			return;
+		}
+		
 		if (command.startsWith("AskWedding"))
 		{
 			final StringTokenizer st = new StringTokenizer(command);

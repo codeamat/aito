@@ -120,6 +120,12 @@ public class OlympiadManager
 	
 	public final boolean registerNoble(Npc npc, Player player, OlympiadType type)
 	{
+		if (player.isEventRegistred() || player.isInEvent())
+		{
+			player.sendMessage("You cannot register to olympiad while you are related to event.");
+			return false;
+		}
+		
 		if (!Olympiad.getInstance().isInCompPeriod())
 		{
 			player.sendPacket(SystemMessageId.THE_OLYMPIAD_GAME_IS_NOT_CURRENTLY_IN_PROGRESS);
