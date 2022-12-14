@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="10293" levels="1" name="Summon Feline King">
+	<set name="target" val="SELF"/>
+	<set name="reuseDelay" val="20000"/>
+	<set name="hitTime" val="15000"/>
+	<set name="skillType" val="SUMMON"/>
+	<set name="isMagic" val="true"/>
+	<set name="operateType" val="ACTIVE"/>
+	<set name="npcId" val="35798" />
+	<set name="expPenalty" val="0.1"/>
+	</skill>
+	<skill id="10294" levels="1" name="Summon Feline King">
+		<set name="mpInitialConsume" val="28" />
+		<set name="mpConsume" val="116" />
+		<set name="summonTotalLifeTime" val="1200000"/>
+		<set name="summonTimeLostIdle" val="500"/>
+		<set name="summonTimeLostActive" val="1000"/>
+		<set name="target" val="SELF"/>
+		<set name="reuseDelay" val="20000"/>
+		<set name="hitTime" val="15000"/>
+		<set name="skillType" val="SUMMON"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="npcId" val="35799" />
+		<set name="expPenalty" val="0.1"/>
+	</skill>
+	<skill id="10295" levels="1" name="Summon Feline King">
+		<set name="mpInitialConsume" val="28" />
+		<set name="mpConsume" val="116" />
+		<set name="summonTotalLifeTime" val="1200000"/>
+		<set name="summonTimeLostIdle" val="500"/>
+		<set name="summonTimeLostActive" val="1000"/>
+		<set name="target" val="SELF"/>
+		<set name="reuseDelay" val="20000"/>
+		<set name="hitTime" val="15000"/>
+		<set name="skillType" val="SUMMON"/>
+		<set name="isMagic" val="true"/>
+		<set name="operateType" val="ACTIVE"/>
+		<set name="npcId" val="35800" />
+		<set name="expPenalty" val="0.1"/>
+	</skill>
+</list>

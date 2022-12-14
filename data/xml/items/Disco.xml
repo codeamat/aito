@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <item id="10286" type="EtcItem" name="MP3">
+        <set name="icon" val="icon.etc_sp_crystal_i00" />
+        <set name="default_action" val="skill_reduce" />
+        <set name="etcitem_type" val="SCROLL" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="PAPER" />
+        <set name="weight" val="10" />
+        <set name="price" val="50000" />
+        <set name="reuse_delay" val="1000" />
+        <set name="is_stackable" val="true" />
+        <set name="handler" val="ItemSkills" />
+        <set name="item_skill" val="1081-1" />
+    </item>
+    <item id="10287" type="EtcItem" name="MP3">
+        <set name="icon" val="icon.etc_sp_crystal_i00" />
+        <set name="default_action" val="skill_reduce" />
+        <set name="etcitem_type" val="SCROLL" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="PAPER" />
+        <set name="weight" val="10" />
+        <set name="price" val="50000" />
+        <set name="reuse_delay" val="1000" />
+        <set name="is_stackable" val="true" />
+        <set name="handler" val="ItemSkills" />
+        <set name="item_skill" val="1082-1" />
+    </item>
+    <item id="10288" type="EtcItem" name="MP3">
+        <set name="icon" val="icon.etc_sp_crystal_i00" />
+        <set name="default_action" val="skill_reduce" />
+        <set name="etcitem_type" val="SCROLL" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="PAPER" />
+        <set name="weight" val="10" />
+        <set name="price" val="50000" />
+        <set name="reuse_delay" val="1000" />
+        <set name="is_stackable" val="true" />
+        <set name="handler" val="ItemSkills" />
+        <set name="item_skill" val="1083-1" />
+    </item>
+</list>
