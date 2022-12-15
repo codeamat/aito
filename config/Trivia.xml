@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event>
+    <trivia>
+        <question>Quel ocean se trouve la Polynesie francaise ?
+            1. Ocean Pacifique
+            2. Ocean Indien
+            3. Ocean Atlantique
+        </question>
+        <answer>Ocean Pacifique</answer>
+    </trivia>
+    <trivia>
+        <question>Combien de km il y a entre la Polynesie et paris ?
+            1. 5000 km
+            2. 17100 km
+            3. 35000 km
+        </question>
+        <answer>17100 km</answer>
+    </trivia>
+    <trivia>
+        <question>Combien de metre mesure le mont Orohena ?
+            1. 4786 metres
+            2. 3532 metres
+            3. 2241 metres
+        </question>
+        <answer>2241 metres</answer>
+    </trivia>
+    <trivia>
+        <question>Sur quelle ile se trouve le mont Orohena ?
+            1. Tahiti
+            2. Moorea
+            3. Bora bora
+        </question>
+        <answer>Tahiti</answer>
+    </trivia>
+    <trivia>
+        <question>Quelle est la capitale de la Polynesie Francaise ?
+            1. Taravao
+            2. Punaauia
+            3. Papeete
+        </question>
+        <answer>Papeete</answer>
+    </trivia>
+    <trivia>
+        <question>Combien de saisons y a-t-il en Polynesie ?
+            1. 2
+            2. 4
+            3. 1
+        </question>
+        <answer>2</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appellent les saisons en Polynesie ?
+            1. Saison des pluies et Saison seche
+            2. Automne et Printemps
+            3. Hiver et Ete
+        </question>
+        <answer>Saison des pluies et Saison seche</answer>
+    </trivia>
+    <trivia>
+        <question>Pour qu'un cyclone se forme, Quelle devrait etre la temperature ?
+            1. 32
+            2. 26.5
+            3. 14
+        </question>
+        <answer>26.5</answer>
+    </trivia>
+    <trivia>
+        <question>Quelle est la langue parlee en polynesie ?
+            1. Reo francais
+            2. Reo maohi
+            3. Reo maohi et francais
+        </question>
+        <answer>Reo maohi et francais</answer>
+    </trivia>
+    <trivia>
+        <question>Les essais nucleaires se sont deroules jusqu'en?
+            1. 1992
+            2. 2012
+            3. 2020
+        </question>
+        <answer>1992</answer>
+    </trivia>
+    <trivia>
+        <question>Quel est le 1er atoll a avoir ete decouvert ?
+            1. Tahiti
+            2. Puka puka
+            3. Rangiroa
+        </question>
+        <answer>Puka puka</answer>
+    </trivia>
+    <trivia>
+        <question>Qu'est ce qu'un marae ?
+            1. Un escalier
+            2. Un pont
+            3. Un autel de pierre
+        </question>
+        <answer>Un autel de pierre</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle la danse tahitienne ?
+            1. le tamure
+            2. le ohure
+            3. le ature
+        </question>
+        <answer>Le Tamure</answer>
+    </trivia>
+    <trivia>
+        <question>Qu'est-ce qu'un bungalow ?
+            1. Une botte
+            2. une petite maison
+            3. une petite montagne
+        </question>
+        <answer>une petite maison</answer>
+    </trivia>
+    <trivia>
+        <question>Combien d'archipels en Polynesie ?
+            1. 5
+            2. 7
+            3. 2
+        </question>
+        <answer>5</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit-on bonjour en polynesie ?
+            1 hello
+            2 mai tamaa
+            3 Iaorana
+        </question>
+        <answer>Iaorana</answer>
+    </trivia>
+    <trivia>
+        <question>Quelles sont les 3 pointes du triangle polynesien ?
+            1 hawaii France caledonie
+            2 hawaii nouvelle Zelande ile de paques
+            3 hawaii tonga tahiti
+        </question>
+        <answer>hawaii nouvelle Zelande ile de paques</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle l'ile de marlon brando ?
+            1 tetiaroa
+            2 tubuai
+            3 aotearoa
+        </question>
+        <answer>tetiaroa</answer>
+    </trivia>
+    <trivia>
+        <question>Quelle est la fleur nationale de tahiti ?
+            1 Tiare apetahi
+            2 Tiare hinano
+            3 Tiare tahiti
+        </question>
+        <answer>Tiare tahiti</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle la biere locale de tahiti ?
+            1 tehina
+            2 hinano
+            3 heineken
+        </question>
+        <answer>hinano</answer>
+    </trivia>
+    <trivia>
+        <question>Combien de lettre est constitue l'alphabet tahitien ?
+            1 13
+            2 5
+            3 9
+        </question>
+        <answer>13</answer>
+    </trivia>
+    <trivia>
+        <question>Quelles monnaies utilisent les habitants de la Polynesie ?
+            1 Le franc tahitien
+            2 Le franc polynesien
+            3 le franc pacifique
+        </question>
+        <answer>le franc pacifique</answer>
+    </trivia>
+    <trivia>
+        <question>Quelles activites a menees le gouvernement francais sur moruroa ?
+            1 Des test bacteriologiques
+            2 des essais nucleaires
+            3 du himaa
+        </question>
+        <answer>des essais nucleaires</answer>
+    </trivia>
+    <trivia>
+        <question>Quelle est la plus grande ile de Polynesie ?
+            1 Tahiti
+            2 Raiatea
+            3 Tubuai
+        </question>
+        <answer>Tahiti</answer>
+    </trivia>
+    <trivia>
+        <question>Qu'est-ce que le cava ?
+            1 Une boisson sucree
+            2 Une boisson chaude
+            3 Une boisson sacree
+        </question>
+        <answer>Une boisson sacree</answer>
+    </trivia>
+    <trivia>
+        <question>Combien d'heure de vol entre paris et tahiti ?
+            1 12heures
+            2 02heures
+            3 24heures
+        </question>
+        <answer>24heures</answer>
+    </trivia>
+    <trivia>
+        <question>Quelle heure est-il en Polynesie quand la France affiche minuit ?
+            1 Midi
+            2 07heure
+            3 01heure
+        </question>
+        <answer>Midi</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle le dieu de la guerre ?
+            1 mateo
+            2 oro
+            3 aito
+        </question>
+        <answer>oro</answer>
+    </trivia>
+    <trivia>
+        <question>Qu'est-ce qu'un fare ?
+            1 Une maison
+            2 Un chateau
+            3 Une hutte
+        </question>
+        <answer>Une maison</answer>
+    </trivia>
+    <trivia>
+        <question>Combien y a-t-il de voyelle dans l'alphabet tahitien ?
+            1 2
+            2 16
+            3 8
+        </question>
+        <answer>8</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit-on requin en tahitien ?
+            1 Mao
+            2 Moomoo
+            3 mahu
+        </question>
+        <answer>Mao</answer>
+    </trivia>
+    <trivia>
+        <question>Combien y a-t-il d'iles en Polynesie ?
+            1 24
+            2 118
+            3 224
+        </question>
+        <answer>118</answer>
+    </trivia>
+    <trivia>
+        <question>Quelle la superficie de la Polynesie ?
+            1 4000 km2
+            2 2500 km2
+            3 8000 km2
+        </question>
+        <answer>4000 km2</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle le plat issu de l'arbre a pain ?
+            1 faraoa
+            2 popoi
+            3 ipo
+        </question>
+        <answer>popoi</answer>
+    </trivia>
+    <trivia>
+        <question>La Polynesie est plus grand que la russie ?
+            1 oui
+            2 non
+            3 peut-etre
+        </question>
+        <answer>non</answer>
+    </trivia>
+    <trivia>
+        <question>Comment est la compose l'alphabet tahitien ?
+            1 12 voyelles et 36 consonnes
+            2 5 pelles et 8 consonnes
+            3 5 voyelles et 8 consonnes
+        </question>
+        <answer>5 voyelles et 8 consonnes</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit-on merci en tahitien ?
+            1 Merci bro
+            2 Tihota
+            3 Maururu
+        </question>
+        <answer>Maururu</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit-on bon appetit en tahitien ?
+            1 tamaa maitai
+            2 haere mai tamaa
+            3 idiot
+        </question>
+        <answer>tamaa maitai</answer>
+    </trivia>
+    <trivia>
+        <question>Comment est surnommee l'ile de tahaa ?
+            1 L'ile de la fleur
+            2 L'ile des abeilles
+            3 l'ile vanille
+        </question>
+        <answer>l'ile vanille</answer>
+    </trivia>
+    <trivia>
+        <question>Comment surnomme-t-on moorea, voisine de tahiti ?
+            1 mahindra
+            2 L'ile soeur
+            3 La petite vahine
+        </question>
+        <answer>L'ile soeur</answer>
+    </trivia>
+    <trivia>
+        <question>Ou a ete enterre le chanteur jacques Brel ?
+            1 Marquises
+            2 France
+            3 Tahiti
+        </question>
+        <answer>Marquises</answer>
+    </trivia>
+    <trivia>
+        <question>Qui a ete enterre a cote de jacques Brel ?
+            1 Mamie jeanne
+            2 Paul gauguin
+            3 tapuarii
+        </question>
+        <answer>Paul gauguin</answer>
+    </trivia>
+    <trivia>
+        <question>Quel spot de surf renomme se trouve sur tahiti ?
+            1 Teahupoo
+            2 Vaipoopoo
+            3 hitiaa
+        </question>
+        <answer>Teahupoo</answer>
+    </trivia>
+    <trivia>
+        <question>De quel archipel fait partie Rangiroa ?
+            1 Tuamotu
+            2 Marquises
+            3 gambier
+        </question>
+        <answer>Tuamotu</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit-on bienvenue en tahitien ?
+            1 Mareva
+            2 Matea
+            3 Maeva
+        </question>
+        <answer>Maeva</answer>
+    </trivia>
+    <trivia>
+        <question>Comment prononce-t-on bora bora en tahitien ?
+            1 pora pora
+            2 bola bola
+            3 tola tola
+        </question>
+        <answer>pora pora</answer>
+    </trivia>
+    <trivia>
+        <question>Qu'est-ce que le monoi ?
+            1 La seve du cava
+            2 L'huile de tiare tahiti
+            3 L'essence de la vanille
+        </question>
+        <answer>L'huile de tiare tahiti</answer>
+    </trivia>
+    <trivia>
+        <question>Le cocotier est-il un arbre ?
+            1 oui
+            2 peut etre
+            3 Non
+        </question>
+        <answer>Non</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelait la monnaie tahitienne pour 1 franc ?
+            1 Le toata
+            2 Le moa
+            3 Le maito
+        </question>
+        <answer>Le toata</answer>
+    </trivia>
+    <trivia>
+        <question>Quel etait le moyen de transport public avant de tahiti ?
+            1 Le bus
+            2 Le pereoo
+            3 Le truck
+        </question>
+        <answer>Le truck</answer>
+    </trivia>
+    <trivia>
+        <question>Quel est l'instrument de musique typique de la Polynesie ?
+            1 Le tai te reva
+            2 Le ukulele
+            3 La perche
+        </question>
+        <answer>Le ukulele</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle la danse tahitienne en couple ?
+            1 Le foxtrot
+            2 Le hula
+            3 Le tairi poumotu
+        </question>
+        <answer>Le foxtrot</answer>
+    </trivia>
+    <trivia>
+        <question>Combien y a-t-il de tiki sur le drapeau polynesien ?
+            1 5
+            2 2
+            3 7
+        </question>
+        <answer>5</answer>
+    </trivia>
+    <trivia>
+        <question>Qui etait le dernier roi polynesien ?
+            1 Le roi bambridge
+            2 La reine Pomare
+            3 Le roi neoneo
+        </question>
+        <answer>La reine Pomare</answer>
+    </trivia>
+    <trivia>
+        <question>Quel est le nom donne pour les policiers municipaux ?
+            1 Mutoi oire
+            2 Mutoi Farani
+            3 Mutoi huna
+        </question>
+        <answer>Mutoi oire</answer>
+    </trivia>
+    <trivia>
+        <question>Quelle est la capitale de Tahiti ?
+            1 Taravao
+            2 Tautira
+            3 Papeete
+        </question>
+        <answer>Papeete</answer>
+    </trivia>
+    <trivia>
+        <question>Donne 3 aliments que l'on peut mettre dans le four tahitien ?
+            1 Poisson, vaa et taioro
+            2 Banane, poisson et taro
+            3 Uru, le utu et pua
+        </question>
+        <answer>Banane, poisson et taro</answer>
+    </trivia>
+    <trivia>
+        <question>Quel est le nom donne pour un autel tahitien ou les sacrifices etaient effectuees ?
+            1 Un parahiraa
+            2 Un marae
+            3 Un hotera
+        </question>
+        <answer>Un marae</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit-on un guerrier en tahitien ?
+            1 Aito
+            2 Aro
+            3 Maito
+        </question>
+        <answer>Aito</answer>
+    </trivia>
+    <trivia>
+        <question>Quel est le nom de la vallee qui a abrite un fort ?
+            1 La vallee poiri
+            2 La vallee des 3 cascades
+            3 La vallee de fautaua
+        </question>
+        <answer>La vallee de fautaua</answer>
+    </trivia>
+    <trivia>
+        <question>Quel le nom du quai ou accostent les plus grands bateaux a Papeete ?
+            1 Le quai de motu uta
+            2 Le quai d'honneur
+            3 La marina taina
+        </question>
+        <answer>Le quai d'honneur</answer>
+    </trivia>
+    <trivia>
+        <question>Ou est ce que les avions atterrissent a Tahiti ?
+            1 L'aeroport de Faraire
+            2 L'aeroport de Faaa
+            3 L'aeroport de Maia pe
+        </question>
+        <answer>L'aeroport de Faaa</answer>
+    </trivia>
+    <trivia>
+        <question>Comment appelle-t-on le vent en tahitien ?
+            1 Matai
+            2 Matahi
+            3 Matirita
+        </question>
+        <answer>Matai</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit-on gros ventre en tahitien ?
+            1 Opu rahi
+            2 Opu oviri
+            3 Opu afaro
+        </question>
+        <answer>Opu rahi</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit-on une mere en tahitien ?
+            1 Metua herehia
+            2 Metua raerae
+            3 Metua vahine
+        </question>
+        <answer>Metua vahine</answer>
+    </trivia>
+    <trivia>
+        <question>De quelle couleur sont les dents d'un nouveau ne ?
+            1 blanches
+            2 Il n'en n'a pas de dent
+            3 jaunes
+        </question>
+        <answer>Il n'en n'a pas de dent</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle la montagne de l'ile soeur?
+            1 Moua puta
+            2 Moua ofii
+            3 Moua teitei
+        </question>
+        <answer>Moua puta</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle l'ile soeur de Raiatea ?
+            1 Rangiroa
+            2 Tahaa
+            3 oreore
+        </question>
+        <answer>Tahaa</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit on ouvrir en tahitien ?
+            1 Otahi
+            2 Otui
+            3 Opani
+        </question>
+        <answer>Opani</answer>
+    </trivia>
+    <trivia>
+        <question>Comment dit on cle en tahitien ?
+            1 Maia pe
+            2 Taviri
+            3 pua
+        </question>
+        <answer>Taviri</answer>
+    </trivia>
+    <trivia>
+        <question>Quel est le moyen de transport prefere pour les polynesiens ?
+            1 Le 4*4
+            2 La 4 aile
+            3 Le catihope
+        </question>
+        <answer>Le 4*4</answer>
+    </trivia>
+    <trivia>
+        <question>Comment appelle t on un pretre tahitien ?
+            1 Un tapiri
+            2 Un tahua
+            3 Un tairiiri
+        </question>
+        <answer>Un tahua</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle le plus celebre marae de tahiti ?
+            1 Le marae arahurahu
+            2 Le marae de aotearoa
+            3 Le marae de hitia
+        </question>
+        <answer>Le marae arahurahu</answer>
+    </trivia>
+    <trivia>
+        <question>La 2eme grande ville apres Papeete ?
+            1 Taravao
+            2 Tavararo
+            3 Tahiti
+        </question>
+        <answer>Taravao</answer>
+    </trivia>
+    <trivia>
+        <question>Comment s'appelle les grottes se trouvant a Paea ?
+            1 Les grottes de pua ofe
+            2 Les grottes de hina
+            3 Les grottes de maraa
+        </question>
+        <answer>Les grottes de maraa</answer>
+    </trivia>
+    <trivia>
+        <question>Ou se trouvent le golf sur Tahiti ?
+            1 Atiu
+            2 Atimaono, Papara
+            3 Atai
+        </question>
+        <answer>Atimaono, Papara</answer>
+    </trivia>
+    <trivia>
+        <question>Ou se trouve le seul phare de la polynesie
+            1 Mahina
+            2 Mahinarama
+            3 Mahinui
+        </question>
+        <answer>Mahina</answer>
+    </trivia>
+    <trivia>
+        <question>Donnez le montant du dernier gros billet de la polynesie ?
+            1 1000
+            2 100000
+            3 10000
+        </question>
+        <answer>10000</answer>
+    </trivia>
+    <trivia>
+        <question>Comment appelle-t-on ce qui se font elire a l'assemblee de la polynesie ?
+            1 Des deputes
+            2 Des assembles
+            3 Des unitaires
+        </question>
+        <answer>Des unitaires</answer>
+    </trivia>
+
+</event>

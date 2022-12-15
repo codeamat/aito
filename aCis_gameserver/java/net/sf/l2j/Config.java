@@ -1,6 +1,7 @@
 package net.sf.l2j;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.math.BigInteger;
@@ -61,6 +62,12 @@ public final class Config
 	public static int PCB_COIN_ID;
 	public static boolean PCB_ENABLE;
 
+		/* Trivia */
+	public static ArrayList<String>TRIVIA_INTERVAL = new ArrayList<String>();
+	public static int TRIVIA_ANSWER_TIME;
+	public static boolean TRIVIA_ENABLED;
+	public static int TRIVIA_TO_ASK;
+
 	/*Vip Code*/
 	public static boolean ENABLE_VIP_SYSTEM;
 	public static boolean ALLOW_VIP_NCOLOR;
@@ -82,6 +89,8 @@ public final class Config
 	public static int VIP_COIN_ID3;
 	public static int VIP_DAYS_ID3;
 	
+
+
 	// --------------------------------------------------
 	// Clans settings
 	// --------------------------------------------------
@@ -162,7 +171,7 @@ public final class Config
 	// --------------------------------------------------
 	// Events settings
 	// --------------------------------------------------
-	
+
 	/** Olympiad */
 	public static int OLY_START_TIME;
 	public static int OLY_MIN;
@@ -952,7 +961,13 @@ public final class Config
 	private static final void loadEvents()
 	{
 		final ExProperties events = initProperties(EVENTS_FILE);
-		
+		String [] times=events.getProperty("TriviaInterval", "22:00,22:15,:22:30").split(",");
+		TRIVIA_INTERVAL = new ArrayList<String>();
+		for(String t:times)
+			TRIVIA_INTERVAL.add(t);
+		TRIVIA_ANSWER_TIME = Integer.parseInt(events.getProperty("TriviaAnswerTime", "30"));
+		TRIVIA_ENABLED = Boolean.parseBoolean(events.getProperty("TriviaEnabled", "true"));
+		TRIVIA_TO_ASK = Integer.parseInt(events.getProperty("TriviaAsk", "1"));
 		OLY_START_TIME = events.getProperty("OlyStartTime", 18);
 		OLY_MIN = events.getProperty("OlyMin", 0);
 		OLY_CPERIOD = events.getProperty("OlyCPeriod", 21600000L);

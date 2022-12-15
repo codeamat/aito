@@ -8,6 +8,7 @@ import net.sf.l2j.gameserver.handler.IVoicedCommandHandler;
 import net.sf.l2j.gameserver.handler.VoicedCommandHandler;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
+import net.sf.l2j.gameserver.model.entity.Trivia;
 import net.sf.l2j.gameserver.network.SystemMessageId;
 import net.sf.l2j.gameserver.network.serverpackets.CreatureSay;
 import net.sf.l2j.gameserver.network.serverpackets.SystemMessage;
@@ -24,7 +25,28 @@ public class ChatTell implements IChatHandler
 	{
 		if (target == null)
 			return;
-			
+
+		/* CodeAmaT*/
+		if(target.equalsIgnoreCase("dieu"))
+		{
+			if(Trivia.isInactive())
+			{
+				player.sendMessage("Le AitoQi n'est pas encore pret.");
+				return;
+			}
+			else if(!Trivia.isAnswering() || Trivia.isCorrect() || Trivia.isRewarding())
+			{
+				player.sendMessage("Tu ne peux pas repondre maintenant");
+				return;
+			}
+			else
+			{
+				Trivia.handleAnswer(text,player);
+				return;
+			}
+		}
+
+
 		final Player targetPlayer = World.getInstance().getPlayer(target);
 		
 		if (targetPlayer == null || targetPlayer.getClient().isDetached())

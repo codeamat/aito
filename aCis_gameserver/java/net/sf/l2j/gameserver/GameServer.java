@@ -68,6 +68,7 @@ import net.sf.l2j.gameserver.model.boat.BoatGludinRune;
 import net.sf.l2j.gameserver.model.boat.BoatInnadrilTour;
 import net.sf.l2j.gameserver.model.boat.BoatRunePrimeval;
 import net.sf.l2j.gameserver.model.boat.BoatTalkingGludin;
+import net.sf.l2j.gameserver.model.entity.TriviaEventManager;
 import net.sf.l2j.gameserver.model.olympiad.Olympiad;
 import net.sf.l2j.gameserver.model.olympiad.OlympiadGameManager;
 import net.sf.l2j.gameserver.network.GameClient;
@@ -196,6 +197,9 @@ public class GameServer
 			System.out.println("############PCB_ENABLE################");
 			ThreadPool.scheduleAtFixedRate(PcBang.getInstance(), Config.PCB_INTERVAL * 1000, Config.PCB_INTERVAL * 1000);
 		}
+
+		StringUtil.printSection("Trivia Time");
+		TriviaEventManager.getInstance();
 		
 		StringUtil.printSection("Auto Spawns");
 		AutoSpawnTable.getInstance();
