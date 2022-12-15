@@ -35,7 +35,7 @@ public class MissionAttackableKill extends AbstractDailyMission<OnMissionEventAt
 
 	private final ValueRange _levelRange;
 
-	private final List<Integer> _npcId;
+	private List<Integer> _npcId;
 
 	public MissionAttackableKill(final int id, final String name, final MissionType type, final List<IntIntHolder> items, final StatSet set)
 	{
@@ -44,7 +44,7 @@ public class MissionAttackableKill extends AbstractDailyMission<OnMissionEventAt
 		_isRaid = set.getBool("isRaid", false);
 		_count = Math.max(1, set.getInteger("count", Integer.MAX_VALUE));
 		_levelRange = ValueRange.of(set.getLong("minLevel", Long.MIN_VALUE), set.getLong("maxLevel", Long.MAX_VALUE));
-		_npcId = set.containsKey("npcId") ? set.getIntegerList("npcId", ",") : Collections.emptyList();
+		//_npcId = set.containsKey("npcId") ? set.getIntegerList("npcId", ",") : Collections.emptyList();
 	}
 
 	@Override

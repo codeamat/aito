@@ -103,9 +103,10 @@ public class ZoneCylinder extends ZoneForm
 			int x = (int) (Math.cos(angle * i) * _rad);
 			int y = (int) (Math.sin(angle * i) * _rad);
 			
-			debug.addPoint(info + " MinZ", Color.GREEN, true, _x + x, _y + y, z1);
-			debug.addPoint(info, Color.YELLOW, true, _x + x, _y + y, z);
-			debug.addPoint(info + " MaxZ", Color.RED, true, _x + x, _y + y, z2);
+			//debug.addLine(Color.GREEN, x, y, _z1 + 200, _x, y, _z1 + 200);
+			//debug.addLine(info + " MinZ", Color.GREEN, true, _x + x, _y + y, z1);
+			debug.addPoint("Check", Color.GREEN, true, _x + x, _y + y, z);
+			debug.addPoint("Check", Color.GREEN, true, _x + x, _y + y, z2);
 		}
 	}
 }

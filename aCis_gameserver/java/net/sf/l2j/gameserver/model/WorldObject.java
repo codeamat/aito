@@ -382,7 +382,7 @@ public abstract class WorldObject
 				// Update all objects.
 				for (WorldObject obj : region.getObjects())
 				{
-					if (obj == this)
+					if (obj == this || obj.getInstanceId() != getInstanceId())
 						continue;
 					
 					obj.addKnownObject(this);
@@ -426,12 +426,14 @@ public abstract class WorldObject
 		
 		// No region set for the current WorldObject, return false.
 		final WorldRegion region = _region;
+		
 		if (region == null)
 			return false;
 		
 		// No region set for the target, return false.
 		final WorldRegion targetRegion = target.getRegion();
-		if (targetRegion == null)
+		
+		if (targetRegion == null || target.getInstanceId() != getInstanceId())
 			return false;
 		
 		// Return instantly true if one surrounding WorldRegions of this WorldObject matches with target WorldRegion.
@@ -440,6 +442,7 @@ public abstract class WorldObject
 			if (reg == targetRegion)
 				return true;
 		}
+		
 		return false;
 	}
 	
@@ -462,7 +465,7 @@ public abstract class WorldObject
 		{
 			for (WorldObject obj : reg.getObjects())
 			{
-				if (obj == this || !type.isAssignableFrom(obj.getClass()))
+				if (obj == this || !type.isAssignableFrom(obj.getClass()) || obj.getInstanceId() != getInstanceId())
 					continue;
 				
 				result.add((A) obj);
@@ -492,7 +495,7 @@ public abstract class WorldObject
 		{
 			for (WorldObject obj : reg.getObjects())
 			{
-				if (obj == this || !type.isAssignableFrom(obj.getClass()) || !predicate.test((A) obj))
+				if (obj == this || !type.isAssignableFrom(obj.getClass()) || !predicate.test((A) obj) || obj.getInstanceId() != getInstanceId())
 					continue;
 				
 				result.add((A) obj);
@@ -522,7 +525,7 @@ public abstract class WorldObject
 		{
 			for (WorldObject obj : reg.getObjects())
 			{
-				if (obj == this || !type.isAssignableFrom(obj.getClass()) || !MathUtil.checkIfInRange(radius, this, obj, true))
+				if (obj == this || !type.isAssignableFrom(obj.getClass()) || !MathUtil.checkIfInRange(radius, this, obj, true) || obj.getInstanceId() != getInstanceId())
 					continue;
 				
 				result.add((A) obj);
@@ -553,7 +556,7 @@ public abstract class WorldObject
 		{
 			for (WorldObject obj : reg.getObjects())
 			{
-				if (obj == this || !type.isAssignableFrom(obj.getClass()) || !MathUtil.checkIfInRange(radius, this, obj, true) || !predicate.test((A) obj))
+				if (obj == this || !type.isAssignableFrom(obj.getClass()) || !MathUtil.checkIfInRange(radius, this, obj, true) || !predicate.test((A) obj) || obj.getInstanceId() != getInstanceId())
 					continue;
 				
 				result.add((A) obj);
@@ -576,7 +579,7 @@ public abstract class WorldObject
 		{
 			for (WorldObject obj : reg.getObjects())
 			{
-				if (obj == this)
+				if (obj == this || obj.getInstanceId() != getInstanceId())
 					continue;
 				
 				obj.addKnownObject(this);
@@ -782,5 +785,17 @@ public abstract class WorldObject
 	public void onInteract(Player player)
 	{
 		
+	}
+	
+	private int _instanceId;
+	
+	public void setInstanceId(final int val)
+	{
+		_instanceId = val;
+	}
+	
+	public int getInstanceId()
+	{
+		return _instanceId;
 	}
 }

@@ -14,7 +14,9 @@ public class Dismount implements IUserCommandHandler
 	public void useUserCommand(int id, Player player)
 	{
 		if (player.isMounted())
+		{
 			player.dismount();
+		}
 	}
 	
 	@Override

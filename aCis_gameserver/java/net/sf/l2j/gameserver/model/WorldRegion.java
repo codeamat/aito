@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -22,7 +23,7 @@ public final class WorldRegion
 	private final Map<Integer, WorldObject> _objects = new ConcurrentHashMap<>();
 	
 	private final List<WorldRegion> _surroundingRegions = new ArrayList<>();
-	private final List<ZoneType> _zones = new ArrayList<>();
+	private final List<ZoneType> _zones = new CopyOnWriteArrayList<>();
 	
 	private final int _tileX;
 	private final int _tileY;

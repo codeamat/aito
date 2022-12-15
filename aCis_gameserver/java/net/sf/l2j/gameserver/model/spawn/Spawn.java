@@ -36,6 +36,7 @@ public final class Spawn implements Runnable
 	
 	private int _respawnMinDelay;
 	private int _respawnMaxDelay;
+	private int _instanceId;
 	
 	public Spawn(NpcTemplate template) throws SecurityException, ClassNotFoundException, NoSuchMethodException
 	{
@@ -158,6 +159,16 @@ public final class Spawn implements Runnable
 	public int getHeading()
 	{
 		return _loc.getHeading();
+	}
+	
+	public void setInstanceId(final int val)
+	{
+		_instanceId = val;
+	}
+	
+	public int getInstanceId()
+	{
+		return _instanceId;
 	}
 	
 	/**
@@ -300,6 +311,8 @@ public final class Spawn implements Runnable
 			
 			// Create final instance.
 			_npc = (Npc) tmp;
+			
+			_npc.setInstanceId(getInstanceId());
 			
 			// Assign Spawn to Npc instance.
 			_npc.setSpawn(this);

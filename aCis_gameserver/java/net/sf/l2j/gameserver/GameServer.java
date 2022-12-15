@@ -252,6 +252,8 @@ public class GameServer
 		StringUtil.printSection("Custom Mods");
 		DailyMissionData.getInstance();
 		IconData.getInstance();
+		RaceData.getInstance();
+
 		StringUtil.printSection("SM-Engine");
 		EventManager.getInstance();
 

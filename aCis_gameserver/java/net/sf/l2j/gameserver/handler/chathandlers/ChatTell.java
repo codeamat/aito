@@ -1,7 +1,11 @@
 package net.sf.l2j.gameserver.handler.chathandlers;
 
+import java.util.StringTokenizer;
+
 import net.sf.l2j.gameserver.enums.SayType;
 import net.sf.l2j.gameserver.handler.IChatHandler;
+import net.sf.l2j.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2j.gameserver.handler.VoicedCommandHandler;
 import net.sf.l2j.gameserver.model.World;
 import net.sf.l2j.gameserver.model.actor.Player;
 import net.sf.l2j.gameserver.network.SystemMessageId;
@@ -20,8 +24,9 @@ public class ChatTell implements IChatHandler
 	{
 		if (target == null)
 			return;
-		
+			
 		final Player targetPlayer = World.getInstance().getPlayer(target);
+		
 		if (targetPlayer == null || targetPlayer.getClient().isDetached())
 		{
 			player.sendPacket(SystemMessageId.TARGET_IS_NOT_FOUND_IN_THE_GAME);

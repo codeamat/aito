@@ -2,7 +2,7 @@
 <list>
     <!-- 1ER EVENT -->
     <event class="TeamVsTeam.java" load="true">
-        <settings name="[Team Vs Team]" schedule="00:00 04:00 08:00 12:00 16:00 20:00" registration="500"
+        <settings name="[ Team Vs Team ]" schedule="00:00 04:00 08:00 12:00 16:00 20:00" registration="500"
                   duration="2700"/>
         <settings level="1-80" capacity="2-1000"/>
         <!--	<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56"/>-->
@@ -25,7 +25,7 @@
 
     <!-- 2EME EVENT -->
     <event class="CaptureTheFlag.java" load="true">
-        <settings name="[Capturer le Drapeau]" schedule="01:00 05:00 09:00 13:00 17:00 21:00" registration="500"
+        <settings name="[ Capturer le Drapeau ]" schedule="01:00 05:00 09:00 13:00 17:00 21:00" registration="500"
                   duration="2700"/>
         <settings level="1-80" capacity="2-1000"/>
         <!--	<settings doors="24190001;24190002;24190003;24190004"/>-->
@@ -56,7 +56,7 @@
     </event>
     <!-- 3EME EVENT -->
     <event class="DeathMatch.java" load="true">
-        <settings name="[Deathmatch]" schedule="02:00 06:00 10:00 14:00 18:00 22:00" registration="500" duration="2700"/>
+        <settings name="[ Deathmatch ]" schedule="02:00 06:00 10:00 14:00 18:00 22:00" registration="500" duration="2700"/>
         <settings level="1-80" capacity="2-1000"/>
         <!--	<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56"/>-->
         <settings allowEffects="true" allowSummons="true" allowPotions="false"/>
@@ -76,7 +76,7 @@
     </event>
     <!-- 4EME EVENT -->
     <event class="Domination.java" load="true">
-        <settings name="Domination" schedule="03:00 07:00 11:00 15:00 19:00 23:00" registration="500" duration="2700"/>
+        <settings name="[ Domination ]" schedule="03:00 07:00 11:00 15:00 19:00 23:00" registration="500" duration="2700"/>
         <settings level="1-80" capacity="2-1000"/>
         <!--		<settings restrictedClass="0;1;4;7;10;11;15;18;19;22;25;26;29;31;32;33;35;38;39;42;44;45;47;49;50;53;54;56" />-->
         <settings allowEffects="true" allowSummons="true" allowPotions="false"/>

@@ -258,6 +258,14 @@ public class ZoneManager implements IXmlReader
 		LOGGER.info("Saved boss zones data.");
 	}
 	
+	public void removeZone(ZoneType type)
+	{
+		if (_zones.containsKey(type.getClass()))
+		{
+			_zones.get(type.getClass()).remove(type.getId());
+		}
+	}
+	
 	/**
 	 * Add a new zone into _zones {@link Map}. If the zone type doesn't exist, generate the entry first.
 	 * @param id : The zone id to add.

@@ -145,7 +145,7 @@ public class EventManager implements IXmlReader, Runnable
 						announceToAll("Les inscriptions sont fini.");
 						if (_participants.size() < _currentEvent.getHolder().getCapacityLimit().getId())
 						{
-							announceToAll("Pas assez de joueurs, Prochain:");
+							announceToAll("Aucun joueur ne participe a l'event.");
 							set(EventState.INACTIVE, 0); // Time to inactive till Prochain Event.
 						}
 						else

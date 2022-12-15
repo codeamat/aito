@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/ability.xsd">
+
+	<settings>
+		<set name="schedule" val="18:40;06:00;20:00" /> <!-- Interval to start a race event. Value in seconds -->
+		<set name="registrationInterval" val="300" /> <!-- Interval of registration. Value in seconds -->
+		<set name="prepareInterval" val="120" /> <!-- Interval of preparation before race start. Value in seconds -->
+		<set name="minPlayers" val="1" /> <!-- Minimum players to start the event -->
+		<set name="zoneRadius" val="300" /> <!-- Check point zone radius -->
+		<set name="npcId" val="43000" /> <!-- Npc id spawned in center of a checkpoint -->
+	</settings>
+
+	<rewards>
+		<item id="57" count="1000" />
+		<item id="6393" count="10" />
+	</rewards>
+
+	<template>
+		<race mountId="12526" start_range="-982,-45181,-4033" end_range="-4941,-31700,-3704">
+			<checkpoint x="-1362" y="-44973" z="-4040" />
+			<checkpoint x="-4119" y="-44008" z="-3969" />
+			<checkpoint x="-4431" y="-42728" z="-3953" />
+			<checkpoint x="120" y="-43304" z="-4017" />
+			<checkpoint x="285" y="-43671" z="-4017" />
+			<checkpoint x="7" y="-44610" z="-4001" />
+			<checkpoint x="-513" y="-44946" z="-4049" />
+		</race>
+	</template>
+
+
+</list>

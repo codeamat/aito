@@ -133,13 +133,11 @@ public final class RequestRestartPoint extends L2GameClientPacket
 		}
 		// Nothing has been found, use regular "To town" behavior.
 		else
-			loc = new Location(-5401,-43447,-3969);
-		
 		player.setIsIn7sDungeon(false);
 		
 		if (player.isDead())
 			player.doRevive();
-		
+		loc = new Location(-5401,-43447,-3969);
 		player.teleportTo(loc, 20);
 	}
 }
