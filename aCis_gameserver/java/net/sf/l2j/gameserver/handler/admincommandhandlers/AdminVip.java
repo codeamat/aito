@@ -146,7 +146,7 @@ public class AdminVip implements IAdminCommandHandler
 		{
 			_player.setVip(true);
 			_player.setEndTime("vip", days);
-			_player.sendPacket(new CreatureSay(0,SayType.PARTYROOM_COMMANDER,"System","Dear player, you are now an VIP, congratulations."));
+			_player.sendPacket(new CreatureSay(0,SayType.PARTYROOM_COMMANDER,"QoA","Felicitation, tu es VIP."));
 			
 			try (Connection con = ConnectionPool.getConnection())
 			{

@@ -447,6 +447,8 @@
 
 	<!-- Codeamat-->
 
+	<!-- VIP TELEPORT -->
+	<script path="quest.QoA_VIP_Teleporter"/>
 	<!-- Crazy Rate -->
 	<script path="script.event.CrazyRate" schedule="WEEKLY" start="FRI 20:00:00" end="MON 05:59:00"/>
 
