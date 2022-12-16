@@ -92,6 +92,7 @@ import net.sf.l2j.gameserver.handler.IItemHandler;
 import net.sf.l2j.gameserver.handler.ItemHandler;
 import net.sf.l2j.gameserver.handler.skillhandlers.SummonFriend;
 import net.sf.l2j.gameserver.model.AccessLevel;
+import net.sf.l2j.gameserver.model.DressMe;
 import net.sf.l2j.gameserver.model.PetDataEntry;
 import net.sf.l2j.gameserver.model.PlayerMission;
 import net.sf.l2j.gameserver.model.World;
@@ -321,6 +322,8 @@ public final class Player extends Playable
 	private Boat _boat;
 	private final SpawnLocation _boatPosition = new SpawnLocation(0, 0, 0, 0);
 	
+	private DressMe _dress;
+
 	private boolean _canFeed;
 	protected PetTemplate _petTemplate;
 	private PetDataEntry _petData;
@@ -4044,6 +4047,16 @@ public final class Player extends Playable
 	public boolean checkFoodState(double state)
 	{
 		return _canFeed && getCurrentFeed() < _petData.getMaxMeal() * state;
+	}
+
+	public DressMe getDress()
+	{
+		return _dress;
+	}
+	
+	public void setDress(DressMe dress)
+	{
+		_dress = dress;
 	}
 	
 	public void setUptime(long time)

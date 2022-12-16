@@ -12,6 +12,7 @@ import net.sf.l2j.gameserver.data.manager.ZoneManager;
 import net.sf.l2j.gameserver.data.xml.AdminData;
 import net.sf.l2j.gameserver.data.xml.AnnouncementData;
 import net.sf.l2j.gameserver.data.xml.DoorData;
+import net.sf.l2j.gameserver.data.xml.DressMeData;
 import net.sf.l2j.gameserver.data.xml.InstantTeleportData;
 import net.sf.l2j.gameserver.data.xml.ItemData;
 import net.sf.l2j.gameserver.data.xml.MissionData;
@@ -75,6 +76,11 @@ public class AdminReload implements IAdminCommandHandler
 				{
 					DoorData.getInstance().reload();
 					player.sendMessage("Doors instance has been reloaded.");
+				}
+				else if (type.startsWith("dress"))
+				{
+					DressMeData.getInstance().reload();
+					player.sendMessage("Dress me have been reloaded.");
 				}
 				else if (type.startsWith("htm"))
 				{
@@ -142,7 +148,7 @@ public class AdminReload implements IAdminCommandHandler
 	public void sendUsage(Player player)
 	{
 		player.sendMessage("Usage : //reload <admin|announcement|buylist|config>");
-		player.sendMessage("Usage : //reload <crest|cw|door|htm|item|multisell|npc>");
+		player.sendMessage("Usage : //reload <crest|cw|door|dress|htm|item|multisell|npc>");
 		player.sendMessage("Usage : //reload <npcwalker|script|skill|teleport|zone>");
 	}
 	
